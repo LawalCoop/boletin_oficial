@@ -1,0 +1,3315 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "oyv8z",
+      "x": 0,
+      "y": 0,
+      "name": "Boletín Feed - Mobile",
+      "clip": true,
+      "width": 402,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "MlBHo",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 56,
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "KLToV",
+              "name": "logoFrame",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "Xit1Z",
+                  "name": "logoIcon",
+                  "width": 24,
+                  "height": 24,
+                  "iconFontName": "scroll-text",
+                  "iconFontFamily": "lucide",
+                  "fill": "$accent"
+                },
+                {
+                  "type": "text",
+                  "id": "QqKiU",
+                  "name": "logoText",
+                  "fill": "$text-primary",
+                  "content": "BoletínAI",
+                  "fontFamily": "Lora",
+                  "fontSize": 22,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Qt6Wh",
+              "name": "iconsFrame",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "yiRR7",
+                  "name": "searchIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "MBME3",
+                  "name": "bellIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "bell",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gVmWc",
+          "name": "Divider",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "$border"
+        },
+        {
+          "type": "frame",
+          "id": "VDkej",
+          "name": "Category Tabs",
+          "width": "fill_container",
+          "height": 52,
+          "padding": [
+            0,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "98cOW",
+              "name": "tabAll",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 2
+                },
+                "fill": "$accent"
+              },
+              "padding": [
+                14,
+                12
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "0f3BW",
+                  "name": "tabAllText",
+                  "fill": "$accent",
+                  "content": "TODOS",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "heIWW",
+              "name": "tabNac",
+              "padding": [
+                14,
+                12
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kFrn6",
+                  "name": "tabNacText",
+                  "fill": "$text-muted",
+                  "content": "NACIONAL",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 1.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JtsYb",
+              "name": "tabProv",
+              "padding": [
+                14,
+                12
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8VFAq",
+                  "name": "tabProvText",
+                  "fill": "$text-muted",
+                  "content": "PROVINCIAL",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 1.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wMQv1",
+              "name": "tabMun",
+              "padding": [
+                14,
+                12
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PGIWu",
+                  "name": "tabMunText",
+                  "fill": "$text-muted",
+                  "content": "MUNICIPAL",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4Pn2W",
+          "name": "Divider",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "$border"
+        },
+        {
+          "type": "frame",
+          "id": "hk0db",
+          "name": "Feed Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "3CHmW",
+              "name": "Date Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Gcb8Q",
+                  "name": "dateLabel",
+                  "fill": "$text-primary",
+                  "content": "Hoy, 11 de Marzo",
+                  "fontFamily": "Lora",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "8LSke",
+                  "name": "aiLabel",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Jgbv4",
+                      "name": "aiIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F7YVM",
+                      "name": "aiText",
+                      "fill": "$accent",
+                      "content": "Generado con IA",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3CmLE",
+              "name": "Hero Card",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "5CS1t",
+                  "name": "Hero Image",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 200,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1773254140804.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "SrJf9",
+                  "name": "Hero Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jUpOl",
+                      "name": "heroTagRow",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "4Sqmd",
+                          "name": "heroTag",
+                          "fill": "$tag-nacional",
+                          "padding": [
+                            3,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "50JHe",
+                              "name": "heroTagText",
+                              "fill": "#FFFFFF",
+                              "content": "NACIONAL",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "66CT0",
+                          "name": "heroTime",
+                          "fill": "$text-muted",
+                          "content": "Hace 2 horas",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "WCDko",
+                      "name": "heroTitle",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "El Gobierno Nacional oficializó nuevas regulaciones para el sector energético",
+                      "lineHeight": 1.25,
+                      "fontFamily": "Lora",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NR1iG",
+                      "name": "heroExcerpt",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Mediante el Decreto 142/2026, se establecen nuevos marcos regulatorios para la generación y distribución de energías renovables en todo el territorio nacional.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "frame",
+                      "id": "amzcE",
+                      "name": "heroMeta",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JrkCi",
+                          "name": "heroSource",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "7Jp36",
+                              "name": "heroSourceIcon",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "file-text",
+                              "iconFontFamily": "lucide",
+                              "fill": "$text-muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "JvgD7",
+                              "name": "heroSourceText",
+                              "fill": "$text-muted",
+                              "content": "Boletín Oficial · Decreto 142/2026",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5KNOb",
+                          "name": "heroActions",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "sByWn",
+                              "name": "heroShare",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "share-2",
+                              "iconFontFamily": "lucide",
+                              "fill": "$text-muted"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "PNGRk",
+                              "name": "heroBookmark",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "bookmark",
+                              "iconFontFamily": "lucide",
+                              "fill": "$text-muted"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UJN8U",
+                          "name": "Approval Indicator",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "R8hH1",
+                              "name": "heroBar",
+                              "width": 48,
+                              "height": 4,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "u715I",
+                                  "name": "heroBarGreen",
+                                  "width": 34,
+                                  "height": "fill_container",
+                                  "fill": "$status-positive"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "1izOx",
+                                  "name": "heroBarRed",
+                                  "width": 14,
+                                  "height": "fill_container",
+                                  "fill": "#E5E5E5"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "2T7Qp",
+                              "name": "heroPercent",
+                              "fill": "$status-positive",
+                              "content": "72%",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "BPtvP",
+                              "name": "heroUpIcon",
+                              "width": 10,
+                              "height": 10,
+                              "iconFontName": "thumbs-up",
+                              "iconFontFamily": "lucide",
+                              "fill": "$status-positive"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BSKpr",
+              "name": "News Card 01",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 14,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ddDVD",
+                  "name": "cardNum1",
+                  "fill": "$border",
+                  "content": "01",
+                  "fontFamily": "Lora",
+                  "fontSize": 24,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "kDMHj",
+                  "name": "cardBody1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZqUW3",
+                      "name": "cardTagRow1",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CTfkt",
+                          "name": "cardTag1",
+                          "fill": "$tag-provincial",
+                          "padding": [
+                            2,
+                            6
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RfQMY",
+                              "name": "cardTagTxt1",
+                              "fill": "#FFFFFF",
+                              "content": "PROVINCIAL",
+                              "fontFamily": "Inter",
+                              "fontSize": 8,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.2
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "y3Fl0",
+                          "name": "cardTime1",
+                          "fill": "$text-muted",
+                          "content": "Hace 3 horas",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "JriCs",
+                      "name": "cardTitle1",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Buenos Aires actualiza el régimen de licencias comerciales para PyMEs",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Lora",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UacXE",
+                      "name": "cardDesc1",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La Resolución 087/2026 simplifica los trámites para la obtención de habilitaciones comerciales en el territorio bonaerense.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UbTZw",
+                      "name": "cardMeta1",
+                      "width": "fill_container",
+                      "gap": 4,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "5sFWE",
+                          "name": "cardSrcIcon1",
+                          "width": 11,
+                          "height": 11,
+                          "iconFontName": "file-text",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dek9J",
+                          "name": "cardSrcTxt1",
+                          "fill": "$text-muted",
+                          "content": "Boletín Oficial PBA · Res. 087/2026",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wQBJi",
+                          "name": "approval1",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "A1PEk",
+                              "name": "bar1",
+                              "width": 48,
+                              "height": 4,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "O2Ewv",
+                                  "name": "bar1G",
+                                  "width": 28,
+                                  "height": "fill_container",
+                                  "fill": "$status-positive"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "5ugOM",
+                                  "name": "bar1R",
+                                  "width": 20,
+                                  "height": "fill_container",
+                                  "fill": "#E5E5E5"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "dj2hK",
+                              "name": "pct1",
+                              "fill": "$status-positive",
+                              "content": "58%",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "rG9Jw",
+                              "name": "icon1",
+                              "width": 10,
+                              "height": 10,
+                              "iconFontName": "thumbs-up",
+                              "iconFontFamily": "lucide",
+                              "fill": "$status-positive"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TmEFD",
+              "name": "News Card 02",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 14,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wL0Pa",
+                  "name": "cardNum2",
+                  "fill": "$border",
+                  "content": "02",
+                  "fontFamily": "Lora",
+                  "fontSize": 24,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "hvgle",
+                  "name": "cardBody2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YUk8C",
+                      "name": "cardTagRow2",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "eZIA8",
+                          "name": "cardTag2",
+                          "fill": "$tag-municipal",
+                          "padding": [
+                            2,
+                            6
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SGPPk",
+                              "name": "cardTagTxt2",
+                              "fill": "#FFFFFF",
+                              "content": "MUNICIPAL",
+                              "fontFamily": "Inter",
+                              "fontSize": 8,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.2
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "AyJgZ",
+                          "name": "cardTime2",
+                          "fill": "$text-muted",
+                          "content": "Hace 4 horas",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mQ67T",
+                      "name": "cardTitle2",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Rosario implementa nuevas zonas de estacionamiento medido en el microcentro",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Lora",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "88UD1",
+                      "name": "cardDesc2",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La Ordenanza 4521 establece cambios en la regulación del tránsito y estacionamiento en el área central de la ciudad.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xtSUN",
+                      "name": "cardMeta2",
+                      "width": "fill_container",
+                      "gap": 4,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "zuPC9",
+                          "name": "cardSrcIcon2",
+                          "width": 11,
+                          "height": 11,
+                          "iconFontName": "file-text",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4egTK",
+                          "name": "cardSrcTxt2",
+                          "fill": "$text-muted",
+                          "content": "Boletín Municipal Rosario · Ord. 4521",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RZeTH",
+                          "name": "approval2",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "j0e2Y",
+                              "name": "bar2",
+                              "width": 48,
+                              "height": 4,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "M6KJW",
+                                  "name": "bar2G",
+                                  "width": 15,
+                                  "height": "fill_container",
+                                  "fill": "$status-negative"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "HxJXv",
+                                  "name": "bar2R",
+                                  "width": 33,
+                                  "height": "fill_container",
+                                  "fill": "#E5E5E5"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "sqe7f",
+                              "name": "pct2",
+                              "fill": "$status-negative",
+                              "content": "31%",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "c7bpm",
+                              "name": "icon2",
+                              "width": 10,
+                              "height": 10,
+                              "iconFontName": "thumbs-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "$status-negative"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NSDK3",
+              "name": "News Card 03",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 14,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eb2zW",
+                  "name": "cardNum3",
+                  "fill": "$border",
+                  "content": "03",
+                  "fontFamily": "Lora",
+                  "fontSize": 24,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "BRZT8",
+                  "name": "cardBody3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tfa4u",
+                      "name": "cardTagRow3",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MVZ0j",
+                          "name": "cardTag3",
+                          "fill": "$tag-nacional",
+                          "padding": [
+                            2,
+                            6
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "R2byM",
+                              "name": "cardTagTxt3",
+                              "fill": "#FFFFFF",
+                              "content": "NACIONAL",
+                              "fontFamily": "Inter",
+                              "fontSize": 8,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.2
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "nenYD",
+                          "name": "cardTime3",
+                          "fill": "$text-muted",
+                          "content": "Hace 5 horas",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "MXld5",
+                      "name": "cardTitle3",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Designaciones en el Ministerio de Economía: nuevos directores para áreas clave",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Lora",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G7Pk5",
+                      "name": "cardDesc3",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Se oficializaron nombramientos en la Secretaría de Finanzas y la Subsecretaría de Ingresos Públicos según Decreto 145/2026.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bw8kf",
+                      "name": "cardMeta3",
+                      "width": "fill_container",
+                      "gap": 4,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "yaEwm",
+                          "name": "cardSrcIcon3",
+                          "width": 11,
+                          "height": 11,
+                          "iconFontName": "file-text",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wqIra",
+                          "name": "cardSrcTxt3",
+                          "fill": "$text-muted",
+                          "content": "Boletín Oficial · Decreto 145/2026",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "iBaZH",
+                          "name": "approval3",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ynOYH",
+                              "name": "bar3",
+                              "width": 48,
+                              "height": 4,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "4UxEI",
+                                  "name": "bar3G",
+                                  "width": 22,
+                                  "height": "fill_container",
+                                  "fill": "$text-muted"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "BYPIw",
+                                  "name": "bar3R",
+                                  "width": 26,
+                                  "height": "fill_container",
+                                  "fill": "#E5E5E5"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "cro5T",
+                              "name": "pct3",
+                              "fill": "$text-muted",
+                              "content": "45%",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "xaWjj",
+                              "name": "icon3",
+                              "width": 10,
+                              "height": 10,
+                              "iconFontName": "minus",
+                              "iconFontFamily": "lucide",
+                              "fill": "$text-muted"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bqciQ",
+              "name": "News Card 04 - Highlighted",
+              "width": "fill_container",
+              "fill": "$bg-highlight",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "$border"
+              },
+              "gap": 14,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xpG5b",
+                  "name": "cardNum4",
+                  "fill": "#D4A843",
+                  "content": "04",
+                  "fontFamily": "Lora",
+                  "fontSize": 24,
+                  "fontWeight": "500",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "XDCEK",
+                  "name": "cardBody4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "I3tEF",
+                      "name": "cardTagRow4",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "XG1g4",
+                          "name": "trendIcon",
+                          "width": 12,
+                          "height": 12,
+                          "iconFontName": "trending-up",
+                          "iconFontFamily": "lucide",
+                          "fill": "$status-negative"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PrR5Q",
+                          "name": "trendTxt",
+                          "fill": "$status-negative",
+                          "content": "TENDENCIA",
+                          "fontFamily": "Inter",
+                          "fontSize": 9,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NnFh1",
+                          "name": "cardTag4",
+                          "fill": "$tag-provincial",
+                          "padding": [
+                            2,
+                            6
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bvky7",
+                              "name": "cardTagTxt4",
+                              "fill": "#FFFFFF",
+                              "content": "PROVINCIAL",
+                              "fontFamily": "Inter",
+                              "fontSize": 8,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.2
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "nOkQ9",
+                      "name": "cardTitle4",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Córdoba suspende temporalmente las exportaciones de granos desde puertos provinciales",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Lora",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LnhzT",
+                      "name": "cardDesc4",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La medida, publicada en el Boletín Oficial de Córdoba, busca garantizar el abastecimiento interno durante el período de sequía.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hr3AQ",
+                      "name": "cardMeta4",
+                      "width": "fill_container",
+                      "gap": 4,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "hi8ui",
+                          "name": "cardSrcIcon4",
+                          "width": 11,
+                          "height": 11,
+                          "iconFontName": "file-text",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "smNkv",
+                          "name": "cardSrcTxt4",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Boletín Oficial Córdoba · Decreto Prov. 312",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Y3T3g",
+                          "name": "approval4",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "MsVA2",
+                              "name": "bar4",
+                              "width": 48,
+                              "height": 4,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "gRSQQ",
+                                  "name": "bar4G",
+                                  "width": 10,
+                                  "height": "fill_container",
+                                  "fill": "$status-negative"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "X4TuB",
+                                  "name": "bar4R",
+                                  "width": 38,
+                                  "height": "fill_container",
+                                  "fill": "#E5E5E5"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "hC81q",
+                              "name": "pct4",
+                              "fill": "$status-negative",
+                              "content": "21%",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "3VsJw",
+                              "name": "icon4",
+                              "width": 10,
+                              "height": 10,
+                              "iconFontName": "thumbs-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "$status-negative"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "8NFRM",
+          "name": "Bottom Tab Bar",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "$bg",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$border"
+          },
+          "padding": [
+            12,
+            0,
+            34,
+            0
+          ],
+          "justifyContent": "space_around",
+          "children": [
+            {
+              "type": "frame",
+              "id": "LL5MY",
+              "name": "tab1",
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "smGee",
+                  "name": "tab1Icon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "house",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "nhsYo",
+                  "name": "tab1Label",
+                  "fill": "$text-primary",
+                  "content": "Inicio",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tMsZm",
+              "name": "tab2",
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "z1CBl",
+                  "name": "tab2Icon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "FuoAw",
+                  "name": "tab2Label",
+                  "fill": "$text-muted",
+                  "content": "Buscar",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BuYsL",
+              "name": "tab3",
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "HKTpK",
+                  "name": "tab3Icon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "bookmark",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "Xw7Y6",
+                  "name": "tab3Label",
+                  "fill": "$text-muted",
+                  "content": "Guardados",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Bw1Lf",
+              "name": "tab4",
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "uyUfV",
+                  "name": "tab4Icon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "user",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "iGP48",
+                  "name": "tab4Label",
+                  "fill": "$text-muted",
+                  "content": "Perfil",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "SQeWM",
+      "x": 502,
+      "y": 0,
+      "name": "Artículo - Detalle",
+      "clip": true,
+      "width": 402,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "DtJ5q",
+          "name": "Top Nav",
+          "width": "fill_container",
+          "height": 52,
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ws0qG",
+              "name": "backFrame",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "Zxmxs",
+                  "name": "backIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "arrow-left",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "PFPD8",
+                  "name": "backText",
+                  "fill": "$text-primary",
+                  "content": "Feed",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "98b2j",
+              "name": "actionsFrame",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "Nr6Cc",
+                  "name": "shareIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "share-2",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "vrfIZ",
+                  "name": "bookmarkIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "bookmark",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "i9JXL",
+                  "name": "moreIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "ellipsis-vertical",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-muted"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WOubf",
+          "name": "divider",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "$border"
+        },
+        {
+          "type": "frame",
+          "id": "TlesD",
+          "name": "Hero Section",
+          "clip": true,
+          "width": "fill_container",
+          "height": 340,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hMoVW",
+              "x": 0,
+              "y": 0,
+              "name": "Hero BG",
+              "width": 402,
+              "height": 340,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1773254548934.png",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "fOEma",
+              "x": 0,
+              "y": 0,
+              "name": "Gradient Overlay",
+              "width": 402,
+              "height": 340,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#00000000",
+                    "position": 0
+                  },
+                  {
+                    "color": "#000000AA",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Y5MwS",
+              "x": 0,
+              "y": 190,
+              "name": "Hero Content",
+              "width": 402,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                0,
+                24,
+                28,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4jNI9",
+                  "name": "heroTag",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "S7HUJ",
+                      "name": "tagBadge",
+                      "fill": "$tag-nacional",
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ElgpJ",
+                          "name": "tagText",
+                          "fill": "#FFFFFF",
+                          "content": "NACIONAL",
+                          "fontFamily": "Inter",
+                          "fontSize": 9,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "w5avX",
+                      "name": "tagTime",
+                      "fill": "#FFFFFFCC",
+                      "content": "Hace 2 horas · 4 min lectura",
+                      "fontFamily": "Inter",
+                      "fontSize": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "qFi9R",
+                  "name": "heroTitle",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "El Gobierno Nacional oficializó nuevas regulaciones para el sector energético",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Lora",
+                  "fontSize": 22,
+                  "fontWeight": "500",
+                  "letterSpacing": -0.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "N4Hjp",
+          "name": "Article Body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "MMLh7",
+              "name": "AI Banner",
+              "width": "fill_container",
+              "fill": "$accent-soft",
+              "gap": 10,
+              "padding": [
+                12,
+                14
+              ],
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "toCzZ",
+                  "name": "aiBannerIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "sparkles",
+                  "iconFontFamily": "lucide",
+                  "fill": "$accent"
+                },
+                {
+                  "type": "frame",
+                  "id": "u7h2W",
+                  "name": "aiBannerTextWrap",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jgUX2",
+                      "name": "aiBannerTitle",
+                      "fill": "$accent",
+                      "content": "Resumen generado con IA",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SS2Pd",
+                      "name": "aiBannerDesc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Este artículo fue generado automáticamente a partir del Decreto 142/2026 publicado en el Boletín Oficial. Verificá siempre con la fuente original.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Inter",
+                      "fontSize": 11
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lPTHr",
+              "name": "Summary",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5Y28o",
+                  "name": "summaryLabel",
+                  "fill": "$text-muted",
+                  "content": "EN RESUMEN",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "GQEvK",
+                  "name": "summaryText",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "El Poder Ejecutivo Nacional publicó el Decreto 142/2026 que establece un nuevo marco regulatorio para la generación y distribución de energías renovables. La norma busca simplificar los trámites para nuevos proyectos, crear incentivos fiscales para inversiones en el sector y fijar metas de transición energética para los próximos 10 años.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d6OOG",
+              "name": "divider1",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border"
+            },
+            {
+              "type": "frame",
+              "id": "Z7xGV",
+              "name": "Vote Section",
+              "width": "fill_container",
+              "fill": "$bg-surface",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border"
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MFT6L",
+                  "name": "voteHeader",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X2MCF",
+                      "name": "voteTitle",
+                      "fill": "$text-primary",
+                      "content": "¿Qué opinas de esta medida?",
+                      "fontFamily": "Lora",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PeSNc",
+                      "name": "voteCount",
+                      "fill": "$text-muted",
+                      "content": "1.248 votos",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w9Cxl",
+                  "name": "voteBarFull",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uM9MM",
+                      "name": "voteBarRow",
+                      "width": "fill_container",
+                      "height": 6,
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "nxVsW",
+                          "name": "voteBarGreen",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$status-positive"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "13oD3",
+                          "name": "voteBarGray",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$border-strong"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rhZFy",
+                          "name": "voteBarRed",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$status-negative"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EertA",
+                      "name": "voteLegend",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IAl1y",
+                          "name": "legendApprove",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "OvAX3",
+                              "name": "legendAppDot",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "$status-positive"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WSStq",
+                              "name": "legendAppTxt",
+                              "fill": "$text-secondary",
+                              "content": "Aprueba 49%",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "91Lxg",
+                          "name": "legendNeutral",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "UounU",
+                              "name": "legendNeuDot",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "$border-strong"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Mo74f",
+                              "name": "legendNeuTxt",
+                              "fill": "$text-secondary",
+                              "content": "Indiferente 23%",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YM0Pd",
+                          "name": "legendReject",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "qZNkF",
+                              "name": "legendRejDot",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "$status-negative"
+                            },
+                            {
+                              "type": "text",
+                              "id": "H8iEj",
+                              "name": "legendRejTxt",
+                              "fill": "$text-secondary",
+                              "content": "Rechaza 28%",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8pwXo",
+                  "name": "btnRow",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "0x793",
+                      "name": "btnApprove",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$status-positive"
+                      },
+                      "gap": 6,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "LQaEw",
+                          "name": "btnApproveIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "thumbs-up",
+                          "iconFontFamily": "lucide",
+                          "fill": "$status-positive"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YypOC",
+                          "name": "btnApproveTxt",
+                          "fill": "$status-positive",
+                          "content": "Apruebo",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NPyMy",
+                      "name": "btnNeutral",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-strong"
+                      },
+                      "gap": 6,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "xVDMH",
+                          "name": "btnNeutralIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "minus",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "i8qOJ",
+                          "name": "btnNeutralTxt",
+                          "fill": "$text-muted",
+                          "content": "Indiferente",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AVq9U",
+                      "name": "btnReject",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$status-negative"
+                      },
+                      "gap": 6,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "lDOzY",
+                          "name": "btnRejectIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "thumbs-down",
+                          "iconFontFamily": "lucide",
+                          "fill": "$status-negative"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CyBbI",
+                          "name": "btnRejectTxt",
+                          "fill": "$status-negative",
+                          "content": "Rechazo",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TORX3",
+              "name": "Key Points Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Dscdm",
+                  "name": "keyPointsLabel",
+                  "fill": "$text-muted",
+                  "content": "PUNTOS CLAVE",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "frame",
+                  "id": "ZORwg",
+                  "name": "Key Point 1",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DXadA",
+                      "name": "point1Num",
+                      "fill": "$accent",
+                      "content": "01",
+                      "fontFamily": "Lora",
+                      "fontSize": 20,
+                      "fontWeight": "500",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jww81",
+                      "name": "point1Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "9ayZN",
+                          "name": "point1Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Simplificación de trámites para nuevos proyectos",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Lora",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XQpNF",
+                          "name": "point1Desc",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Las empresas que quieran instalar parques solares o eólicos ya no necesitarán aprobación de tres organismos distintos. Ahora un solo ente centralizado evaluará los proyectos en un plazo máximo de 90 días.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qZOnz",
+                          "name": "point1Ref",
+                          "gap": 6,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "WCF12",
+                              "name": "point1RefIcon",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "link",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "khWoJ",
+                              "name": "point1RefText",
+                              "fill": "$accent",
+                              "content": "Ver Artículos 3 a 7 del Decreto",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ApJFI",
+                  "name": "Key Point 2",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k81Q5",
+                      "name": "point2Num",
+                      "fill": "$accent",
+                      "content": "02",
+                      "fontFamily": "Lora",
+                      "fontSize": 20,
+                      "fontWeight": "500",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "frxuh",
+                      "name": "point2Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sIBIX",
+                          "name": "point2Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Incentivos fiscales para inversión privada",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Lora",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "F1tns",
+                          "name": "point2Desc",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Se establece una reducción del 50% en el impuesto a las ganancias durante los primeros 5 años para proyectos de energía renovable que superen los USD 10 millones de inversión. También se eliminan aranceles de importación para equipamiento.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SiP70",
+                          "name": "point2Ref",
+                          "gap": 6,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "4tjdc",
+                              "name": "point2RefIcon",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "link",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "8PtpN",
+                              "name": "point2RefText",
+                              "fill": "$accent",
+                              "content": "Ver Artículos 12 a 18 del Decreto",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Tpa2K",
+                  "name": "Key Point 3",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KpxUg",
+                      "name": "point3Num",
+                      "fill": "$accent",
+                      "content": "03",
+                      "fontFamily": "Lora",
+                      "fontSize": 20,
+                      "fontWeight": "500",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lpcEI",
+                      "name": "point3Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HNDvN",
+                          "name": "point3Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Metas obligatorias de transición energética",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Lora",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TmDA5",
+                          "name": "point3Desc",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Para 2036, el 45% de la matriz energética nacional deberá provenir de fuentes renovables. Se crean sanciones graduales para distribuidoras que no cumplan los hitos intermedios anuales.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VojMT",
+                          "name": "point3Ref",
+                          "gap": 6,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "P4FHA",
+                              "name": "point3RefIcon",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "link",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "CZMp8",
+                              "name": "point3RefText",
+                              "fill": "$accent",
+                              "content": "Ver Artículos 22 a 30 del Decreto",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pdbv1",
+              "name": "divider2",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border"
+            },
+            {
+              "type": "frame",
+              "id": "ocUgc",
+              "name": "Boletín Original Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pQros",
+                  "name": "boletinHeader",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LiESs",
+                      "name": "boletinLabel",
+                      "fill": "$text-muted",
+                      "content": "TEXTO ORIGINAL DEL BOLETÍN",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nhWuA",
+                      "name": "boletinExpand",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "XrBe3",
+                          "name": "expandIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "external-link",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BFLUu",
+                          "name": "expandText",
+                          "fill": "$accent",
+                          "content": "Ver completo",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "x9ZrU",
+                  "name": "Boletín Card",
+                  "width": "fill_container",
+                  "fill": "$bg-warm",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5SSgj",
+                      "name": "boletinCardHeader",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$border"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "tA1lc",
+                          "name": "boletinCardIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "scale",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IUfAO",
+                          "name": "boletinCardTitle",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NRJ3e",
+                              "name": "boletinTitleTxt",
+                              "fill": "$text-primary",
+                              "content": "Decreto 142/2026",
+                              "fontFamily": "Lora",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "wuEFm",
+                              "name": "boletinSubTxt",
+                              "fill": "$text-muted",
+                              "content": "Boletín Oficial de la República Argentina · 11/03/2026",
+                              "fontFamily": "Inter",
+                              "fontSize": 10
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Givbm",
+                      "name": "Art. 3-7 Section",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$border"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MkCXN",
+                          "name": "art1Marker",
+                          "width": 3,
+                          "height": "fill_container",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "puWAj",
+                          "name": "art1Content",
+                          "width": "fill_container",
+                          "fill": "$bg-highlight",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "H9BqX",
+                              "name": "art1Label",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "6rYQW",
+                                  "name": "art1Badge",
+                                  "fill": "$accent",
+                                  "content": "01",
+                                  "fontFamily": "Lora",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "HLoVa",
+                                  "name": "art1LabelTxt",
+                                  "fill": "$text-primary",
+                                  "content": "Artículos 3 a 7 — Procedimiento Unificado",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "tkt6e",
+                              "name": "art1Text",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Art. 3° — Créase el Ente Nacional de Evaluación de Proyectos de Energía Renovable (ENEPER) como organismo descentralizado en la órbita del Ministerio de Economía, el cual será la autoridad de aplicación única para la aprobación de proyectos...",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontStyle": "italic"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RZ8iE",
+                      "name": "Art. 12-18 Section",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$border"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "6hqB8",
+                          "name": "art2Marker",
+                          "width": 3,
+                          "height": "fill_container",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Y5Lr2",
+                          "name": "art2Content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "5xX01",
+                              "name": "art2Label",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "eH9qg",
+                                  "name": "art2Badge",
+                                  "fill": "$text-muted",
+                                  "content": "02",
+                                  "fontFamily": "Lora",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ov1hl",
+                                  "name": "art2LabelTxt",
+                                  "fill": "$text-primary",
+                                  "content": "Artículos 12 a 18 — Régimen de Incentivos",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "lOY7f",
+                              "name": "art2Text",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Art. 12° — Los sujetos que realicen inversiones en proyectos de generación de energía a partir de fuentes renovables gozarán de una reducción del CINCUENTA POR CIENTO (50%) del Impuesto a las Ganancias...",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontStyle": "italic"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kea6M",
+                      "name": "Art. 22-30 Section",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$border"
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mHjZ8",
+                          "name": "art3Marker",
+                          "width": 3,
+                          "height": "fill_container",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aq57M",
+                          "name": "art3Content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "2bBd9",
+                              "name": "art3Label",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "YbRr0",
+                                  "name": "art3Badge",
+                                  "fill": "$text-muted",
+                                  "content": "03",
+                                  "fontFamily": "Lora",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "F1jiK",
+                                  "name": "art3LabelTxt",
+                                  "fill": "$text-primary",
+                                  "content": "Artículos 22 a 30 — Metas de Transición",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "ywTUY",
+                              "name": "art3Text",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Art. 22° — Establécese que para el año 2036, un mínimo del CUARENTA Y CINCO POR CIENTO (45%) de la energía eléctrica consumida en el territorio nacional deberá provenir de fuentes renovables...",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontStyle": "italic"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "5EdMM",
+                      "name": "showMore",
+                      "width": "fill_container",
+                      "gap": 6,
+                      "padding": [
+                        12,
+                        14
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "6vXVh",
+                          "name": "showMoreIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "chevron-down",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fm2Xy",
+                          "name": "showMoreTxt",
+                          "fill": "$text-muted",
+                          "content": "Ver más artículos del decreto",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YrTwq",
+              "name": "divider3",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border"
+            },
+            {
+              "type": "frame",
+              "id": "aR6rq",
+              "name": "Impact Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "42nm9",
+                  "name": "impactLabel",
+                  "fill": "$text-muted",
+                  "content": "¿A QUIÉN AFECTA?",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "frame",
+                  "id": "g77rm",
+                  "name": "impactGrid",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fbBCZ",
+                      "name": "impactTag1",
+                      "width": "fill_container",
+                      "fill": "$bg-surface",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        12,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "swajd",
+                          "name": "impactIcon1",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "building-2",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-secondary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PiDIL",
+                          "name": "impactTxt1",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Empresas energéticas",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "M0YSC",
+                      "name": "impactTag2",
+                      "width": "fill_container",
+                      "fill": "$bg-surface",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        12,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "lTj2I",
+                          "name": "impactIcon2",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "zap",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-secondary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mKaox",
+                          "name": "impactTxt2",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Distribuidoras eléctricas",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AuDVM",
+                      "name": "impactTag3",
+                      "width": "fill_container",
+                      "fill": "$bg-surface",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        12,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "8aop4",
+                          "name": "impactIcon3",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "users",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-secondary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hHdqe",
+                          "name": "impactTxt3",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Inversores del sector",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1mhjj",
+              "name": "divider4",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border"
+            },
+            {
+              "type": "frame",
+              "id": "vOiED",
+              "name": "Related Articles",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "6FhnG",
+                  "name": "relatedLabel",
+                  "fill": "$text-muted",
+                  "content": "NOTICIAS RELACIONADAS",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "frame",
+                  "id": "Qvzcy",
+                  "name": "related1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "top": 1
+                    },
+                    "fill": "$border"
+                  },
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bqG1L",
+                      "name": "related1Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ae8Me",
+                          "name": "related1Tag",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "cXd5c",
+                              "name": "related1Badge",
+                              "fill": "$tag-nacional",
+                              "padding": [
+                                2,
+                                6
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "DaX13",
+                                  "name": "related1BadgeTxt",
+                                  "fill": "#FFFFFF",
+                                  "content": "NACIONAL",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 8,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "E21Se",
+                          "name": "related1Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "YPF anunció inversiones récord en energía eólica para la Patagonia",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "0YWwd",
+                          "name": "related1Time",
+                          "fill": "$text-muted",
+                          "content": "Ayer · 3 min lectura",
+                          "fontFamily": "Inter",
+                          "fontSize": 10
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "0Xj8D",
+                      "name": "related1Arrow",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "chevron-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-muted"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "suNc1",
+                  "name": "related2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "top": 1
+                    },
+                    "fill": "$border"
+                  },
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LZzdF",
+                      "name": "related2Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "HOyfB",
+                          "name": "related2Tag",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "rdHck",
+                              "name": "related2Badge",
+                              "fill": "$tag-provincial",
+                              "padding": [
+                                2,
+                                6
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aIdUR",
+                                  "name": "related2BadgeTxt",
+                                  "fill": "#FFFFFF",
+                                  "content": "PROVINCIAL",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 8,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "zx8tL",
+                          "name": "related2Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Mendoza aprobó subsidios para paneles solares en viviendas sociales",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "7ayF7",
+                          "name": "related2Time",
+                          "fill": "$text-muted",
+                          "content": "Hace 3 días · 2 min lectura",
+                          "fontFamily": "Inter",
+                          "fontSize": 10
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "H36uQ",
+                      "name": "related2Arrow",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "chevron-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-muted"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YSoAO",
+          "name": "Bottom CTA Bar",
+          "width": "fill_container",
+          "height": 90,
+          "fill": "$bg",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$border"
+          },
+          "gap": 12,
+          "padding": [
+            12,
+            24,
+            34,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "F59MC",
+              "name": "ctaBtn",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "$accent",
+              "gap": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "3OpLn",
+                  "name": "ctaIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "file-text",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "text",
+                  "id": "SoQrf",
+                  "name": "ctaText",
+                  "fill": "#FFFFFF",
+                  "content": "Ver Decreto Completo en Boletín Oficial",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "BQB7G",
+                  "name": "ctaArrow",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "arrow-up-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent": {
+      "type": "color",
+      "value": "#0066CC"
+    },
+    "accent-soft": {
+      "type": "color",
+      "value": "#0066CC12"
+    },
+    "bg": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "bg-highlight": {
+      "type": "color",
+      "value": "#FFF3CD"
+    },
+    "bg-surface": {
+      "type": "color",
+      "value": "#F8F8F8"
+    },
+    "bg-warm": {
+      "type": "color",
+      "value": "#FAF9F7"
+    },
+    "border": {
+      "type": "color",
+      "value": "#E5E5E5"
+    },
+    "border-strong": {
+      "type": "color",
+      "value": "#CCCCCC"
+    },
+    "status-negative": {
+      "type": "color",
+      "value": "#C41E3A"
+    },
+    "status-positive": {
+      "type": "color",
+      "value": "#1A8754"
+    },
+    "tag-municipal": {
+      "type": "color",
+      "value": "#D97706"
+    },
+    "tag-nacional": {
+      "type": "color",
+      "value": "#0066CC"
+    },
+    "tag-provincial": {
+      "type": "color",
+      "value": "#7C3AED"
+    },
+    "text-muted": {
+      "type": "color",
+      "value": "#999999"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#111111"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#555555"
+    }
+  }
+}

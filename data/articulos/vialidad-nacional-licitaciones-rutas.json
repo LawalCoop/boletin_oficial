@@ -1,0 +1,89 @@
+{
+  "id": "resol-vialidad-304-312-2025",
+  "slug": "vialidad-nacional-licitaciones-rutas",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "transporte",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "304-312/2025",
+    "organismoEmisor": "Dirección Nacional de Vialidad",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/3042025/20250311",
+    "fechaBoletinOficial": "2025-03-11",
+    "numeroEdicion": "35.876"
+  },
+  "contenidoIA": {
+    "titulo": "Vialidad Nacional publicó 9 resoluciones para obras en rutas nacionales",
+    "resumen": "La Dirección Nacional de Vialidad emitió un paquete de 9 resoluciones (304 a 312/2025) relacionadas con obras de infraestructura vial en distintas rutas del país. Se incluyen licitaciones para repavimentación, construcción de nuevos tramos y mejoras en señalización.",
+    "puntosClaves": [
+      {
+        "titulo": "Repavimentación RN40",
+        "descripcion": "Licitación para repavimentación de 120 km de la Ruta Nacional 40 en el tramo Mendoza-San Juan."
+      },
+      {
+        "titulo": "Nuevo tramo RN3",
+        "descripcion": "Construcción de una variante de 35 km en la Ruta Nacional 3 para evitar zonas urbanas en Bahía Blanca."
+      },
+      {
+        "titulo": "Señalización inteligente",
+        "descripcion": "Instalación de sistemas de señalización LED en 8 rutas nacionales de alto tránsito."
+      },
+      {
+        "titulo": "Presupuesto total",
+        "descripcion": "Las 9 licitaciones suman un presupuesto oficial de $45.000 millones."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Empresas constructoras",
+        "icono": "hard-hat",
+        "descripcion": "Pueden participar de las licitaciones presentando ofertas hasta el 15 de abril."
+      },
+      {
+        "grupo": "Transportistas",
+        "icono": "truck",
+        "descripcion": "Las obras mejorarán las condiciones de circulación en rutas de carga."
+      },
+      {
+        "grupo": "Automovilistas",
+        "icono": "car",
+        "descripcion": "Deberán contemplar desvíos temporales durante las obras."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIONES 304 a 312/2025 - DIRECCIÓN NACIONAL DE VIALIDAD",
+    "articulos": [
+      {
+        "numero": "304",
+        "titulo": "Licitación RN40",
+        "contenido": "Artículo 1° - Llámase a Licitación Pública Nacional para la obra \"Repavimentación Ruta Nacional N° 40 - Tramo Mendoza - San Juan, Km 0 a Km 120\"."
+      },
+      {
+        "numero": "305",
+        "titulo": "Licitación RN3",
+        "contenido": "Artículo 1° - Llámase a Licitación Pública Nacional para la obra \"Construcción Variante Ruta Nacional N° 3 - Bahía Blanca\"."
+      },
+      {
+        "numero": "306-312",
+        "titulo": "Otras licitaciones",
+        "contenido": "Las restantes resoluciones establecen los llamados a licitación para obras de señalización y mantenimiento en las Rutas Nacionales 7, 9, 14, 22, 33, 35 y 38."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 687,
+    "neutrales": 134,
+    "negativos": 45
+  },
+  "relacionados": [
+    {
+      "slug": "vialidad-7-licitaciones-obras-rutas",
+      "titulo": "Vialidad Nacional convocó 7 licitaciones para obras en rutas",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/rutas.jpg",
+  "fechaPublicacion": "2025-03-11T07:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["vialidad", "rutas", "infraestructura", "obras"]
+}

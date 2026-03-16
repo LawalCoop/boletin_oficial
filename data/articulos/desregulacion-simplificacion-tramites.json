@@ -1,0 +1,88 @@
+{
+  "id": "resol-desregulacion-14-2025",
+  "slug": "desregulacion-simplificacion-tramites",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "otros",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "14/2025",
+    "organismoEmisor": "Ministerio de Desregulación y Transformación del Estado",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/142025/20250311",
+    "fechaBoletinOficial": "2025-03-11",
+    "numeroEdicion": "35.876"
+  },
+  "contenidoIA": {
+    "titulo": "Desregulación avanza con simplificación de trámites estatales",
+    "resumen": "El Ministerio de Desregulación y Transformación del Estado publicó la Resolución 14/2025 que simplifica procedimientos administrativos en el ámbito nacional. Se eliminan requisitos duplicados y se digitalizan 45 trámites que antes eran presenciales.",
+    "puntosClaves": [
+      {
+        "titulo": "45 trámites digitales",
+        "descripcion": "Se habilita la realización 100% online de 45 trámites que antes requerían presencialidad."
+      },
+      {
+        "titulo": "Eliminación de duplicados",
+        "descripcion": "Se eliminan requisitos que ya constan en otras bases de datos del Estado."
+      },
+      {
+        "titulo": "Firma digital obligatoria",
+        "descripcion": "Todos los organismos deben aceptar firma digital en reemplazo de firma holográfica."
+      },
+      {
+        "titulo": "Plazo de implementación",
+        "descripcion": "Los organismos tienen 90 días para adaptar sus sistemas."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Ciudadanos",
+        "icono": "users",
+        "descripcion": "Menos trámites presenciales y tiempos de espera reducidos."
+      },
+      {
+        "grupo": "Empresas",
+        "icono": "building-2",
+        "descripcion": "Simplificación de habilitaciones y permisos comerciales."
+      },
+      {
+        "grupo": "Organismos públicos",
+        "icono": "landmark",
+        "descripcion": "Deben digitalizar procesos en un plazo de 90 días."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 14/2025 - MINISTERIO DE DESREGULACIÓN Y TRANSFORMACIÓN DEL ESTADO",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Digitalización",
+        "contenido": "Artículo 1° - Establécese que los trámites detallados en el Anexo I de la presente resolución podrán realizarse de manera exclusivamente digital a través de la plataforma TAD."
+      },
+      {
+        "numero": "2-3",
+        "titulo": "Firma digital",
+        "contenido": "Artículo 2° - Los organismos de la Administración Pública Nacional deberán aceptar la firma digital en todos los trámites, en reemplazo de la firma holográfica."
+      },
+      {
+        "numero": "4",
+        "titulo": "Plazo",
+        "contenido": "Artículo 4° - Los organismos alcanzados tendrán un plazo de NOVENTA (90) días para adaptar sus sistemas y procedimientos."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 892,
+    "neutrales": 123,
+    "negativos": 56
+  },
+  "relacionados": [
+    {
+      "slug": "transformacion-estado-industria-comercio",
+      "titulo": "Transformación del Estado modernizó trámites para industria y comercio",
+      "categoria": "nacional"
+    }
+  ],
+  "fechaPublicacion": "2025-03-11T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["desregulacion", "tramites", "simplificacion"]
+}

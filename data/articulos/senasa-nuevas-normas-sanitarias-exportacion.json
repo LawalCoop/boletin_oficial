@@ -1,0 +1,83 @@
+{
+  "id": "resol-senasa-154-2025",
+  "slug": "senasa-nuevas-normas-sanitarias-exportacion",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "agro",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "154/2025",
+    "organismoEmisor": "Servicio Nacional de Sanidad y Calidad Agroalimentaria",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1542025/20250311",
+    "fechaBoletinOficial": "2025-03-11",
+    "numeroEdicion": "35.876"
+  },
+  "contenidoIA": {
+    "titulo": "SENASA actualizó normas sanitarias para exportaciones agropecuarias",
+    "resumen": "El Servicio Nacional de Sanidad y Calidad Agroalimentaria emitió la Resolución 154/2025 con nuevos requisitos sanitarios para productos de exportación. Se actualizan protocolos fitosanitarios y se incorporan exigencias de trazabilidad para carnes y granos.",
+    "puntosClaves": [
+      {
+        "titulo": "Trazabilidad de carnes",
+        "descripcion": "Nuevo sistema de trazabilidad electrónica obligatorio para exportaciones de carne vacuna."
+      },
+      {
+        "titulo": "Certificación de granos",
+        "descripcion": "Se simplifican los procedimientos de certificación fitosanitaria para granos y oleaginosas."
+      },
+      {
+        "titulo": "Protocolo con China",
+        "descripcion": "Se adaptan los requisitos a las nuevas exigencias del mercado chino para productos cárnicos."
+      },
+      {
+        "titulo": "Plazo de adaptación",
+        "descripcion": "Los exportadores tienen 120 días para implementar el nuevo sistema de trazabilidad."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Exportadores de carnes",
+        "icono": "beef",
+        "descripcion": "Deben implementar sistema de trazabilidad electrónica."
+      },
+      {
+        "grupo": "Productores agrícolas",
+        "icono": "wheat",
+        "descripcion": "Procedimientos de certificación más ágiles para granos."
+      },
+      {
+        "grupo": "Frigoríficos",
+        "icono": "factory",
+        "descripcion": "Nuevos protocolos sanitarios para habilitación de exportación."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 154/2025 - SERVICIO NACIONAL DE SANIDAD Y CALIDAD AGROALIMENTARIA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Trazabilidad",
+        "contenido": "Artículo 1° - Establécese la obligatoriedad del Sistema de Trazabilidad Electrónica para todas las exportaciones de carne vacuna de la REPÚBLICA ARGENTINA."
+      },
+      {
+        "numero": "2-3",
+        "titulo": "Certificación fitosanitaria",
+        "contenido": "Artículo 2° - Apruébase el nuevo procedimiento simplificado de Certificación Fitosanitaria para la exportación de granos y oleaginosas conforme el Anexo I."
+      },
+      {
+        "numero": "4-5",
+        "titulo": "Protocolo China",
+        "contenido": "Artículo 4° - Adóptanse las nuevas exigencias sanitarias establecidas en el Protocolo Sanitario suscripto con la REPÚBLICA POPULAR CHINA."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 567,
+    "neutrales": 234,
+    "negativos": 78
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/agro.jpg",
+  "fechaPublicacion": "2025-03-11T08:30:00Z",
+  "tiempoLectura": 4,
+  "tags": ["senasa", "exportaciones", "agro", "sanidad"]
+}

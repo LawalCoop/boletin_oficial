@@ -1,0 +1,93 @@
+{
+  "id": "disp-agro-7-8-2025",
+  "slug": "produccion-agropecuaria-disposiciones-forestales",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "agro",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "7-8/2025",
+    "organismoEmisor": "Subsecretaría de Producción Agropecuaria y Forestal",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/72025/20250311",
+    "fechaBoletinOficial": "2025-03-11",
+    "numeroEdicion": "35.876"
+  },
+  "contenidoIA": {
+    "titulo": "Nuevas disposiciones para producción agropecuaria y forestal",
+    "resumen": "La Subsecretaría de Producción Agropecuaria y Forestal publicó las Disposiciones 7 y 8/2025 con lineamientos para el sector. Se establecen nuevos criterios para el manejo sustentable de bosques nativos y se actualizan los registros de productores forestales.",
+    "puntosClaves": [
+      {
+        "titulo": "Manejo de bosques nativos",
+        "descripcion": "Se establecen criterios técnicos para planes de manejo sustentable en zonas amarillas."
+      },
+      {
+        "titulo": "Registro forestal actualizado",
+        "descripcion": "Los productores forestales deben actualizar sus datos en el Registro Nacional antes del 30 de junio."
+      },
+      {
+        "titulo": "Incentivos forestales",
+        "descripcion": "Se habilita una nueva línea de incentivos para forestación con especies nativas."
+      },
+      {
+        "titulo": "Control de incendios",
+        "descripcion": "Nuevos requisitos de prevención de incendios para explotaciones forestales."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Productores forestales",
+        "icono": "trees",
+        "descripcion": "Deben actualizar registro y cumplir nuevos requisitos de prevención."
+      },
+      {
+        "grupo": "Propietarios de bosques nativos",
+        "icono": "leaf",
+        "descripcion": "Nuevos criterios para planes de manejo en zonas amarillas."
+      },
+      {
+        "grupo": "Empresas madereras",
+        "icono": "factory",
+        "descripcion": "Acceso a incentivos para proyectos de forestación con nativas."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIONES 7 y 8/2025 - SUBSECRETARÍA DE PRODUCCIÓN AGROPECUARIA Y FORESTAL",
+    "articulos": [
+      {
+        "numero": "Disp. 7/2025 - Art. 1",
+        "titulo": "Manejo sustentable",
+        "contenido": "Artículo 1° - Apruébanse los Criterios Técnicos para la elaboración de Planes de Manejo Sustentable de Bosques Nativos en zonas clasificadas como Categoría II (amarillo)."
+      },
+      {
+        "numero": "Disp. 7/2025 - Art. 2-3",
+        "titulo": "Requisitos",
+        "contenido": "Artículo 2° - Los planes de manejo deberán incluir un estudio de impacto ambiental y un programa de monitoreo de biodiversidad."
+      },
+      {
+        "numero": "Disp. 8/2025 - Art. 1",
+        "titulo": "Registro forestal",
+        "contenido": "Artículo 1° - Los productores forestales inscriptos en el Registro Nacional de Productores Forestales deberán actualizar sus datos antes del 30 de junio de 2025."
+      },
+      {
+        "numero": "Disp. 8/2025 - Art. 2-4",
+        "titulo": "Incentivos",
+        "contenido": "Artículo 2° - Créase el Programa de Incentivos para Forestación con Especies Nativas, destinado a promover la reforestación con especies autóctonas."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 423,
+    "neutrales": 267,
+    "negativos": 89
+  },
+  "relacionados": [
+    {
+      "slug": "senasa-nuevas-normas-sanitarias-exportacion",
+      "titulo": "SENASA actualizó normas sanitarias para exportaciones agropecuarias",
+      "categoria": "nacional"
+    }
+  ],
+  "fechaPublicacion": "2025-03-11T09:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["agro", "forestal", "produccion"]
+}

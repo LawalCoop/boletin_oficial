@@ -12,41 +12,42 @@
     "numeroEdicion": "35.877"
   },
   "contenidoIA": {
-    "titulo": "AFIP modificó el régimen de información para actividad financiera",
-    "resumen": "La Agencia de Recaudación y Control Aduanero publicó la Resolución General 5662/2025 que actualiza los procedimientos y régimen de información para entidades financieras. Se amplían los datos a reportar y se establecen nuevos plazos de presentación.",
+    "titulo": "AFIP ahora podrá ver tus movimientos en billeteras virtuales: nuevo régimen de información",
+    "resumen": "Si tenés cuenta en Mercado Pago, Ualá o cualquier billetera virtual, esto te interesa. La AFIP —que ahora se llama ARCA— acaba de bajar a la mitad el monto a partir del cual los bancos deben informar tus movimientos: de un millón de pesos mensuales a 500 mil. Pero la novedad más importante es que las fintech, que hasta ahora estaban en un gris legal, ahora deben reportar igual que los bancos tradicionales. El cambio entra en vigencia en 60 días.",
+    "contexto": "¿Por qué AFIP sabe cuánto dinero movés? Desde 2001, Argentina tiene un sistema donde los bancos informan automáticamente a AFIP los movimientos de sus clientes que superen ciertos montos. No es que te estén investigando: es información masiva que AFIP usa para cruzar datos y detectar inconsistencias. Si declarás ganar 500 mil pesos pero movés 5 millones por mes, salta una alerta. Este régimen se llama 'información financiera' y es una herramienta clave contra la evasión. Hasta ahora, las billeteras virtuales no estaban obligadas —un vacío legal que esta resolución viene a cerrar.",
     "puntosClaves": [
       {
-        "titulo": "Información ampliada",
-        "descripcion": "Los bancos deberán informar movimientos superiores a $500.000 mensuales por cuenta, reduciendo el umbral anterior de $1.000.000."
+        "titulo": "El umbral baja a la mitad",
+        "descripcion": "Antes, los bancos solo reportaban cuentas con movimientos mayores a $1.000.000 mensuales. Ahora el piso baja a $500.000. Esto significa que muchos más contribuyentes quedan bajo la lupa de AFIP, especialmente comerciantes, profesionales independientes y pequeños emprendedores que cobran por transferencia."
       },
       {
-        "titulo": "Plazos de presentación",
-        "descripcion": "El régimen de información pasa de ser mensual a quincenal para operaciones de alto monto."
+        "titulo": "Mercado Pago, Ualá y otras: ahora también informan",
+        "descripcion": "Las fintech y billeteras virtuales —Mercado Pago, Ualá, Naranja X, BNA+, entre otras— se incorporan como 'sujetos obligados'. Esto significa que deben reportar a AFIP igual que un banco tradicional. Si usás tu billetera virtual para cobrar ventas o recibir pagos, AFIP va a tener esa información."
       },
       {
-        "titulo": "Nuevos sujetos obligados",
-        "descripcion": "Se incorporan las fintech y billeteras virtuales al régimen de información financiera."
+        "titulo": "Reportes más frecuentes",
+        "descripcion": "Para operaciones de alto monto, el régimen pasa de mensual a quincenal. Las entidades deberán enviar información a AFIP cada 15 días en lugar de una vez por mes, lo que permite detectar irregularidades más rápido."
       },
       {
-        "titulo": "Sanciones actualizadas",
-        "descripcion": "Se incrementan las multas por incumplimiento o presentación tardía de información."
+        "titulo": "Multas más caras por no informar",
+        "descripcion": "Se actualizaron las sanciones para bancos y fintech que no cumplan. Las multas por no reportar o hacerlo tarde pueden alcanzar varios millones de pesos, incentivando el cumplimiento estricto."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Bancos",
-        "icono": "landmark",
-        "descripcion": "Deben adaptar sus sistemas para reportar más información con mayor frecuencia."
-      },
-      {
-        "grupo": "Fintech",
+        "grupo": "Usuarios de billeteras virtuales",
         "icono": "smartphone",
-        "descripcion": "Se incorporan como sujetos obligados al régimen de información."
+        "descripcion": "Si cobrás ventas por Mercado Pago, recibís transferencias frecuentes o movés más de $500.000 por mes en tu billetera virtual, ahora AFIP tendrá esa información automáticamente. No cambia nada para quien ya declara todo, pero puede complicar a quienes tienen ingresos no registrados."
       },
       {
-        "grupo": "Contribuyentes",
-        "icono": "users",
-        "descripcion": "Mayor fiscalización de movimientos financieros por parte de AFIP."
+        "grupo": "Monotributistas y autónomos",
+        "icono": "briefcase",
+        "descripcion": "Profesionales independientes, comerciantes pequeños y freelancers que cobran por transferencia deben asegurarse de que sus ingresos declarados coincidan con sus movimientos bancarios. Con el umbral más bajo, muchos más quedan alcanzados."
+      },
+      {
+        "grupo": "Bancos y fintech",
+        "icono": "landmark",
+        "descripcion": "Deben adaptar sus sistemas informáticos para reportar más datos, con mayor frecuencia y bajo pena de multas más altas. Es un costo operativo importante, especialmente para las fintech más chicas."
       }
     ]
   },
@@ -85,5 +86,11 @@
   "imagen": "/images/articulos/afip.jpg",
   "fechaPublicacion": "2025-03-12T06:30:00Z",
   "tiempoLectura": 5,
-  "tags": ["afip", "impuestos", "bancos", "informacion"]
+  "tags": [
+    "afip",
+    "impuestos",
+    "bancos",
+    "fintech",
+    "billeteras virtuales"
+  ]
 }

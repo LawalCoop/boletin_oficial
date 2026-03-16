@@ -18,7 +18,11 @@
       "tiempoLectura": 5,
       "fechaPublicacion": "2025-03-13T06:00:00Z",
       "destacado": true,
-      "tags": ["presupuesto", "economia", "gobierno"],
+      "tags": [
+        "presupuesto",
+        "economia",
+        "gobierno"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1862025/20250313"
     },
     {
@@ -35,8 +39,13 @@
       "tiempoLectura": 2,
       "fechaPublicacion": "2025-03-13T06:30:00Z",
       "destacado": false,
-      "tags": ["prensa", "comunicacion", "designaciones"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1852025/20250313"
+      "tags": [
+        "prensa",
+        "comunicacion",
+        "designaciones"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1852025/20250313",
+      "imagen": "/images/articulos/funcionarios.jpg"
     },
     {
       "id": "decreto-184-2025",
@@ -53,7 +62,11 @@
       "tiempoLectura": 3,
       "fechaPublicacion": "2025-03-13T07:00:00Z",
       "destacado": false,
-      "tags": ["procedimientos", "recursos", "administrativo"],
+      "tags": [
+        "procedimientos",
+        "recursos",
+        "administrativo"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1842025/20250313"
     },
     {
@@ -70,8 +83,13 @@
       "tiempoLectura": 2,
       "fechaPublicacion": "2025-03-13T07:30:00Z",
       "destacado": false,
-      "tags": ["justicia", "renuncias", "funcionarios"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1812025/20250313"
+      "tags": [
+        "justicia",
+        "renuncias",
+        "funcionarios"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1812025/20250313",
+      "imagen": "/images/articulos/funcionarios.jpg"
     },
     {
       "id": "disp-aduana-24-2025",
@@ -87,8 +105,14 @@
       "tiempoLectura": 3,
       "fechaPublicacion": "2025-03-13T08:00:00Z",
       "destacado": false,
-      "tags": ["aduana", "formosa", "frontera", "control"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/242025/20250313"
+      "tags": [
+        "aduana",
+        "formosa",
+        "frontera",
+        "control"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/242025/20250313",
+      "imagen": "/images/articulos/exportaciones.jpg"
     },
     {
       "id": "disp-salud-335-2025",
@@ -105,7 +129,11 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-13T08:30:00Z",
       "destacado": true,
-      "tags": ["salud", "habilitacion", "fiscalizacion"],
+      "tags": [
+        "salud",
+        "habilitacion",
+        "fiscalizacion"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/3352025/20250313"
     },
     {
@@ -122,8 +150,14 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-13T09:00:00Z",
       "destacado": false,
-      "tags": ["enacom", "telecomunicaciones", "internet", "comunicaciones"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/enacom2025/20250313"
+      "tags": [
+        "enacom",
+        "telecomunicaciones",
+        "internet",
+        "comunicaciones"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/enacom2025/20250313",
+      "imagen": "/images/articulos/telecomunicaciones.jpg"
     },
     {
       "id": "resol-cnv-2025",
@@ -139,8 +173,14 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-13T09:30:00Z",
       "destacado": false,
-      "tags": ["cnv", "mercado-capitales", "inversiones", "bolsa"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/cnv2025/20250313"
+      "tags": [
+        "cnv",
+        "mercado-capitales",
+        "inversiones",
+        "bolsa"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/cnv2025/20250313",
+      "imagen": "/images/articulos/presupuesto.jpg"
     }
   ]
 }

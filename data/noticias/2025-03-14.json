@@ -18,7 +18,12 @@
       "tiempoLectura": 5,
       "fechaPublicacion": "2025-03-14T06:00:00Z",
       "destacado": true,
-      "tags": ["afip", "exportaciones", "pymes", "comercio-exterior"],
+      "tags": [
+        "afip",
+        "exportaciones",
+        "pymes",
+        "comercio-exterior"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/56642025/20250314"
     },
     {
@@ -36,7 +41,12 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-14T06:30:00Z",
       "destacado": true,
-      "tags": ["cnv", "bolsa", "mercado-valores", "regulacion"],
+      "tags": [
+        "cnv",
+        "bolsa",
+        "mercado-valores",
+        "regulacion"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/10582025/20250314"
     },
     {
@@ -53,8 +63,13 @@
       "tiempoLectura": 2,
       "fechaPublicacion": "2025-03-14T07:00:00Z",
       "destacado": false,
-      "tags": ["justicia", "renuncias", "funcionarios"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1872025/20250314"
+      "tags": [
+        "justicia",
+        "renuncias",
+        "funcionarios"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1872025/20250314",
+      "imagen": "/images/articulos/funcionarios.jpg"
     },
     {
       "id": "resol-vialidad-333-342-2025",
@@ -71,7 +86,12 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-14T07:30:00Z",
       "destacado": true,
-      "tags": ["vialidad", "licitaciones", "rutas", "obras"],
+      "tags": [
+        "vialidad",
+        "licitaciones",
+        "rutas",
+        "obras"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/3332025/20250314"
     },
     {
@@ -89,7 +109,12 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-14T08:00:00Z",
       "destacado": false,
-      "tags": ["enargas", "gas", "distribuidoras", "regulacion"],
+      "tags": [
+        "enargas",
+        "gas",
+        "distribuidoras",
+        "regulacion"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1512025/20250314"
     },
     {
@@ -106,8 +131,13 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-14T08:30:00Z",
       "destacado": false,
-      "tags": ["nuclear", "seguridad", "regulacion"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/712025/20250314"
+      "tags": [
+        "nuclear",
+        "seguridad",
+        "regulacion"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/712025/20250314",
+      "imagen": "/images/articulos/energia.jpg"
     },
     {
       "id": "resol-conjunta-1-2025",
@@ -123,8 +153,14 @@
       "tiempoLectura": 3,
       "fechaPublicacion": "2025-03-14T09:00:00Z",
       "destacado": false,
-      "tags": ["transformacion", "industria", "comercio", "modernizacion"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/conjunta12025/20250314"
+      "tags": [
+        "transformacion",
+        "industria",
+        "comercio",
+        "modernizacion"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/conjunta12025/20250314",
+      "imagen": "/images/articulos/casa-rosada.jpg"
     },
     {
       "id": "disp-ansv-53-2025",
@@ -140,8 +176,13 @@
       "tiempoLectura": 3,
       "fechaPublicacion": "2025-03-14T09:30:00Z",
       "destacado": false,
-      "tags": ["seguridad-vial", "licencias", "transito"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/532025/20250314"
+      "tags": [
+        "seguridad-vial",
+        "licencias",
+        "transito"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/532025/20250314",
+      "imagen": "/images/articulos/rutas.jpg"
     },
     {
       "id": "resol-trabajo-agrario-35-44-2025",
@@ -157,8 +198,14 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-14T10:00:00Z",
       "destacado": false,
-      "tags": ["trabajo", "agrario", "salarios", "rural"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/352025/20250314"
+      "tags": [
+        "trabajo",
+        "agrario",
+        "salarios",
+        "rural"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/352025/20250314",
+      "imagen": "/images/articulos/funcionarios.jpg"
     }
   ]
 }

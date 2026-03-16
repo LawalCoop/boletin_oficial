@@ -12,41 +12,42 @@
     "numeroEdicion": "35.876"
   },
   "contenidoIA": {
-    "titulo": "Vialidad Nacional publicó 9 resoluciones para obras en rutas nacionales",
-    "resumen": "La Dirección Nacional de Vialidad emitió un paquete de 9 resoluciones (304 a 312/2025) relacionadas con obras de infraestructura vial en distintas rutas del país. Se incluyen licitaciones para repavimentación, construcción de nuevos tramos y mejoras en señalización.",
+    "titulo": "120 km de la Ruta 40 y variante en Bahía Blanca: el paquete de obras viales de $45.000 millones",
+    "resumen": "Vialidad Nacional puso en marcha 9 licitaciones por un total de $45.000 millones en obras. Las más importantes: repavimentar 120 kilómetros de la Ruta 40 entre Mendoza y San Juan, y construir una variante de 35 km en la Ruta 3 para que los camiones no pasen más por el centro de Bahía Blanca. También hay licitaciones para instalar señalización LED en 8 rutas de alto tránsito. Las empresas tienen hasta el 15 de abril para presentar ofertas.",
+    "contexto": "¿Qué es una licitación pública y por qué se publica en el Boletín? Cuando el Estado quiere hacer una obra, no puede simplemente contratar a quien le parezca: tiene que abrir una licitación pública donde cualquier empresa que cumpla los requisitos puede presentar una oferta. Se publica en el Boletín Oficial para que todas las empresas se enteren y puedan competir. Gana la que ofrece el mejor precio cumpliendo las especificaciones técnicas. Es un mecanismo de transparencia para evitar favoritismos y sobreprecios.",
     "puntosClaves": [
       {
-        "titulo": "Repavimentación RN40",
-        "descripcion": "Licitación para repavimentación de 120 km de la Ruta Nacional 40 en el tramo Mendoza-San Juan."
+        "titulo": "Ruta 40: 120 km de asfalto nuevo",
+        "descripcion": "El tramo entre Mendoza y San Juan de la mítica Ruta 40 será repavimentado. Es una ruta de alta montaña que sufre mucho desgaste por el clima y el tránsito de camiones. La obra incluye bacheo, recapado y mejora de banquinas."
       },
       {
-        "titulo": "Nuevo tramo RN3",
-        "descripcion": "Construcción de una variante de 35 km en la Ruta Nacional 3 para evitar zonas urbanas en Bahía Blanca."
+        "titulo": "Variante Bahía Blanca: camiones afuera",
+        "descripcion": "Se construirá un bypass de 35 km para que el tránsito pesado de la Ruta 3 no pase más por zonas urbanas de Bahía Blanca. Es una demanda histórica de los vecinos que conviven con miles de camiones diarios rumbo al sur."
       },
       {
-        "titulo": "Señalización inteligente",
-        "descripcion": "Instalación de sistemas de señalización LED en 8 rutas nacionales de alto tránsito."
+        "titulo": "Señalización LED en 8 rutas",
+        "descripcion": "Cartelería electrónica con información en tiempo real (velocidad, clima, alertas) se instalará en las rutas 7, 9, 14, 22, 33, 35, 38 y 40. Es tecnología que ya se usa en autopistas urbanas, ahora llegará a rutas nacionales."
       },
       {
-        "titulo": "Presupuesto total",
-        "descripcion": "Las 9 licitaciones suman un presupuesto oficial de $45.000 millones."
+        "titulo": "Ofertas hasta el 15 de abril",
+        "descripcion": "Las constructoras interesadas pueden comprar los pliegos en Vialidad Nacional y tienen un mes para armar sus propuestas técnicas y económicas. Se espera que compitan las grandes constructoras del país."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Empresas constructoras",
+        "grupo": "Constructoras viales",
         "icono": "hard-hat",
-        "descripcion": "Pueden participar de las licitaciones presentando ofertas hasta el 15 de abril."
+        "descripcion": "Es un paquete de $45.000 millones en obras, trabajo para 18+ meses. Las grandes constructoras como Roggio, Caputo o Techint seguro van a competir. También hay espacio para empresas regionales en las obras menores."
       },
       {
-        "grupo": "Transportistas",
+        "grupo": "Vecinos de Bahía Blanca",
+        "icono": "users",
+        "descripcion": "Si se construye la variante, dejarán de tener miles de camiones pasando por sus calles. Menos ruido, menos contaminación, menos accidentes urbanos con vehículos pesados."
+      },
+      {
+        "grupo": "Transportistas de carga",
         "icono": "truck",
-        "descripcion": "Las obras mejorarán las condiciones de circulación en rutas de carga."
-      },
-      {
-        "grupo": "Automovilistas",
-        "icono": "car",
-        "descripcion": "Deberán contemplar desvíos temporales durante las obras."
+        "descripcion": "Mejores rutas significan menos roturas de vehículos, menos accidentes y tiempos de viaje más predecibles. Especialmente importante en la Ruta 40, que es clave para el comercio con Chile."
       }
     ]
   },
@@ -84,6 +85,12 @@
   ],
   "imagen": "/images/articulos/rutas.jpg",
   "fechaPublicacion": "2025-03-11T07:00:00Z",
-  "tiempoLectura": 3,
-  "tags": ["vialidad", "rutas", "infraestructura", "obras"]
+  "tiempoLectura": 5,
+  "tags": [
+    "vialidad",
+    "rutas",
+    "licitaciones",
+    "bahia blanca",
+    "ruta 40"
+  ]
 }

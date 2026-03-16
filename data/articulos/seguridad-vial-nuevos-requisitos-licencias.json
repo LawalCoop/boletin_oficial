@@ -12,41 +12,42 @@
     "numeroEdicion": "35.879"
   },
   "contenidoIA": {
-    "titulo": "Seguridad Vial actualizó requisitos para licencias de conducir",
-    "resumen": "La Agencia Nacional de Seguridad Vial publicó la Disposición 53/2025 con nuevos requisitos y procedimientos para la obtención de licencias de conducir. Se incorporan evaluaciones psicofísicas más rigurosas y se actualizan los contenidos del examen teórico.",
+    "titulo": "Sacar el registro será más difícil: curso obligatorio, examen más largo y controles para mayores de 65",
+    "resumen": "Si estás por sacar el registro por primera vez, preparate: ahora vas a tener que hacer un curso de 8 horas antes de rendir. La Agencia Nacional de Seguridad Vial endureció los requisitos para obtener la licencia de conducir. El examen teórico pasa de 30 a 40 preguntas, y si tenés más de 65 años, te van a hacer tests adicionales de visión nocturna y tiempo de reacción cada vez que renueves. La buena noticia: la licencia digital ya es oficial y vale en todo el país.",
+    "contexto": "¿Qué es una Disposición? A diferencia de los Decretos (que firma el Presidente) o las Resoluciones (que firman los Ministros), las Disposiciones son normas que emiten organismos descentralizados del Estado. La Agencia Nacional de Seguridad Vial es uno de estos organismos: tiene autonomía para dictar reglas sobre tránsito y licencias, siempre dentro de lo que le permite la ley. Por eso puede cambiar los requisitos del examen sin necesidad de que intervenga un Ministro.",
     "puntosClaves": [
       {
-        "titulo": "Examen teórico actualizado",
-        "descripcion": "Se incorporan preguntas sobre conducción segura en zonas urbanas, uso de tecnología y manejo defensivo."
+        "titulo": "Curso obligatorio de 8 horas",
+        "descripcion": "Quienes saquen el registro por primera vez deberán completar un curso de seguridad vial antes de poder rendir el examen. Son 8 horas de capacitación sobre manejo defensivo, primeros auxilios básicos y normas de tránsito. Cada municipio definirá cómo implementarlo: puede ser presencial, virtual o mixto."
       },
       {
-        "titulo": "Evaluación psicofísica",
-        "descripcion": "Se agregan tests de visión nocturna y evaluación de tiempos de reacción para conductores mayores de 65 años."
+        "titulo": "Examen teórico más exigente",
+        "descripcion": "El examen pasa de 30 a 40 preguntas, y hay que aprobar el 80% (antes era 70%). Se agregan preguntas sobre conducción en ciudad, uso de tecnología al volante y manejo defensivo. La idea es que los nuevos conductores salgan mejor preparados."
       },
       {
-        "titulo": "Licencia digital",
-        "descripcion": "Se habilita la licencia de conducir en formato digital, válida en todo el territorio nacional."
+        "titulo": "Más controles para mayores de 65",
+        "descripcion": "Cada vez que una persona mayor de 65 años renueve su registro, deberá pasar tests adicionales: visión nocturna y tiempo de reacción. No es para quitarles el registro, sino para detectar problemas a tiempo y en algunos casos recomendar restricciones (como no manejar de noche)."
       },
       {
-        "titulo": "Curso obligatorio",
-        "descripcion": "Los solicitantes de primera licencia deberán completar un curso de 8 horas sobre seguridad vial."
+        "titulo": "Licencia digital válida en todo el país",
+        "descripcion": "Ya no hace falta llevar el carnet físico encima. La licencia digital —disponible desde el celular— tiene la misma validez legal que el plástico. Cualquier control policial puede verificarla escaneando un código QR que se actualiza en tiempo real."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Nuevos conductores",
+        "grupo": "Jóvenes que van a sacar su primera licencia",
         "icono": "user",
-        "descripcion": "Deberán cumplir requisitos adicionales incluyendo un curso obligatorio."
+        "descripcion": "El trámite se vuelve más largo y exigente. Además del examen teórico y práctico, ahora hay que hacer un curso de 8 horas. Conviene arrancar con tiempo si necesitás el registro para una fecha específica."
       },
       {
-        "grupo": "Conductores mayores de 65",
-        "icono": "users",
-        "descripcion": "Tendrán evaluaciones psicofísicas más completas en cada renovación."
+        "grupo": "Conductores mayores de 65 años",
+        "icono": "heart",
+        "descripcion": "Cada renovación incluirá evaluaciones psicofísicas adicionales. No significa que vayan a perder el registro, pero sí que el trámite será más completo. Si se detectan limitaciones, pueden aparecer restricciones en la licencia (por ejemplo, 'solo conducción diurna')."
       },
       {
-        "grupo": "Municipios",
-        "icono": "landmark",
-        "descripcion": "Deben adaptar sus centros de emisión al nuevo sistema digital."
+        "grupo": "Municipios que emiten licencias",
+        "icono": "building",
+        "descripcion": "Los centros de emisión de cada municipio deben adaptarse: actualizar los sistemas informáticos para la licencia digital, capacitar evaluadores para los nuevos tests, y coordinar con instituciones que dicten el curso obligatorio."
       }
     ]
   },
@@ -76,7 +77,13 @@
     "negativos": 112
   },
   "relacionados": [],
+  "imagen": "/images/articulos/rutas.jpg",
   "fechaPublicacion": "2025-03-14T09:30:00Z",
-  "tiempoLectura": 3,
-  "tags": ["seguridad-vial", "licencias", "transito"]
+  "tiempoLectura": 5,
+  "tags": [
+    "seguridad-vial",
+    "licencias",
+    "transito",
+    "registro"
+  ]
 }

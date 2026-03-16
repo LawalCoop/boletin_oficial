@@ -12,37 +12,38 @@
     "numeroEdicion": "35.877"
   },
   "contenidoIA": {
-    "titulo": "AFIP actualizó el Registro Fiscal de Actividades Mineras",
-    "resumen": "Mediante la Resolución General 5663/2025, AFIP estableció modificaciones al régimen de retención y al Registro Fiscal de Actividades Mineras. Se actualizan alícuotas y se simplifican los trámites de inscripción para pequeños productores.",
+    "titulo": "Menos retenciones para la minería: AFIP baja la alícuota a las exportaciones de minerales",
+    "resumen": "Buenas noticias para las mineras que exportan: la retención de Ganancias sobre las ventas al exterior baja del 3% al 2%. AFIP —ahora llamada ARCA— también simplificó los trámites para que los pequeños productores mineros puedan inscribirse en el registro fiscal de forma online, sin tanta burocracia. Es una medida que busca incentivar un sector que mueve miles de millones de dólares pero opera mayormente en provincias alejadas de Buenos Aires.",
+    "contexto": "¿Por qué la minería tiene un régimen especial en AFIP? La actividad minera tiene características únicas: inversiones millonarias, ciclos de años entre que se descubre un yacimiento y se empieza a exportar, operación en zonas remotas. Por eso tiene un régimen fiscal propio con incentivos especiales (estabilidad tributaria por 30 años, por ejemplo). El Registro Fiscal de Actividades Mineras es donde AFIP tiene identificados a todos los que trabajan en el sector, desde las grandes multinacionales hasta el pequeño productor de borato en la Puna.",
     "puntosClaves": [
       {
-        "titulo": "Nuevas alícuotas",
-        "descripcion": "Se reducen las alícuotas de retención para exportaciones de minerales del 3% al 2%."
+        "titulo": "Retención baja del 3% al 2%",
+        "descripcion": "Cuando una minera exporta oro, litio, cobre o cualquier mineral, AFIP le retiene parte del pago a cuenta del Impuesto a las Ganancias. Esa retención baja un punto porcentual: del 3% al 2%. Para una exportación de 100 millones de dólares, significa 1 millón de dólares menos retenidos."
       },
       {
-        "titulo": "Registro simplificado",
-        "descripcion": "Los pequeños productores mineros podrán inscribirse mediante trámite simplificado online."
+        "titulo": "Trámite simplificado para chicos",
+        "descripcion": "Los pequeños productores mineros —que abundan en provincias como Catamarca, San Juan o Jujuy— ahora pueden inscribirse en el Registro Fiscal de Actividades Mineras de forma 100% online, sin necesidad de ir a una oficina de AFIP ni presentar pilas de papeles."
       },
       {
-        "titulo": "Certificado de no retención",
-        "descripcion": "Se agiliza la emisión de certificados de no retención para empresas con situación fiscal regular."
+        "titulo": "Certificados de no retención más rápidos",
+        "descripcion": "Las empresas que están al día con sus impuestos pueden obtener certificados de no retención en menos tiempo. Esto acelera el flujo de caja, algo crítico para una industria que maneja operaciones de largo plazo."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Empresas mineras",
+        "grupo": "Grandes mineras exportadoras",
         "icono": "mountain",
-        "descripcion": "Tendrán menores retenciones en sus operaciones de exportación."
+        "descripcion": "Barrick Gold, Livent, y otras multinacionales que operan en Argentina verán mejorar su flujo de caja. Menos retención significa más plata disponible para reinvertir o distribuir. Es un incentivo para que sigan apostando al país."
       },
       {
-        "grupo": "Pequeños productores",
-        "icono": "user",
-        "descripcion": "Acceso simplificado al registro fiscal minero."
+        "grupo": "Pequeños productores mineros",
+        "icono": "pickaxe",
+        "descripcion": "El minero de borato de la Puna, el que extrae piedras semipreciosas en Córdoba o el que trabaja arena silícea en Entre Ríos ahora tiene un camino más fácil para formalizarse. Menos burocracia significa menor costo de cumplir con la ley."
       },
       {
         "grupo": "Provincias mineras",
         "icono": "map-pin",
-        "descripcion": "Mayor competitividad del sector minero regional."
+        "descripcion": "San Juan, Catamarca, Jujuy, Salta, Santa Cruz —las provincias donde se concentra la minería— se benefician indirectamente. Un sector minero más competitivo genera más empleo, más regalías y más actividad económica local."
       }
     ]
   },
@@ -73,7 +74,13 @@
       "categoria": "nacional"
     }
   ],
+  "imagen": "/images/articulos/industria.jpg",
   "fechaPublicacion": "2025-03-12T07:00:00Z",
   "tiempoLectura": 4,
-  "tags": ["afip", "mineria", "retencion", "registro"]
+  "tags": [
+    "afip",
+    "mineria",
+    "exportaciones",
+    "retenciones"
+  ]
 }

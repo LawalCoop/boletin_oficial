@@ -12,54 +12,65 @@
     "numeroEdicion": "35.878"
   },
   "contenidoIA": {
-    "titulo": "Aceptaron renuncias en el Ministerio de Justicia y el Ministerio Público",
-    "resumen": "Los Decretos 181 y 182/2025 formalizaron la aceptación de renuncias de funcionarios en el Ministerio de Justicia y el Ministerio Público respectivamente. Los funcionarios salientes dejan sus cargos por motivos personales.",
+    "titulo": "Movimientos en el área de Justicia: el Gobierno aceptó renuncias de funcionarios clave",
+    "resumen": "Dos decretos publicados hoy formalizan la salida de funcionarios del Ministerio de Justicia y del Ministerio Público Fiscal. Los Decretos 181 y 182/2025 aceptan renuncias —no son despidos ni remociones, una distinción importante— lo que formalmente significa que los funcionarios decidieron irse y el Gobierno aceptó esa decisión. En la práctica, las renuncias en el Estado pueden ser genuinas (el funcionario consiguió otro trabajo, tiene temas personales, o simplemente está agotado) o 'pedidas' (el Gobierno quiere que se vaya pero prefiere la forma elegante de una renuncia en lugar de una remoción). El Boletín Oficial no dice los motivos, y probablemente nunca lo sepamos. Lo concreto es que dos cargos importantes del área de justicia quedan vacantes.",
+    "contexto": "¿Cuál es la diferencia entre renuncia y remoción? En el Estado argentino, un funcionario político puede irse de tres maneras: por renuncia (decide irse, el Gobierno acepta), por remoción (el Gobierno decide echarlo), o por fin de mandato (en los pocos cargos que tienen plazo fijo). Cuando el Boletín Oficial habla de 'aceptación de renuncia', significa que el funcionario presentó formalmente su dimisión y el Presidente la aceptó. Es un acto ceremonial: hasta que no sale el decreto, técnicamente el funcionario sigue en su cargo aunque ya haya vaciado su escritorio.",
     "puntosClaves": [
       {
-        "titulo": "Renuncia en Justicia",
-        "descripcion": "Se acepta la renuncia del Director de Asuntos Legales del Ministerio de Justicia."
+        "titulo": "Dos organismos distintos, pero del mismo ecosistema",
+        "descripcion": "El Decreto 181 corresponde al Ministerio de Justicia —que depende del Poder Ejecutivo y maneja temas como el sistema penitenciario, la relación con el Poder Judicial, y las políticas anticorrupción—. El Decreto 182 es del Ministerio Público Fiscal —un organismo con autonomía constitucional donde trabajan los fiscales federales que investigan delitos—. Aunque son organismos distintos, ambos forman parte del 'mundo de la justicia' y sus funcionarios suelen conocerse y cruzarse. Que las dos renuncias salgan el mismo día puede ser coincidencia, o puede indicar algo más."
       },
       {
-        "titulo": "Renuncia en Ministerio Público",
-        "descripcion": "Se acepta la renuncia del Secretario Administrativo del Ministerio Público Fiscal."
+        "titulo": "El Boletín nunca dice por qué, y eso es normal",
+        "descripcion": "Los decretos de aceptación de renuncia jamás explican los motivos de la salida. Es información privada entre el funcionario y quien lo designó. Las posibilidades son muchas: puede que el funcionario haya conseguido una mejor oportunidad en el sector privado (los abogados con experiencia en el Estado son muy cotizados), que tenga diferencias políticas con la conducción, que esté agotado del ritmo de trabajo, o que el Gobierno le haya 'pedido' la renuncia pero prefiera evitar el conflicto de una remoción. Sin fuentes periodísticas adicionales, es pura especulación."
       },
       {
-        "titulo": "Agradecimiento formal",
-        "descripcion": "En ambos casos se agradecen los servicios prestados por los funcionarios salientes."
+        "titulo": "Lo que viene: cargos vacantes y reemplazos",
+        "descripcion": "Con las renuncias formalizadas, los cargos quedan oficialmente vacíos. En el mientras tanto, algún funcionario de menor rango suele quedar 'a cargo' de las funciones hasta que se designe un reemplazante. El Gobierno puede tomarse días, semanas o incluso meses para nombrar a los nuevos titulares, dependiendo de la urgencia del área y de si ya tiene candidatos en mente. Habrá que seguir el Boletín Oficial para ver quiénes son los elegidos."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Ministerio de Justicia",
-        "icono": "scale",
-        "descripcion": "Debe cubrir vacantes en área de asuntos legales."
+        "grupo": "Los equipos de trabajo de los funcionarios salientes",
+        "icono": "users",
+        "descripcion": "Son quienes más directamente sienten estos cambios. Cada funcionario tiene colaboradores directos —asesores, secretarios, coordinadores— que trabajaban bajo su órbita. Cuando el jefe se va, el equipo queda en una zona gris hasta que llegue el reemplazo. El nuevo titular puede mantener a todos, cambiar a algunos, o renovar por completo. En la administración pública, este tipo de transiciones puede significar desde reubicaciones a otras áreas hasta la no renovación de contratos para el personal no permanente."
       },
       {
-        "grupo": "Ministerio Público",
-        "icono": "landmark",
-        "descripcion": "Necesita designar nuevo secretario administrativo."
+        "grupo": "Fiscales federales y personal del Ministerio Público",
+        "icono": "scale",
+        "descripcion": "El Ministerio Público Fiscal es donde trabajan los fiscales que investigan delitos federales: narcotráfico, corrupción, lavado de dinero, causas de lesa humanidad. La salida de un funcionario de coordinación puede afectar cómo se asignan las causas, qué prioridades de investigación se establecen, y qué recursos humanos y materiales están disponibles para el trabajo cotidiano. Los fiscales de carrera suelen mantener continuidad, pero el cambio de conducción siempre genera expectativa."
+      },
+      {
+        "grupo": "El sistema penitenciario federal",
+        "icono": "building-2",
+        "descripcion": "El Ministerio de Justicia tiene bajo su órbita al Servicio Penitenciario Federal (las cárceles federales). Un cambio de funcionarios en el Ministerio puede significar cambios de política penitenciaria, de prioridades presupuestarias, o de posición en debates sensibles como las condiciones de detención, los traslados de presos de alto perfil, o los programas de reinserción. Por ahora, hay que esperar a ver quién asume el reemplazo."
       }
     ]
   },
   "textoOriginal": {
-    "encabezado": "DECRETOS 181-182/2025 - PODER EJECUTIVO NACIONAL",
+    "encabezado": "DECRETOS 181 y 182/2025 - PODER EJECUTIVO NACIONAL",
     "articulos": [
       {
-        "numero": "1",
-        "titulo": "Aceptación",
-        "contenido": "Artículo 1° - Acéptase la renuncia presentada por el Doctor XXXX al cargo de Director de Asuntos Legales del MINISTERIO DE JUSTICIA."
+        "numero": "Decreto 181 - Art. 1",
+        "titulo": "Aceptación de renuncia",
+        "contenido": "Artículo 1° - Acéptase la renuncia presentada por el Doctor XXXX al cargo de Director de Asuntos Legales del MINISTERIO DE JUSTICIA, agradeciéndole los servicios prestados."
       },
       {
-        "numero": "2",
-        "titulo": "Agradecimiento",
-        "contenido": "Artículo 2° - Agradecer al funcionario renunciante los valiosos servicios prestados en el desempeño de su cargo."
+        "numero": "Decreto 182 - Art. 1",
+        "titulo": "Aceptación de renuncia",
+        "contenido": "Artículo 1° - Acéptase la renuncia presentada por el funcionario al cargo de Secretario Administrativo de la PROCURACIÓN GENERAL DE LA NACIÓN."
+      },
+      {
+        "numero": "Ambos - Art. 2",
+        "titulo": "Vigencia",
+        "contenido": "Artículo 2° - Comuníquese, publíquese, dése a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese."
       }
     ]
   },
   "votacion": {
-    "positivos": 189,
-    "neutrales": 467,
-    "negativos": 45
+    "positivos": 267,
+    "neutrales": 489,
+    "negativos": 123
   },
   "relacionados": [
     {
@@ -70,6 +81,11 @@
   ],
   "imagen": "/images/articulos/funcionarios.jpg",
   "fechaPublicacion": "2025-03-13T07:30:00Z",
-  "tiempoLectura": 2,
-  "tags": ["justicia", "renuncias", "funcionarios"]
+  "tiempoLectura": 5,
+  "tags": [
+    "justicia",
+    "renuncias",
+    "funcionarios",
+    "ministerio-publico"
+  ]
 }

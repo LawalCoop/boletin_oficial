@@ -12,32 +12,38 @@
     "numeroEdicion": "35.877"
   },
   "contenidoIA": {
-    "titulo": "ENARGAS emitió nuevas regulaciones para distribuidoras de gas",
-    "resumen": "El Ente Nacional Regulador del Gas publicó la Resolución 144/2025 con nuevos lineamientos para las empresas distribuidoras de gas natural. La norma actualiza los procedimientos de conexión y establece plazos máximos de atención.",
+    "titulo": "Querés que te pongan gas? Ahora tienen 30 días (no 60) para conectarte",
+    "resumen": "Si estás esperando que te instalen el gas natural en tu casa, esta noticia te interesa. El ENARGAS acaba de reducir a la mitad el plazo que tienen las distribuidoras para hacer conexiones nuevas: de 60 días a 30. También les exige contestar el teléfono en menos de un minuto (el 90% de las llamadas) y llegar en máximo 30 minutos cuando hay escape de gas. Son reglas para que las empresas de gas atiendan mejor.",
+    "contexto": "¿Por qué el Estado le puede poner reglas a Metrogas o Camuzzi? Cuando Argentina privatizó el servicio de gas en los 90, las empresas privadas recibieron una 'concesión': el derecho exclusivo a distribuir gas en una zona a cambio de cumplir ciertas condiciones. El ENARGAS es el árbitro que controla que cumplan. Si no alcanzan los estándares de servicio, puede multarlas. Las empresas no pueden simplemente ignorar las reglas: si lo hacen, arriesgan la concesión.",
     "puntosClaves": [
       {
-        "titulo": "Conexiones más rápidas",
-        "descripcion": "El plazo máximo para nuevas conexiones domiciliarias se reduce de 60 a 30 días."
+        "titulo": "Conexiones en 30 días",
+        "descripcion": "Cuando pedís que te instalen gas natural en una casa o comercio, la distribuidora tiene ahora 30 días para completar el trabajo (contados desde que presentás todo el papelerío). Antes eran 60. Si se pasan del plazo, podés reclamar."
       },
       {
-        "titulo": "Atención telefónica",
-        "descripcion": "Las distribuidoras deben atender el 90% de las llamadas en menos de 60 segundos."
+        "titulo": "Teléfono atendido en menos de un minuto",
+        "descripcion": "El 90% de las llamadas al call center de la distribuidora deben ser atendidas en menos de 60 segundos. Nada de 'su llamada es muy importante para nosotros' durante 20 minutos. Si la empresa no cumple con este estándar, enfrenta sanciones."
       },
       {
-        "titulo": "Emergencias",
-        "descripcion": "El tiempo de respuesta para emergencias de escape de gas no puede superar los 30 minutos."
+        "titulo": "30 minutos máximo para emergencias",
+        "descripcion": "Cuando alguien reporta olor a gas (posible escape), la cuadrilla de emergencia debe llegar al lugar en máximo 30 minutos. Un escape de gas es peligroso y cada minuto cuenta."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Distribuidoras de gas",
-        "icono": "building-2",
-        "descripcion": "Deben mejorar sus tiempos de atención y conexión."
+        "grupo": "Usuarios que quieren conectarse al gas",
+        "icono": "home",
+        "descripcion": "Si estás construyendo una casa o compraste una propiedad sin gas, ahora tenés un plazo concreto para esperar: 30 días desde que entregás la documentación. Si se demoran, podés reclamar ante el ENARGAS."
       },
       {
-        "grupo": "Usuarios residenciales",
-        "icono": "home",
-        "descripcion": "Conexiones más rápidas y mejor atención de emergencias."
+        "grupo": "Todos los usuarios de gas natural",
+        "icono": "users",
+        "descripcion": "La mejora en atención telefónica y tiempos de respuesta a emergencias beneficia a los millones de hogares que ya tienen gas. Si llamás por un problema, deberían atenderte más rápido."
+      },
+      {
+        "grupo": "Distribuidoras de gas",
+        "icono": "building-2",
+        "descripcion": "Metrogas, Naturgy, Camuzzi y las demás distribuidoras deben contratar más personal de atención telefónica y organizar mejor sus cuadrillas de conexión y emergencia. Implica costos, pero están obligadas."
       }
     ]
   },
@@ -71,5 +77,10 @@
   "imagen": "/images/articulos/gas.jpg",
   "fechaPublicacion": "2025-03-12T07:30:00Z",
   "tiempoLectura": 4,
-  "tags": ["enargas", "gas", "tarifas", "distribuidoras"]
+  "tags": [
+    "enargas",
+    "gas",
+    "conexiones",
+    "servicio al cliente"
+  ]
 }

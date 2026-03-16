@@ -12,32 +12,38 @@
     "numeroEdicion": "35.878"
   },
   "contenidoIA": {
-    "titulo": "El Ejecutivo rechazó un recurso administrativo por cuestiones formales",
-    "resumen": "Mediante el Decreto 184/2025, el Poder Ejecutivo resolvió rechazar un recurso jerárquico interpuesto contra una decisión administrativa previa. El rechazo se fundamentó en el incumplimiento de plazos procesales establecidos en la Ley de Procedimiento Administrativo.",
+    "titulo": "El Gobierno rechazó un reclamo administrativo: qué significa y por qué aparece en el Boletín Oficial",
+    "resumen": "Puede parecer un trámite menor, pero este tipo de decisiones afectan a personas concretas. Mediante el Decreto 184/2025, el Poder Ejecutivo rechazó un 'recurso jerárquico' —un tipo de reclamo formal— que alguien había presentado contra una decisión del Estado. El caso llegó hasta el Presidente porque la persona que reclamaba ya había agotado las instancias anteriores. El rechazo fue por 'cuestiones formales': el recurso se presentó fuera del plazo legal de 15 días hábiles. En lenguaje llano, llegó tarde. La decisión es definitiva en el ámbito administrativo: a quien reclamaba solo le queda, si quiere insistir, ir a la Justicia.",
+    "contexto": "¿Qué es un recurso jerárquico? Cuando el Estado toma una decisión que te perjudica —te niega un permiso, te rechaza un subsidio, te aplica una multa—, tenés derecho a reclamar. El sistema de recursos administrativos funciona como una escalera: primero reclamás ante quien tomó la decisión (recurso de reconsideración), y si no te dan la razón, podés subir un escalón y reclamar ante el jefe de esa persona (recurso jerárquico). Si la decisión original fue de un Ministerio, el recurso jerárquico llega hasta el Presidente, que es el jefe máximo del Poder Ejecutivo. Por eso estos rechazos se firman por Decreto y aparecen en el Boletín Oficial.",
     "puntosClaves": [
       {
-        "titulo": "Recurso rechazado",
-        "descripcion": "Se rechaza el recurso jerárquico por haber sido interpuesto fuera del plazo legal de 15 días hábiles."
+        "titulo": "Rechazado por llegar tarde, no por estar equivocado",
+        "descripcion": "El decreto dice que el rechazo es porque el recurso se presentó 'fuera del plazo legal'. En Argentina, cuando el Estado te notifica una decisión que te perjudica, tenés exactamente 15 días hábiles para presentar un recurso jerárquico. Si llegás el día 16, no importa cuánta razón tengas: el reclamo se rechaza sin siquiera analizar el fondo. Es una regla estricta que muchas veces sorprende a quienes no conocen el sistema."
       },
       {
-        "titulo": "Fundamento legal",
-        "descripcion": "El rechazo se basa en el artículo 90 del Reglamento de Procedimientos Administrativos."
+        "titulo": "¿Por qué el Boletín Oficial publica esto?",
+        "descripcion": "Todo acto que firma el Presidente debe publicarse para tener validez legal. Incluso los rechazos de recursos que parecen temas menores. La publicación cumple dos funciones: le da fecha cierta a la decisión (importante para contar plazos si alguien quiere ir a la Justicia) y garantiza transparencia sobre cómo actúa el Estado. Por eso el Boletín Oficial está lleno de estos decretos que, a primera vista, parecen incomprensibles pero reflejan la actividad cotidiana del Ejecutivo."
       },
       {
-        "titulo": "Decisión firme",
-        "descripcion": "La resolución originalmente recurrida queda firme y consentida."
+        "titulo": "El camino que queda: demandar al Estado",
+        "descripcion": "Con este rechazo, la persona que reclamaba agotó lo que se llama la 'vía administrativa'. Ya no puede seguir insistiendo dentro del Poder Ejecutivo. Si todavía cree que tiene razón, su única opción es iniciar una demanda judicial contra el Estado ante los tribunales. Esto implica contratar un abogado especializado en derecho administrativo, pagar tasas de justicia, y armarse de paciencia: las causas contra el Estado suelen durar varios años."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Recurrente",
+        "grupo": "La persona que presentó el recurso",
         "icono": "user",
-        "descripcion": "Ve rechazada su impugnación sin posibilidad de revisión administrativa."
+        "descripcion": "Es el principal afectado por esta decisión. Perdió su reclamo administrativo por un tema de plazos —no porque le hayan dicho que no tenía razón— y ahora debe decidir si vale la pena ir a la Justicia. Si dejó pasar el plazo por desconocimiento o por un error, la frustración es mayor. En los tribunales podría argumentar que el plazo era irrazonable o que hubo problemas de notificación, pero son argumentos difíciles de ganar."
       },
       {
-        "grupo": "Administración pública",
-        "icono": "landmark",
-        "descripcion": "Confirma criterio estricto en el cumplimiento de plazos procesales."
+        "grupo": "Cualquiera que tenga un reclamo pendiente contra el Estado",
+        "icono": "users",
+        "descripcion": "Casos como este son un recordatorio claro: los plazos en la administración pública son sagrados. Si recibís una notificación del Estado con una decisión que te perjudica, no la dejes para después. Tenés exactamente 15 días hábiles para presentar tu recurso. Pasado ese plazo, perdiste tu derecho a reclamar administrativamente, sin importar cuánta razón tengas. Si no sabés cómo hacerlo, buscá asesoramiento legal antes de que venza el plazo."
+      },
+      {
+        "grupo": "El Ministerio de Economía (que tomó la decisión original)",
+        "icono": "building-2",
+        "descripcion": "Para el área del Estado que había sido recurrida, este decreto significa que su decisión original quedó firme. Ya no puede ser modificada por vía administrativa. Pueden seguir adelante con lo que habían decidido —cobrar una multa, negar un permiso, o lo que fuera— con la tranquilidad de que el tema está cerrado (salvo que la persona afectada inicie una demanda judicial, lo cual no siempre ocurre)."
       }
     ]
   },
@@ -53,17 +59,27 @@
         "numero": "2",
         "titulo": "Fundamentos",
         "contenido": "Artículo 2° - El rechazo se funda en la presentación extemporánea del recurso, conforme lo establecido en el artículo 90 del Reglamento de Procedimientos Administrativos aprobado por Decreto N° 1759/72."
+      },
+      {
+        "numero": "3",
+        "titulo": "Notificación",
+        "contenido": "Artículo 3° - Hágase saber al recurrente que con el dictado del presente acto queda agotada la vía administrativa."
       }
     ]
   },
   "votacion": {
     "positivos": 156,
-    "neutrales": 523,
-    "negativos": 67
+    "neutrales": 534,
+    "negativos": 89
   },
   "relacionados": [],
   "imagen": "/images/articulos/justicia.jpg",
   "fechaPublicacion": "2025-03-13T07:00:00Z",
-  "tiempoLectura": 3,
-  "tags": ["procedimientos", "recursos", "administrativo"]
+  "tiempoLectura": 5,
+  "tags": [
+    "procedimientos",
+    "recursos",
+    "administrativo",
+    "justicia"
+  ]
 }

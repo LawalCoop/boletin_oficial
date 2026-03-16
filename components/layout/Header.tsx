@@ -3,6 +3,7 @@
 import { ScrollText, Search, Bell, Home, Bookmark, User } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { CountrySelector } from './CountrySelector';
 
 const navItems = [
   { href: '/', label: 'Inicio', icon: Home },
@@ -19,9 +20,14 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <ScrollText className="w-6 h-6 lg:w-7 lg:h-7 text-accent" />
-          <span className="font-[family-name:var(--font-lora)] text-[22px] lg:text-[26px] font-medium text-text-primary tracking-tight">
-            BoletínAI
-          </span>
+          <div className="flex flex-col">
+            <span className="font-[family-name:var(--font-lora)] text-[22px] lg:text-[26px] font-medium text-text-primary tracking-tight leading-none">
+              BoletínAI
+            </span>
+            <span className="hidden sm:block text-[10px] lg:text-[11px] text-text-muted tracking-wide">
+              El Estado, sin vueltas
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
@@ -46,6 +52,9 @@ export function Header() {
 
         {/* Right Actions */}
         <div className="flex items-center gap-2 lg:gap-3">
+          {/* Country Selector */}
+          <CountrySelector />
+
           {/* Search - visible on mobile, hidden on desktop (in nav) */}
           <button className="p-2 lg:hidden rounded-lg hover:bg-bg-surface transition-colors" aria-label="Buscar">
             <Search className="w-[22px] h-[22px] text-text-muted" />

@@ -12,41 +12,42 @@
     "numeroEdicion": "35.879"
   },
   "contenidoIA": {
-    "titulo": "La CNV modificó normas regulatorias del mercado de valores",
-    "resumen": "La Comisión Nacional de Valores publicó la Resolución General 1058/2025 que introduce cambios significativos en el marco regulatorio para operadores del mercado de valores. Las modificaciones apuntan a modernizar los requisitos de compliance, fortalecer la protección al inversor minorista y adaptar la normativa a estándares internacionales.",
+    "titulo": "Querés invertir en opciones o futuros? Ahora vas a tener que rendir un examen",
+    "resumen": "Antes de que un inversor principiante se meta en instrumentos financieros complejos —como opciones, futuros o derivados—, su broker deberá hacerle un 'test de idoneidad' para verificar que entiende los riesgos. La CNV (Comisión Nacional de Valores) acaba de endurecer las reglas para proteger a quienes invierten sin mucha experiencia. También subió el capital mínimo que deben tener los agentes de bolsa, buscando que el sistema sea más sólido.",
+    "contexto": "¿Qué es la CNV y por qué regula las inversiones? La Comisión Nacional de Valores es el organismo que supervisa todo lo que pasa en el mercado de capitales argentino: la Bolsa, los bonos, las acciones, los fondos comunes de inversión. Su rol es doble: por un lado, evitar fraudes y manipulaciones; por otro, proteger a los inversores minoristas —gente común que pone sus ahorros— de instrumentos que no entienden. Cuando alguien pierde plata con una inversión riesgosa sin haber sido advertido, la CNV investiga y puede sancionar al broker que le vendió ese producto.",
     "puntosClaves": [
       {
-        "titulo": "Nuevos requisitos de capital",
-        "descripcion": "Se incrementan los requisitos mínimos de capital para Agentes de Liquidación y Compensación (ALyCs) en un 25%."
+        "titulo": "Test obligatorio antes de operar derivados",
+        "descripcion": "Si querés invertir en opciones, futuros u otros instrumentos derivados —que pueden multiplicar ganancias pero también pérdidas—, tu broker primero tiene que verificar que entendés cómo funcionan. Es un cuestionario sobre experiencia, conocimientos y tolerancia al riesgo. Si no lo pasás, no podés operar esos instrumentos."
       },
       {
-        "titulo": "Protección al inversor",
-        "descripcion": "Se establece la obligatoriedad de test de idoneidad para inversores minoristas antes de operar con instrumentos derivados."
+        "titulo": "Brokers con más espalda financiera",
+        "descripcion": "Los ALyCs (Agentes de Liquidación y Compensación) —las empresas que ejecutan tus órdenes de compra y venta en la Bolsa— deben tener al menos $500 millones de patrimonio neto, un 25% más que antes. Esto garantiza que puedan responder si algo sale mal."
       },
       {
-        "titulo": "Compliance reforzado",
-        "descripcion": "Los agentes deberán designar un Oficial de Cumplimiento independiente con dedicación exclusiva."
+        "titulo": "Oficial de cumplimiento full time",
+        "descripcion": "Cada agente de bolsa debe tener un 'Oficial de Cumplimiento' con dedicación exclusiva. Es la persona encargada de verificar que la empresa cumpla todas las normas, evite lavado de dinero y no haga operaciones sospechosas. Antes podía ser alguien con otras funciones."
       },
       {
-        "titulo": "Plazo de adaptación",
-        "descripcion": "Los agentes tienen 180 días para adecuarse a las nuevas exigencias a partir de la publicación."
+        "titulo": "180 días para adaptarse",
+        "descripcion": "Los brokers tienen 6 meses para cumplir con las nuevas exigencias. Los que no lleguen a los requisitos de capital pueden buscar fusionarse con otros o directamente cerrar."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Agentes de bolsa",
+        "grupo": "Inversores que recién empiezan",
+        "icono": "user",
+        "descripcion": "Si querés invertir en instrumentos complejos, vas a tener que demostrar que sabés de qué se trata antes de hacerlo. Es una traba burocrática, pero también una protección contra pérdidas que podrías no estar preparado para asumir."
+      },
+      {
+        "grupo": "Brokers y agentes de bolsa",
         "icono": "briefcase",
-        "descripcion": "Deben incrementar su capital y reforzar sus estructuras de compliance."
+        "descripcion": "Deben conseguir más capital y reestructurar sus áreas de cumplimiento. Los más chicos pueden tener problemas para cumplir y quizás deban asociarse o vender a competidores más grandes."
       },
       {
-        "grupo": "Inversores minoristas",
-        "icono": "users",
-        "descripcion": "Tendrán mayor protección pero deberán completar evaluaciones antes de operar derivados."
-      },
-      {
-        "grupo": "Sociedades emisoras",
-        "icono": "building-2",
-        "descripcion": "Enfrentarán requisitos de disclosure más estrictos en sus informes."
+        "grupo": "Inversores experimentados",
+        "icono": "trending-up",
+        "descripcion": "Para quienes ya operan derivados hace tiempo, el test será un trámite rápido. Pero tendrán que hacerlo igual, probablemente la primera vez que operen después de que entre en vigencia la norma."
       }
     ]
   },
@@ -84,6 +85,12 @@
   ],
   "imagen": "/images/articulos/bolsa.jpg",
   "fechaPublicacion": "2025-03-14T06:30:00Z",
-  "tiempoLectura": 4,
-  "tags": ["cnv", "bolsa", "mercado-valores", "regulacion"]
+  "tiempoLectura": 5,
+  "tags": [
+    "cnv",
+    "bolsa",
+    "inversiones",
+    "derivados",
+    "proteccion"
+  ]
 }

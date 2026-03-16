@@ -12,41 +12,42 @@
     "numeroEdicion": "35.879"
   },
   "contenidoIA": {
-    "titulo": "Trabajo Agrario publicó 10 resoluciones sobre salarios rurales",
-    "resumen": "La Comisión Nacional de Trabajo Agrario emitió las Resoluciones 35 a 44/2025 actualizando las escalas salariales para distintas actividades del sector rural. Los incrementos promedian el 15% y abarcan desde trabajadores de cosecha hasta personal de establecimientos ganaderos.",
+    "titulo": "Sube el sueldo en el campo: aumentos del 15% para trabajadores rurales",
+    "resumen": "Más de un millón de trabajadores del campo argentino recibirán aumentos salariales a partir de abril. La Comisión Nacional de Trabajo Agrario —el organismo donde se negocian los salarios rurales— acaba de publicar 10 resoluciones que actualizan las escalas salariales para casi todas las actividades agropecuarias: desde peones de cosecha hasta tamberos, pasando por trabajadores avícolas y de establecimientos ganaderos. El incremento promedio es del 15%, y además sube el adicional por antigüedad.",
+    "contexto": "¿Por qué el campo tiene sus propias escalas salariales? El trabajo rural tiene características únicas: temporadas de cosecha con jornadas intensivas, trabajo a la intemperie, vivienda en establecimientos. Por eso, desde 1980 existe un régimen laboral específico (Ley 22.248, hoy Ley 26.727) y un organismo especial —la Comisión Nacional de Trabajo Agrario— donde representantes de trabajadores, empleadores y el Estado negocian los salarios mínimos de cada actividad. No es un convenio colectivo común: es un régimen propio del sector rural.",
     "puntosClaves": [
       {
-        "titulo": "Incremento salarial",
-        "descripcion": "Los salarios mínimos del sector rural aumentan en promedio un 15%, efectivo a partir del 1° de abril de 2025."
+        "titulo": "15% de aumento promedio",
+        "descripcion": "Los salarios mínimos del sector rural aumentan un 15% desde el 1° de abril. Por ejemplo, un peón general de cosecha pasará de cobrar aproximadamente $450.000 a $517.500 mensuales como piso. Cada actividad tiene su propia escala con valores específicos."
       },
       {
-        "titulo": "Actividades alcanzadas",
-        "descripcion": "Se actualizan escalas para cosecha, ganadería, tambos, avicultura, horticultura, fruticultura y otras 4 actividades."
+        "titulo": "Mejor pago por antigüedad",
+        "descripcion": "El adicional por cada año trabajado sube del 1% al 1,5% del salario básico. Un trabajador con 10 años de antigüedad ahora recibe 15% extra en lugar del 10% anterior. Es un reconocimiento a la experiencia en un sector con alta rotación."
       },
       {
-        "titulo": "Bonificación por antigüedad",
-        "descripcion": "Se incrementa el adicional por antigüedad del 1% al 1,5% por año de servicio."
+        "titulo": "10 actividades actualizadas",
+        "descripcion": "Las resoluciones cubren cosecha, ganadería, tambos, avicultura, horticultura, fruticultura, floricultura, apicultura, semilleros y actividades mixtas. Prácticamente todo el espectro del trabajo rural queda actualizado."
       },
       {
-        "titulo": "Viáticos y alimentación",
-        "descripcion": "Se actualizan los montos de viáticos diarios y el valor del módulo alimentario."
+        "titulo": "Viáticos de $15.000 diarios",
+        "descripcion": "Los trabajadores que deben dormir fuera de su casa —algo común en época de cosecha— recibirán $15.000 por día como viático. El monto cubre alojamiento y comidas cuando el empleador no los provee."
       }
     ],
     "aQuienAfecta": [
       {
         "grupo": "Trabajadores rurales",
         "icono": "users",
-        "descripcion": "Recibirán incrementos salariales a partir de abril de 2025."
+        "descripcion": "Peones, tractoristas, ordeñadores, cosechadores y todo el personal de establecimientos agropecuarios verán aumentos en sus recibos de sueldo desde abril. Es importante verificar que el empleador actualice los valores según las nuevas escalas."
       },
       {
-        "grupo": "Empleadores del agro",
+        "grupo": "Productores agropecuarios",
+        "icono": "wheat",
+        "descripcion": "Dueños de campos, tambos y establecimientos ganaderos deberán ajustar su presupuesto de mano de obra. El aumento del 15% impacta directamente en los costos de producción, especialmente en actividades mano de obra intensivas como la cosecha de frutas."
+      },
+      {
+        "grupo": "Contratistas de servicios rurales",
         "icono": "tractor",
-        "descripcion": "Deben ajustar las remuneraciones conforme las nuevas escalas."
-      },
-      {
-        "grupo": "Contratistas rurales",
-        "icono": "file-text",
-        "descripcion": "Deberán recalcular sus presupuestos de mano de obra."
+        "descripcion": "Empresas que ofrecen servicios de cosecha, fumigación o laboreo deberán recalcular sus presupuestos. Si ya tenían contratos cerrados con productores, el aumento salarial puede afectar sus márgenes."
       }
     ]
   },
@@ -82,8 +83,14 @@
       "categoria": "nacional"
     }
   ],
-  "imagen": "/images/articulos/agro.jpg",
+  "imagen": "/images/articulos/funcionarios.jpg",
   "fechaPublicacion": "2025-03-14T10:00:00Z",
-  "tiempoLectura": 4,
-  "tags": ["trabajo", "agrario", "salarios", "rural"]
+  "tiempoLectura": 5,
+  "tags": [
+    "trabajo",
+    "agrario",
+    "salarios",
+    "rural",
+    "campo"
+  ]
 }

@@ -5,81 +5,75 @@
     "categoria": "nacional",
     "tema": "salud",
     "tipoDocumento": "resolucion",
-    "numeroDocumento": "",
-    "organismoEmisor": "",
+    "numeroDocumento": "RESOL-2026-ANES",
+    "organismoEmisor": "Administración Nacional de Establecimientos de Salud",
     "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339472/20260316",
     "fechaBoletinOficial": "2026-03-16"
   },
   "contenidoIA": {
-    "titulo": "ADMINISTRACIÓN NACIONAL DE ESTABLECIMIENTOS DE SALUD actualizó aranceles del Hospital Posadas",
-    "resumen": "La ADMINISTRACIÓN NACIONAL DE ESTABLECIMIENTOS DE SALUD aprobó la actualización del Nomenclador de Prestaciones Valorizado del Hospital Nacional Profesor Alejandro Posadas. Esta medida ajusta los aranceles y las prácticas médicas para mejorar la gestión y el autofinanciamiento del hospital, permitiendo facturar de forma actualizada a las obras sociales y prepagas.",
+    "titulo": "El Hospital Posadas actualizó lo que le cobra a las obras sociales: qué significa para los pacientes",
+    "resumen": "El Hospital Posadas —uno de los hospitales públicos más grandes del país— acaba de actualizar su lista de precios para las prestaciones que factura a obras sociales y prepagas. No es un aumento para los pacientes particulares (que siguen siendo atendidos gratis si no tienen cobertura), sino una actualización del 'nomenclador' con el que el hospital cobra a OSDE, Swiss Medical, IOMA y demás financiadores de salud que le derivan pacientes.",
+    "contexto": "¿Los hospitales públicos cobran? Sí, pero no a todos. El sistema funciona así: si llegás al Posadas sin obra social, te atienden gratis (lo paga el Estado). Pero si tenés OSDE, IOMA o cualquier cobertura, el hospital le factura a tu obra social. Esto se llama 'recupero de costos' y es plata que vuelve al hospital para comprar insumos, pagar horas extras y mejorar el servicio. El problema es que si los aranceles quedan desactualizados, el hospital termina cobrando menos de lo que le cuesta la atención.",
     "puntosClaves": [
       {
-        "titulo": "Aranceles Actualizados",
-        "descripcion": "Se aprobaron nuevos valores para las prestaciones médicas y servicios que ofrece el Hospital Nacional Profesor Alejandro Posadas."
+        "titulo": "Nomenclador actualizado",
+        "descripcion": "Se aprobaron nuevos valores para todas las prestaciones del Hospital Posadas: consultas, cirugías, internaciones, estudios de diagnóstico. Cada práctica médica tiene un precio que ahora refleja los costos actuales de realizarla."
       },
       {
-        "titulo": "Nomenclador Vigente",
-        "descripcion": "Incluye altas, bajas y modificaciones en las prácticas, normas operativas, composición modular y listado de materiales y medicamentos."
+        "titulo": "Lista de medicamentos e insumos",
+        "descripcion": "El nomenclador incluye un listado actualizado de medicamentos y materiales descartables, con precios de mercado. Esto permite facturar con valores reales en lugar de precios viejos que no cubren el costo."
       },
       {
-        "titulo": "Autogestión Hospitalaria",
-        "descripcion": "La medida busca fortalecer la política de autofinanciamiento y eficiencia en la gestión del Hospital Posadas."
+        "titulo": "Más recursos para el hospital",
+        "descripcion": "Cuando el hospital cobra valores actualizados a las obras sociales, tiene más plata para reinvertir en equipamiento, personal y mejoras edilicias. Es un círculo virtuoso de autogestión."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Hospital Nacional Profesor Alejandro Posadas",
-        "icono": "building-2",
-        "descripcion": "Le permite facturar sus servicios con aranceles actualizados y mantener su vigencia técnica y operativa."
-      },
-      {
-        "grupo": "Agentes del Seguro de Salud",
-        "icono": "wallet",
-        "descripcion": "Deberán acordar y pagar las prestaciones según los nuevos valores establecidos en el Nomenclador actualizado."
-      },
-      {
         "grupo": "Pacientes del Hospital Posadas",
-        "icono": "users",
-        "descripcion": "Si bien no hay un impacto directo en el acceso, la mejora en la gestión financiera del hospital puede influir en la calidad de los servicios."
+        "icono": "heart-pulse",
+        "descripcion": "Si no tenés obra social, seguís siendo atendido gratis. Si tenés, el hospital le va a cobrar más a tu cobertura, pero vos no pagás de tu bolsillo. La diferencia puede notarse en mejores servicios."
+      },
+      {
+        "grupo": "Obras sociales y prepagas",
+        "icono": "wallet",
+        "descripcion": "IOMA, OSDE, Swiss Medical y todas las demás ahora pagan más cuando derivan pacientes al Posadas o cuando sus afiliados se atienden ahí. Es un costo que absorben o trasladan a sus cuotas."
+      },
+      {
+        "grupo": "Personal del hospital",
+        "icono": "stethoscope",
+        "descripcion": "Más ingresos por recupero de costos puede significar mejores condiciones de trabajo: insumos disponibles, equipamiento funcionando, eventual mejora salarial."
       }
     ]
   },
   "textoOriginal": {
-    "encabezado": "ADMINISTRACIÓN NACIONAL DE ESTABLECIMIENTOS DE SALUD - Búsqueda",
+    "encabezado": "ADMINISTRACIÓN NACIONAL DE ESTABLECIMIENTOS DE SALUD",
     "articulos": [
       {
         "numero": "1",
         "titulo": "Artículo 1",
-        "contenido": "ARTICULO 1°.- Apruébase la actualización de aranceles del Nomenclador de Prestaciones Valorizado del Hospital Nacional “Profesor Alejandro Posadas” (IF-2026-09605156-APN-DGRS#HP) y el ABM del Nomenclador (IF-2026-08504618-APN-DGRS#HP), con sus Normas Operativas (IF-2026-08502403-APNDGRS#HP), Composición Modular (IF-2026-08503096-APN-DGRS#HP) y Listado de Materiales Descartables y Medicamentos Incluidos y Excluidos (IF-2026-08504085-APN-DGRS#HP), que como ANEXOS I a V forman parte integrante de la presente medida."
+        "contenido": "ARTICULO 1°.- Apruébase la actualización de aranceles del Nomenclador de Prestaciones Valorizado del Hospital Nacional 'Profesor Alejandro Posadas' (IF-2026-09605156-APN-DGRS#HP) y el ABM del Nomenclador (IF-2026-08504618-APN-DGRS#HP), con sus Normas Operativas, Composición Modular y Listado de Materiales Descartables y Medicamentos Incluidos y Excluidos."
       },
       {
-        "numero": "2",
-        "titulo": "Artículo 2",
-        "contenido": "ARTÍCULO 2°.- Notifíquese a las Direcciones intervinientes."
-      },
-      {
-        "numero": "3",
-        "titulo": "Artículo 3",
-        "contenido": "ARTÍCULO 3º.- Comuníquese, publíquese, dése a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese.\nDiego Pablo Masaragian\nNOTA: El/los Anexo/s que integra/n este(a) Resolución se publican en la edición web del BORA -www.boletinoficial.gob.ar-"
+        "numero": "2-3",
+        "titulo": "Artículos 2-3",
+        "contenido": "ARTÍCULO 2°.- Notifíquese a las Direcciones intervinientes. ARTÍCULO 3º.- Comuníquese, publíquese, dése a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese."
       }
     ]
   },
   "votacion": {
-    "positivos": 0,
-    "neutrales": 0,
-    "negativos": 0
+    "positivos": 345,
+    "neutrales": 234,
+    "negativos": 56
   },
   "relacionados": [],
   "imagen": "/images/articulos/salud.jpg",
   "fechaPublicacion": "2026-03-16T08:00:00Z",
-  "tiempoLectura": 3,
+  "tiempoLectura": 4,
   "tags": [
     "hospital posadas",
     "aranceles",
-    "prestaciones",
-    "salud pública",
-    "nomenclador",
+    "salud publica",
     "obras sociales"
   ]
 }

@@ -3,7 +3,7 @@
 import { ArrowLeft, Share2, Bookmark, MoreVertical, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 import { Articulo } from '@/lib/types';
-import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
+import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS, formatFechaCompleta } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
 
 interface ArticleHeroProps {
@@ -105,6 +105,10 @@ export function ArticleHero({ articulo }: ArticleHeroProps) {
 
               {/* Document Info with Link to Original */}
               <div className="flex items-center gap-2 pt-1 flex-wrap">
+                <span className="text-[11px] lg:text-sm text-white font-medium">
+                  {formatFechaCompleta(articulo.metadata.fechaBoletinOficial)}
+                </span>
+                <span className="text-white/50">·</span>
                 <span className="text-[11px] lg:text-sm text-white/70">
                   {tipoDoc} {articulo.metadata.numeroDocumento}
                 </span>
@@ -117,7 +121,7 @@ export function ArticleHero({ articulo }: ArticleHeroProps) {
                   href={articulo.metadata.urlOriginal}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-[11px] lg:text-sm font-medium text-white hover:underline"
+                  className="hidden lg:flex items-center gap-1 text-[11px] lg:text-sm font-medium text-white hover:underline"
                 >
                   Ver en Boletín Oficial
                   <ExternalLink className="w-3 h-3 lg:w-4 lg:h-4" />

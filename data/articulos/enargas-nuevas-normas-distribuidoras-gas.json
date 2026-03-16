@@ -12,41 +12,42 @@
     "numeroEdicion": "35.879"
   },
   "contenidoIA": {
-    "titulo": "ENARGAS estableció nuevas normas para distribuidoras de gas",
-    "resumen": "El Ente Nacional Regulador del Gas publicó la Resolución 151/2025 con actualizaciones al marco regulatorio de las empresas distribuidoras de gas natural. La norma establece nuevos estándares de calidad de servicio, procedimientos de atención al usuario y requisitos de inversión en mantenimiento de redes.",
+    "titulo": "Más inversión y menos espera: las distribuidoras de gas tendrán nuevas reglas",
+    "resumen": "Si alguna vez tuviste que esperar semanas para que te solucionen un problema con el gas, esta noticia te importa. El ENARGAS —el ente que regula a las distribuidoras como Metrogas, Naturgy o Camuzzi— acaba de subir la vara: ahora deberán resolver reclamos en 10 días (antes eran 15) e invertir al menos el 3% de lo que facturan en mantener las redes en buen estado. Las empresas que no cumplan pueden recibir multas de hasta el 5% de su facturación mensual.",
+    "contexto": "¿Qué es el ENARGAS y por qué puede mandarles a las empresas? Cuando Argentina privatizó el servicio de gas en los 90, se creó el ENARGAS (Ente Nacional Regulador del Gas) para controlar a las empresas privadas que tomaron el servicio. Estas empresas tienen una concesión del Estado: pueden operar y cobrar tarifas, pero a cambio deben cumplir estándares de calidad. Si no los cumplen, el ENARGAS puede multarlas. Es la forma que tiene el Estado de garantizar que la privatización no signifique peor servicio.",
     "puntosClaves": [
       {
-        "titulo": "Estándares de calidad",
-        "descripcion": "Se establecen indicadores de calidad de servicio técnico y comercial con metas más exigentes que las actuales."
+        "titulo": "Reclamos más rápidos",
+        "descripcion": "Las distribuidoras tendrán 10 días hábiles para resolver tu reclamo, no 15 como antes. Si tenés una pérdida de gas, un medidor que marca mal o cualquier otro problema, la empresa tiene que solucionarlo en ese plazo o se expone a sanciones."
       },
       {
-        "titulo": "Atención al usuario",
-        "descripcion": "Las distribuidoras deberán resolver reclamos en un plazo máximo de 10 días hábiles, reduciendo el plazo actual de 15 días."
+        "titulo": "Obligadas a invertir en mantenimiento",
+        "descripcion": "Cada distribuidora debe destinar al menos el 3% de sus ingresos anuales a renovar y mantener los caños, medidores y demás infraestructura. Esto busca evitar que las empresas maximicen ganancias a costa de dejar envejecer las redes."
       },
       {
-        "titulo": "Inversiones obligatorias",
-        "descripcion": "Se fija un piso mínimo de inversión anual en mantenimiento y renovación de redes equivalente al 3% de los ingresos regulados."
+        "titulo": "Menos cortes de suministro",
+        "descripcion": "Las nuevas normas establecen que ningún usuario puede sufrir más de 2 interrupciones de servicio por año, y cada corte no puede durar más de 4 horas en promedio. Si la empresa supera estos límites, enfrenta sanciones."
       },
       {
-        "titulo": "Sanciones",
-        "descripcion": "Se actualizan las multas por incumplimiento, que podrán alcanzar hasta el 5% de la facturación mensual."
+        "titulo": "Multas que duelen",
+        "descripcion": "Las sanciones por incumplimiento pueden llegar al 5% de la facturación mensual de la distribuidora. Para empresas que facturan miles de millones, esto representa un incentivo real para cumplir."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Distribuidoras de gas",
-        "icono": "building-2",
-        "descripcion": "Deben cumplir nuevos estándares de calidad e invertir más en mantenimiento."
+        "grupo": "Usuarios de gas natural",
+        "icono": "home",
+        "descripcion": "Hogares con conexión a gas natural deberían notar mejoras en la atención: reclamos resueltos más rápido, menos cortes imprevistos, y redes mejor mantenidas. Si tenés problemas con tu distribuidora, ahora tenés más herramientas para reclamar."
       },
       {
-        "grupo": "Usuarios residenciales",
-        "icono": "home",
-        "descripcion": "Tendrán mejor atención y tiempos de respuesta más rápidos ante reclamos."
+        "grupo": "Distribuidoras de gas",
+        "icono": "building-2",
+        "descripcion": "Metrogas, Naturgy, Camuzzi, Litoral Gas y las demás distribuidoras deben adaptarse a reglas más estrictas. Implica más inversión y mejor gestión de reclamos, pero también mayor riesgo de multas si no cumplen."
       },
       {
         "grupo": "Industrias",
         "icono": "factory",
-        "descripcion": "Se beneficiarán de una mayor confiabilidad en el suministro de gas."
+        "descripcion": "Las fábricas que usan gas natural como insumo se benefician de un suministro más confiable. Menos cortes imprevistos significan menos paradas de producción y menores pérdidas económicas."
       }
     ]
   },
@@ -89,6 +90,12 @@
   ],
   "imagen": "/images/articulos/gas.jpg",
   "fechaPublicacion": "2025-03-14T08:00:00Z",
-  "tiempoLectura": 4,
-  "tags": ["enargas", "gas", "distribuidoras", "regulacion"]
+  "tiempoLectura": 5,
+  "tags": [
+    "enargas",
+    "gas",
+    "distribuidoras",
+    "regulacion",
+    "usuarios"
+  ]
 }

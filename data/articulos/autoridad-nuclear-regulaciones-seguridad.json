@@ -12,41 +12,42 @@
     "numeroEdicion": "35.879"
   },
   "contenidoIA": {
-    "titulo": "La Autoridad Regulatoria Nuclear actualizó normas de seguridad",
-    "resumen": "La Autoridad Regulatoria Nuclear publicó las Resoluciones 71 y 75/2025 con actualizaciones a los protocolos de seguridad nuclear y radiológica. Las nuevas normas incorporan estándares internacionales del OIEA y refuerzan los requisitos para instalaciones que operan con material radiactivo.",
+    "titulo": "Más inspecciones y capacitación obligatoria: así suben los estándares de seguridad nuclear",
+    "resumen": "Las centrales nucleares argentinas —Atucha I, Atucha II y Embalse— tendrán inspecciones cada seis meses en lugar de una vez al año. La Autoridad Regulatoria Nuclear acaba de subir la vara con nuevos estándares de seguridad que incluyen más horas de capacitación para el personal y planes de emergencia actualizados. Las normas adoptan las últimas recomendaciones del Organismo Internacional de Energía Atómica (OIEA) y también alcanzan a hospitales y laboratorios que trabajan con material radiactivo.",
+    "contexto": "¿Por qué Argentina tiene una Autoridad Regulatoria Nuclear? La energía nuclear y los materiales radiactivos son peligrosos si no se manejan correctamente. Por eso existe la ARN (Autoridad Regulatoria Nuclear), un organismo independiente que vigila todo lo relacionado con actividad nuclear en el país: desde las centrales que generan electricidad hasta los equipos de radioterapia en hospitales. Argentina es uno de los pocos países latinoamericanos con capacidad nuclear propia, y la ARN garantiza que esa tecnología se use de forma segura. Opera bajo estándares internacionales del OIEA, el organismo de Naciones Unidas que promueve el uso pacífico y seguro de la energía atómica.",
     "puntosClaves": [
       {
-        "titulo": "Estándares OIEA",
-        "descripcion": "Se adoptan las últimas guías de seguridad del Organismo Internacional de Energía Atómica publicadas en 2024."
+        "titulo": "Inspecciones cada 6 meses",
+        "descripcion": "Las instalaciones nucleares de 'Categoría I' —básicamente, las centrales que generan electricidad— serán inspeccionadas dos veces al año en lugar de una. Esto permite detectar problemas más rápido y reducir riesgos. Las centrales de Atucha y Embalse son las principales afectadas."
       },
       {
-        "titulo": "Inspecciones más frecuentes",
-        "descripcion": "Se incrementa la frecuencia de inspecciones a instalaciones nucleares de categoría I de anual a semestral."
+        "titulo": "40 horas de capacitación anual",
+        "descripcion": "Todo el personal que opere instalaciones nucleares o radiactivas debe completar 40 horas de capacitación en seguridad por año. Incluye simulacros de emergencia, actualización en protocolos y manejo de situaciones de riesgo. Si no lo cumplen, no pueden trabajar."
       },
       {
-        "titulo": "Capacitación obligatoria",
-        "descripcion": "El personal de instalaciones nucleares deberá completar 40 horas anuales de capacitación en seguridad."
+        "titulo": "Planes de emergencia antes de julio",
+        "descripcion": "Todas las instalaciones —centrales, hospitales con medicina nuclear, laboratorios— tienen hasta el 1° de julio para actualizar sus planes de emergencia radiológica. Deben contemplar desde fugas menores hasta escenarios más graves, con procedimientos claros de evacuación."
       },
       {
-        "titulo": "Planes de emergencia",
-        "descripcion": "Todas las instalaciones deben actualizar sus planes de emergencia radiológica antes del 1° de julio de 2025."
+        "titulo": "Estándares OIEA 2024",
+        "descripcion": "Argentina adopta las últimas guías de seguridad publicadas por el Organismo Internacional de Energía Atómica. Esto asegura que nuestras normas estén alineadas con las mejores prácticas mundiales y facilita la cooperación internacional."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Centrales nucleares",
+        "grupo": "Centrales nucleares argentinas",
         "icono": "zap",
-        "descripcion": "Deben adaptar sus procedimientos a los nuevos estándares de seguridad."
+        "descripcion": "Nucleoeléctrica Argentina, la empresa que opera Atucha I, Atucha II y Embalse, debe adaptarse a inspecciones más frecuentes y asegurar que su personal cumpla las horas de capacitación. Implica mayor inversión en seguridad y entrenamiento."
       },
       {
-        "grupo": "Hospitales con medicina nuclear",
+        "grupo": "Hospitales con servicios de medicina nuclear",
         "icono": "heart-pulse",
-        "descripcion": "Actualizarán protocolos de manejo de material radiactivo."
+        "descripcion": "Los servicios de radioterapia y diagnóstico por imágenes que usan material radiactivo —como tomógrafos PET— deben actualizar sus protocolos. Afecta a decenas de hospitales públicos y privados en todo el país."
       },
       {
-        "grupo": "Institutos de investigación",
+        "grupo": "Laboratorios e institutos de investigación",
         "icono": "flask-conical",
-        "descripcion": "Deberán cumplir nuevos requisitos de capacitación y documentación."
+        "descripcion": "El CNEA (Comisión Nacional de Energía Atómica), universidades y centros de investigación que trabajan con materiales radiactivos enfrentan nuevos requisitos de documentación y capacitación para su personal."
       }
     ]
   },
@@ -76,7 +77,13 @@
     "negativos": 23
   },
   "relacionados": [],
+  "imagen": "/images/articulos/energia.jpg",
   "fechaPublicacion": "2025-03-14T08:30:00Z",
-  "tiempoLectura": 4,
-  "tags": ["nuclear", "seguridad", "regulacion"]
+  "tiempoLectura": 5,
+  "tags": [
+    "nuclear",
+    "seguridad",
+    "centrales",
+    "OIEA"
+  ]
 }

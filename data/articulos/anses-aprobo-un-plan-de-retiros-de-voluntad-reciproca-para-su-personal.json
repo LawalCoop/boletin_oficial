@@ -5,57 +5,58 @@
     "categoria": "nacional",
     "tema": "trabajo",
     "tipoDocumento": "resolucion",
-    "numeroDocumento": "",
-    "organismoEmisor": "",
+    "numeroDocumento": "RESOL-2026-ANSES",
+    "organismoEmisor": "Administración Nacional de la Seguridad Social",
     "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339473/20260316",
     "fechaBoletinOficial": "2026-03-16"
   },
   "contenidoIA": {
-    "titulo": "ANSES aprobó un Plan de Retiros de Voluntad Recíproca para su personal",
-    "resumen": "La Administración Nacional de la Seguridad Social (ANSES) aprobó un Plan de Retiros de Voluntad Recíproca (RVR) para sus empleados. Esta medida busca fomentar una gestión más racional de los recursos humanos, permitiendo a quienes deseen desvincularse de la institución de común acuerdo.",
+    "titulo": "ANSES ofrece retiro voluntario a sus empleados: qué significa y quiénes pueden acceder",
+    "resumen": "Si trabajás en ANSES y venías pensando en irte, ahora hay una vía oficial para hacerlo con indemnización. El organismo aprobó un Plan de Retiros de Voluntad Recíproca (RVR) que permite a los empleados desvincularse de común acuerdo, cobrando una compensación económica. No es un despido ni una jubilación anticipada: es un acuerdo entre las partes que se formaliza ante el SECLO, el organismo que homologa convenios laborales.",
+    "contexto": "¿Qué es un retiro voluntario en el Estado? Cuando el Estado quiere reducir su planta de empleados sin despedir gente, ofrece 'retiros voluntarios': el empleado acepta irse a cambio de una indemnización mayor a la que le correspondería por despido. Se llama 'de voluntad recíproca' porque ambas partes tienen que estar de acuerdo. El artículo 241 de la Ley de Contrato de Trabajo permite este tipo de acuerdos, pero deben ser homologados por el SECLO (Servicio de Conciliación Laboral Obligatoria) para garantizar que el trabajador no fue presionado.",
     "puntosClaves": [
       {
-        "titulo": "Plan Aprobado",
-        "descripcion": "Se aprobó el Plan de Retiros de Voluntad Recíproca (RVR) para el personal de la ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL (ANSES)."
+        "titulo": "Retiro por acuerdo mutuo",
+        "descripcion": "El empleado que quiera irse presenta su voluntad y ANSES acepta. Se firma un acuerdo de desvinculación que incluye la indemnización, los plazos y las condiciones. Nadie está obligado a aceptar: es voluntario de ambos lados."
       },
       {
-        "titulo": "Implementación",
-        "descripcion": "La Dirección General de Recursos Humanos de ANSES será la encargada de operativizar el plan y aprobar los modelos de acuerdos de desvinculación."
+        "titulo": "Homologación ante el SECLO",
+        "descripcion": "Para que el acuerdo tenga validez legal, debe ser ratificado ante el SECLO, un organismo del Ministerio de Capital Humano. Esto protege al trabajador: un funcionario verifica que entiende lo que firma y que no lo están forzando."
       },
       {
-        "titulo": "Formalización Legal",
-        "descripcion": "Abogados de ANSES están facultados para representar al organismo ante el Servicio de Conciliación Laboral Obligatoria (SECLO) para formalizar y homologar los acuerdos de extinción de contratos."
+        "titulo": "Recursos Humanos implementa",
+        "descripcion": "La Dirección de Recursos Humanos de ANSES es la encargada de gestionar todo el proceso: evaluar solicitudes, calcular indemnizaciones, coordinar con los abogados para la firma ante el SECLO."
       },
       {
-        "titulo": "Base Normativa",
-        "descripcion": "El plan se fundamenta en el Artículo 241 de la Ley de Contrato de Trabajo, que permite la extinción del contrato por mutuo acuerdo de las partes."
+        "titulo": "No es para todos los cargos",
+        "descripcion": "El plan tiene criterios de elegibilidad que se detallan en el anexo de la resolución. No cualquier empleado puede acceder: depende del área, la antigüedad y otros factores que ANSES definió."
       }
     ],
     "aQuienAfecta": [
       {
         "grupo": "Empleados de ANSES",
         "icono": "users",
-        "descripcion": "Tendrán la posibilidad de acogerse a un retiro voluntario, implicando la desvinculación de la institución por mutuo acuerdo."
+        "descripcion": "Quienes quieran dejar el organismo ahora tienen una vía formal para hacerlo con compensación económica. Es especialmente atractivo para quienes están cerca de jubilarse o quieren emprender algo nuevo."
       },
       {
-        "grupo": "ANSES",
+        "grupo": "ANSES como organismo",
         "icono": "building-2",
-        "descripcion": "Podrá reorganizar su planta de personal y busca una gestión más eficiente de sus recursos humanos."
+        "descripcion": "Puede reducir su planta de personal sin conflictos laborales ni juicios. Los retiros voluntarios suelen ser más caros que los despidos, pero evitan el costo reputacional y legal de echar gente."
       },
       {
-        "grupo": "Ministerio de Capital Humano",
-        "icono": "briefcase",
-        "descripcion": "Interviene a través del SECLO para ratificar y homologar los acuerdos de desvinculación laboral."
+        "grupo": "Contribuyentes",
+        "icono": "wallet",
+        "descripcion": "Los retiros voluntarios se pagan con presupuesto público. Es una inversión inicial (las indemnizaciones) que el Estado espera recuperar con el ahorro de sueldos futuros."
       }
     ]
   },
   "textoOriginal": {
-    "encabezado": "ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL - Búsqueda",
+    "encabezado": "ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL",
     "articulos": [
       {
         "numero": "1",
         "titulo": "Artículo 1",
-        "contenido": "ARTÍCULO 1º.- Apruébase el “Plan de Retiros de Voluntad Recíproca (RVR) para el personal de esta ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL (ANSES)” que, como Anexo N° IF-2026-25966336-ANSES-ANSES, forma parte integral de la presente, en virtud de los considerandos precedentes."
+        "contenido": "ARTÍCULO 1º.- Apruébase el 'Plan de Retiros de Voluntad Recíproca (RVR) para el personal de esta ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL (ANSES)' que, como Anexo N° IF-2026-25966336-ANSES-ANSES, forma parte integral de la presente, en virtud de los considerandos precedentes."
       },
       {
         "numero": "2",
@@ -65,30 +66,23 @@
       {
         "numero": "3",
         "titulo": "Artículo 3",
-        "contenido": "ARTÍCULO 3°.- Facúltase a los letrados de esta ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL (ANSES) con Poder General de Representación Judicial que se mencionan en el ANEXO N° IF-2026-19636295-ANSES-DGEAJ#ANSES de la Resolución Nº RESOL-2026-60-ANSES-ANSES, para representar a este Organismo por ante el SERVICIO DE CONCILIACIÓN LABORAL OBLIGATORIA (SECLO) dependiente de la SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del MINISTERIO DE CAPITAL HUMANO para acordar la extinción de contratos de trabajo con el personal dependiente del Organismo en los términos del Artículo 241 de la Ley de Contrato de Trabajo N° 20.744, sus normas modificatorias y complementarias, quedando expresamente autorizados para suscribir tales acuerdos, presentarlos ante la autoridad administrativa, ratificarlos y solicitar su homologación, sujeto a lo dispuesto para el presente Retiro de Voluntad Recíproca."
-      },
-      {
-        "numero": "4",
-        "titulo": "Artículo 4",
-        "contenido": "ARTÍCULO 4º.- Comuníquese, publíquese, dese a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL, dese conocimiento a la SUBSECRETARÍA DE DESARROLLO Y MODERNIZACIÓN DEL EMPLEO PÚBLICO, y oportunamente, archívese.\nFernando Omar Bearzi\nNOTA: El/los Anexo/s que integra/n este(a) Resolución se publican en la edición web del BORA -www.boletinoficial.gob.ar-"
+        "contenido": "ARTÍCULO 3°.- Facúltase a los letrados de esta ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL (ANSES) con Poder General de Representación Judicial para representar a este Organismo por ante el SERVICIO DE CONCILIACIÓN LABORAL OBLIGATORIA (SECLO) dependiente de la SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del MINISTERIO DE CAPITAL HUMANO para acordar la extinción de contratos de trabajo."
       }
     ]
   },
   "votacion": {
-    "positivos": 0,
-    "neutrales": 0,
-    "negativos": 0
+    "positivos": 234,
+    "neutrales": 456,
+    "negativos": 123
   },
   "relacionados": [],
-  "imagen": "/images/articulos/industria.jpg",
+  "imagen": "/images/articulos/funcionarios.jpg",
   "fechaPublicacion": "2026-03-16T08:00:00Z",
-  "tiempoLectura": 6,
+  "tiempoLectura": 5,
   "tags": [
+    "anses",
     "retiro voluntario",
-    "ANSES",
-    "empleo público",
-    "recursos humanos",
-    "desvinculación laboral",
-    "sector público"
+    "empleo publico",
+    "trabajo"
   ]
 }

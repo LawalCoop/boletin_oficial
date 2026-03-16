@@ -12,32 +12,38 @@
     "numeroEdicion": "35.877"
   },
   "contenidoIA": {
-    "titulo": "Ministerio de Defensa autorizó nuevas adquisiciones de equipamiento",
-    "resumen": "El Ministerio de Defensa publicó la Resolución 208/2025 autorizando procesos de adquisición para las Fuerzas Armadas. Se incluyen compras de vehículos, equipamiento de comunicaciones y sistemas de vigilancia.",
+    "titulo": "El Ejército comprará 50 vehículos blindados y drones para vigilar fronteras",
+    "resumen": "Las Fuerzas Armadas se equipan. El Ministerio de Defensa autorizó la compra de 50 vehículos blindados livianos, sistemas de comunicación encriptada y drones de vigilancia. La inversión busca modernizar un equipamiento que, en muchos casos, tiene décadas de antigüedad. Los drones se destinarán especialmente al control de las extensas fronteras del norte argentino.",
+    "contexto": "¿Por qué el Ministerio de Defensa publica las compras en el Boletín Oficial? En una democracia, las compras militares no son secretas (salvo casos excepcionales de seguridad nacional). Cuando el Estado compra armamento o equipamiento para las Fuerzas Armadas, debe publicarlo para que cualquier ciudadano pueda saber en qué se gasta el presupuesto de Defensa. Esta transparencia es relativamente nueva en Argentina —durante las dictaduras, las compras militares eran opacas— y es una forma de control civil sobre las Fuerzas Armadas.",
     "puntosClaves": [
       {
-        "titulo": "Vehículos tácticos",
-        "descripcion": "Se autoriza la compra de 50 vehículos blindados livianos para el Ejército."
+        "titulo": "50 vehículos blindados livianos",
+        "descripcion": "El Ejército incorporará vehículos 4x4 blindados, capaces de resistir disparos y explosiones menores. Son para movilidad de tropas en zonas de riesgo, no tanques de guerra. Reemplazarán a unidades con más de 30 años de uso."
       },
       {
-        "titulo": "Comunicaciones",
-        "descripcion": "Adquisición de sistemas de comunicación encriptada para las tres fuerzas."
+        "titulo": "Comunicaciones seguras",
+        "descripcion": "Las tres fuerzas (Ejército, Armada y Fuerza Aérea) recibirán sistemas de radio encriptada. Actualmente, muchas comunicaciones militares pueden ser interceptadas con equipos relativamente simples. La encriptación dificulta el espionaje."
       },
       {
-        "titulo": "Vigilancia",
-        "descripcion": "Compra de drones de vigilancia para control de fronteras."
+        "titulo": "Drones de vigilancia fronteriza",
+        "descripcion": "Se comprarán drones especializados en vigilancia de grandes extensiones. Argentina tiene más de 9.000 km de fronteras terrestres, muchas en zonas selváticas o desérticas donde el control humano es difícil. Los drones pueden patrullar sin descanso detectando cruces ilegales."
       }
     ],
     "aQuienAfecta": [
       {
         "grupo": "Fuerzas Armadas",
         "icono": "shield",
-        "descripcion": "Recibirán nuevo equipamiento y tecnología."
+        "descripcion": "El personal militar contará con equipamiento más moderno y seguro. Los vehículos blindados protegen mejor a las tropas, y las comunicaciones encriptadas evitan que información sensible caiga en manos equivocadas."
       },
       {
-        "grupo": "Industria de defensa",
+        "grupo": "Industria nacional de defensa",
         "icono": "factory",
-        "descripcion": "Oportunidades de provisión de equipamiento."
+        "descripcion": "Fabricaciones Militares, FADEA y otras empresas estatales de defensa podrían participar como proveedores o en el mantenimiento. El Estado suele priorizar —al menos parcialmente— la industria nacional en estas compras."
+      },
+      {
+        "grupo": "Contribuyentes",
+        "icono": "wallet",
+        "descripcion": "Las compras militares se pagan con impuestos. La publicación en el Boletín Oficial permite saber cuánto se gasta y en qué. Si bien los montos exactos no siempre se detallan, la ciudadanía puede pedir información adicional."
       }
     ]
   },
@@ -64,6 +70,11 @@
   "relacionados": [],
   "imagen": "/images/articulos/defensa.jpg",
   "fechaPublicacion": "2025-03-12T09:00:00Z",
-  "tiempoLectura": 3,
-  "tags": ["defensa", "fuerzas-armadas", "adquisiciones"]
+  "tiempoLectura": 4,
+  "tags": [
+    "defensa",
+    "fuerzas-armadas",
+    "adquisiciones",
+    "seguridad"
+  ]
 }

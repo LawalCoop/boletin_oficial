@@ -12,41 +12,42 @@
     "numeroEdicion": "35.877"
   },
   "contenidoIA": {
-    "titulo": "INCAA estableció nuevos lineamientos para producción audiovisual",
-    "resumen": "El Instituto Nacional de Cine y Artes Audiovisuales publicó la Resolución 137/2025 definiendo criterios para la producción y fomento del cine nacional. Se actualizan los montos de subsidios y se crean nuevas líneas de apoyo para contenidos digitales.",
+    "titulo": "El INCAA apuesta por las series y el interior: más plata para producir cine argentino",
+    "resumen": "Hacer cine en Argentina va a ser un poco más fácil —o al menos más financiado—. El INCAA acaba de aumentar un 40% los subsidios para largometrajes y, por primera vez, crea una línea específica para series destinadas a Netflix, Amazon y otras plataformas de streaming. Pero la novedad más importante para los que filman lejos de Buenos Aires: el 30% de los fondos queda reservado para producciones del interior del país.",
+    "contexto": "¿Qué es el INCAA y de dónde sale la plata para el cine argentino? El Instituto Nacional de Cine y Artes Audiovisuales existe desde 1957 y es el principal financiador del cine nacional. ¿De dónde saca la plata? Del Fondo de Fomento Cinematográfico, que se nutre con un porcentaje de cada entrada de cine vendida en el país, más un impuesto a la publicidad en TV. Es decir: cuando vas al cine a ver una película de Hollywood, parte de tu entrada financia películas argentinas. Este sistema permitió la existencia del cine nacional tal como lo conocemos.",
     "puntosClaves": [
       {
-        "titulo": "Aumento de subsidios",
-        "descripcion": "Los subsidios para largometrajes nacionales aumentan un 40% respecto a los valores de 2024."
+        "titulo": "40% más de subsidios para películas",
+        "descripcion": "Los montos que el INCAA aporta para producir largometrajes aumentan un 40% respecto a 2024. Una película promedio que antes recibía $50 millones ahora puede acceder a $70 millones. Es un alivio frente a la inflación, aunque productores señalan que los costos subieron más del 40%."
       },
       {
-        "titulo": "Contenido digital",
-        "descripcion": "Se crea una línea específica de fomento para series y contenidos destinados a plataformas streaming."
+        "titulo": "Nueva línea para series de streaming",
+        "descripcion": "Por primera vez, el INCAA financia series pensadas para plataformas digitales. Hasta ahora, el fomento era solo para cine y TV abierta. Ahora, una productora puede pedir subsidio para una serie de 8 capítulos que vaya directo a Netflix o Flow, por ejemplo."
       },
       {
-        "titulo": "Coproducción internacional",
-        "descripcion": "Se flexibilizan los requisitos para acceder a beneficios en coproducciones con otros países."
+        "titulo": "30% reservado para el interior",
+        "descripcion": "Tres de cada diez pesos del fondo de fomento deben ir a producciones filmadas fuera del Área Metropolitana de Buenos Aires. Es un cupo para que el cine de Córdoba, Mendoza, el NEA o la Patagonia tenga más oportunidades de financiamiento."
       },
       {
-        "titulo": "Diversidad regional",
-        "descripcion": "Se establece un cupo del 30% de los fondos para producciones realizadas fuera de AMBA."
+        "titulo": "Coproducciones más fáciles",
+        "descripcion": "Se flexibilizan las reglas para acceder a beneficios cuando se coproduce con otros países. Ahora alcanza con que el 20% del equipo sea argentino (antes era 30%), lo que facilita asociarse con productoras de España, Brasil o Francia."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Productoras de cine",
+        "grupo": "Productoras de cine y series",
         "icono": "film",
-        "descripcion": "Acceso a mayores subsidios y nuevas líneas de financiamiento."
+        "descripcion": "Acceso a más fondos y nuevas líneas de financiamiento. Las productoras ya establecidas podrán sostener más proyectos simultáneos, y las nuevas tendrán más chances de acceder al sistema."
       },
       {
-        "grupo": "Creadores de contenido",
+        "grupo": "Creadores de contenido audiovisual",
         "icono": "video",
-        "descripcion": "Nueva línea de apoyo para producción de series digitales."
+        "descripcion": "Directores, guionistas y creativos que venían pensando en series para streaming ahora tienen una vía de financiamiento oficial. Pueden presentar proyectos al INCAA en lugar de depender solo de las plataformas."
       },
       {
-        "grupo": "Productores regionales",
+        "grupo": "Cineastas del interior",
         "icono": "map-pin",
-        "descripcion": "Cupo garantizado de fondos para producciones del interior."
+        "descripcion": "El cupo del 30% es una oportunidad concreta. Productoras de Rosario, Mendoza, Bariloche o cualquier ciudad fuera del AMBA compiten entre sí por esa porción reservada, en lugar de competir con el presupuesto de Buenos Aires."
       }
     ]
   },
@@ -73,6 +74,12 @@
   "relacionados": [],
   "imagen": "/images/articulos/cine.jpg",
   "fechaPublicacion": "2025-03-12T08:00:00Z",
-  "tiempoLectura": 3,
-  "tags": ["incaa", "cine", "cultura", "audiovisual"]
+  "tiempoLectura": 5,
+  "tags": [
+    "incaa",
+    "cine",
+    "cultura",
+    "series",
+    "streaming"
+  ]
 }

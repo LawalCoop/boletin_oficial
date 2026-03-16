@@ -12,32 +12,38 @@
     "numeroEdicion": "35.876"
   },
   "contenidoIA": {
-    "titulo": "Ministerio de Capital Humano oficializó nuevas designaciones",
-    "resumen": "El Ministerio de Capital Humano publicó la Resolución 124/2025 formalizando designaciones de funcionarios en distintas áreas del organismo. Se nombran nuevos directores en las subsecretarías de Empleo y Formación Profesional.",
+    "titulo": "Nuevos directores en el Ministerio de Capital Humano: quiénes manejarán el empleo y la capacitación",
+    "resumen": "El Ministerio de Capital Humano tiene nuevas caras en puestos clave. Se designaron un nuevo Director Nacional de Empleo y una Directora de Formación Profesional, más cuatro coordinadores regionales en Córdoba, Santa Fe, Mendoza y Tucumán. Son los funcionarios que diseñarán y ejecutarán las políticas de empleo y capacitación laboral en los próximos meses.",
+    "contexto": "¿Qué hace el Ministerio de Capital Humano? Es el superministerio que fusionó las antiguas carteras de Trabajo, Desarrollo Social y Educación. La Dirección Nacional de Empleo maneja programas como el Potenciar Trabajo, subsidios al empleo registrado y políticas para reducir el desempleo. La Dirección de Formación Profesional coordina cursos de capacitación para que la gente aprenda oficios y mejore sus posibilidades de conseguir trabajo. Que cambien los directores puede significar cambios de rumbo en estas políticas.",
     "puntosClaves": [
       {
-        "titulo": "Director de Empleo",
-        "descripcion": "Se designa nuevo Director Nacional de Empleo con funciones ejecutivas nivel I."
+        "titulo": "Nuevo Director de Empleo",
+        "descripcion": "El Licenciado Juan Carlos Pérez asume como Director Nacional de Empleo, cargo que supervisa programas de inserción laboral, subsidios a empresas que contratan y políticas de empleo juvenil. Es un puesto con mucha incidencia en la vida de miles de beneficiarios."
       },
       {
-        "titulo": "Formación Profesional",
-        "descripcion": "Nueva Directora de Formación Profesional y Capacitación Laboral."
+        "titulo": "Nueva Directora de Formación",
+        "descripcion": "María Laura González fue designada al frente de Formación Profesional y Capacitación Laboral. Su área maneja cursos de oficios, capacitaciones en conjunto con empresas y certificación de competencias laborales."
       },
       {
-        "titulo": "Coordinaciones",
-        "descripcion": "Se cubren 4 coordinaciones regionales en las provincias de Córdoba, Santa Fe, Mendoza y Tucumán."
+        "titulo": "4 coordinadores regionales",
+        "descripcion": "Se designaron coordinadores en Córdoba, Santa Fe, Mendoza y Tucumán. Son los ojos y manos del ministerio en el interior: gestionan programas localmente y articulan con gobiernos provinciales y municipales."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Personal del ministerio",
-        "icono": "users",
-        "descripcion": "Nueva estructura de conducción en áreas clave."
+        "grupo": "Beneficiarios de programas de empleo",
+        "icono": "user-check",
+        "descripcion": "Quienes cobran el Potenciar Trabajo o participan de programas de empleo pueden ver cambios en las condiciones, requisitos o funcionamiento según las decisiones de la nueva conducción."
       },
       {
-        "grupo": "Beneficiarios de programas",
-        "icono": "user-check",
-        "descripcion": "Continuidad de políticas de empleo y formación."
+        "grupo": "Personas que buscan capacitarse",
+        "icono": "graduation-cap",
+        "descripcion": "La oferta de cursos de formación profesional —electricidad, programación, gastronomía— depende de las prioridades que fije la nueva directora. Puede haber cambios en qué se enseña y dónde."
+      },
+      {
+        "grupo": "Personal del ministerio",
+        "icono": "users",
+        "descripcion": "Los equipos que trabajan en empleo y formación tienen nuevos jefes. Los cambios de conducción siempre implican ajustes en formas de trabajo y prioridades."
       }
     ]
   },
@@ -62,7 +68,13 @@
     "negativos": 89
   },
   "relacionados": [],
+  "imagen": "/images/articulos/funcionarios.jpg",
   "fechaPublicacion": "2025-03-11T07:30:00Z",
-  "tiempoLectura": 2,
-  "tags": ["capital-humano", "designaciones", "funcionarios"]
+  "tiempoLectura": 4,
+  "tags": [
+    "capital humano",
+    "designaciones",
+    "empleo",
+    "formacion profesional"
+  ]
 }

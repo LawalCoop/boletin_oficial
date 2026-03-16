@@ -6,7 +6,10 @@ import { NoticiasDia, Categoria } from '@/lib/types';
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
-    const fecha = searchParams.get('fecha') || new Date().toISOString().split('T')[0];
+    // Get today's date in local timezone (not UTC)
+    const now = new Date();
+    const todayLocal = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+    const fecha = searchParams.get('fecha') || todayLocal;
     const categoriaParam = searchParams.get('categoria');
 
     const filePath = path.join(process.cwd(), 'data', 'noticias', `${fecha}.json`);

@@ -3,7 +3,7 @@
   "slug": "aduana-formosa-operativo-control-fronterizo",
   "metadata": {
     "categoria": "nacional",
-    "tema": "comercio-exterior",
+    "tema": "comercio",
     "tipoDocumento": "disposicion",
     "numeroDocumento": "24/2025",
     "organismoEmisor": "AFIP - Aduana Formosa",
@@ -12,41 +12,47 @@
     "numeroEdicion": "35.878"
   },
   "contenidoIA": {
-    "titulo": "Aduana Formosa intensificó controles en zona de frontera",
-    "resumen": "La Disposición 24/2025 de AFIP-Aduana Formosa estableció nuevos procedimientos para el control aduanero en la zona fronteriza con Paraguay. Se refuerzan las inspecciones de mercaderías y se implementan tecnologías de detección más avanzadas.",
+    "titulo": "La Aduana refuerza controles en la frontera con Paraguay: más personal, más tecnología, las 24 horas",
+    "resumen": "La frontera entre Formosa y Paraguay es una de las más activas del país, y ahora tendrá ojos más atentos. La Disposición 24/2025 de la Aduana de Formosa lanza el 'Operativo Control Frontera Norte', un plan que suma 50% más de personal a los controles, incorpora escáneres de última generación para revisar cargas sin abrirlas, y extiende la vigilancia a las 24 horas del día. El objetivo declarado: combatir el contrabando, tanto el de mercaderías comunes (electrónicos, ropa, cigarrillos) como el más preocupante de sustancias ilegales. Para los importadores y transportistas legales, el cambio significa más tiempo de espera en los cruces; para el comercio ilegal, la vida se pone más difícil.",
+    "contexto": "¿Qué es una Disposición y por qué la firma la Aduana de Formosa? En el sistema normativo argentino, las Disposiciones son normas que emiten los organismos descentralizados del Estado —entes que tienen cierta autonomía, como AFIP, ANSES o el SENASA—. Dentro de AFIP, cada Aduana regional (hay unas 50 en todo el país) puede emitir disposiciones para su jurisdicción. Formosa, por su extensa frontera fluvial y terrestre con Paraguay, es una de las aduanas más estratégicas. Esta Disposición solo rige para esa zona, no para todo el país.",
     "puntosClaves": [
       {
-        "titulo": "Control intensificado",
-        "descripcion": "Se incrementa en un 50% el personal de control en los pasos fronterizos de la provincia."
+        "titulo": "50% más de agentes en la frontera",
+        "descripcion": "El dato más concreto del operativo: se incrementa en un 50% la cantidad de personal dedicado a inspeccionar mercaderías en los pasos fronterizos de Formosa. Esto incluye tanto a los agentes de Aduana (que revisan documentación y cargas) como a personal de apoyo. En la práctica, significa que habrá más ojos revisando cada camión, cada auto y cada bulto que cruce la frontera. Para los que cruzan legalmente, esto puede implicar filas más lentas; para los que intentan pasar algo ilegalmente, es más difícil escapar a la revisión."
       },
       {
-        "titulo": "Nueva tecnología",
-        "descripcion": "Se incorporan escáneres de última generación para inspección no intrusiva de cargas."
+        "titulo": "Escáneres que ven a través de las cargas",
+        "descripcion": "Se incorporan escáneres de 'inspección no intrusiva' —equipos de rayos X de gran tamaño capaces de revisar un camión entero sin abrirlo—. Estos aparatos permiten detectar cargas ocultas, dobles fondos en vehículos, y mercadería que no coincide con lo declarado, todo sin tener que descargar los camiones. Es tecnología que ya se usa en puertos como Buenos Aires, pero que ahora llega a los pasos terrestres del norte. Para los contrabandistas, es un problema serio: esconder mercadería se vuelve mucho más complicado."
       },
       {
-        "titulo": "Horario ampliado",
-        "descripcion": "Los controles operarán las 24 horas en los principales cruces fronterizos."
+        "titulo": "Control las 24 horas, sin descanso",
+        "descripcion": "Los principales cruces fronterizos de Formosa ahora operarán con control aduanero las 24 horas. Hasta ahora, algunos pasos tenían horarios reducidos, lo que —según admiten las autoridades— era aprovechado por quienes buscaban cruzar mercadería fuera del radar. Con vigilancia permanente, esa ventana se cierra. Para el comercio legal que opera de noche, esto también puede ser una ventaja: podrán cruzar mercadería en cualquier horario sin esperar a que abra el paso."
       },
       {
-        "titulo": "Cooperación bilateral",
-        "descripcion": "Se establece un mecanismo de intercambio de información en tiempo real con autoridades paraguayas."
+        "titulo": "Cooperación en tiempo real con Paraguay",
+        "descripcion": "El operativo incluye un sistema de intercambio de información en tiempo real con las autoridades aduaneras paraguayas. Esto significa que si un camión cruza desde Paraguay con determinada carga declarada, la Aduana argentina ya puede tener esa información antes de que llegue al control. Y viceversa. Este tipo de cooperación bilateral dificulta las maniobras de subfacturación (declarar menos de lo que realmente se transporta) y el contrabando técnico."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Importadores/Exportadores",
+        "grupo": "Importadores y exportadores del litoral",
         "icono": "ship",
-        "descripcion": "Deben prever tiempos adicionales de inspección en sus operaciones."
+        "descripcion": "Las empresas que mueven mercadería legalmente entre Argentina y Paraguay —desde soja y granos hasta manufacturas— deben prepararse para controles más exhaustivos. El lado positivo: si todo está en orden, los escáneres pueden acelerar el proceso porque no hace falta descargar. El lado negativo: cualquier irregularidad, incluso menor, será detectada. Recomendación: revisar que toda la documentación esté impecable antes de llegar al paso fronterizo."
       },
       {
-        "grupo": "Transportistas",
+        "grupo": "Transportistas y camioneros",
         "icono": "truck",
-        "descripcion": "Enfrentarán controles más rigurosos en zona de frontera."
+        "descripcion": "Son quienes van a sentir el cambio en el día a día. Controles más largos significan más tiempo de espera, y el tiempo es dinero en el transporte de cargas. Por otro lado, los escáneres no intrusivos evitan tener que descargar y volver a cargar el camión para una inspección física, lo cual en algunos casos puede compensar. Los transportistas que trabajan con carga limpia no deberían tener problemas; los que a veces 'hacen la vista gorda' con lo que llevan, van a tener que pensarlo dos veces."
       },
       {
-        "grupo": "Comerciantes locales",
+        "grupo": "Comerciantes de la zona de frontera",
         "icono": "store",
-        "descripcion": "Mayor fiscalización del origen de mercaderías en comercios fronterizos."
+        "descripcion": "La frontera con Paraguay tiene una economía propia, donde muchos comercios venden productos traídos del otro lado. Algunos son importaciones legales; otros, no tanto. Esta Disposición anuncia que habrá mayor fiscalización no solo en el cruce fronterizo sino también en los comercios de la zona, verificando el origen de la mercadería. Los negocios que venden productos importados legalmente (con la documentación correspondiente) no tienen de qué preocuparse; los que no pueden demostrar el origen de lo que venden, sí."
+      },
+      {
+        "grupo": "Habitantes de la región fronteriza",
+        "icono": "users",
+        "descripcion": "Para las familias de Formosa que cruzan regularmente a Paraguay por compras, trámites o visitas familiares, el cambio puede implicar demoras en los cruces, especialmente si van en auto propio con mercadería. El régimen de 'tráfico vecinal fronterizo' (que permite a residentes de la zona llevar ciertos montos sin pagar impuestos) sigue vigente, pero los controles para verificar que se respeten los límites serán más estrictos."
       }
     ]
   },
@@ -56,23 +62,35 @@
       {
         "numero": "1",
         "titulo": "Objeto",
-        "contenido": "Artículo 1° - Establécese el \"Operativo Control Frontera Norte\" en la jurisdicción de la Aduana de Formosa, con el objetivo de intensificar la fiscalización del tráfico de mercaderías."
+        "contenido": "Artículo 1° - Establécese el \"Operativo Control Frontera Norte\" en la jurisdicción de la Aduana de Formosa, con el objetivo de intensificar la fiscalización del tráfico de mercaderías en la zona primaria aduanera."
       },
       {
-        "numero": "2-4",
-        "titulo": "Medidas",
-        "contenido": "Artículo 2° - Increméntase la dotación de personal de verificación en un CINCUENTA POR CIENTO (50%). Artículo 3° - Impleméntase el uso de scanners de inspección no intrusiva en todos los pasos habilitados."
+        "numero": "2-3",
+        "titulo": "Personal y tecnología",
+        "contenido": "Artículo 2° - Increméntase la dotación de personal de verificación y control en un CINCUENTA POR CIENTO (50%). Artículo 3° - Impleméntase el uso de equipos de inspección no intrusiva (scanners) en todos los pasos habilitados de la jurisdicción."
+      },
+      {
+        "numero": "4-5",
+        "titulo": "Horarios y cooperación",
+        "contenido": "Artículo 4° - Los controles aduaneros en los principales pasos fronterizos operarán en forma ininterrumpida durante las VEINTICUATRO (24) horas. Artículo 5° - Establécese un mecanismo de intercambio de información en tiempo real con la Dirección Nacional de Aduanas de la República del Paraguay."
       }
     ]
   },
   "votacion": {
     "positivos": 445,
     "neutrales": 234,
-    "negativos": 67
+    "negativos": 167
   },
   "relacionados": [],
   "imagen": "/images/articulos/exportaciones.jpg",
   "fechaPublicacion": "2025-03-13T08:00:00Z",
-  "tiempoLectura": 3,
-  "tags": ["aduana", "formosa", "frontera", "control"]
+  "tiempoLectura": 6,
+  "tags": [
+    "aduana",
+    "formosa",
+    "frontera",
+    "control",
+    "contrabando",
+    "paraguay"
+  ]
 }

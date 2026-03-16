@@ -12,41 +12,42 @@
     "numeroEdicion": "35.876"
   },
   "contenidoIA": {
-    "titulo": "Desregulación avanza con simplificación de trámites estatales",
-    "resumen": "El Ministerio de Desregulación y Transformación del Estado publicó la Resolución 14/2025 que simplifica procedimientos administrativos en el ámbito nacional. Se eliminan requisitos duplicados y se digitalizan 45 trámites que antes eran presenciales.",
+    "titulo": "45 trámites que antes eran presenciales ahora se pueden hacer desde casa",
+    "resumen": "Ir a una oficina pública, sacar turno, hacer cola, volver porque faltaba un papel: esa experiencia va quedando en el pasado. El Ministerio de Desregulación acaba de habilitar 45 trámites para hacerse 100% online a través de TAD (Trámites a Distancia). También eliminó requisitos duplicados —si el Estado ya tiene tu CUIT, no tiene que pedírtelo de nuevo— y obligó a todos los organismos a aceptar firma digital. Tienen 90 días para adaptarse.",
+    "contexto": "¿Qué es el Ministerio de Desregulación? Es un ministerio creado en 2024 con una misión específica: reducir la burocracia estatal. Su lógica es simple: cada trámite innecesario, cada papel duplicado, cada cola evitable es un costo para ciudadanos y empresas. A diferencia de otros ministerios que administran servicios, este se dedica a 'podar' reglas. Es polémico porque algunos ven la desregulación como una forma de achicar el Estado; otros, como una forma de hacerlo más eficiente.",
     "puntosClaves": [
       {
-        "titulo": "45 trámites digitales",
-        "descripcion": "Se habilita la realización 100% online de 45 trámites que antes requerían presencialidad."
+        "titulo": "45 trámites 100% digitales",
+        "descripcion": "Desde renovaciones de habilitaciones hasta inscripciones en registros, 45 trámites que antes requerían ir a una oficina ahora se pueden hacer completamente por internet a través de la plataforma TAD (Trámites a Distancia). La lista completa está en el anexo de la resolución."
       },
       {
-        "titulo": "Eliminación de duplicados",
-        "descripcion": "Se eliminan requisitos que ya constan en otras bases de datos del Estado."
+        "titulo": "No más datos duplicados",
+        "descripcion": "Si un organismo ya tiene tu información —CUIT, domicilio, estatuto de tu empresa— no puede pedírtela de nuevo. Deben consultar las bases de datos del Estado en lugar de hacerte presentar el mismo papel en cada ventanilla."
       },
       {
-        "titulo": "Firma digital obligatoria",
-        "descripcion": "Todos los organismos deben aceptar firma digital en reemplazo de firma holográfica."
+        "titulo": "Firma digital vale como firma en papel",
+        "descripcion": "Todos los organismos públicos deben aceptar firma digital en cualquier trámite, en reemplazo de la firma manuscrita. Ya no pueden exigirte ir en persona 'a firmar'. Esto incluye contratos, declaraciones juradas y autorizaciones."
       },
       {
-        "titulo": "Plazo de implementación",
-        "descripcion": "Los organismos tienen 90 días para adaptar sus sistemas."
+        "titulo": "90 días para implementar",
+        "descripcion": "Los organismos tienen 3 meses para adaptar sus sistemas y procedimientos. Después de ese plazo, si un trámite de la lista sigue siendo presencial, estarán incumpliendo la norma."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Ciudadanos",
-        "icono": "users",
-        "descripcion": "Menos trámites presenciales y tiempos de espera reducidos."
+        "grupo": "Ciudadanos que hacen trámites",
+        "icono": "user",
+        "descripcion": "Menos viajes a oficinas públicas, menos días de trabajo perdidos haciendo colas, menos frustración por papeles faltantes. Poder hacer trámites a cualquier hora desde la computadora es un cambio de vida."
       },
       {
-        "grupo": "Empresas",
+        "grupo": "Empresas y comercios",
         "icono": "building-2",
-        "descripcion": "Simplificación de habilitaciones y permisos comerciales."
+        "descripcion": "Las habilitaciones comerciales, inscripciones en registros y permisos que antes llevaban semanas de idas y vueltas ahora pueden resolverse más rápido. Menos costo administrativo, más tiempo para producir."
       },
       {
-        "grupo": "Organismos públicos",
+        "grupo": "Empleados públicos de ventanilla",
         "icono": "landmark",
-        "descripcion": "Deben digitalizar procesos en un plazo de 90 días."
+        "descripcion": "Menos atención presencial, más gestión de sistemas digitales. Algunos roles van a cambiar: de atender público a procesar trámites digitales. Puede haber resistencias, pero también oportunidades de reconversión."
       }
     ]
   },
@@ -82,7 +83,13 @@
       "categoria": "nacional"
     }
   ],
+  "imagen": "/images/articulos/casa-rosada.jpg",
   "fechaPublicacion": "2025-03-11T08:00:00Z",
-  "tiempoLectura": 3,
-  "tags": ["desregulacion", "tramites", "simplificacion"]
+  "tiempoLectura": 5,
+  "tags": [
+    "desregulacion",
+    "tramites",
+    "digitalizacion",
+    "TAD"
+  ]
 }

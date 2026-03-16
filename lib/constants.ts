@@ -66,19 +66,24 @@ export const MESES = [
   'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
 ];
 
+// Parse date string "YYYY-MM-DD" or ISO "YYYY-MM-DDTHH:mm:ssZ" without timezone issues
+export function parseFechaLocal(fecha: string): { year: number; month: number; day: number } {
+  // Extract just the date part (first 10 chars) to handle ISO dates
+  const datePart = fecha.substring(0, 10);
+  const [year, month, day] = datePart.split('-').map(Number);
+  return { year, month: month - 1, day }; // month is 0-indexed
+}
+
 export function formatFechaCorta(fecha: string): string {
-  const date = new Date(fecha);
-  const dia = date.getDate();
-  const mes = MESES[date.getMonth()];
-  return `${dia} de ${mes}`;
+  const { month, day } = parseFechaLocal(fecha);
+  const mes = MESES[month];
+  return `${day} de ${mes}`;
 }
 
 export function formatFechaCompleta(fecha: string): string {
-  const date = new Date(fecha);
-  const dia = date.getDate();
-  const mes = MESES[date.getMonth()];
-  const año = date.getFullYear();
-  return `${dia} de ${mes} de ${año}`;
+  const { year, month, day } = parseFechaLocal(fecha);
+  const mes = MESES[month];
+  return `${day} de ${mes} de ${year}`;
 }
 
 export function calcularTiempoTranscurrido(fecha: string): string {

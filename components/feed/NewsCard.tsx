@@ -36,10 +36,10 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
 
       {/* Content */}
       <div className="flex flex-col gap-[6px] flex-1 min-w-0">
-        {/* Tags Row */}
-        <div className="flex items-center gap-2 flex-wrap">
+        {/* Tags Row - No wrap to keep titles aligned across cards */}
+        <div className="flex items-center gap-2 overflow-hidden">
           <span
-            className="px-2 py-[2px] text-[9px] font-semibold tracking-[1px] text-white rounded"
+            className="px-2 py-[2px] text-[10px] font-semibold tracking-[1px] text-white rounded"
             style={{ backgroundColor: categoria.color }}
           >
             {categoria.label}
@@ -47,41 +47,41 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
           {tema && (
             <Link
               href={`/tema/${noticia.tema}`}
-              className="flex items-center gap-1 px-2 py-[2px] text-[9px] font-medium rounded border hover:opacity-80 transition-opacity"
+              className="flex items-center gap-1 px-2 py-[2px] text-[10px] font-medium rounded border hover:opacity-80 transition-opacity"
               style={{
                 color: tema.color,
                 borderColor: tema.color,
                 backgroundColor: `${tema.color}10`
               }}
             >
-              {tema && <TemaIcon iconName={tema.icon} className="w-[10px] h-[10px]" />}
+              <TemaIcon iconName={tema.icon} className="w-3 h-3" />
               {tema.label}
             </Link>
           )}
-          <span className="text-[9px] font-medium text-text-muted tracking-wide uppercase">
+          <span className="text-[10px] font-medium text-text-muted tracking-wide uppercase">
             {tipoDoc} {noticia.numeroDocumento}
           </span>
         </div>
 
         {/* Title - Link to article detail */}
         <Link href={`/articulo/${noticia.slug}`}>
-          <h3 className="font-[family-name:var(--font-lora)] text-[15px] font-medium text-text-primary leading-[1.3] hover:text-accent transition-colors">
+          <h3 className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary leading-snug hover:text-accent transition-colors">
             {noticia.titulo}
           </h3>
         </Link>
 
         {/* Excerpt */}
-        <p className="text-xs text-text-secondary leading-[1.4] line-clamp-2">
+        <p className="text-sm text-text-secondary leading-relaxed line-clamp-2">
           {noticia.extracto}
         </p>
 
         {/* Meta Row with Original Link */}
         <div className="flex items-center justify-between gap-2 pt-1">
-          <div className="flex items-center gap-[6px] text-[10px] text-text-muted">
+          <div className="flex items-center gap-2 text-xs text-text-muted">
             <span>{tiempoTranscurrido}</span>
             <span>·</span>
             <span className="flex items-center gap-1">
-              <Clock className="w-[10px] h-[10px]" />
+              <Clock className="w-3 h-3" />
               {noticia.tiempoLectura} min
             </span>
           </div>
@@ -91,10 +91,10 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
             href={noticia.urlOriginal}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1 text-[10px] font-medium text-accent hover:underline shrink-0"
+            className="flex items-center gap-1 text-xs font-medium text-accent hover:underline shrink-0"
             title="Ver documento original en el Boletín Oficial"
           >
-            <ExternalLink className="w-[10px] h-[10px]" />
+            <ExternalLink className="w-3 h-3" />
             Original
           </a>
         </div>

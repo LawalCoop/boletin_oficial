@@ -18,7 +18,11 @@
       "tiempoLectura": 2,
       "fechaPublicacion": "2025-03-12T06:00:00Z",
       "destacado": true,
-      "tags": ["cancilleria", "designaciones", "funcionarios"],
+      "tags": [
+        "cancilleria",
+        "designaciones",
+        "funcionarios"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1802025/20250312"
     },
     {
@@ -36,7 +40,12 @@
       "tiempoLectura": 5,
       "fechaPublicacion": "2025-03-12T06:30:00Z",
       "destacado": true,
-      "tags": ["afip", "impuestos", "bancos", "informacion"],
+      "tags": [
+        "afip",
+        "impuestos",
+        "bancos",
+        "informacion"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/56622025/20250312"
     },
     {
@@ -53,8 +62,14 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-12T07:00:00Z",
       "destacado": false,
-      "tags": ["afip", "mineria", "retencion", "registro"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/56632025/20250312"
+      "tags": [
+        "afip",
+        "mineria",
+        "retencion",
+        "registro"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/56632025/20250312",
+      "imagen": "/images/articulos/industria.jpg"
     },
     {
       "id": "resol-enargas-144-2025",
@@ -71,7 +86,12 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-12T07:30:00Z",
       "destacado": false,
-      "tags": ["enargas", "gas", "tarifas", "distribuidoras"],
+      "tags": [
+        "enargas",
+        "gas",
+        "tarifas",
+        "distribuidoras"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1442025/20250312"
     },
     {
@@ -88,8 +108,14 @@
       "tiempoLectura": 3,
       "fechaPublicacion": "2025-03-12T08:00:00Z",
       "destacado": false,
-      "tags": ["incaa", "cine", "cultura", "audiovisual"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1372025/20250312"
+      "tags": [
+        "incaa",
+        "cine",
+        "cultura",
+        "audiovisual"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1372025/20250312",
+      "imagen": "/images/articulos/cine.jpg"
     },
     {
       "id": "resol-energia-119-2025",
@@ -106,7 +132,11 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-12T08:30:00Z",
       "destacado": false,
-      "tags": ["energia", "electricidad", "mercado"],
+      "tags": [
+        "energia",
+        "electricidad",
+        "mercado"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1192025/20250312"
     },
     {
@@ -123,8 +153,13 @@
       "tiempoLectura": 3,
       "fechaPublicacion": "2025-03-12T09:00:00Z",
       "destacado": false,
-      "tags": ["defensa", "fuerzas-armadas", "adquisiciones"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/2082025/20250312"
+      "tags": [
+        "defensa",
+        "fuerzas-armadas",
+        "adquisiciones"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/2082025/20250312",
+      "imagen": "/images/articulos/defensa.jpg"
     },
     {
       "id": "resol-seguridad-321-2025",
@@ -140,8 +175,13 @@
       "tiempoLectura": 3,
       "fechaPublicacion": "2025-03-12T09:30:00Z",
       "destacado": false,
-      "tags": ["seguridad", "fronteras", "control"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/3212025/20250312"
+      "tags": [
+        "seguridad",
+        "fronteras",
+        "control"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/3212025/20250312",
+      "imagen": "/images/articulos/exportaciones.jpg"
     }
   ]
 }

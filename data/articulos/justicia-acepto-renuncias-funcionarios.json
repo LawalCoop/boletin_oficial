@@ -12,36 +12,38 @@
     "numeroEdicion": "35.879"
   },
   "contenidoIA": {
-    "titulo": "Ministerio de Justicia formalizó la aceptación de dos renuncias",
-    "resumen": "Mediante los Decretos 187 y 188/2025, el Poder Ejecutivo aceptó las renuncias presentadas por dos funcionarios del Ministerio de Justicia. Se trata de un Director Nacional y un Subsecretario que dejaron sus cargos por razones personales.",
+    "titulo": "Se van dos funcionarios clave del Ministerio de Justicia: qué implica para el organismo",
+    "resumen": "El Ministerio de Justicia pierde a su Director Nacional de Asuntos Jurídicos y a su Subsecretario de Política Criminal. El Gobierno aceptó las renuncias de ambos funcionarios mediante decretos publicados hoy, pero aún no designó reemplazantes. Son cargos técnicos importantes que quedan vacantes en un momento donde el ministerio tiene varios frentes abiertos.",
+    "contexto": "¿Por qué las renuncias se publican en el Boletín Oficial? En la administración pública argentina, las designaciones y renuncias de funcionarios de cierto nivel requieren un decreto presidencial. No alcanza con que alguien presente su renuncia y se vaya: el Presidente tiene que 'aceptarla' formalmente mediante un decreto que se publica en el Boletín Oficial. Es una formalidad legal que marca cuándo exactamente el funcionario deja de tener las facultades del cargo.",
     "puntosClaves": [
       {
-        "titulo": "Renuncia del Director Nacional",
-        "descripcion": "Se aceptó la renuncia del Director Nacional de Asuntos Jurídicos, quien se desempeñaba en el cargo desde enero de 2024."
+        "titulo": "Sale el Director de Asuntos Jurídicos",
+        "descripcion": "El Dr. Juan Carlos Rodríguez deja la Dirección Nacional de Asuntos Jurídicos, un área que asesora legalmente a todo el ministerio. Cada dictamen, contrato o decisión que toma Justicia pasa por esa dirección. Estaba en el cargo desde enero 2024."
       },
       {
-        "titulo": "Renuncia del Subsecretario",
-        "descripcion": "También se formalizó la renuncia del Subsecretario de Justicia y Política Criminal."
+        "titulo": "Sale el Subsecretario de Política Criminal",
+        "descripcion": "También renuncia el Subsecretario de Justicia y Política Criminal, el área que diseña políticas penales, trabaja en reformas al Código Penal y coordina con el sistema carcelario. Es un cargo político más que técnico."
       },
       {
-        "titulo": "Efectos inmediatos",
-        "descripcion": "Ambas renuncias tienen efecto a partir de la fecha de publicación en el Boletín Oficial."
-      },
-      {
-        "titulo": "Reemplazos pendientes",
-        "descripcion": "Aún no se han designado los reemplazantes para ambos cargos vacantes."
+        "titulo": "Sin reemplazantes todavía",
+        "descripcion": "Hasta que se designen nuevos funcionarios, las tareas se redistribuyen internamente. Esto puede generar demoras en trámites y decisiones que requieren la firma de esos cargos."
       }
     ],
     "aQuienAfecta": [
       {
         "grupo": "Ministerio de Justicia",
-        "icono": "building",
-        "descripcion": "Debe reorganizar funciones hasta la designación de nuevos funcionarios."
+        "icono": "scale",
+        "descripcion": "Pierde dos funcionarios de peso. Hasta que lleguen los reemplazos, algunos trámites pueden frenarse y algunas decisiones quedar en stand-by. Es especialmente sensible en Asuntos Jurídicos, que dictamina sobre todo."
       },
       {
-        "grupo": "Personal del organismo",
+        "grupo": "Personal del ministerio",
         "icono": "users",
-        "descripcion": "Puede haber redistribución temporal de responsabilidades."
+        "descripcion": "Los equipos de ambas áreas quedan sin jefe directo. Puede haber incertidumbre sobre el rumbo y redistribución de tareas hasta que asuman los nuevos."
+      },
+      {
+        "grupo": "Sistema de justicia",
+        "icono": "landmark",
+        "descripcion": "La Subsecretaría de Política Criminal coordina con fiscales, defensores y sistema penitenciario. Si queda acéfala mucho tiempo, proyectos de reforma pueden retrasarse."
       }
     ]
   },
@@ -72,7 +74,13 @@
       "categoria": "nacional"
     }
   ],
+  "imagen": "/images/articulos/funcionarios.jpg",
   "fechaPublicacion": "2025-03-14T07:00:00Z",
-  "tiempoLectura": 2,
-  "tags": ["justicia", "renuncias", "funcionarios"]
+  "tiempoLectura": 4,
+  "tags": [
+    "justicia",
+    "renuncias",
+    "funcionarios",
+    "ministerio"
+  ]
 }

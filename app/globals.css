@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary colors */
+  --accent: #0066CC;
+  --accent-soft: #0066CC12;
+
+  /* Background colors */
+  --bg: #FFFFFF;
+  --bg-surface: #F8F8F8;
+  --bg-warm: #FAF9F7;
+  --bg-highlight: #FFF3CD;
+
+  /* Border colors */
+  --border: #E5E5E5;
+  --border-strong: #CCCCCC;
+
+  /* Text colors */
+  --text-primary: #111111;
+  --text-secondary: #555555;
+  --text-muted: #999999;
+
+  /* Status colors */
+  --status-positive: #1A8754;
+  --status-negative: #C41E3A;
+  --status-neutral: #6B7280;
+
+  /* Tag colors */
+  --tag-nacional: #0066CC;
+  --tag-provincial: #7C3AED;
+  --tag-municipal: #D97706;
+  --tag-empresas: #059669;
+  --tag-contrataciones: #DC2626;
+  --tag-judicial: #4B5563;
+}
+
+@theme inline {
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-bg: var(--bg);
+  --color-bg-surface: var(--bg-surface);
+  --color-bg-warm: var(--bg-warm);
+  --color-bg-highlight: var(--bg-highlight);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-status-positive: var(--status-positive);
+  --color-status-negative: var(--status-negative);
+  --color-status-neutral: var(--status-neutral);
+  --color-tag-nacional: var(--tag-nacional);
+  --color-tag-provincial: var(--tag-provincial);
+  --color-tag-municipal: var(--tag-municipal);
+  --color-tag-empresas: var(--tag-empresas);
+  --color-tag-contrataciones: var(--tag-contrataciones);
+  --color-tag-judicial: var(--tag-judicial);
+
+  /* Fonts */
+  --font-lora: var(--font-lora);
+  --font-inter: var(--font-inter);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography utilities */
+.font-title {
+  font-family: var(--font-lora), Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.font-body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+.tag-text {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar but allow scrolling */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Link to original Boletín styles */
+.boletin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--accent);
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.boletin-link:hover {
+  opacity: 0.8;
+}
+
+/* Vote bar animation */
+.vote-bar {
+  transition: width 0.3s ease-out;
+}
+
+/* Chat styles */
+.chat-message {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Pulse animation for loading */
+.pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "decreto-186-2025",
+  "slug": "gobierno-modificacion-presupuestaria-2025",
+  "metadata": {
+    "categoria": "nacional",
+    "tipoDocumento": "decreto",
+    "numeroDocumento": "186/2025",
+    "organismoEmisor": "Poder Ejecutivo Nacional - Jefatura de Gabinete",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1862025/20250313",
+    "fechaBoletinOficial": "2025-03-13",
+    "numeroEdicion": "35.878"
+  },
+  "contenidoIA": {
+    "titulo": "El Gobierno realizó una modificación presupuestaria de emergencia",
+    "resumen": "El Poder Ejecutivo Nacional dispuso mediante el Decreto 186/2025 una reasignación de partidas presupuestarias para atender necesidades urgentes de distintos organismos. La modificación contempla el refuerzo de partidas en áreas como Salud, Seguridad y Obras Públicas, compensadas con recortes en otras jurisdicciones del Estado Nacional.",
+    "puntosClaves": [
+      {
+        "titulo": "Reasignación de fondos",
+        "descripcion": "El decreto autoriza la reasignación de $150.000 millones entre distintas jurisdicciones del Presupuesto Nacional 2025."
+      },
+      {
+        "titulo": "Áreas beneficiadas",
+        "descripcion": "Los principales destinos de los fondos reasignados son el Ministerio de Salud, el Ministerio de Seguridad y el Ministerio de Economía (área de Obras Públicas)."
+      },
+      {
+        "titulo": "Compensaciones",
+        "descripcion": "Los fondos provienen de recortes en partidas de gastos corrientes y transferencias discrecionales de otros ministerios."
+      },
+      {
+        "titulo": "Fundamento legal",
+        "descripcion": "La medida se fundamenta en las facultades otorgadas por la Ley de Administración Financiera y el artículo 37 de la Ley de Presupuesto 2025."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Ministerio de Salud",
+        "icono": "building-2",
+        "descripcion": "Recibirá fondos adicionales para la compra de medicamentos e insumos hospitalarios."
+      },
+      {
+        "grupo": "Fuerzas de Seguridad",
+        "icono": "users",
+        "descripcion": "Se refuerzan partidas para equipamiento y gastos operativos de las fuerzas federales."
+      },
+      {
+        "grupo": "Obras Públicas",
+        "icono": "trending-up",
+        "descripcion": "Se destinan fondos adicionales para la continuidad de obras de infraestructura prioritarias."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DECRETO 186/2025 - PODER EJECUTIVO NACIONAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Modificación presupuestaria",
+        "contenido": "Artículo 1° - Modifícase el Presupuesto General de la Administración Nacional para el Ejercicio 2025, de acuerdo con el detalle obrante en las Planillas Anexas que forman parte integrante del presente decreto."
+      },
+      {
+        "numero": "2-3",
+        "titulo": "Jurisdicciones afectadas",
+        "contenido": "Artículo 2° - Las modificaciones dispuestas afectan a las Jurisdicciones 50 (MINISTERIO DE SALUD), 41 (MINISTERIO DE SEGURIDAD), y 85 (MINISTERIO DE ECONOMÍA - Secretaría de Obras Públicas). Artículo 3° - Las compensaciones se efectúan con cargo a las Jurisdicciones y partidas que se detallan en el Anexo II."
+      },
+      {
+        "numero": "4-5",
+        "titulo": "Vigencia",
+        "contenido": "Artículo 4° - El presente decreto entrará en vigencia el día de su publicación en el BOLETÍN OFICIAL. Artículo 5° - Comuníquese, publíquese, dése a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 389,
+    "neutrales": 445,
+    "negativos": 312
+  },
+  "relacionados": [
+    {
+      "slug": "gobierno-firma-dnu-179-nuevas-disposiciones",
+      "titulo": "DNU 179/2025 con nuevas disposiciones",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/presupuesto.jpg",
+  "fechaPublicacion": "2025-03-13T06:00:00Z",
+  "tiempoLectura": 5
+}

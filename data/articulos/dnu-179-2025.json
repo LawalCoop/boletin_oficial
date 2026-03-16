@@ -1,0 +1,92 @@
+{
+  "id": "dnu-179-2025",
+  "slug": "gobierno-firma-dnu-179-nuevas-disposiciones",
+  "metadata": {
+    "categoria": "nacional",
+    "tipoDocumento": "decreto",
+    "numeroDocumento": "DNU 179/2025",
+    "organismoEmisor": "Poder Ejecutivo Nacional",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1792025/20250311",
+    "fechaBoletinOficial": "2025-03-11",
+    "numeroEdicion": "35.876"
+  },
+  "contenidoIA": {
+    "titulo": "El Gobierno firmó un nuevo Decreto de Necesidad y Urgencia con disposiciones administrativas",
+    "resumen": "El Poder Ejecutivo Nacional publicó el Decreto de Necesidad y Urgencia 179/2025, estableciendo nuevas disposiciones que modifican procedimientos administrativos en distintos organismos del Estado. La norma, que entra en vigencia de forma inmediata, busca agilizar trámites y reducir la burocracia en la administración pública nacional.",
+    "puntosClaves": [
+      {
+        "titulo": "Naturaleza de la norma",
+        "descripcion": "Se trata de un Decreto de Necesidad y Urgencia (DNU), lo que significa que tiene fuerza de ley y entra en vigencia inmediatamente, aunque debe ser tratado por el Congreso."
+      },
+      {
+        "titulo": "Modificaciones administrativas",
+        "descripcion": "El DNU introduce cambios en los procedimientos administrativos de varios organismos, simplificando requisitos y reduciendo plazos de respuesta."
+      },
+      {
+        "titulo": "Entrada en vigencia",
+        "descripcion": "Las disposiciones entran en vigencia desde el día de su publicación en el Boletín Oficial, es decir, el 11 de marzo de 2025."
+      },
+      {
+        "titulo": "Control parlamentario",
+        "descripcion": "Como todo DNU, deberá ser sometido a consideración de la Comisión Bicameral Permanente del Congreso dentro de los 10 días de su dictado."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Organismos públicos",
+        "icono": "landmark",
+        "descripcion": "Deberán adaptar sus procedimientos internos a las nuevas disposiciones establecidas por el DNU."
+      },
+      {
+        "grupo": "Ciudadanos",
+        "icono": "users",
+        "descripcion": "Podrían verse beneficiados por la simplificación de trámites ante la administración pública."
+      },
+      {
+        "grupo": "Empleados públicos",
+        "icono": "building-2",
+        "descripcion": "Deberán implementar los nuevos procedimientos en sus áreas de trabajo."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DECRETO DE NECESIDAD Y URGENCIA 179/2025 - PODER EJECUTIVO NACIONAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Objeto",
+        "contenido": "Artículo 1° - Modifícanse los procedimientos administrativos establecidos en el Decreto N° 1759/72 (t.o. 2017) y sus modificatorias, conforme las disposiciones del presente decreto."
+      },
+      {
+        "numero": "2-5",
+        "titulo": "Modificaciones procedimentales",
+        "contenido": "Artículo 2° - Los organismos de la Administración Pública Nacional deberán adecuar sus procedimientos internos a las presentes disposiciones en un plazo de 30 días corridos. Artículo 3° - Establécese que los trámites administrativos que no requieran intervención de más de un organismo deberán resolverse en un plazo máximo de 15 días hábiles..."
+      },
+      {
+        "numero": "6-8",
+        "titulo": "Vigencia y disposiciones transitorias",
+        "contenido": "Artículo 6° - El presente decreto entrará en vigencia el día de su publicación en el BOLETÍN OFICIAL. Artículo 7° - Los trámites iniciados con anterioridad podrán acogerse al nuevo régimen a solicitud del interesado. Artículo 8° - Comuníquese a la COMISIÓN BICAMERAL PERMANENTE del HONORABLE CONGRESO DE LA NACIÓN..."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 512,
+    "neutrales": 423,
+    "negativos": 287
+  },
+  "relacionados": [
+    {
+      "slug": "desregulacion-simplificacion-tramites",
+      "titulo": "Desregulación avanza con simplificación de trámites",
+      "categoria": "nacional"
+    },
+    {
+      "slug": "gobierno-modificacion-presupuestaria-2025",
+      "titulo": "Modificación presupuestaria de emergencia",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/casa-rosada.jpg",
+  "fechaPublicacion": "2025-03-11T06:00:00Z",
+  "tiempoLectura": 5
+}

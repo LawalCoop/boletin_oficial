@@ -1,0 +1,97 @@
+{
+  "id": "resol-afip-5664-2025",
+  "slug": "afip-nuevo-regimen-exportacion-simplificado",
+  "metadata": {
+    "categoria": "nacional",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "RG 5664/2025",
+    "organismoEmisor": "Agencia de Recaudación y Control Aduanero (ARCA/AFIP)",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/56642025/20250314",
+    "fechaBoletinOficial": "2025-03-14",
+    "numeroEdicion": "35.879"
+  },
+  "contenidoIA": {
+    "titulo": "AFIP lanzó un nuevo Régimen de Exportación Simplificado para PyMEs",
+    "resumen": "La Agencia de Recaudación y Control Aduanero (ex AFIP) publicó la Resolución General 5664/2025 que establece un régimen simplificado de exportación orientado a facilitar las operaciones de comercio exterior para pequeñas y medianas empresas. El nuevo esquema reduce requisitos documentales, agiliza los tiempos de despacho y unifica trámites que antes requerían múltiples gestiones ante distintas áreas del organismo.",
+    "puntosClaves": [
+      {
+        "titulo": "Simplificación documental",
+        "descripcion": "Se reduce de 12 a 5 los documentos obligatorios para exportaciones menores a USD 50.000. El exportador podrá presentar una declaración simplificada unificada."
+      },
+      {
+        "titulo": "Tiempos de despacho acelerados",
+        "descripcion": "El nuevo régimen garantiza el despacho de mercaderías en un plazo máximo de 48 horas para operaciones que cumplan los requisitos simplificados."
+      },
+      {
+        "titulo": "Límites de aplicación",
+        "descripcion": "Aplica para exportaciones de hasta USD 100.000 anuales por empresa. Las PyMEs registradas en el Registro de Exportadores Simplificados podrán operar sin limitaciones."
+      },
+      {
+        "titulo": "Entrada en vigencia",
+        "descripcion": "El régimen entra en vigencia a partir del 1° de abril de 2025, dando tiempo a las empresas para registrarse en el nuevo sistema."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "PyMEs exportadoras",
+        "icono": "building-2",
+        "descripcion": "Podrán acceder a un régimen simplificado que reduce costos y tiempos de sus operaciones de exportación."
+      },
+      {
+        "grupo": "Despachantes de aduana",
+        "icono": "file-text",
+        "descripcion": "Deberán adaptarse a los nuevos procedimientos y formularios del régimen simplificado."
+      },
+      {
+        "grupo": "Nuevos exportadores",
+        "icono": "trending-up",
+        "descripcion": "El régimen facilita el acceso al comercio exterior para empresas que nunca exportaron."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN GENERAL 5664/2025 - ARCA (ex AFIP)",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Objeto",
+        "contenido": "Artículo 1° - Establécese el \"Régimen de Exportación Simplificado para Pequeñas y Medianas Empresas\" destinado a facilitar las operaciones de comercio exterior de los sujetos comprendidos en la Ley N° 24.467 y sus modificatorias."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Sujetos alcanzados",
+        "contenido": "Artículo 2° - Podrán acogerse al presente régimen las Micro, Pequeñas y Medianas Empresas que se encuentren inscriptas en el Registro de Empresas MiPyMEs. Artículo 3° - Quedan excluidas del régimen las operaciones que involucren mercaderías sujetas a intervenciones previas obligatorias. Artículo 4° - El límite de operaciones anuales bajo este régimen será de USD 100.000 por empresa."
+      },
+      {
+        "numero": "5-8",
+        "titulo": "Documentación y procedimiento",
+        "contenido": "Artículo 5° - La documentación requerida para operaciones bajo el régimen simplificado consistirá en: a) Declaración Simplificada de Exportación (DSE); b) Factura comercial; c) Lista de empaque; d) Documento de transporte; e) Certificación de origen cuando corresponda..."
+      },
+      {
+        "numero": "9-12",
+        "titulo": "Plazos y vigencia",
+        "contenido": "Artículo 9° - Las operaciones cursadas bajo el presente régimen deberán ser despachadas en un plazo máximo de 48 horas contadas desde la presentación de la documentación completa. Artículo 12° - La presente resolución entrará en vigencia el día 1° de abril de 2025."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 847,
+    "neutrales": 234,
+    "negativos": 89
+  },
+  "relacionados": [
+    {
+      "slug": "afip-nuevo-regimen-informacion-financiera",
+      "titulo": "AFIP modificó el régimen de información financiera",
+      "categoria": "nacional"
+    },
+    {
+      "slug": "afip-registro-actividades-mineras-retencion",
+      "titulo": "AFIP actualizó el Registro Fiscal de Actividades Mineras",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/exportaciones.jpg",
+  "fechaPublicacion": "2025-03-14T06:00:00Z",
+  "tiempoLectura": 5
+}

@@ -104,7 +104,7 @@ export function buildArticulo(
     slug,
     metadata: {
       categoria,
-      tema: aiResult.tema,
+      tema: aiResult.tema as Tema,
       tipoDocumento,
       numeroDocumento: doc.entry.numero,
       organismoEmisor: doc.entry.organismo,
@@ -123,7 +123,7 @@ export function buildArticulo(
     },
     votacion: { positivos: 0, neutrales: 0, negativos: 0 },
     relacionados: [],
-    imagen: getImageForTema(aiResult.tema),
+    imagen: getImageForTema(aiResult.tema as Tema),
     fechaPublicacion: `${fecha}T08:00:00Z`,
     tiempoLectura: calcularTiempoLectura(doc.textoCompleto),
     tags: aiResult.tags,

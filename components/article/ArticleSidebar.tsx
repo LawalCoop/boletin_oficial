@@ -2,27 +2,17 @@
 
 import Link from 'next/link';
 import { ExternalLink, Share2, Bookmark, Printer, FileText, Bell } from 'lucide-react';
-import * as LucideIcons from 'lucide-react';
 import { Articulo } from '@/lib/types';
 import { TEMAS, CATEGORIAS } from '@/lib/constants';
+import { TemaIcon } from '@/components/shared/TemaIcon';
 
 interface ArticleSidebarProps {
   articulo: Articulo;
 }
 
-// Helper to get icon component dynamically
-function getIconComponent(iconName: string) {
-  const pascalName = iconName.split('-').map(part =>
-    part.charAt(0).toUpperCase() + part.slice(1)
-  ).join('');
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  return (LucideIcons as any)[pascalName];
-}
-
 export function ArticleSidebar({ articulo }: ArticleSidebarProps) {
   const tema = articulo.metadata.tema ? TEMAS[articulo.metadata.tema] : null;
   const categoria = CATEGORIAS[articulo.metadata.categoria];
-  const TemaIcon = tema ? getIconComponent(tema.icon) : null;
 
   const handleShare = async () => {
     if (navigator.share) {
@@ -80,7 +70,7 @@ export function ArticleSidebar({ articulo }: ArticleSidebarProps) {
                     backgroundColor: `${tema.color}10`
                   }}
                 >
-                  {TemaIcon && <TemaIcon className="w-3 h-3" />}
+                  {tema && <TemaIcon iconName={tema.icon} className="w-3 h-3" />}
                   {tema.label}
                 </Link>
               </dd>

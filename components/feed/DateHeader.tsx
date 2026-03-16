@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Sparkles, Calendar, X } from 'lucide-react';
-import { formatFechaCorta, formatFechaCompleta, MESES } from '@/lib/constants';
+import { formatFechaCorta, MESES } from '@/lib/constants';
 
 interface DateHeaderProps {
   fecha: string;

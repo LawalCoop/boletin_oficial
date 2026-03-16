@@ -81,7 +81,7 @@ ${doc.textoCompleto.substring(0, 8000)}`;
     console.error(`[AI] Error:`, error);
     if (error instanceof Error) {
       console.error(`[AI] Message: ${error.message}`);
-      console.error(`[AI] Cause:`, (error as Record<string, unknown>).cause);
+      console.error(`[AI] Cause:`, (error as unknown as Record<string, unknown>).cause);
     }
     throw error;
   }

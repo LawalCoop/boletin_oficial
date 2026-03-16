@@ -2,21 +2,12 @@
 
 import Link from 'next/link';
 import { ExternalLink, Clock } from 'lucide-react';
-import * as LucideIcons from 'lucide-react';
 import { NoticiaPreview } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
+import { TemaIcon } from '@/components/shared/TemaIcon';
 
 interface HeroCardProps {
   noticia: NoticiaPreview;
-}
-
-// Helper to get icon component dynamically
-function getIconComponent(iconName: string) {
-  const pascalName = iconName.split('-').map(part =>
-    part.charAt(0).toUpperCase() + part.slice(1)
-  ).join('');
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  return (LucideIcons as any)[pascalName];
 }
 
 export function HeroCard({ noticia }: HeroCardProps) {
@@ -24,8 +15,6 @@ export function HeroCard({ noticia }: HeroCardProps) {
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
   const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[noticia.tipoDocumento] || noticia.tipoDocumento;
-
-  const TemaIcon = tema ? getIconComponent(tema.icon) : null;
 
   return (
     <article className="border border-border rounded-lg overflow-hidden bg-bg hover:shadow-lg transition-shadow h-full flex flex-col">
@@ -63,7 +52,7 @@ export function HeroCard({ noticia }: HeroCardProps) {
                 backgroundColor: `${tema.color}10`
               }}
             >
-              {TemaIcon && <TemaIcon className="w-3 h-3" />}
+              {tema && <TemaIcon iconName={tema.icon} className="w-3 h-3" />}
               {tema.label}
             </Link>
           )}

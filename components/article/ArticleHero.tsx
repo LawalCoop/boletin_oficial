@@ -2,21 +2,12 @@
 
 import { ArrowLeft, Share2, Bookmark, MoreVertical, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
-import * as LucideIcons from 'lucide-react';
 import { Articulo } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
+import { TemaIcon } from '@/components/shared/TemaIcon';
 
 interface ArticleHeroProps {
   articulo: Articulo;
-}
-
-// Helper to get icon component dynamically
-function getIconComponent(iconName: string) {
-  const pascalName = iconName.split('-').map(part =>
-    part.charAt(0).toUpperCase() + part.slice(1)
-  ).join('');
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  return (LucideIcons as any)[pascalName];
 }
 
 export function ArticleHero({ articulo }: ArticleHeroProps) {
@@ -24,7 +15,6 @@ export function ArticleHero({ articulo }: ArticleHeroProps) {
   const tema = articulo.metadata.tema ? TEMAS[articulo.metadata.tema] : null;
   const tiempoTranscurrido = calcularTiempoTranscurrido(articulo.fechaPublicacion);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[articulo.metadata.tipoDocumento] || articulo.metadata.tipoDocumento;
-  const TemaIcon = tema ? getIconComponent(tema.icon) : null;
 
   return (
     <>
@@ -99,7 +89,7 @@ export function ArticleHero({ articulo }: ArticleHeroProps) {
                     href={`/tema/${articulo.metadata.tema}`}
                     className="flex items-center gap-1 px-2 py-[3px] text-[10px] lg:text-[11px] font-medium rounded border border-white/30 text-white hover:bg-white/10 transition-colors"
                   >
-                    {TemaIcon && <TemaIcon className="w-3 h-3" />}
+                    {tema && <TemaIcon iconName={tema.icon} className="w-3 h-3" />}
                     {tema.label}
                   </Link>
                 )}

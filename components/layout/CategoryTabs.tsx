@@ -54,7 +54,7 @@ export function CategoryTabs({ activeCategory, onCategoryChange }: CategoryTabsP
       {/* Site explanation */}
       <div className="bg-gradient-to-r from-accent/5 via-accent/10 to-accent/5 px-4 py-3 lg:py-4 border-b border-accent/20">
         <p className="max-w-7xl mx-auto text-center text-base lg:text-lg font-[family-name:var(--font-lora)] text-text-secondary italic">
-          Lo que firma el Gobierno hoy, <span className="text-accent font-semibold not-italic">traducido al castellano</span>
+          El Boletín Oficial del día, <span className="text-accent font-semibold not-italic">explicado en 5 minutos</span>
         </p>
       </div>
 

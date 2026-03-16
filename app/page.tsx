@@ -36,7 +36,7 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
   return (
     <article className="flex flex-col h-full rounded-lg overflow-hidden bg-bg-surface hover:shadow-md transition-shadow group">
       {/* Image */}
-      <Link href={`/articulo/${noticia.slug}`} className="relative h-24 bg-bg-warm block">
+      <Link href={`/articulo/${noticia.slug}`} className="relative h-32 bg-bg-warm block">
         {noticia.imagen ? (
           <div
             className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform"
@@ -47,7 +47,7 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
         )}
         {/* Category tag on image */}
         <span
-          className="absolute top-2 left-2 px-1.5 py-[2px] text-[9px] font-semibold tracking-[0.5px] text-white rounded"
+          className="absolute top-2 left-2 px-2 py-1 text-[10px] font-semibold tracking-[0.5px] text-white rounded"
           style={{ backgroundColor: categoria.color }}
         >
           {categoria.label}
@@ -55,21 +55,21 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
       </Link>
 
       {/* Content */}
-      <div className="p-3 flex flex-col gap-2 flex-1">
+      <div className="p-4 flex flex-col gap-2 flex-1">
         {/* Title */}
         <Link href={`/articulo/${noticia.slug}`}>
-          <h3 className="font-[family-name:var(--font-lora)] text-sm font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">
+          <h3 className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">
             {noticia.titulo}
           </h3>
         </Link>
 
         {/* Meta row */}
-        <div className="flex items-center justify-between mt-auto text-[10px] text-text-muted">
+        <div className="flex items-center justify-between mt-auto text-xs text-text-muted">
           <div className="flex items-center gap-2">
             <span>{tiempoTranscurrido}</span>
             <span>·</span>
             <span className="flex items-center gap-1">
-              <Clock className="w-2.5 h-2.5" />
+              <Clock className="w-3 h-3" />
               {noticia.tiempoLectura} min
             </span>
           </div>

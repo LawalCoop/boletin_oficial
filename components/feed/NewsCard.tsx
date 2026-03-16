@@ -21,13 +21,13 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
 
   return (
     <article
-      className={`flex gap-[14px] py-4 border-t border-border ${
-        highlighted ? 'bg-bg-highlight p-4 -mx-4 border-0' : ''
+      className={`flex gap-4 py-5 border-t border-border ${
+        highlighted ? 'bg-bg-highlight p-5 -mx-4 border-0' : ''
       }`}
     >
       {/* Number */}
       <span
-        className={`font-[family-name:var(--font-lora)] text-2xl font-medium tracking-tight ${
+        className={`font-[family-name:var(--font-lora)] text-3xl font-medium tracking-tight ${
           highlighted ? 'text-[#D4A843]' : 'text-border'
         }`}
       >
@@ -35,7 +35,7 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
       </span>
 
       {/* Content */}
-      <div className="flex flex-col gap-[6px] flex-1 min-w-0">
+      <div className="flex flex-col gap-2 flex-1 min-w-0">
         {/* Tags Row - No wrap to keep titles aligned across cards */}
         <div className="flex items-center gap-2 overflow-hidden">
           <span
@@ -65,7 +65,7 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
 
         {/* Title - Link to article detail */}
         <Link href={`/articulo/${noticia.slug}`}>
-          <h3 className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary leading-snug hover:text-accent transition-colors">
+          <h3 className="font-[family-name:var(--font-lora)] text-lg font-medium text-text-primary leading-snug hover:text-accent transition-colors">
             {noticia.titulo}
           </h3>
         </Link>

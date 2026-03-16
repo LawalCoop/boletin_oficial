@@ -19,7 +19,7 @@ export function HeroCard({ noticia }: HeroCardProps) {
   return (
     <article className="border border-border rounded-lg overflow-hidden bg-bg hover:shadow-lg transition-shadow h-full flex flex-col">
       {/* Hero Image */}
-      <div className="relative h-[200px] lg:h-[220px] bg-bg-surface">
+      <div className="relative h-[220px] lg:h-[260px] bg-bg-surface">
         {noticia.imagen ? (
           <div
             className="absolute inset-0 bg-cover bg-center"

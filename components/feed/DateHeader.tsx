@@ -1,8 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { ChevronLeft, ChevronRight, Sparkles, Calendar, X } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Calendar, X } from 'lucide-react';
 import { formatFechaCorta, MESES, parseFechaLocal } from '@/lib/constants';
+import { EconomicIndicators } from '@/components/layout/EconomicIndicators';
 
 interface DateHeaderProps {
   fecha: string;
@@ -86,12 +87,7 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
           </button>
         </div>
 
-        <div className="flex items-center gap-1 bg-accent-soft px-2 py-1 rounded">
-          <Sparkles className="w-[14px] h-[14px] text-accent" />
-          <span className="text-[10px] font-semibold text-accent tracking-wider">
-            Generado con IA
-          </span>
-        </div>
+        <EconomicIndicators />
       </div>
 
       {/* Date Picker Modal */}

@@ -3,6 +3,7 @@
 import { ScrollText, Search, Bell, Home, Bookmark, User } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { CountrySelector } from './CountrySelector';
 
 const navItems = [
   { href: '/', label: 'Inicio', icon: Home },
@@ -51,6 +52,9 @@ export function Header() {
 
         {/* Right Actions */}
         <div className="flex items-center gap-2 lg:gap-3">
+          {/* Country Selector */}
+          <CountrySelector />
+
           {/* Search - visible on mobile, hidden on desktop (in nav) */}
           <button className="p-2 lg:hidden rounded-lg hover:bg-bg-surface transition-colors" aria-label="Buscar">
             <Search className="w-[22px] h-[22px] text-text-muted" />

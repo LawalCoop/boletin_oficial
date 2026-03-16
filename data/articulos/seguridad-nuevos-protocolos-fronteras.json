@@ -12,37 +12,38 @@
     "numeroEdicion": "35.877"
   },
   "contenidoIA": {
-    "titulo": "Seguridad Nacional estableció nuevos protocolos fronterizos",
-    "resumen": "El Ministerio de Seguridad publicó la Resolución 321/2025 con actualizaciones a los protocolos de control en pasos fronterizos. Se refuerza la coordinación entre fuerzas y se implementan nuevas tecnologías de control migratorio.",
+    "titulo": "Reconocimiento facial en las fronteras: así funcionarán los nuevos controles migratorios",
+    "resumen": "Cruzar una frontera argentina va a ser diferente. El Ministerio de Seguridad acaba de aprobar la implementación de control biométrico facial en todos los pasos internacionales del país: ya no alcanzará con mostrar el pasaporte, también te tomarán una foto que se comparará automáticamente con bases de datos de personas buscadas. Además, se crea un centro de coordinación donde Gendarmería, Prefectura, Policía Federal y PSA trabajarán juntas por primera vez.",
+    "contexto": "¿Quién controla las fronteras argentinas? A diferencia de otros países donde una sola agencia maneja todo, en Argentina hay varias fuerzas: Gendarmería en los pasos terrestres, Prefectura en puertos y ríos, la PSA (Policía de Seguridad Aeroportuaria) en aeropuertos, y Migraciones para el control de documentos. Esta división a veces genera problemas de coordinación —un prófugo puede cruzar por un paso que no tiene la misma información que otro—. El nuevo centro de coordinación busca que todas las fuerzas compartan datos en tiempo real.",
     "puntosClaves": [
       {
-        "titulo": "Control biométrico",
-        "descripcion": "Se implementa control biométrico facial en todos los pasos fronterizos internacionales."
+        "titulo": "Tu cara, tu documento",
+        "descripcion": "En cada cruce fronterizo internacional habrá cámaras que capturan tu rostro y lo comparan automáticamente con bases de datos de personas buscadas por la Justicia, prófugos de otros países y alertas de Interpol. El sistema cruza datos en segundos, mucho más rápido que la revisión manual de pasaportes."
       },
       {
-        "titulo": "Coordinación de fuerzas",
-        "descripcion": "Se crea un Centro de Coordinación Fronteriza con participación de todas las fuerzas de seguridad."
+        "titulo": "Todas las fuerzas, un solo centro",
+        "descripcion": "Se crea el Centro de Coordinación Fronteriza Integrado (CCFI), donde convivirán representantes de Gendarmería, Prefectura, PSA y Policía Federal. Si una persona es detectada como sospechosa en Ezeiza, todas las fronteras lo sabrán inmediatamente."
       },
       {
-        "titulo": "Alertas tempranas",
-        "descripcion": "Sistema de alertas compartido con países limítrofes para delitos transnacionales."
+        "titulo": "Alertas compartidas con países vecinos",
+        "descripcion": "Argentina podrá enviar y recibir alertas de Brasil, Paraguay, Uruguay, Chile y Bolivia en tiempo real. Si un cargamento sospechoso cruza de Paraguay a Argentina, las autoridades argentinas pueden saberlo antes de que llegue a la frontera."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Viajeros",
-        "icono": "users",
-        "descripcion": "Controles más tecnológicos en cruces fronterizos."
+        "grupo": "Viajeros que cruzan fronteras",
+        "icono": "plane",
+        "descripcion": "El trámite de ingreso y egreso tendrá un paso más: pararte frente a una cámara para el control facial. Para la mayoría será rápido e imperceptible, pero si tu cara 'matchea' con alguna base de datos, te van a pedir que esperes."
+      },
+      {
+        "grupo": "Transportistas internacionales",
+        "icono": "truck",
+        "descripcion": "Los camioneros y empresas de transporte de carga encontrarán nuevos procedimientos en los pasos fronterizos. Puede haber más controles, pero también más agilidad si la coordinación funciona como prometen."
       },
       {
         "grupo": "Fuerzas de seguridad",
         "icono": "shield",
-        "descripcion": "Nueva estructura de coordinación y equipamiento."
-      },
-      {
-        "grupo": "Transportistas",
-        "icono": "truck",
-        "descripcion": "Nuevos procedimientos en pasos de carga."
+        "descripcion": "Los agentes de frontera recibirán capacitación en el nuevo sistema y deberán adaptarse a trabajar de forma más coordinada con otras fuerzas. Es un cambio cultural importante en instituciones acostumbradas a operar independientemente."
       }
     ]
   },
@@ -67,7 +68,8 @@
     "negativos": 145
   },
   "relacionados": [],
+  "imagen": "/images/articulos/fronteras.jpg",
   "fechaPublicacion": "2025-03-12T09:30:00Z",
-  "tiempoLectura": 3,
-  "tags": ["seguridad", "fronteras", "control"]
+  "tiempoLectura": 5,
+  "tags": ["seguridad", "fronteras", "control", "biometria"]
 }

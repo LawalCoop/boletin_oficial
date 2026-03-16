@@ -12,41 +12,42 @@
     "numeroEdicion": "35.876"
   },
   "contenidoIA": {
-    "titulo": "SENASA actualizó normas sanitarias para exportaciones agropecuarias",
-    "resumen": "El Servicio Nacional de Sanidad y Calidad Agroalimentaria emitió la Resolución 154/2025 con nuevos requisitos sanitarios para productos de exportación. Se actualizan protocolos fitosanitarios y se incorporan exigencias de trazabilidad para carnes y granos.",
+    "titulo": "Exportar carne a China será más fácil (pero con más control): SENASA actualiza protocolos",
+    "resumen": "La carne argentina viaja con pasaporte. SENASA —el organismo que certifica la sanidad de todo lo que el campo exporta— acaba de actualizar las reglas del juego para quienes venden carne y granos al exterior. La novedad más importante: un sistema de trazabilidad electrónica que permitirá saber exactamente de qué campo, frigorífico y fecha proviene cada corte que llegue a un supermercado en Shanghai o Barcelona. China lo exigía, y Argentina se adapta.",
+    "contexto": "¿Por qué Argentina necesita al SENASA para exportar? Cada país que compra alimentos quiere garantías de que son seguros. El SENASA (Servicio Nacional de Sanidad y Calidad Agroalimentaria) es el organismo argentino que da esa garantía: inspecciona frigoríficos, analiza granos, controla que no haya plagas ni enfermedades. Cuando un importador chino compra carne argentina, confía en el sello de SENASA. Si ese sello se desprestigia —por un brote de fiebre aftosa, por ejemplo— se pueden perder mercados enteros de un día para otro. Por eso estas normas son tan importantes para el campo.",
     "puntosClaves": [
       {
-        "titulo": "Trazabilidad de carnes",
-        "descripcion": "Nuevo sistema de trazabilidad electrónica obligatorio para exportaciones de carne vacuna."
+        "titulo": "Trazabilidad electrónica obligatoria",
+        "descripcion": "Cada corte de carne que se exporte deberá tener un registro electrónico que permita rastrear todo su recorrido: desde el campo donde se crió el animal, pasando por el frigorífico donde se faenó, hasta el puerto de embarque. Es un código QR que cuenta la historia completa del producto."
       },
       {
-        "titulo": "Certificación de granos",
-        "descripcion": "Se simplifican los procedimientos de certificación fitosanitaria para granos y oleaginosas."
+        "titulo": "Menos papeles para granos",
+        "descripcion": "La certificación fitosanitaria —el documento que garantiza que los granos no tienen plagas— se simplifica. Ahora se puede hacer casi todo online, reduciendo tiempos y costos para los exportadores de soja, trigo y maíz."
       },
       {
-        "titulo": "Protocolo con China",
-        "descripcion": "Se adaptan los requisitos a las nuevas exigencias del mercado chino para productos cárnicos."
+        "titulo": "Nuevas exigencias de China",
+        "descripcion": "El protocolo sanitario con China se actualizó, y ahora pide más controles. SENASA adapta sus procedimientos para que los frigoríficos argentinos habilitados para exportar a China cumplan con las nuevas exigencias del gigante asiático."
       },
       {
-        "titulo": "Plazo de adaptación",
-        "descripcion": "Los exportadores tienen 120 días para implementar el nuevo sistema de trazabilidad."
+        "titulo": "120 días para adaptarse",
+        "descripcion": "Los exportadores de carne tienen 4 meses para implementar el nuevo sistema de trazabilidad electrónica. Quienes no lo hagan a tiempo no podrán emitir certificados de exportación hasta ponerse al día."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Exportadores de carnes",
-        "icono": "beef",
-        "descripcion": "Deben implementar sistema de trazabilidad electrónica."
-      },
-      {
-        "grupo": "Productores agrícolas",
-        "icono": "wheat",
-        "descripcion": "Procedimientos de certificación más ágiles para granos."
-      },
-      {
-        "grupo": "Frigoríficos",
+        "grupo": "Frigoríficos exportadores",
         "icono": "factory",
-        "descripcion": "Nuevos protocolos sanitarios para habilitación de exportación."
+        "descripcion": "Deben invertir en tecnología para implementar el sistema de trazabilidad electrónica. Los que ya exportan a la Unión Europea probablemente estén más preparados, ya que esos mercados exigen controles similares hace años."
+      },
+      {
+        "grupo": "Productores ganaderos",
+        "icono": "beef",
+        "descripcion": "La trazabilidad empieza en el campo. Los productores deberán asegurarse de que sus animales estén correctamente identificados y registrados antes de enviarlos al frigorífico. Es más burocracia, pero también es una forma de demostrar la calidad de la carne argentina."
+      },
+      {
+        "grupo": "Exportadores de granos",
+        "icono": "wheat",
+        "descripcion": "Buenas noticias: los trámites se simplifican. La certificación fitosanitaria digital reduce idas y vueltas con papeles y acelera los tiempos de embarque. Es especialmente útil en los picos de cosecha, cuando cada día cuenta."
       }
     ]
   },
@@ -78,6 +79,6 @@
   "relacionados": [],
   "imagen": "/images/articulos/agro.jpg",
   "fechaPublicacion": "2025-03-11T08:30:00Z",
-  "tiempoLectura": 4,
-  "tags": ["senasa", "exportaciones", "agro", "sanidad"]
+  "tiempoLectura": 5,
+  "tags": ["senasa", "exportaciones", "agro", "carne", "china"]
 }

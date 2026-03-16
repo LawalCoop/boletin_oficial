@@ -12,37 +12,38 @@
     "numeroEdicion": "35.877"
   },
   "contenidoIA": {
-    "titulo": "Secretaría de Energía actualizó normativa del mercado eléctrico",
-    "resumen": "La Secretaría de Energía del Ministerio de Economía publicó la Resolución 119/2025 con actualizaciones para el funcionamiento del mercado eléctrico mayorista. Se modifican los mecanismos de despacho y se incorporan incentivos para energías renovables.",
+    "titulo": "Las renovables van primero: el Gobierno cambia las reglas del mercado eléctrico",
+    "resumen": "Cuando haya que decidir qué central eléctrica abastece al país, las renovables irán primero en la fila. La Secretaría de Energía acaba de cambiar las reglas del juego en el Mercado Eléctrico Mayorista —el sistema donde las generadoras venden electricidad a las distribuidoras— con un mensaje claro: la transición energética es prioridad. Además, las industrias ahora podrán comprar energía verde directamente a los parques solares y eólicos, sin pasar por intermediarios.",
+    "contexto": "¿Cómo funciona el mercado eléctrico argentino? Cuando encendés la luz, esa electricidad no viene de un solo lugar. Hay cientos de centrales —térmicas, hidroeléctricas, nucleares, solares, eólicas— que producen energía y la venden a un 'mercado mayorista'. CAMMESA, una empresa estatal, decide cada 15 minutos qué centrales enciende para abastecer la demanda, eligiendo las más baratas primero. Esta resolución cambia esa lógica: ahora las renovables tienen prioridad aunque no sean las más baratas, porque el objetivo es reducir emisiones de carbono.",
     "puntosClaves": [
       {
-        "titulo": "Prioridad renovable",
-        "descripcion": "La energía de fuentes renovables tendrá prioridad de despacho sobre generación térmica convencional."
+        "titulo": "Las renovables, primero en la fila",
+        "descripcion": "Cuando CAMMESA —la empresa que coordina el sistema eléctrico— decida qué centrales encender, deberá priorizar las que generan con sol, viento o agua antes que las que queman gas o carbón. En la práctica, esto significa más demanda garantizada para los parques eólicos y solares, y menos uso de combustibles fósiles."
       },
       {
-        "titulo": "Nuevos contratos",
-        "descripcion": "Se habilitan contratos de largo plazo (PPA) entre grandes usuarios y generadores renovables."
+        "titulo": "Contratos directos entre industrias y parques solares",
+        "descripcion": "Las grandes industrias —llamadas 'grandes usuarios' en la jerga del sector— ahora pueden firmar contratos de largo plazo (conocidos como PPA, por Power Purchase Agreement) directamente con generadores renovables. Una fábrica puede asegurarse 10 años de energía solar a precio fijo, por ejemplo."
       },
       {
-        "titulo": "Almacenamiento",
-        "descripcion": "Se incorpora el almacenamiento de energía como nueva categoría de agente del mercado."
+        "titulo": "Baterías entran al mercado",
+        "descripcion": "Por primera vez, los sistemas de almacenamiento de energía —como las grandes baterías que guardan electricidad para usarla después— pueden participar como agentes del mercado eléctrico. Esto es clave para las renovables, que producen cuando hay sol o viento, no necesariamente cuando hay demanda."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Generadores renovables",
+        "grupo": "Empresas de energía solar y eólica",
         "icono": "sun",
-        "descripcion": "Mayor prioridad de despacho y nuevas opciones de comercialización."
+        "descripcion": "Buenas noticias para los parques solares y eólicos del país. Con esta norma, tienen prácticamente garantizado que toda la energía que produzcan será comprada. Esto reduce la incertidumbre y podría atraer más inversiones al sector renovable argentino."
       },
       {
-        "grupo": "Grandes usuarios",
+        "grupo": "Grandes industrias",
         "icono": "factory",
-        "descripcion": "Pueden contratar directamente energía renovable."
+        "descripcion": "Fábricas, mineras y otras industrias con alto consumo eléctrico ahora pueden negociar directamente con generadores renovables. Pueden asegurarse precios estables a largo plazo y, de paso, mejorar su perfil ambiental comprando energía verde."
       },
       {
-        "grupo": "Distribuidoras",
-        "icono": "zap",
-        "descripcion": "Deben adaptar sus sistemas a los nuevos mecanismos de despacho."
+        "grupo": "Centrales térmicas",
+        "icono": "flame",
+        "descripcion": "Las centrales que queman gas o carbón pierden prioridad de despacho. Seguirán operando cuando no alcance con las renovables, pero serán la segunda opción. A largo plazo, algunas podrían volverse inviables económicamente."
       }
     ]
   },
@@ -75,6 +76,6 @@
   ],
   "imagen": "/images/articulos/energia.jpg",
   "fechaPublicacion": "2025-03-12T08:30:00Z",
-  "tiempoLectura": 4,
-  "tags": ["energia", "electricidad", "mercado"]
+  "tiempoLectura": 5,
+  "tags": ["energia", "electricidad", "renovables", "mercado eléctrico"]
 }

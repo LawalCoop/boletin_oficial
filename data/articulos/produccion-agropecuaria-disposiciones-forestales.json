@@ -12,41 +12,42 @@
     "numeroEdicion": "35.876"
   },
   "contenidoIA": {
-    "titulo": "Nuevas disposiciones para producción agropecuaria y forestal",
-    "resumen": "La Subsecretaría de Producción Agropecuaria y Forestal publicó las Disposiciones 7 y 8/2025 con lineamientos para el sector. Se establecen nuevos criterios para el manejo sustentable de bosques nativos y se actualizan los registros de productores forestales.",
+    "titulo": "Nuevas reglas para intervenir en bosques nativos y un incentivo para plantar árboles autóctonos",
+    "resumen": "Los dueños de campos con bosques nativos tienen novedades. La Subsecretaría de Producción Agropecuaria acaba de actualizar los criterios para hacer 'manejo sustentable' en zonas amarillas —las que se pueden usar productivamente pero con restricciones— y creó un programa de incentivos para quienes planten especies nativas. También hay plazos: los productores forestales deben actualizar sus datos en el registro nacional antes del 30 de junio.",
+    "contexto": "¿Qué son las zonas amarillas de los bosques nativos? La Ley de Bosques (26.331) clasificó todos los bosques nativos de Argentina en tres colores según su valor de conservación: rojo (intocables), amarillo (uso restringido) y verde (se pueden desmontar con permiso). Las zonas amarillas son las más conflictivas: el propietario quiere producir, pero hay restricciones ambientales. Un 'plan de manejo sustentable' es el documento técnico que dice qué se puede hacer y qué no en cada caso.",
     "puntosClaves": [
       {
-        "titulo": "Manejo de bosques nativos",
-        "descripcion": "Se establecen criterios técnicos para planes de manejo sustentable en zonas amarillas."
+        "titulo": "Nuevos criterios para zonas amarillas",
+        "descripcion": "Se actualizan los requisitos técnicos para presentar planes de manejo sustentable en bosques de categoría II (amarilla). Ahora hay que incluir estudio de impacto ambiental y un programa de monitoreo de biodiversidad. Es más exigente, pero da más certeza jurídica."
       },
       {
-        "titulo": "Registro forestal actualizado",
-        "descripcion": "Los productores forestales deben actualizar sus datos en el Registro Nacional antes del 30 de junio."
+        "titulo": "Incentivos para plantar nativas",
+        "descripcion": "Se crea el Programa de Incentivos para Forestación con Especies Nativas. Los productores que planten algarrobos, quebrachos, caldenes u otras especies autóctonas pueden acceder a subsidios o beneficios fiscales. Es para reforestar áreas degradadas con especies del lugar."
       },
       {
-        "titulo": "Incentivos forestales",
-        "descripcion": "Se habilita una nueva línea de incentivos para forestación con especies nativas."
+        "titulo": "Actualizar el registro antes de junio",
+        "descripcion": "Los productores forestales inscriptos en el Registro Nacional tienen hasta el 30 de junio de 2025 para actualizar sus datos. Si no lo hacen, pueden perder el acceso a beneficios y créditos del sector."
       },
       {
-        "titulo": "Control de incendios",
-        "descripcion": "Nuevos requisitos de prevención de incendios para explotaciones forestales."
+        "titulo": "Prevención de incendios obligatoria",
+        "descripcion": "Las explotaciones forestales deben cumplir nuevos requisitos de prevención de incendios: cortafuegos, reservorios de agua, planes de evacuación. Es respuesta a las temporadas de incendios cada vez más graves."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Productores forestales",
+        "grupo": "Propietarios de campos con bosque nativo",
         "icono": "trees",
-        "descripcion": "Deben actualizar registro y cumplir nuevos requisitos de prevención."
+        "descripcion": "Si tenés un campo con monte nativo en zona amarilla y querés hacer ganadería, agricultura o extracción de madera, ahora hay criterios más claros (aunque más exigentes) para armar tu plan de manejo."
       },
       {
-        "grupo": "Propietarios de bosques nativos",
+        "grupo": "Productores forestales",
+        "icono": "axe",
+        "descripcion": "Quienes se dedican a la forestación comercial tienen que actualizar sus datos en el registro y pueden acceder a incentivos si plantan especies nativas. También enfrentan más requisitos de prevención de incendios."
+      },
+      {
+        "grupo": "Ambientalistas",
         "icono": "leaf",
-        "descripcion": "Nuevos criterios para planes de manejo en zonas amarillas."
-      },
-      {
-        "grupo": "Empresas madereras",
-        "icono": "factory",
-        "descripcion": "Acceso a incentivos para proyectos de forestación con nativas."
+        "descripcion": "Las nuevas reglas incluyen más controles ambientales: estudios de impacto y monitoreo de biodiversidad. Es un avance en papel, pero la efectividad dependerá de la fiscalización real."
       }
     ]
   },
@@ -87,7 +88,8 @@
       "categoria": "nacional"
     }
   ],
+  "imagen": "/images/articulos/bosques.jpg",
   "fechaPublicacion": "2025-03-11T09:00:00Z",
-  "tiempoLectura": 3,
-  "tags": ["agro", "forestal", "produccion"]
+  "tiempoLectura": 5,
+  "tags": ["bosques nativos", "forestacion", "medio ambiente", "agro"]
 }

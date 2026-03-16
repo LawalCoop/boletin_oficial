@@ -3,6 +3,7 @@
   "slug": "gobierno-firma-dnu-179-nuevas-disposiciones",
   "metadata": {
     "categoria": "nacional",
+    "tema": "otros",
     "tipoDocumento": "decreto",
     "numeroDocumento": "DNU 179/2025",
     "organismoEmisor": "Poder Ejecutivo Nacional",
@@ -11,41 +12,42 @@
     "numeroEdicion": "35.876"
   },
   "contenidoIA": {
-    "titulo": "El Gobierno firmó un nuevo Decreto de Necesidad y Urgencia con disposiciones administrativas",
-    "resumen": "El Poder Ejecutivo Nacional publicó el Decreto de Necesidad y Urgencia 179/2025, estableciendo nuevas disposiciones que modifican procedimientos administrativos en distintos organismos del Estado. La norma, que entra en vigencia de forma inmediata, busca agilizar trámites y reducir la burocracia en la administración pública nacional.",
+    "titulo": "Trámites más cortos: el Gobierno fija plazo máximo de 15 días para responder expedientes",
+    "resumen": "Si alguna vez sentiste que un trámite en el Estado se perdía en el tiempo, esto te interesa. El Gobierno acaba de firmar un DNU —Decreto de Necesidad y Urgencia— que obliga a todos los organismos públicos a resolver los trámites simples en un máximo de 15 días hábiles. Es parte de una ola de simplificación administrativa que busca reducir la famosa burocracia estatal. La norma ya está vigente desde su publicación.",
+    "contexto": "¿Qué es un DNU y por qué genera polémica? Los Decretos de Necesidad y Urgencia son una herramienta constitucional que permite al Presidente dictar normas con fuerza de ley sin pasar primero por el Congreso. Solo pueden usarse cuando hay 'circunstancias excepcionales' que hacen imposible seguir el trámite legislativo normal. Entran en vigencia inmediatamente, pero después el Congreso debe revisarlos: puede aprobarlos, rechazarlos o dejarlos en un limbo si no se pronuncia. Muchos cuestionan su uso para temas que podrían esperar una ley, pero los gobiernos los usan frecuentemente para acelerar reformas.",
     "puntosClaves": [
       {
-        "titulo": "Naturaleza de la norma",
-        "descripcion": "Se trata de un Decreto de Necesidad y Urgencia (DNU), lo que significa que tiene fuerza de ley y entra en vigencia inmediatamente, aunque debe ser tratado por el Congreso."
+        "titulo": "15 días máximo para trámites simples",
+        "descripcion": "Los expedientes que solo involucran a un organismo —un permiso, una habilitación, una consulta— deben resolverse en 15 días hábiles (unas 3 semanas). Si pasa el plazo sin respuesta, el ciudadano puede reclamar y eventualmente dar por aprobado el trámite por silencio administrativo."
       },
       {
-        "titulo": "Modificaciones administrativas",
-        "descripcion": "El DNU introduce cambios en los procedimientos administrativos de varios organismos, simplificando requisitos y reduciendo plazos de respuesta."
+        "titulo": "30 días para adaptar procedimientos",
+        "descripcion": "Los organismos públicos tienen un mes para revisar sus procesos internos y ajustarlos a los nuevos plazos. Deben identificar qué trámites pueden resolverse más rápido y eliminar pasos innecesarios."
       },
       {
-        "titulo": "Entrada en vigencia",
-        "descripcion": "Las disposiciones entran en vigencia desde el día de su publicación en el Boletín Oficial, es decir, el 11 de marzo de 2025."
+        "titulo": "Vigencia inmediata",
+        "descripcion": "A diferencia de una ley, que entra en vigencia 8 días después de publicarse, el DNU rige desde el día de su publicación: 11 de marzo de 2025. Los trámites nuevos ya están bajo el nuevo régimen."
       },
       {
-        "titulo": "Control parlamentario",
-        "descripcion": "Como todo DNU, deberá ser sometido a consideración de la Comisión Bicameral Permanente del Congreso dentro de los 10 días de su dictado."
+        "titulo": "El Congreso debe revisarlo",
+        "descripcion": "Dentro de 10 días, el Gobierno tiene que enviar el DNU a la Comisión Bicameral Permanente del Congreso. Esta comisión analiza si era realmente necesario y urgente, y luego las Cámaras deciden si lo ratifican o rechazan."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Organismos públicos",
-        "icono": "landmark",
-        "descripcion": "Deberán adaptar sus procedimientos internos a las nuevas disposiciones establecidas por el DNU."
-      },
-      {
-        "grupo": "Ciudadanos",
-        "icono": "users",
-        "descripcion": "Podrían verse beneficiados por la simplificación de trámites ante la administración pública."
+        "grupo": "Ciudadanos que hacen trámites",
+        "icono": "user",
+        "descripcion": "Cualquiera que inicie un expediente en un organismo público —ANSES, Migraciones, un ministerio— ahora tiene un plazo concreto para esperar respuesta. Si no llega, tiene argumentos legales para reclamar."
       },
       {
         "grupo": "Empleados públicos",
+        "icono": "briefcase",
+        "descripcion": "Los trabajadores de la administración pública deberán adaptarse a procesos más ágiles. Puede significar más presión para resolver rápido, pero también menos papeleo si se eliminan pasos innecesarios."
+      },
+      {
+        "grupo": "Empresas",
         "icono": "building-2",
-        "descripcion": "Deberán implementar los nuevos procedimientos en sus áreas de trabajo."
+        "descripcion": "Los trámites empresariales —habilitaciones, permisos, registros— también están alcanzados. Tiempos más predecibles permiten planificar mejor las operaciones."
       }
     ]
   },
@@ -88,5 +90,6 @@
   ],
   "imagen": "/images/articulos/casa-rosada.jpg",
   "fechaPublicacion": "2025-03-11T06:00:00Z",
-  "tiempoLectura": 5
+  "tiempoLectura": 5,
+  "tags": ["dnu", "burocracia", "tramites", "administracion publica"]
 }

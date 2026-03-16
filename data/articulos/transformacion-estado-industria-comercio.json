@@ -12,41 +12,42 @@
     "numeroEdicion": "35.879"
   },
   "contenidoIA": {
-    "titulo": "Transformación del Estado e Industria firmaron resolución conjunta",
-    "resumen": "La Secretaría de Transformación del Estado y la Secretaría de Industria y Comercio emitieron la Resolución Conjunta 1/2025 para coordinar procesos de modernización administrativa en el sector industrial. La norma establece ventanillas únicas digitales y simplifica trámites para empresas.",
+    "titulo": "Un solo lugar para todos los trámites industriales: nace la ventanilla única digital",
+    "resumen": "Abrir una fábrica en Argentina siempre fue un laberinto de trámites en distintos organismos. Eso empieza a cambiar. Dos secretarías del Gobierno se juntaron para crear la 'Ventanilla Única de Trámites Industriales' (VUTI): una plataforma digital donde se podrán hacer todos los trámites de habilitación industrial en un solo lugar, en vez de ir oficina por oficina. Y lo mejor: el plazo máximo de respuesta baja de 90 a 30 días.",
+    "contexto": "¿Qué es una resolución conjunta? Normalmente, cada Secretaría o Ministerio dicta sus propias normas. Pero cuando un tema involucra a más de un área del Estado —como la modernización de trámites industriales— pueden emitir una resolución conjunta. Es como un acuerdo formal entre organismos que quedan obligados a coordinar. La Secretaría de Transformación del Estado sabe de digitalización; la de Industria sabe de fábricas. Juntas, diseñan un sistema que sirva.",
     "puntosClaves": [
       {
-        "titulo": "Ventanilla única digital",
-        "descripcion": "Se crea una plataforma unificada para todos los trámites industriales que antes requerían gestiones en múltiples organismos."
+        "titulo": "Todo en un solo lugar",
+        "descripcion": "La Ventanilla Única de Trámites Industriales (VUTI) será una plataforma web donde las empresas podrán gestionar todos los permisos y habilitaciones que necesitan para operar: inscripciones, autorizaciones ambientales, permisos de seguridad. Sin ir de oficina en oficina."
       },
       {
-        "titulo": "Reducción de plazos",
-        "descripcion": "Los tiempos de respuesta para habilitaciones industriales se reducen de 90 a 30 días hábiles."
+        "titulo": "De 90 a 30 días",
+        "descripcion": "El plazo máximo para obtener una habilitación industrial se reduce a un tercio. Antes podían pasar 3 meses esperando respuestas; ahora, si presentás todo completo, en un mes tenés que tener resolución. Si el Estado no responde a tiempo, opera el silencio administrativo positivo."
       },
       {
-        "titulo": "Firma digital obligatoria",
-        "descripcion": "A partir del 1° de mayo de 2025, todos los trámites industriales deberán realizarse con firma digital."
+        "titulo": "Firma digital desde mayo",
+        "descripcion": "A partir del 1° de mayo de 2025, todos los trámites industriales deberán hacerse con firma digital. Esto elimina el papel, permite hacer seguimiento online y reduce la posibilidad de 'perder' expedientes."
       },
       {
-        "titulo": "Interoperabilidad",
-        "descripcion": "Se establece el intercambio automático de información entre organismos, eliminando la necesidad de presentar documentación ya obrante en el Estado."
+        "titulo": "Los organismos comparten datos",
+        "descripcion": "Si ya presentaste tu CUIT, estatuto o habilitación municipal en un organismo, no deberías tener que presentarlo otra vez en otro. La interoperabilidad obliga a los organismos a consultarse entre sí en lugar de pedirte los mismos papeles dos veces."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Industrias",
+        "grupo": "Industriales y fábricas",
         "icono": "factory",
-        "descripcion": "Tendrán trámites más simples y rápidos para habilitaciones y permisos."
+        "descripcion": "Quienes quieran abrir o ampliar una planta industrial tendrán un camino más claro y rápido. Menos incertidumbre, menos costos de gestión, menos coimas para 'acelerar' trámites."
       },
       {
-        "grupo": "PyMEs",
+        "grupo": "PyMEs manufactureras",
         "icono": "building-2",
-        "descripcion": "Se beneficiarán especialmente de la reducción de burocracia y costos administrativos."
+        "descripcion": "Las pequeñas y medianas empresas son las que más sufren la burocracia, porque no tienen equipos legales dedicados. La simplificación las beneficia especialmente."
       },
       {
-        "grupo": "Organismos públicos",
+        "grupo": "Funcionarios de ventanilla",
         "icono": "landmark",
-        "descripcion": "Deberán adaptar sus sistemas a la nueva plataforma interoperable."
+        "descripcion": "Los empleados públicos que hoy atienden estos trámites deberán adaptarse a trabajar con la nueva plataforma. Algunos roles pueden cambiar o desaparecer; otros, surgir."
       }
     ]
   },
@@ -82,7 +83,8 @@
       "categoria": "nacional"
     }
   ],
+  "imagen": "/images/articulos/industria.jpg",
   "fechaPublicacion": "2025-03-14T09:00:00Z",
-  "tiempoLectura": 3,
-  "tags": ["transformacion", "industria", "comercio", "modernizacion"]
+  "tiempoLectura": 5,
+  "tags": ["transformacion", "industria", "ventanilla unica", "digitalizacion"]
 }

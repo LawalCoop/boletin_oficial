@@ -12,41 +12,42 @@
     "numeroEdicion": "35.879"
   },
   "contenidoIA": {
-    "titulo": "Vialidad Nacional convocó a 7 licitaciones para obras en rutas",
-    "resumen": "La Dirección Nacional de Vialidad publicó un paquete de resoluciones (333 a 342/2025) convocando a licitaciones públicas para obras de mantenimiento, repavimentación y mejora en diversas rutas nacionales del país. Las obras incluyen tramos en las provincias de Buenos Aires, Córdoba, Santa Fe, Mendoza y Neuquén, con una inversión total estimada de $45.000 millones.",
+    "titulo": "$45.000 millones en obras: Vialidad lanza 7 licitaciones para arreglar rutas en 5 provincias",
+    "resumen": "Las empresas constructoras tienen hasta el 15 de abril para presentar ofertas. Vialidad Nacional acaba de lanzar 7 licitaciones simultáneas para repavimentar y mejorar más de 400 kilómetros de rutas nacionales. Las obras abarcan tramos de las rutas 7, 9, 33, 40, 22, 188 y 5 en Buenos Aires, Córdoba, Santa Fe, Mendoza y Neuquén. La inversión total supera los $45.000 millones, financiados con fondos del Tesoro y créditos del BID.",
+    "contexto": "¿Cómo se decide qué rutas se arreglan? Vialidad Nacional —el organismo que administra las rutas nacionales— tiene presupuesto limitado y miles de kilómetros para mantener. Prioriza según el tránsito (las rutas más usadas primero), el estado actual del pavimento, y la importancia económica (corredores de carga, zonas turísticas). Las licitaciones se publican en el Boletín Oficial para que cualquier empresa pueda participar: gana la que ofrece el mejor precio cumpliendo los requisitos técnicos. Es obra pública, así que hay controles para evitar sobreprecios y corrupción.",
     "puntosClaves": [
       {
-        "titulo": "7 licitaciones simultáneas",
-        "descripcion": "Se abren procesos licitatorios para obras en Ruta 7, Ruta 9, Ruta 33, Ruta 40, Ruta 22, Ruta 188 y Ruta 5, abarcando más de 400 km de trabajos."
+        "titulo": "7 rutas, 5 provincias",
+        "descripcion": "Las obras incluyen la Ruta 7 en Mendoza (el camino a Chile), la Ruta 40 en Neuquén (la más larga del país), la Ruta 9 en Córdoba (que une con el norte), y otras 4 rutas en Buenos Aires y Santa Fe. Son 400 km de trabajos de repavimentación y mantenimiento."
       },
       {
-        "titulo": "Inversión millonaria",
-        "descripcion": "El presupuesto oficial total supera los $45.000 millones, financiados con fondos del Tesoro Nacional y créditos del BID."
+        "titulo": "$45.000 millones de inversión",
+        "descripcion": "El presupuesto oficial total supera los 45 mil millones de pesos, equivalente a unos 45 millones de dólares al cambio actual. El financiamiento combina fondos del Tesoro Nacional con créditos del Banco Interamericano de Desarrollo (BID)."
       },
       {
-        "titulo": "Plazo de presentación",
-        "descripcion": "Las empresas interesadas tienen hasta el 15 de abril de 2025 para presentar sus ofertas técnicas y económicas."
+        "titulo": "Ofertas hasta el 15 de abril",
+        "descripcion": "Las constructoras interesadas tienen un mes para preparar sus propuestas técnicas y económicas. Deben demostrar experiencia en obras viales similares y capacidad financiera para bancar el proyecto mientras el Estado paga."
       },
       {
-        "titulo": "Requisitos de participación",
-        "descripcion": "Pueden participar empresas nacionales y extranjeras con capacidad técnica y financiera comprobada en obras viales de similar envergadura."
+        "titulo": "18 meses de obra por tramo",
+        "descripcion": "Cada licitación tiene un plazo de ejecución de 18 meses desde el inicio de obra. Esto significa que los conductores verán mejoras recién entre fines de 2026 y principios de 2027."
       }
     ],
     "aQuienAfecta": [
       {
         "grupo": "Empresas constructoras",
         "icono": "hard-hat",
-        "descripcion": "Oportunidad de participar en licitaciones de obra pública vial de gran escala."
+        "descripcion": "Techint, Caputo, Roggio y otras grandes constructoras pueden competir por estas obras. También empresas regionales si se asocian para cumplir los requisitos de capacidad. Es trabajo asegurado por 18 meses para quien gane."
       },
       {
-        "grupo": "Transportistas",
+        "grupo": "Transportistas de carga",
         "icono": "truck",
-        "descripcion": "Se beneficiarán con mejores condiciones de circulación una vez finalizadas las obras."
+        "descripcion": "Los camioneros que recorren estas rutas sufrirán las obras durante la ejecución (desvíos, tránsito lento), pero después tendrán mejor asfalto. Menos roturas, menos gasto en neumáticos y suspensión."
       },
       {
-        "grupo": "Comunidades locales",
+        "grupo": "Comunidades de la zona",
         "icono": "users",
-        "descripcion": "Las obras generarán empleo local y mejorarán la conectividad regional."
+        "descripcion": "Las localidades cercanas a los tramos licitados se benefician doble: empleo durante la obra (operarios, proveedores locales) y mejor conectividad cuando termine. También pueden sufrir el tránsito pesado durante los trabajos."
       }
     ]
   },
@@ -84,6 +85,6 @@
   ],
   "imagen": "/images/articulos/rutas.jpg",
   "fechaPublicacion": "2025-03-14T07:30:00Z",
-  "tiempoLectura": 4,
-  "tags": ["vialidad", "licitaciones", "rutas", "obras"]
+  "tiempoLectura": 5,
+  "tags": ["vialidad", "licitaciones", "rutas", "obras", "construccion"]
 }

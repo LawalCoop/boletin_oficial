@@ -81,8 +81,9 @@ function calcularTiempoLectura(texto: string): number {
   return Math.max(2, Math.ceil(words / 200));
 }
 
-/** Generates a document ID from type and number */
-function generateId(tipo: string, numero: string): string {
+/** Generates a unique document ID, preferring the BORA entry ID (from the URL, always unique) */
+function generateId(boraId: string, tipo: string, numero: string): string {
+  if (boraId) return `bora-${boraId}`;
   const tipoShort = tipo.toLowerCase().replace(/[^a-z]/g, '').substring(0, 6);
   const numClean = numero.replace(/\//g, '-');
   return `${tipoShort}-${numClean}`;
@@ -99,7 +100,7 @@ export function buildArticulo(
   const categoria = SECCION_TO_CATEGORIA[doc.entry.seccion];
 
   return {
-    id: generateId(doc.entry.tipoDocumento, doc.entry.numero),
+    id: generateId(doc.entry.id, doc.entry.tipoDocumento, doc.entry.numero),
     slug,
     metadata: {
       categoria,

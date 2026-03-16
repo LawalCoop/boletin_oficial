@@ -1,0 +1,85 @@
+{
+  "id": "bora-339472",
+  "slug": "administracion-nacional-de-establecimientos-de-salud-actualizo-aranceles-del-hos",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "salud",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "",
+    "organismoEmisor": "",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339472/20260316",
+    "fechaBoletinOficial": "2026-03-16"
+  },
+  "contenidoIA": {
+    "titulo": "ADMINISTRACIÓN NACIONAL DE ESTABLECIMIENTOS DE SALUD actualizó aranceles del Hospital Posadas",
+    "resumen": "La ADMINISTRACIÓN NACIONAL DE ESTABLECIMIENTOS DE SALUD aprobó la actualización del Nomenclador de Prestaciones Valorizado del Hospital Nacional Profesor Alejandro Posadas. Esta medida ajusta los aranceles y las prácticas médicas para mejorar la gestión y el autofinanciamiento del hospital, permitiendo facturar de forma actualizada a las obras sociales y prepagas.",
+    "puntosClaves": [
+      {
+        "titulo": "Aranceles Actualizados",
+        "descripcion": "Se aprobaron nuevos valores para las prestaciones médicas y servicios que ofrece el Hospital Nacional Profesor Alejandro Posadas."
+      },
+      {
+        "titulo": "Nomenclador Vigente",
+        "descripcion": "Incluye altas, bajas y modificaciones en las prácticas, normas operativas, composición modular y listado de materiales y medicamentos."
+      },
+      {
+        "titulo": "Autogestión Hospitalaria",
+        "descripcion": "La medida busca fortalecer la política de autofinanciamiento y eficiencia en la gestión del Hospital Posadas."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Hospital Nacional Profesor Alejandro Posadas",
+        "icono": "building-2",
+        "descripcion": "Le permite facturar sus servicios con aranceles actualizados y mantener su vigencia técnica y operativa."
+      },
+      {
+        "grupo": "Agentes del Seguro de Salud",
+        "icono": "wallet",
+        "descripcion": "Deberán acordar y pagar las prestaciones según los nuevos valores establecidos en el Nomenclador actualizado."
+      },
+      {
+        "grupo": "Pacientes del Hospital Posadas",
+        "icono": "users",
+        "descripcion": "Si bien no hay un impacto directo en el acceso, la mejora en la gestión financiera del hospital puede influir en la calidad de los servicios."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "ADMINISTRACIÓN NACIONAL DE ESTABLECIMIENTOS DE SALUD - Búsqueda",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Artículo 1",
+        "contenido": "ARTICULO 1°.- Apruébase la actualización de aranceles del Nomenclador de Prestaciones Valorizado del Hospital Nacional “Profesor Alejandro Posadas” (IF-2026-09605156-APN-DGRS#HP) y el ABM del Nomenclador (IF-2026-08504618-APN-DGRS#HP), con sus Normas Operativas (IF-2026-08502403-APNDGRS#HP), Composición Modular (IF-2026-08503096-APN-DGRS#HP) y Listado de Materiales Descartables y Medicamentos Incluidos y Excluidos (IF-2026-08504085-APN-DGRS#HP), que como ANEXOS I a V forman parte integrante de la presente medida."
+      },
+      {
+        "numero": "2",
+        "titulo": "Artículo 2",
+        "contenido": "ARTÍCULO 2°.- Notifíquese a las Direcciones intervinientes."
+      },
+      {
+        "numero": "3",
+        "titulo": "Artículo 3",
+        "contenido": "ARTÍCULO 3º.- Comuníquese, publíquese, dése a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese.\nDiego Pablo Masaragian\nNOTA: El/los Anexo/s que integra/n este(a) Resolución se publican en la edición web del BORA -www.boletinoficial.gob.ar-"
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/salud.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": [
+    "hospital posadas",
+    "aranceles",
+    "prestaciones",
+    "salud pública",
+    "nomenclador",
+    "obras sociales"
+  ]
+}

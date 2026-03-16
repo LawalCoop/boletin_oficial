@@ -1,0 +1,98 @@
+{
+  "id": "bora-339476",
+  "slug": "ministerio-de-defensa-prorrogo-designaciones-transitorias-de-funcionarios-clave",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "designaciones",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "",
+    "organismoEmisor": "",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339476/20260316",
+    "fechaBoletinOficial": "2026-03-16"
+  },
+  "contenidoIA": {
+    "titulo": "Ministerio de Defensa prorrogó designaciones transitorias de funcionarios clave",
+    "resumen": "El Ministerio de Defensa extendió por 180 días hábiles las designaciones de varios funcionarios en puestos jerárquicos. Esta medida busca asegurar el funcionamiento de áreas importantes debido a que aún no se pudieron realizar los concursos para cubrir esos cargos de forma definitiva.",
+    "puntosClaves": [
+      {
+        "titulo": "Prórroga de cargos",
+        "descripcion": "Se extendieron por 180 días hábiles las designaciones de funcionarios en cargos como Directora de Gestión Presupuestaria y Contable, y Directores de Administración de Personal, entre otros."
+      },
+      {
+        "titulo": "Motivo de la prórroga",
+        "descripcion": "La extensión se debe a razones operativas que impidieron la realización de los procesos de selección para cubrir estos puestos de forma permanente."
+      },
+      {
+        "titulo": "Plazo para concursos",
+        "descripcion": "Los cargos prorrogados deberán ser cubiertos mediante los sistemas de selección vigentes en un plazo de 180 días hábiles, contados a partir de las fechas indicadas en el Anexo I."
+      },
+      {
+        "titulo": "Sin costos extras",
+        "descripcion": "Esta prórroga no implica la asignación de recursos presupuestarios adicionales para el Estado Nacional."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Funcionarios públicos",
+        "icono": "users",
+        "descripcion": "Mantiene a los funcionarios en sus cargos de forma transitoria por 180 días hábiles, garantizando la continuidad de sus funciones."
+      },
+      {
+        "grupo": "Ministerio de Defensa",
+        "icono": "building-2",
+        "descripcion": "Permite que unidades organizativas clave sigan funcionando de manera operativa hasta que se completen los concursos para los puestos definitivos."
+      },
+      {
+        "grupo": "Ciudadanía",
+        "icono": "shield",
+        "descripcion": "Asegura la continuidad de la gestión y los servicios en áreas administrativas y de apoyo del Ministerio de Defensa."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "MINISTERIO DE DEFENSA - Búsqueda",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Artículo 1",
+        "contenido": "ARTÍCULO 1°.- Dánse por prorrogadas, por el término de CIENTO OCHENTA (180) días hábiles, las designaciones transitorias de las personas detalladas en el ANEXO I (IF-2026-22521696-APN-DGRRHH#MD), que forma parte integrante de la presente Resolución, a partir de las fechas indicadas, en los respectivos cargos y en las mismas condiciones que oportunamente fueron otorgadas, autorizándose los correspondientes pagos de Funciones Ejecutivas del SISTEMA NACIONAL DE EMPLEO PÚBLICO (SINEP), aprobado por el Convenio Colectivo de Trabajo Sectorial homologado por Decreto N° 2098/08, sus modificatorios y complementarios."
+      },
+      {
+        "numero": "2",
+        "titulo": "Artículo 2",
+        "contenido": "ARTÍCULO 2°.- Los cargos involucrados deberán ser cubiertos de conformidad con los requisitos y sistemas de selección vigentes según lo establecido, respectivamente, en los Títulos II, Capítulos III, IV y VIII, y IV del Convenio Colectivo de Trabajo Sectorial del Personal del SISTEMA NACIONAL DE EMPLEO PÚBLICO (SINEP) homologado por el Decreto N° 2098/08, sus modificatorios y complementarios, en el término de CIENTO OCHENTA (180) días hábiles, contados a partir de las fechas indicadas en el ANEXO I."
+      },
+      {
+        "numero": "3",
+        "titulo": "Artículo 3",
+        "contenido": "ARTÍCULO 3°.- El gasto que demande el cumplimiento de la presente medida será atendido con cargo a las partidas específicas del presupuesto de la Jurisdicción 45 – MINISTERIO DE DEFENSA."
+      },
+      {
+        "numero": "4",
+        "titulo": "Artículo 4",
+        "contenido": "ARTÍCULO 4°.- Notifíquese a los agentes detallados en el ANEXO I (IF-2026-22521696-APN-DGRRHH#MD) que forma parte de la presente Resolución."
+      },
+      {
+        "numero": "5",
+        "titulo": "Artículo 5",
+        "contenido": "ARTÍCULO 5°.- Comuníquese, publíquese, dese a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese.\nTG Carlos Alberto Presti\nNOTA: El/los Anexo/s que integra/n este(a) Resolución se publican en la edición web del BORA -www.boletinoficial.gob.ar-"
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/funcionarios.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": [
+    "ministerio de defensa",
+    "designaciones",
+    "funcionarios",
+    "prórrogas",
+    "administración pública"
+  ]
+}

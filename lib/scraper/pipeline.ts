@@ -11,9 +11,6 @@ import { saveAll } from './json-writer';
 
 export type PipelineCallback = (event: PipelineEvent) => void;
 
-// Gemini free tier: 5 requests/minute. Process one at a time with delay.
-const AI_DELAY_MS = 13_000; // ~4.6 requests/min, safe margin
-
 /** Runs the full scraping + AI + save pipeline for a given date and section */
 export async function runPipeline(
   fecha: string,
@@ -33,7 +30,8 @@ export async function runPipeline(
     return;
   }
 
-  // Limit to first 5 entries for demo/free tier
+  // Demo limit: only process 5 docs to stay within Gemini free tier (15 req/min, 1500 req/day).
+  // With sequential processing, natural API latency provides enough spacing between requests.
   const maxEntries = 5;
   if (entries.length > maxEntries) {
     console.log(`[Pipeline] Limiting from ${entries.length} to ${maxEntries} entries (demo mode)`);
@@ -75,7 +73,8 @@ export async function runPipeline(
     }
   }
 
-  // Step 3: Process with AI sequentially (free tier: 5 req/min)
+  // Step 3: Process with AI sequentially — one at a time is enough for free tier rate limits.
+  // With 5 docs max, natural API latency (~2-4s each) keeps us well under 15 req/min.
   const aiResults = new Map<string, ArticuloAIResult>();
   const failedAI: string[] = [];
 
@@ -93,11 +92,6 @@ export async function runPipeline(
       failedAI.push(doc.entry.id);
     }
 
-    // Wait between requests to respect rate limit
-    if (i < docs.length - 1) {
-      console.log(`[Pipeline] Waiting ${AI_DELAY_MS / 1000}s for rate limit...`);
-      await new Promise((resolve) => setTimeout(resolve, AI_DELAY_MS));
-    }
   }
 
   // Step 4: Save to disk

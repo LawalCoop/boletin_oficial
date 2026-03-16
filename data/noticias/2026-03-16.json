@@ -1,5 +1,80 @@
 {
   "fecha": "2026-03-16",
-  "generadoEn": "2026-03-16T18:24:58.666Z",
-  "noticias": []
+  "generadoEn": "2026-03-16T18:51:16.771Z",
+  "noticias": [
+    {
+      "id": "bora-339472",
+      "slug": "administracion-nacional-de-establecimientos-de-salud-actualizo-aranceles-del-hos",
+      "categoria": "nacional",
+      "tema": "salud",
+      "seccionBoletin": "primera",
+      "tipoDocumento": "resolucion",
+      "numeroDocumento": "",
+      "titulo": "ADMINISTRACIÓN NACIONAL DE ESTABLECIMIENTOS DE SALUD actualizó aranceles del Hospital Posadas",
+      "extracto": "La ADMINISTRACIÓN NACIONAL DE ESTABLECIMIENTOS DE SALUD aprobó la actualización del Nomenclador de Prestaciones Valorizado del Hospital Nacional Profesor Alejandro Posadas. Esta medida ajusta los aranceles y las prácticas médicas para mejorar la gestión y el autofinanciamiento del hospital, permitiendo facturar de forma actualizada a las obras sociales y prepagas.",
+      "imagen": "/images/articulos/salud.jpg",
+      "fuente": "Boletín Oficial - Primera Sección",
+      "tiempoLectura": 3,
+      "fechaPublicacion": "2026-03-16T08:00:00Z",
+      "destacado": true,
+      "tags": [
+        "hospital posadas",
+        "aranceles",
+        "prestaciones",
+        "salud pública",
+        "nomenclador",
+        "obras sociales"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339472/20260316"
+    },
+    {
+      "id": "bora-339473",
+      "slug": "anses-aprobo-un-plan-de-retiros-de-voluntad-reciproca-para-su-personal",
+      "categoria": "nacional",
+      "tema": "trabajo",
+      "seccionBoletin": "primera",
+      "tipoDocumento": "resolucion",
+      "numeroDocumento": "",
+      "titulo": "ANSES aprobó un Plan de Retiros de Voluntad Recíproca para su personal",
+      "extracto": "La Administración Nacional de la Seguridad Social (ANSES) aprobó un Plan de Retiros de Voluntad Recíproca (RVR) para sus empleados. Esta medida busca fomentar una gestión más racional de los recursos humanos, permitiendo a quienes deseen desvincularse de la institución de común acuerdo.",
+      "imagen": "/images/articulos/industria.jpg",
+      "fuente": "Boletín Oficial - Primera Sección",
+      "tiempoLectura": 6,
+      "fechaPublicacion": "2026-03-16T08:00:00Z",
+      "destacado": true,
+      "tags": [
+        "retiro voluntario",
+        "ANSES",
+        "empleo público",
+        "recursos humanos",
+        "desvinculación laboral",
+        "sector público"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339473/20260316"
+    },
+    {
+      "id": "bora-339476",
+      "slug": "ministerio-de-defensa-prorrogo-designaciones-transitorias-de-funcionarios-clave",
+      "categoria": "nacional",
+      "tema": "designaciones",
+      "seccionBoletin": "primera",
+      "tipoDocumento": "resolucion",
+      "numeroDocumento": "",
+      "titulo": "Ministerio de Defensa prorrogó designaciones transitorias de funcionarios clave",
+      "extracto": "El Ministerio de Defensa extendió por 180 días hábiles las designaciones de varios funcionarios en puestos jerárquicos. Esta medida busca asegurar el funcionamiento de áreas importantes debido a que aún no se pudieron realizar los concursos para cubrir esos cargos de forma definitiva.",
+      "imagen": "/images/articulos/funcionarios.jpg",
+      "fuente": "Boletín Oficial - Primera Sección",
+      "tiempoLectura": 4,
+      "fechaPublicacion": "2026-03-16T08:00:00Z",
+      "destacado": false,
+      "tags": [
+        "ministerio de defensa",
+        "designaciones",
+        "funcionarios",
+        "prórrogas",
+        "administración pública"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339476/20260316"
+    }
+  ]
 }

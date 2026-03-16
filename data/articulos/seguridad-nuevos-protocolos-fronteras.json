@@ -1,0 +1,73 @@
+{
+  "id": "resol-seguridad-321-2025",
+  "slug": "seguridad-nuevos-protocolos-fronteras",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "seguridad",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "321/2025",
+    "organismoEmisor": "Ministerio de Seguridad",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/3212025/20250312",
+    "fechaBoletinOficial": "2025-03-12",
+    "numeroEdicion": "35.877"
+  },
+  "contenidoIA": {
+    "titulo": "Seguridad Nacional estableció nuevos protocolos fronterizos",
+    "resumen": "El Ministerio de Seguridad publicó la Resolución 321/2025 con actualizaciones a los protocolos de control en pasos fronterizos. Se refuerza la coordinación entre fuerzas y se implementan nuevas tecnologías de control migratorio.",
+    "puntosClaves": [
+      {
+        "titulo": "Control biométrico",
+        "descripcion": "Se implementa control biométrico facial en todos los pasos fronterizos internacionales."
+      },
+      {
+        "titulo": "Coordinación de fuerzas",
+        "descripcion": "Se crea un Centro de Coordinación Fronteriza con participación de todas las fuerzas de seguridad."
+      },
+      {
+        "titulo": "Alertas tempranas",
+        "descripcion": "Sistema de alertas compartido con países limítrofes para delitos transnacionales."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Viajeros",
+        "icono": "users",
+        "descripcion": "Controles más tecnológicos en cruces fronterizos."
+      },
+      {
+        "grupo": "Fuerzas de seguridad",
+        "icono": "shield",
+        "descripcion": "Nueva estructura de coordinación y equipamiento."
+      },
+      {
+        "grupo": "Transportistas",
+        "icono": "truck",
+        "descripcion": "Nuevos procedimientos en pasos de carga."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 321/2025 - MINISTERIO DE SEGURIDAD",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Control biométrico",
+        "contenido": "Artículo 1° - Impleméntase el Sistema de Control Biométrico Facial en todos los pasos fronterizos internacionales de la REPÚBLICA ARGENTINA."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Coordinación",
+        "contenido": "Artículo 2° - Créase el Centro de Coordinación Fronteriza Integrado (CCFI) con participación de Gendarmería Nacional, Prefectura Naval, Policía de Seguridad Aeroportuaria y Policía Federal."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 456,
+    "neutrales": 234,
+    "negativos": 145
+  },
+  "relacionados": [],
+  "fechaPublicacion": "2025-03-12T09:30:00Z",
+  "tiempoLectura": 3,
+  "tags": ["seguridad", "fronteras", "control"]
+}

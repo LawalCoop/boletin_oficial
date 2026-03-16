@@ -1,0 +1,79 @@
+{
+  "id": "resol-afip-5663-2025",
+  "slug": "afip-registro-actividades-mineras-retencion",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "mineria",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "RG 5663/2025",
+    "organismoEmisor": "Agencia de Recaudación y Control Aduanero (ARCA/AFIP)",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/56632025/20250312",
+    "fechaBoletinOficial": "2025-03-12",
+    "numeroEdicion": "35.877"
+  },
+  "contenidoIA": {
+    "titulo": "AFIP actualizó el Registro Fiscal de Actividades Mineras",
+    "resumen": "Mediante la Resolución General 5663/2025, AFIP estableció modificaciones al régimen de retención y al Registro Fiscal de Actividades Mineras. Se actualizan alícuotas y se simplifican los trámites de inscripción para pequeños productores.",
+    "puntosClaves": [
+      {
+        "titulo": "Nuevas alícuotas",
+        "descripcion": "Se reducen las alícuotas de retención para exportaciones de minerales del 3% al 2%."
+      },
+      {
+        "titulo": "Registro simplificado",
+        "descripcion": "Los pequeños productores mineros podrán inscribirse mediante trámite simplificado online."
+      },
+      {
+        "titulo": "Certificado de no retención",
+        "descripcion": "Se agiliza la emisión de certificados de no retención para empresas con situación fiscal regular."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Empresas mineras",
+        "icono": "mountain",
+        "descripcion": "Tendrán menores retenciones en sus operaciones de exportación."
+      },
+      {
+        "grupo": "Pequeños productores",
+        "icono": "user",
+        "descripcion": "Acceso simplificado al registro fiscal minero."
+      },
+      {
+        "grupo": "Provincias mineras",
+        "icono": "map-pin",
+        "descripcion": "Mayor competitividad del sector minero regional."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN GENERAL 5663/2025 - ARCA (ex AFIP)",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Objeto",
+        "contenido": "Artículo 1° - Modifícase el Registro Fiscal de Actividades Mineras establecido por la Resolución General N° 3890 y sus modificatorias."
+      },
+      {
+        "numero": "2-3",
+        "titulo": "Alícuotas",
+        "contenido": "Artículo 2° - Fíjase en el DOS POR CIENTO (2%) la alícuota de retención del Impuesto a las Ganancias aplicable a las exportaciones de minerales."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 456,
+    "neutrales": 234,
+    "negativos": 67
+  },
+  "relacionados": [
+    {
+      "slug": "afip-nuevo-regimen-informacion-financiera",
+      "titulo": "AFIP modificó el régimen de información financiera",
+      "categoria": "nacional"
+    }
+  ],
+  "fechaPublicacion": "2025-03-12T07:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["afip", "mineria", "retencion", "registro"]
+}

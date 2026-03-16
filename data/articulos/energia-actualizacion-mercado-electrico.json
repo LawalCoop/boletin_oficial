@@ -1,0 +1,80 @@
+{
+  "id": "resol-energia-119-2025",
+  "slug": "energia-actualizacion-mercado-electrico",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "energia",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "119/2025",
+    "organismoEmisor": "Secretaría de Energía",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1192025/20250312",
+    "fechaBoletinOficial": "2025-03-12",
+    "numeroEdicion": "35.877"
+  },
+  "contenidoIA": {
+    "titulo": "Secretaría de Energía actualizó normativa del mercado eléctrico",
+    "resumen": "La Secretaría de Energía del Ministerio de Economía publicó la Resolución 119/2025 con actualizaciones para el funcionamiento del mercado eléctrico mayorista. Se modifican los mecanismos de despacho y se incorporan incentivos para energías renovables.",
+    "puntosClaves": [
+      {
+        "titulo": "Prioridad renovable",
+        "descripcion": "La energía de fuentes renovables tendrá prioridad de despacho sobre generación térmica convencional."
+      },
+      {
+        "titulo": "Nuevos contratos",
+        "descripcion": "Se habilitan contratos de largo plazo (PPA) entre grandes usuarios y generadores renovables."
+      },
+      {
+        "titulo": "Almacenamiento",
+        "descripcion": "Se incorpora el almacenamiento de energía como nueva categoría de agente del mercado."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Generadores renovables",
+        "icono": "sun",
+        "descripcion": "Mayor prioridad de despacho y nuevas opciones de comercialización."
+      },
+      {
+        "grupo": "Grandes usuarios",
+        "icono": "factory",
+        "descripcion": "Pueden contratar directamente energía renovable."
+      },
+      {
+        "grupo": "Distribuidoras",
+        "icono": "zap",
+        "descripcion": "Deben adaptar sus sistemas a los nuevos mecanismos de despacho."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 119/2025 - SECRETARÍA DE ENERGÍA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Despacho renovable",
+        "contenido": "Artículo 1° - La energía generada a partir de fuentes renovables tendrá prioridad de despacho en el Mercado Eléctrico Mayorista (MEM)."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Contratos PPA",
+        "contenido": "Artículo 2° - Habilítase la celebración de contratos de abastecimiento de energía eléctrica de largo plazo (Power Purchase Agreements) entre Grandes Usuarios y Generadores de fuentes renovables."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 678,
+    "neutrales": 156,
+    "negativos": 89
+  },
+  "relacionados": [
+    {
+      "slug": "secretaria-energia-nuevas-regulaciones-tarifarias",
+      "titulo": "La Secretaría de Energía estableció nuevas pautas para el sector energético",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/energia.jpg",
+  "fechaPublicacion": "2025-03-12T08:30:00Z",
+  "tiempoLectura": 4,
+  "tags": ["energia", "electricidad", "mercado"]
+}

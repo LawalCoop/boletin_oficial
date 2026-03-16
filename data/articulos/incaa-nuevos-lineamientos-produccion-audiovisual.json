@@ -1,0 +1,78 @@
+{
+  "id": "resol-incaa-137-2025",
+  "slug": "incaa-nuevos-lineamientos-produccion-audiovisual",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "cultura",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "137/2025",
+    "organismoEmisor": "Instituto Nacional de Cine y Artes Audiovisuales",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1372025/20250312",
+    "fechaBoletinOficial": "2025-03-12",
+    "numeroEdicion": "35.877"
+  },
+  "contenidoIA": {
+    "titulo": "INCAA estableció nuevos lineamientos para producción audiovisual",
+    "resumen": "El Instituto Nacional de Cine y Artes Audiovisuales publicó la Resolución 137/2025 definiendo criterios para la producción y fomento del cine nacional. Se actualizan los montos de subsidios y se crean nuevas líneas de apoyo para contenidos digitales.",
+    "puntosClaves": [
+      {
+        "titulo": "Aumento de subsidios",
+        "descripcion": "Los subsidios para largometrajes nacionales aumentan un 40% respecto a los valores de 2024."
+      },
+      {
+        "titulo": "Contenido digital",
+        "descripcion": "Se crea una línea específica de fomento para series y contenidos destinados a plataformas streaming."
+      },
+      {
+        "titulo": "Coproducción internacional",
+        "descripcion": "Se flexibilizan los requisitos para acceder a beneficios en coproducciones con otros países."
+      },
+      {
+        "titulo": "Diversidad regional",
+        "descripcion": "Se establece un cupo del 30% de los fondos para producciones realizadas fuera de AMBA."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Productoras de cine",
+        "icono": "film",
+        "descripcion": "Acceso a mayores subsidios y nuevas líneas de financiamiento."
+      },
+      {
+        "grupo": "Creadores de contenido",
+        "icono": "video",
+        "descripcion": "Nueva línea de apoyo para producción de series digitales."
+      },
+      {
+        "grupo": "Productores regionales",
+        "icono": "map-pin",
+        "descripcion": "Cupo garantizado de fondos para producciones del interior."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 137/2025 - INCAA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Subsidios",
+        "contenido": "Artículo 1° - Actualízanse los montos de subsidios para la producción de largometrajes nacionales conforme la escala establecida en el Anexo I."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Contenido digital",
+        "contenido": "Artículo 2° - Créase la línea de fomento \"Producción Digital Argentina\" destinada a series y contenidos para plataformas de streaming."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 623,
+    "neutrales": 145,
+    "negativos": 78
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/cine.jpg",
+  "fechaPublicacion": "2025-03-12T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["incaa", "cine", "cultura", "audiovisual"]
+}

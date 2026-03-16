@@ -1,0 +1,89 @@
+{
+  "id": "resol-afip-5662-2025",
+  "slug": "afip-nuevo-regimen-informacion-financiera",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "impuestos",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "RG 5662/2025",
+    "organismoEmisor": "Agencia de Recaudación y Control Aduanero (ARCA/AFIP)",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/56622025/20250312",
+    "fechaBoletinOficial": "2025-03-12",
+    "numeroEdicion": "35.877"
+  },
+  "contenidoIA": {
+    "titulo": "AFIP modificó el régimen de información para actividad financiera",
+    "resumen": "La Agencia de Recaudación y Control Aduanero publicó la Resolución General 5662/2025 que actualiza los procedimientos y régimen de información para entidades financieras. Se amplían los datos a reportar y se establecen nuevos plazos de presentación.",
+    "puntosClaves": [
+      {
+        "titulo": "Información ampliada",
+        "descripcion": "Los bancos deberán informar movimientos superiores a $500.000 mensuales por cuenta, reduciendo el umbral anterior de $1.000.000."
+      },
+      {
+        "titulo": "Plazos de presentación",
+        "descripcion": "El régimen de información pasa de ser mensual a quincenal para operaciones de alto monto."
+      },
+      {
+        "titulo": "Nuevos sujetos obligados",
+        "descripcion": "Se incorporan las fintech y billeteras virtuales al régimen de información financiera."
+      },
+      {
+        "titulo": "Sanciones actualizadas",
+        "descripcion": "Se incrementan las multas por incumplimiento o presentación tardía de información."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Bancos",
+        "icono": "landmark",
+        "descripcion": "Deben adaptar sus sistemas para reportar más información con mayor frecuencia."
+      },
+      {
+        "grupo": "Fintech",
+        "icono": "smartphone",
+        "descripcion": "Se incorporan como sujetos obligados al régimen de información."
+      },
+      {
+        "grupo": "Contribuyentes",
+        "icono": "users",
+        "descripcion": "Mayor fiscalización de movimientos financieros por parte de AFIP."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN GENERAL 5662/2025 - ARCA (ex AFIP)",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Objeto",
+        "contenido": "Artículo 1° - Modifícase el régimen de información establecido por la Resolución General N° 4298 y sus modificatorias, conforme las disposiciones de la presente."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Umbrales",
+        "contenido": "Artículo 2° - Las entidades financieras deberán informar los movimientos de fondos que superen la suma de PESOS QUINIENTOS MIL ($500.000) mensuales por cuenta."
+      },
+      {
+        "numero": "5-7",
+        "titulo": "Fintech",
+        "contenido": "Artículo 5° - Incorpóranse como sujetos obligados a las empresas proveedoras de servicios de pago que operen billeteras virtuales o similares."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 234,
+    "neutrales": 345,
+    "negativos": 289
+  },
+  "relacionados": [
+    {
+      "slug": "afip-registro-actividades-mineras-retencion",
+      "titulo": "AFIP actualizó el Registro Fiscal de Actividades Mineras",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/afip.jpg",
+  "fechaPublicacion": "2025-03-12T06:30:00Z",
+  "tiempoLectura": 5,
+  "tags": ["afip", "impuestos", "bancos", "informacion"]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "resol-defensa-208-2025",
+  "slug": "defensa-nuevas-adquisiciones-equipamiento",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "defensa",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "208/2025",
+    "organismoEmisor": "Ministerio de Defensa",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/2082025/20250312",
+    "fechaBoletinOficial": "2025-03-12",
+    "numeroEdicion": "35.877"
+  },
+  "contenidoIA": {
+    "titulo": "Ministerio de Defensa autorizó nuevas adquisiciones de equipamiento",
+    "resumen": "El Ministerio de Defensa publicó la Resolución 208/2025 autorizando procesos de adquisición para las Fuerzas Armadas. Se incluyen compras de vehículos, equipamiento de comunicaciones y sistemas de vigilancia.",
+    "puntosClaves": [
+      {
+        "titulo": "Vehículos tácticos",
+        "descripcion": "Se autoriza la compra de 50 vehículos blindados livianos para el Ejército."
+      },
+      {
+        "titulo": "Comunicaciones",
+        "descripcion": "Adquisición de sistemas de comunicación encriptada para las tres fuerzas."
+      },
+      {
+        "titulo": "Vigilancia",
+        "descripcion": "Compra de drones de vigilancia para control de fronteras."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Fuerzas Armadas",
+        "icono": "shield",
+        "descripcion": "Recibirán nuevo equipamiento y tecnología."
+      },
+      {
+        "grupo": "Industria de defensa",
+        "icono": "factory",
+        "descripcion": "Oportunidades de provisión de equipamiento."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 208/2025 - MINISTERIO DE DEFENSA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Autorización",
+        "contenido": "Artículo 1° - Autorízase la adquisición de CINCUENTA (50) vehículos blindados livianos 4x4 con destino al EJÉRCITO ARGENTINO."
+      },
+      {
+        "numero": "2-3",
+        "titulo": "Comunicaciones",
+        "contenido": "Artículo 2° - Autorízase la contratación de sistemas de comunicación táctica encriptada para las FUERZAS ARMADAS."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 345,
+    "neutrales": 289,
+    "negativos": 198
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/defensa.jpg",
+  "fechaPublicacion": "2025-03-12T09:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["defensa", "fuerzas-armadas", "adquisiciones"]
+}

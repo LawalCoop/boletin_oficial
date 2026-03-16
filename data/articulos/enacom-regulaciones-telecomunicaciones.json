@@ -3,7 +3,7 @@
   "slug": "enacom-regulaciones-telecomunicaciones",
   "metadata": {
     "categoria": "nacional",
-    "tema": "telecomunicaciones",
+    "tema": "tecnologia",
     "tipoDocumento": "resolucion",
     "numeroDocumento": "ENACOM/2025",
     "organismoEmisor": "Ente Nacional de Comunicaciones",
@@ -12,41 +12,47 @@
     "numeroEdicion": "35.878"
   },
   "contenidoIA": {
-    "titulo": "ENACOM publicó 4 resoluciones para el sector de telecomunicaciones",
-    "resumen": "El Ente Nacional de Comunicaciones emitió un paquete de 4 resoluciones que regulan distintos aspectos del mercado de telecomunicaciones y servicios digitales. Las normas abordan calidad de servicio, portabilidad numérica, espectro radioeléctrico y protección al usuario.",
+    "titulo": "Cambios para tu internet y celular: velocidad garantizada, portabilidad en 24 horas, y viene el 5G",
+    "resumen": "Cuatro resoluciones del ENACOM (el ente que regula las comunicaciones en Argentina) van a cambiar cómo funcionan tu internet y tu celular. La más concreta: si contratás 100 megas de internet, la empresa va a tener que garantizarte al menos 80 megas incluso en horario pico —cuando todos tus vecinos están viendo Netflix—. Otra novedad: si querés cambiar de compañía de celular y conservar tu número, el proceso no puede tardar más de 24 horas (hoy a veces tarda días). Además, se viene la licitación de frecuencias para 5G, lo que significa que en los próximos años deberías empezar a ver esa tecnología desplegándose en las ciudades grandes. Y las empresas de telecomunicaciones van a tener que publicar comparadores de precios en sus sitios, para que puedas ver fácilmente cuánto cobra cada una.",
+    "contexto": "¿Qué es el ENACOM? El Ente Nacional de Comunicaciones es el organismo que regula todo lo relacionado con telecomunicaciones en Argentina: internet, telefonía fija y móvil, televisión por cable y satelital, radio, y servicios postales. Cuando tu proveedor de internet no cumple con lo prometido o tu compañía de celular te cobra de más, es al ENACOM a donde deberías ir a quejarte. Las resoluciones que emite el ENACOM son obligatorias para todas las empresas del sector. No cumplirlas puede significar multas y sanciones.",
     "puntosClaves": [
       {
-        "titulo": "Calidad de internet",
-        "descripcion": "Se establecen velocidades mínimas garantizadas: 80% del ancho de banda contratado en horario pico."
+        "titulo": "Tu internet tiene que funcionar como te la vendieron (o casi)",
+        "descripcion": "La norma más esperada por los usuarios: los proveedores de internet deberán garantizar una velocidad mínima del 80% de lo que contrataste, incluso en 'horario pico' (generalmente entre las 19 y las 23 horas, cuando todo el mundo está conectado). Si contratás 100 megas, tenés derecho a recibir al menos 80 megas todo el tiempo. Hasta ahora, muchos proveedores vendían velocidades 'nominales' que solo se alcanzaban de madrugada cuando nadie usaba la red. Esta práctica se termina. ¿Cómo controlarlo? Existen herramientas de medición de velocidad (como Speedtest o la propia app del ENACOM) que sirven como evidencia si querés hacer un reclamo."
       },
       {
-        "titulo": "Portabilidad express",
-        "descripcion": "El proceso de portabilidad numérica deberá completarse en un máximo de 24 horas."
+        "titulo": "Cambiar de compañía de celular en 24 horas",
+        "descripcion": "La portabilidad numérica —eso de cambiar de compañía pero conservar tu número— existe en Argentina desde hace años, pero el proceso a veces tardaba días o incluso semanas, durante las cuales te podían cortar el servicio. La nueva norma dice que todo el proceso debe completarse en máximo 24 horas. Pedís la portabilidad hoy, mañana ya tenés tu número funcionando con la nueva compañía. Esto aplica tanto para celulares como para líneas fijas. El objetivo es que cambiar de proveedor sea tan fácil que las empresas tengan que competir en serio por mantenerte como cliente."
       },
       {
-        "titulo": "Asignación de espectro",
-        "descripcion": "Se licita nuevo espectro en banda de 3.5 GHz para despliegue de redes 5G."
+        "titulo": "Viene la licitación del 5G",
+        "descripcion": "El ENACOM convoca a concurso público para asignar frecuencias en la banda de 3.4 a 3.6 GHz, que es la banda principal para desplegar redes 5G. Para el usuario promedio, esto significa que el 5G —la tecnología de internet móvil que es entre 10 y 100 veces más rápida que el 4G— empezará a llegar a Argentina en serio en los próximos años. Primero en las ciudades grandes, después en ciudades medianas. El 5G no solo significa descargas más rápidas: también habilita tecnologías nuevas como los autos autónomos, la telemedicina avanzada y el Internet de las Cosas. Las operadoras móviles (Claro, Movistar, Personal) van a tener que invertir fuerte para ganar las frecuencias y desplegar las redes."
       },
       {
-        "titulo": "Transparencia tarifaria",
-        "descripcion": "Los prestadores deberán publicar comparadores de precios en sus sitios web."
+        "titulo": "Comparadores de precios obligatorios",
+        "descripcion": "¿Cuánto cobra cada empresa por un plan de internet de 100 megas? ¿Cuál es el plan de celular más barato con datos ilimitados? Hoy averiguar esto requiere entrar al sitio de cada empresa, navegar menús confusos, y a veces llamar para que te pasen un presupuesto. La nueva norma obliga a las empresas de telecomunicaciones a publicar en sus sitios web comparadores de precios claros, donde puedas ver de un vistazo cuánto cobran ellas y cuánto cobran sus competidores por servicios equivalentes. La idea es que la información sea transparente y que los usuarios puedan elegir con datos reales."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Empresas de telecomunicaciones",
+        "grupo": "Usuarios de internet hogareño",
         "icono": "wifi",
-        "descripcion": "Deben cumplir nuevos estándares de calidad y transparencia."
+        "descripcion": "Si pagás por una velocidad de internet y recibís menos de lo prometido, ahora tenés herramientas para reclamar. La garantía del 80% de la velocidad contratada es un piso mínimo que tu proveedor tiene que cumplir. Si no lo cumple, podés hacer una denuncia en el ENACOM con evidencia (capturas de tests de velocidad) y la empresa se expone a sanciones. También vas a poder comparar precios más fácilmente para ver si te conviene cambiar de proveedor."
       },
       {
-        "grupo": "Usuarios de internet",
-        "icono": "users",
-        "descripcion": "Tendrán garantías de velocidad mínima y portabilidad más rápida."
-      },
-      {
-        "grupo": "Operadores móviles",
+        "grupo": "Usuarios de telefonía celular",
         "icono": "smartphone",
-        "descripcion": "Podrán participar en licitación de espectro para 5G."
+        "descripcion": "La portabilidad en 24 horas significa que cambiar de compañía deja de ser un dolor de cabeza. Si tu operadora te está tratando mal o encontraste una oferta mejor, podés irte rápido sin perder tu número ni quedarte días sin servicio. Esto debería generar más competencia entre las operadoras, lo que en teoría se traduce en mejores precios y mejor servicio para todos."
+      },
+      {
+        "grupo": "Empresas de telecomunicaciones",
+        "icono": "building-2",
+        "descripcion": "Las nuevas reglas les ponen más presión. Garantizar velocidad mínima significa invertir en infraestructura de red (fibra óptica, antenas, equipamiento). La portabilidad rápida significa que los usuarios insatisfechos se van a ir más fácil —ya no tienen la barrera del trámite engorroso—. Y la transparencia de precios elimina la estrategia de confundir al consumidor con planes incomparables. Las empresas que ofrezcan buen servicio a precios competitivos van a ganar; las que se la venían pasando con servicio mediocre, van a sufrir."
+      },
+      {
+        "grupo": "Operadores móviles interesados en 5G",
+        "icono": "radio-tower",
+        "descripcion": "La licitación de espectro para 5G es una oportunidad grande pero cara. Ganar frecuencias significa poder ofrecer 5G a los usuarios (algo que todos van a querer eventualmente), pero implica pagar por las licencias y después invertir miles de millones en desplegar las redes. Es probable que solo los operadores grandes (Claro, Movistar, Personal) puedan competir seriamente. También podrían aparecer jugadores nuevos, aunque es menos probable."
       }
     ]
   },
@@ -56,17 +62,22 @@
       {
         "numero": "1",
         "titulo": "Calidad de servicio",
-        "contenido": "Artículo 1° - Los prestadores de servicios de acceso a internet deberán garantizar una velocidad mínima equivalente al OCHENTA POR CIENTO (80%) del ancho de banda contratado durante las horas pico."
+        "contenido": "Artículo 1° - Los prestadores de servicios de acceso a internet deberán garantizar una velocidad mínima equivalente al OCHENTA POR CIENTO (80%) del ancho de banda contratado durante las horas de mayor demanda."
       },
       {
         "numero": "2-4",
         "titulo": "Portabilidad",
-        "contenido": "Artículo 2° - El proceso de portabilidad numérica, tanto fija como móvil, deberá completarse en un plazo máximo de VEINTICUATRO (24) horas contadas desde la solicitud del usuario."
+        "contenido": "Artículo 2° - El proceso de portabilidad numérica, tanto fija como móvil, deberá completarse en un plazo máximo de VEINTICUATRO (24) horas contadas desde la solicitud del usuario. Artículo 3° - Durante el proceso de portabilidad, el usuario no podrá quedar sin servicio por más de UNA (1) hora."
       },
       {
         "numero": "5-7",
         "titulo": "Espectro 5G",
-        "contenido": "Artículo 5° - Convócase a concurso público para la asignación de frecuencias en la banda de 3.4 a 3.6 GHz para el despliegue de tecnología 5G."
+        "contenido": "Artículo 5° - Convócase a concurso público para la asignación de frecuencias en la banda de 3.4 a 3.6 GHz para el despliegue de tecnología 5G. Artículo 6° - Las bases y condiciones del concurso serán publicadas dentro de los TREINTA (30) días de la presente."
+      },
+      {
+        "numero": "8-9",
+        "titulo": "Transparencia tarifaria",
+        "contenido": "Artículo 8° - Los prestadores de servicios de telecomunicaciones deberán publicar en sus sitios web comparadores de precios que permitan a los usuarios comparar sus ofertas con las de otros prestadores del mercado."
       }
     ]
   },
@@ -78,6 +89,6 @@
   "relacionados": [],
   "imagen": "/images/articulos/telecomunicaciones.jpg",
   "fechaPublicacion": "2025-03-13T09:00:00Z",
-  "tiempoLectura": 4,
-  "tags": ["enacom", "telecomunicaciones", "internet", "comunicaciones"]
+  "tiempoLectura": 7,
+  "tags": ["enacom", "telecomunicaciones", "internet", "5g", "celular", "portabilidad"]
 }

@@ -1,16 +1,17 @@
 'use client';
 
-import { Building2, TrendingUp, Users, Scale, FileText, Landmark } from 'lucide-react';
+import * as LucideIcons from 'lucide-react';
 import { GrupoAfectado } from '@/lib/types';
 
-const iconMap: Record<string, React.ElementType> = {
-  'building-2': Building2,
-  'trending-up': TrendingUp,
-  'users': Users,
-  'scale': Scale,
-  'file-text': FileText,
-  'landmark': Landmark,
-};
+// Helper to get icon component dynamically
+function getIconComponent(iconName: string) {
+  const pascalName = iconName.split('-').map(part =>
+    part.charAt(0).toUpperCase() + part.slice(1)
+  ).join('');
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const Icon = (LucideIcons as any)[pascalName];
+  return Icon || LucideIcons.Users;
+}
 
 interface ImpactSectionProps {
   grupos: GrupoAfectado[];
@@ -18,31 +19,30 @@ interface ImpactSectionProps {
 
 export function ImpactSection({ grupos }: ImpactSectionProps) {
   return (
-    <section className="flex flex-col gap-3">
-      <h2 className="text-[10px] font-semibold text-text-muted tracking-[1.5px]">
-        ¿A QUIÉN AFECTA?
-      </h2>
-      <div className="flex flex-wrap gap-[10px]">
-        {grupos.map((grupo, index) => {
-          const Icon = iconMap[grupo.icono] || Users;
-          return (
-            <div
-              key={index}
-              className="flex-1 min-w-[140px] flex flex-col gap-1 bg-bg-surface p-[10px_12px] border border-border rounded"
-            >
-              <div className="flex items-center gap-2">
-                <Icon className="w-4 h-4 text-accent" />
-                <span className="text-xs font-semibold text-text-primary">
-                  {grupo.grupo}
-                </span>
+    <div className="flex flex-col gap-5">
+      {grupos.map((grupo, index) => {
+        const Icon = getIconComponent(grupo.icono);
+        return (
+          <article
+            key={index}
+            className="flex flex-col gap-3 bg-bg-surface border border-border rounded-lg p-4 lg:p-5"
+          >
+            {/* Header with icon and group name */}
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
+                <Icon className="w-5 h-5 text-accent" />
               </div>
-              <p className="text-[11px] text-text-secondary leading-[1.4]">
-                {grupo.descripcion}
-              </p>
+              <h3 className="font-[family-name:var(--font-lora)] text-base lg:text-lg font-medium text-text-primary">
+                {grupo.grupo}
+              </h3>
             </div>
-          );
-        })}
-      </div>
-    </section>
+            {/* Description - more space for longer narrative text */}
+            <p className="text-sm lg:text-base text-text-secondary leading-[1.7]">
+              {grupo.descripcion}
+            </p>
+          </article>
+        );
+      })}
+    </div>
   );
 }

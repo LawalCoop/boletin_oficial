@@ -70,36 +70,57 @@ export default async function ArticuloPage({
 
       {/* Article Body - Desktop has sidebar */}
       <div className="max-w-7xl mx-auto lg:flex lg:gap-8 lg:px-8 lg:py-8">
-        {/* Main Content */}
-        <main className="flex-1 flex flex-col gap-6 p-4 sm:p-6 lg:p-0 lg:max-w-3xl">
-          {/* AI Banner with link to original */}
+        {/* Main Content - News article style */}
+        <main className="flex-1 flex flex-col gap-8 p-4 sm:p-6 lg:p-0 lg:max-w-3xl">
+          {/* AI Banner - Small disclaimer */}
           <AIBanner articulo={articulo} />
 
-          {/* Summary */}
-          <Summary resumen={articulo.contenidoIA.resumen} />
+          {/* Lead paragraph + Educational Context - The heart of the article */}
+          <Summary
+            resumen={articulo.contenidoIA.resumen}
+            contexto={articulo.contenidoIA.contexto}
+          />
+
+          {/* Key Points - What you need to know */}
+          <section>
+            <h2 className="text-xs font-semibold text-text-muted tracking-[1.5px] uppercase mb-4">
+              Lo que tenés que saber
+            </h2>
+            <KeyPoints puntosClaves={articulo.contenidoIA.puntosClaves} />
+          </section>
 
           <hr className="border-border" />
 
-          {/* Vote Section */}
-          <VoteSection votacion={articulo.votacion} />
-
-          {/* Key Points */}
-          <KeyPoints puntosClaves={articulo.contenidoIA.puntosClaves} />
+          {/* Impact Section - Who is affected */}
+          <section>
+            <h2 className="text-xs font-semibold text-text-muted tracking-[1.5px] uppercase mb-4">
+              ¿A quién afecta?
+            </h2>
+            <ImpactSection grupos={articulo.contenidoIA.aQuienAfecta} />
+          </section>
 
           <hr className="border-border" />
 
-          {/* Original Text (collapsible) with link to original */}
+          {/* Original Text (collapsible) - For verification */}
           <OriginalText articulo={articulo} />
 
           <hr className="border-border" />
 
-          {/* Impact Section */}
-          <ImpactSection grupos={articulo.contenidoIA.aQuienAfecta} />
+          {/* Vote Section - After reading everything */}
+          <section className="py-4">
+            <h2 className="text-xs font-semibold text-text-muted tracking-[1.5px] uppercase mb-4 text-center">
+              ¿Qué te parece esta medida?
+            </h2>
+            <VoteSection votacion={articulo.votacion} />
+          </section>
 
-          <hr className="border-border" />
-
-          {/* Related Articles */}
-          <RelatedArticles relacionados={articulo.relacionados} />
+          {/* Related Articles - At the very end */}
+          {articulo.relacionados && articulo.relacionados.length > 0 && (
+            <>
+              <hr className="border-border" />
+              <RelatedArticles relacionados={articulo.relacionados} />
+            </>
+          )}
         </main>
 
         {/* Sidebar - Desktop only */}

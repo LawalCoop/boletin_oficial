@@ -12,41 +12,51 @@
     "numeroEdicion": "35.878"
   },
   "contenidoIA": {
-    "titulo": "Salud actualizó requisitos de habilitación y fiscalización sanitaria",
-    "resumen": "El Ministerio de Salud publicó la Disposición 335/2025 con nuevos requisitos para la habilitación y fiscalización de establecimientos sanitarios. Se actualizan estándares de bioseguridad y se incorporan requisitos de infraestructura tecnológica.",
+    "titulo": "Hospitales y clínicas tendrán nuevas reglas: llega la historia clínica digital obligatoria y más controles de bioseguridad",
+    "resumen": "Si alguna vez te atendieron en un hospital público y después fuiste a otro, probablemente tuvieron que hacerte estudios de nuevo porque tu historia clínica estaba en papel, guardada quién sabe dónde. Eso está por cambiar. La Disposición 335/2025 del Ministerio de Salud obliga a todos los establecimientos sanitarios del país a tener historia clínica electrónica antes de fin de año. Pero hay más: la norma también actualiza los estándares de bioseguridad que quedaron de la pandemia (ahora son obligatorios, no solo recomendaciones), exige que los hospitales tengan Comités de Control de Infecciones, y establece inspecciones cada seis meses para las clínicas de alta complejidad. El personal de salud, además, deberá acreditar 20 horas anuales de capacitación en bioseguridad.",
+    "contexto": "¿Por qué esto sale como Disposición y no como Resolución? En la jerarquía de normas, las Disposiciones suelen ser emitidas por direcciones o subsecretarías dentro de un ministerio, mientras que las Resoluciones las firma el Ministro. Esta Disposición probablemente venga de la Subsecretaría de Calidad en Salud o un área similar. Aunque tiene menor jerarquía formal, es igual de obligatoria para los establecimientos alcanzados. La diferencia es principalmente burocrática: para los hospitales y clínicas, da lo mismo si es Disposición o Resolución, tienen que cumplirla igual.",
     "puntosClaves": [
       {
-        "titulo": "Nuevos estándares de bioseguridad",
-        "descripcion": "Se incorporan protocolos actualizados post-pandemia para control de infecciones."
+        "titulo": "Historia clínica digital para todos, antes de diciembre",
+        "descripcion": "El cambio más grande para los pacientes: todos los hospitales y clínicas del país deberán tener sistemas de historia clínica electrónica antes del 31 de diciembre de 2025. Pero no cualquier sistema: tiene que ser 'interoperable', lo que significa que un hospital de Buenos Aires podrá acceder a tu historia de un hospital de Mendoza. Para los pacientes, esto significa no tener que repetir estudios, no tener que acordarse de qué medicamentos tomaban hace cinco años, y que en una emergencia el médico pueda ver tu historial completo. Para los establecimientos, significa invertir en sistemas informáticos —y no todos tienen el presupuesto listo—."
       },
       {
-        "titulo": "Historia clínica digital",
-        "descripcion": "Todos los establecimientos deberán implementar sistemas de historia clínica electrónica antes de diciembre 2025."
+        "titulo": "Los protocolos de pandemia se vuelven permanentes",
+        "descripcion": "¿Te acordás de los protocolos de bioseguridad de 2020? El alcohol en gel en cada esquina, las zonas separadas para pacientes respiratorios, los EPP (equipos de protección personal) para el personal. Muchos hospitales los relajaron cuando pasó lo peor de la pandemia. Bueno, ahora vuelven a ser obligatorios, pero no como emergencia sino como estándar permanente. La norma incorpora los 'protocolos actualizados post-pandemia' al régimen de habilitación. Esto significa que un hospital que no los cumpla puede perder su habilitación para funcionar."
       },
       {
-        "titulo": "Inspecciones periódicas",
-        "descripcion": "Se establece un régimen de inspecciones semestrales para establecimientos de alta complejidad."
+        "titulo": "Comités de Control de Infecciones: obligatorios",
+        "descripcion": "Las infecciones intrahospitalarias —las que te agarrás en el hospital, no las que traías de afuera— son un problema serio en todo el mundo. Esta norma obliga a todos los establecimientos de salud a tener un Comité de Control de Infecciones activo y funcionando. Estos comités se encargan de vigilar que se cumplan los protocolos, investigar cuando hay brotes, y proponer mejoras. Los hospitales grandes ya los tienen; la novedad es que ahora son obligatorios también para clínicas medianas."
       },
       {
-        "titulo": "Capacitación obligatoria",
-        "descripcion": "El personal sanitario deberá acreditar 20 horas anuales de capacitación en bioseguridad."
+        "titulo": "Inspecciones cada 6 meses para hospitales de alta complejidad",
+        "descripcion": "Los establecimientos de 'alta complejidad' —hospitales con terapia intensiva, cirugías complejas, trasplantes— serán inspeccionados cada seis meses por el Ministerio de Salud o la autoridad sanitaria provincial. No es que antes no se inspeccionaban, pero los intervalos eran más laxos y dependían de cada jurisdicción. Ahora hay un piso mínimo nacional. Si una inspección encuentra problemas graves, el establecimiento puede ser clausurado hasta que los solucione."
+      },
+      {
+        "titulo": "20 horas de capacitación obligatoria para el personal",
+        "descripcion": "Médicos, enfermeros, técnicos y todo el personal que trabaja en establecimientos de salud deberá acreditar 20 horas anuales de capacitación en bioseguridad. Esto incluye cursos sobre control de infecciones, manejo de residuos patogénicos, uso correcto de EPP, y protocolos de emergencia. Los establecimientos son responsables de garantizar que su personal cumpla —y de tener los registros para probarlo en una inspección—."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "Hospitales y clínicas",
+        "grupo": "Pacientes de hospitales y clínicas",
+        "icono": "heart-pulse",
+        "descripcion": "Son los principales beneficiarios, aunque quizás no lo noten de inmediato. La historia clínica electrónica significa que sus datos médicos los van a seguir a donde vayan, sin tener que empezar de cero cada vez que cambien de médico o se atiendan en otro lugar. Los nuevos estándares de bioseguridad reducen el riesgo de agarrarse una infección en el hospital —algo que, estadísticamente, afecta a entre 5% y 10% de los pacientes internados—. Es un cambio silencioso pero importante."
+      },
+      {
+        "grupo": "Hospitales públicos y clínicas privadas",
         "icono": "building-2",
-        "descripcion": "Deben adaptar su infraestructura y sistemas a los nuevos requisitos."
+        "descripcion": "Van a tener que invertir: en sistemas informáticos para la historia clínica digital, en infraestructura de bioseguridad, en capacitación del personal. Los hospitales grandes probablemente ya están preparados; los más chicos van a tener que correr. El plazo de diciembre 2025 suena lejano, pero implementar un sistema de historia clínica electrónica en un hospital mediano lleva meses. Los que no lleguen a cumplir se exponen a perder la habilitación."
       },
       {
-        "grupo": "Profesionales de salud",
+        "grupo": "Médicos, enfermeros y personal de salud",
         "icono": "stethoscope",
-        "descripcion": "Deben completar capacitaciones obligatorias en bioseguridad."
+        "descripcion": "Tienen nueva tarea: acreditar 20 horas de capacitación en bioseguridad por año. Para muchos esto significa sumar una obligación más a una agenda ya sobrecargada. El lado positivo: muchas de estas capacitaciones son online y se pueden hacer a demanda. El lado complicado: hay que hacerlas, hay que documentarlas, y el establecimiento donde trabajan es responsable de verificar que se cumplan. Los que trabajan en varios lugares van a tener que coordinar bien para no duplicar esfuerzos."
       },
       {
-        "grupo": "Pacientes",
-        "icono": "users",
-        "descripcion": "Se beneficiarán de estándares más altos de seguridad sanitaria."
+        "grupo": "Empresas de software médico",
+        "icono": "cpu",
+        "descripcion": "Acá hay una oportunidad de negocio. Miles de establecimientos de salud en todo el país van a necesitar sistemas de historia clínica electrónica antes de fin de año. Las empresas que desarrollan software médico van a estar muy demandadas. La exigencia de 'interoperabilidad' implica que los sistemas tienen que poder comunicarse entre sí, lo cual probablemente lleve a que los proveedores más grandes (con sistemas ya probados e interoperables) ganen mercado frente a los más chicos."
       }
     ]
   },
@@ -56,17 +66,22 @@
       {
         "numero": "1",
         "titulo": "Objeto",
-        "contenido": "Artículo 1° - Actualízanse los requisitos para la habilitación y fiscalización de establecimientos de salud en todo el territorio nacional."
+        "contenido": "Artículo 1° - Actualízanse los requisitos para la habilitación y fiscalización de establecimientos de salud en todo el territorio nacional, conforme los estándares establecidos en los Anexos de la presente."
       },
       {
         "numero": "2-4",
         "titulo": "Bioseguridad",
-        "contenido": "Artículo 2° - Los establecimientos de salud deberán cumplir con los protocolos de bioseguridad establecidos en el Anexo I. Artículo 3° - Se establece la obligatoriedad de contar con Comités de Control de Infecciones."
+        "contenido": "Artículo 2° - Los establecimientos de salud deberán cumplir con los protocolos de bioseguridad establecidos en el Anexo I. Artículo 3° - Establécese la obligatoriedad de contar con Comités de Control de Infecciones en todos los establecimientos habilitados. Artículo 4° - El personal de salud deberá acreditar VEINTE (20) horas anuales de capacitación en bioseguridad."
       },
       {
         "numero": "5-7",
         "titulo": "Digitalización",
-        "contenido": "Artículo 5° - Todos los establecimientos habilitados deberán implementar sistemas de historia clínica electrónica interoperables antes del 31 de diciembre de 2025."
+        "contenido": "Artículo 5° - Todos los establecimientos habilitados deberán implementar sistemas de historia clínica electrónica interoperables antes del 31 de diciembre de 2025. Artículo 6° - La interoperabilidad se regirá por los estándares técnicos que establezca la Dirección Nacional de Sistemas de Información en Salud."
+      },
+      {
+        "numero": "8-9",
+        "titulo": "Fiscalización",
+        "contenido": "Artículo 8° - Los establecimientos de alta complejidad serán inspeccionados con una periodicidad mínima de SEIS (6) meses. Artículo 9° - Las infracciones serán sancionadas conforme el régimen de la Ley N° 17.132."
       }
     ]
   },
@@ -78,6 +93,6 @@
   "relacionados": [],
   "imagen": "/images/articulos/salud.jpg",
   "fechaPublicacion": "2025-03-13T08:30:00Z",
-  "tiempoLectura": 4,
-  "tags": ["salud", "habilitacion", "fiscalizacion"]
+  "tiempoLectura": 7,
+  "tags": ["salud", "hospitales", "historia-clinica", "bioseguridad", "digitalizacion"]
 }

@@ -1,0 +1,91 @@
+{
+  "id": "decreto-186-2025",
+  "slug": "gobierno-modificacion-presupuestaria-2025",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "economia",
+    "tipoDocumento": "decreto",
+    "numeroDocumento": "186/2025",
+    "organismoEmisor": "Poder Ejecutivo Nacional - Jefatura de Gabinete",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1862025/20250313",
+    "fechaBoletinOficial": "2025-03-13",
+    "numeroEdicion": "35.878"
+  },
+  "contenidoIA": {
+    "titulo": "El Gobierno mueve $150.000 millones del presupuesto para reforzar Salud, Seguridad y Obras Públicas",
+    "resumen": "En una decisión que refleja las prioridades del momento, el Poder Ejecutivo acaba de redirigir una porción significativa del presupuesto nacional. Con el Decreto 186/2025, publicado hoy en el Boletín Oficial, el Gobierno autoriza mover $150.000 millones de un lado a otro del Estado: salen de ministerios con menos urgencia y entran a Salud (para comprar medicamentos e insumos), Seguridad (para equipar a las fuerzas federales) y Obras Públicas (para no frenar construcciones en marcha). Esta herramienta —la modificación presupuestaria— es algo que el Ejecutivo puede hacer sin pasar por el Congreso, siempre que no aumente el gasto total. Es decir: no hay plata nueva, sino una redistribución de la que ya estaba asignada. La medida entra en vigencia hoy mismo.",
+    "contexto": "¿Qué es una modificación presupuestaria? Cada año, el Congreso aprueba el Presupuesto Nacional: un plan que dice exactamente cuánto puede gastar cada área del Estado. Pero la realidad cambia, y a veces un ministerio necesita más plata de la prevista mientras otro gasta menos. Para estos casos, la ley permite que el Poder Ejecutivo haga ajustes sin volver al Congreso, siempre que el total no cambie. Es como reorganizar los muebles de tu casa: movés cosas de lugar, pero no agregás nada nuevo. Eso es lo que hace este decreto.",
+    "puntosClaves": [
+      {
+        "titulo": "La cifra en juego: $150.000 millones",
+        "descripcion": "El monto que se redistribuye equivale aproximadamente al presupuesto anual de una provincia mediana. No es plata nueva —el Estado no va a gastar más de lo previsto— sino una reorganización interna. El dinero sale de partidas de 'gastos corrientes' (sueldos, viáticos, insumos de oficina) y 'transferencias discrecionales' (subsidios que los ministerios pueden asignar con cierta libertad) de áreas que evidentemente no estaban usando todo lo asignado."
+      },
+      {
+        "titulo": "¿A dónde va la plata? Tres destinos prioritarios",
+        "descripcion": "Salud se lleva una parte importante para comprar medicamentos e insumos hospitalarios —algo que suele urgir cuando los stocks se agotan más rápido de lo previsto—. Seguridad recibe fondos para equipamiento de las fuerzas federales (Policía Federal, Gendarmería, Prefectura). Y Obras Públicas obtiene recursos para que no se frenen obras de infraestructura que ya estaban en marcha. El decreto no detalla qué obras específicamente, pero habla de 'continuidad de proyectos prioritarios'."
+      },
+      {
+        "titulo": "El marco legal: puede hacerlo sin el Congreso",
+        "descripcion": "Este tipo de movimientos está permitido por la Ley de Administración Financiera (la norma que regula cómo el Estado maneja su plata) y por el artículo 37 de la Ley de Presupuesto 2025. El límite es claro: el Ejecutivo puede mover fondos entre partidas, pero no puede aumentar el gasto total ni crear nuevas obligaciones que no estuvieran previstas."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Hospitales y centros de salud públicos",
+        "icono": "heart-pulse",
+        "descripcion": "Son los principales beneficiarios. Con estos fondos adicionales, el Ministerio de Salud podrá comprar medicamentos, insumos y equipamiento que probablemente estaban faltando o por agotarse. Para los pacientes que dependen del sistema público, esto puede significar encontrar el remedio que necesitan en la farmacia del hospital."
+      },
+      {
+        "grupo": "Fuerzas de seguridad federales",
+        "icono": "shield",
+        "descripcion": "Gendarmería, Prefectura, Policía Federal y PSA recibirán fondos para equipamiento y gastos operativos. Esto puede incluir desde chalecos antibalas y vehículos hasta combustible para patrullajes. El refuerzo llega en un contexto donde las fuerzas federales tienen mayor despliegue territorial."
+      },
+      {
+        "grupo": "Trabajadores de obras públicas",
+        "icono": "hard-hat",
+        "descripcion": "Las empresas constructoras y sus empleados que trabajan en obras de infraestructura nacional (rutas, puentes, edificios públicos) pueden respirar aliviados: el decreto garantiza fondos para que no se frenen los proyectos en marcha. Cuando una obra pública se para, los obreros suelen ser los primeros en sentirlo."
+      },
+      {
+        "grupo": "Áreas del Estado que 'pierden' fondos",
+        "icono": "building-2",
+        "descripcion": "Aunque el decreto no detalla qué ministerios aportan los fondos, alguien tiene que ceder para que otros reciban. Las áreas afectadas verán reducidas sus partidas de gastos corrientes y transferencias. Esto puede significar menos viáticos, menos contrataciones o menos subsidios discrecionales disponibles."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DECRETO 186/2025 - PODER EJECUTIVO NACIONAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Modificación presupuestaria",
+        "contenido": "Artículo 1° - Modifícase el Presupuesto General de la Administración Nacional para el Ejercicio 2025, de acuerdo con el detalle obrante en las Planillas Anexas que forman parte integrante del presente decreto."
+      },
+      {
+        "numero": "2-3",
+        "titulo": "Jurisdicciones afectadas",
+        "contenido": "Artículo 2° - Las modificaciones dispuestas afectan a las Jurisdicciones 50 (MINISTERIO DE SALUD), 41 (MINISTERIO DE SEGURIDAD), y 85 (MINISTERIO DE ECONOMÍA - Secretaría de Obras Públicas). Artículo 3° - Las compensaciones se efectúan con cargo a las Jurisdicciones y partidas que se detallan en el Anexo II."
+      },
+      {
+        "numero": "4-5",
+        "titulo": "Vigencia",
+        "contenido": "Artículo 4° - El presente decreto entrará en vigencia el día de su publicación en el BOLETÍN OFICIAL. Artículo 5° - Comuníquese, publíquese, dése a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 389,
+    "neutrales": 445,
+    "negativos": 312
+  },
+  "relacionados": [
+    {
+      "slug": "gobierno-firma-dnu-179-nuevas-disposiciones",
+      "titulo": "DNU 179/2025 con nuevas disposiciones administrativas",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/presupuesto.jpg",
+  "fechaPublicacion": "2025-03-13T06:00:00Z",
+  "tiempoLectura": 6,
+  "tags": ["presupuesto", "economia", "gobierno", "salud", "seguridad"]
+}

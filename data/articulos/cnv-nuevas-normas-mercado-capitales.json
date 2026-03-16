@@ -3,7 +3,7 @@
   "slug": "cnv-nuevas-normas-mercado-capitales",
   "metadata": {
     "categoria": "nacional",
-    "tema": "finanzas",
+    "tema": "economia",
     "tipoDocumento": "resolucion",
     "numeroDocumento": "CNV/2025",
     "organismoEmisor": "Comisión Nacional de Valores",
@@ -12,37 +12,47 @@
     "numeroEdicion": "35.878"
   },
   "contenidoIA": {
-    "titulo": "La CNV actualizó normativas para el mercado de capitales",
-    "resumen": "La Comisión Nacional de Valores emitió 2 resoluciones con modificaciones al régimen normativo del mercado de capitales argentino. Los cambios apuntan a facilitar el acceso de PyMEs al financiamiento bursátil y modernizar los requisitos de información.",
+    "titulo": "La CNV abre la Bolsa a las PyMEs: nuevo régimen simplificado para que empresas medianas puedan financiarse en el mercado",
+    "resumen": "Hasta ahora, salir a la Bolsa era cosa de empresas grandes. Los requisitos para hacer una oferta pública de acciones o bonos eran tan complejos y costosos que solo las corporaciones con equipos legales y contables podían cumplirlos. Eso empieza a cambiar. La Comisión Nacional de Valores (CNV) —el organismo que regula el mercado de capitales en Argentina— acaba de crear un 'Régimen de Oferta Pública Simplificado para PyMEs'. Las empresas que facturen menos de $2.000 millones anuales van a poder emitir acciones o bonos con menos trámites, menos documentación y menos costos. Es un intento de democratizar el acceso al financiamiento bursátil, para que no solo los grandes jugadores puedan aprovecharlo. Además, se regulan por primera vez las plataformas de crowdfunding de inversión.",
+    "contexto": "¿Qué es la CNV y qué es el mercado de capitales? La Comisión Nacional de Valores es como la 'policía de la Bolsa': regula a las empresas que cotizan en el mercado, a los agentes de bolsa, y a cualquiera que participe en la compraventa de acciones, bonos y otros valores. El 'mercado de capitales' es donde las empresas consiguen financiamiento vendiendo partes de sí mismas (acciones) o tomando deuda (bonos) directamente de los inversores, sin pasar por un banco. Para los inversores, es una forma de poner a trabajar sus ahorros; para las empresas, una alternativa al crédito bancario que a veces es más barata o más accesible.",
     "puntosClaves": [
       {
-        "titulo": "Régimen PyME simplificado",
-        "descripcion": "Se crea un régimen de oferta pública simplificado para empresas con facturación menor a $2.000 millones anuales."
+        "titulo": "El nuevo régimen PyME: qué es y para quién",
+        "descripcion": "El 'Régimen de Oferta Pública Simplificado para PyMEs' está pensado para empresas que facturan menos de $2.000 millones por año (aproximadamente USD 2 millones al tipo de cambio actual). Estas empresas ahora pueden emitir acciones o bonos (llamados 'Obligaciones Negociables' en la jerga financiera) con menos requisitos que una empresa grande. En lugar de presentar balances trimestrales, pueden presentarlos semestralmente. El 'prospecto de emisión' —el documento legal que explica qué se está vendiendo— puede ser más corto y simple. Y algunos requisitos de gobernanza corporativa se flexibilizan."
       },
       {
-        "titulo": "Información continua",
-        "descripcion": "Se actualizan los plazos de presentación de información periódica, alineándolos con estándares IFRS."
+        "titulo": "¿Por qué una PyME querría ir a la Bolsa?",
+        "descripcion": "Porque es una forma de conseguir plata sin ir al banco. Cuando una empresa emite un bono en el mercado, le está pidiendo plata prestada directamente a los inversores, muchas veces a tasas más bajas que las bancarias. Y cuando emite acciones, está vendiendo una parte de la empresa a cambio de capital fresco, que puede usar para crecer sin endeudarse. Hasta ahora, los costos de cumplir con todos los requisitos regulatorios hacían que esto solo valiera la pena para empresas muy grandes. El nuevo régimen simplificado baja esos costos."
       },
       {
-        "titulo": "Crowdfunding regulado",
-        "descripcion": "Se establecen nuevas reglas para plataformas de financiamiento colectivo de valores."
+        "titulo": "Las plataformas de crowdfunding ahora tienen reglas claras",
+        "descripcion": "El 'crowdfunding de inversión' es cuando muchas personas ponen poca plata cada una para financiar un emprendimiento, a cambio de una participación en el negocio (no una recompensa, como en Kickstarter, sino una parte de las ganancias o de la empresa). En Argentina esto existía en una zona gris legal. La nueva norma lo regula: las plataformas que quieran ofrecer crowdfunding de valores negociables tienen que registrarse en la CNV, cumplir ciertos requisitos de transparencia, y proteger a los inversores. Es buena noticia para las fintech que quieren entrar a este negocio, porque ahora saben las reglas del juego."
+      },
+      {
+        "titulo": "Para inversores: nuevas oportunidades (con más riesgo)",
+        "descripcion": "Si sos inversor, esto significa que vas a empezar a ver más opciones en el mercado: PyMEs que antes no podían acceder a la Bolsa ahora van a aparecer ofreciendo acciones o bonos. Ojo: más opciones no significa mejores opciones. Las PyMEs son más riesgosas que las empresas grandes —tienen más chances de fundirse, menos liquidez para que vendas cuando quieras, y menos información pública disponible—. El régimen simplificado hace más fácil invertir en ellas, pero no hace más seguro hacerlo. Diversificar siempre."
       }
     ],
     "aQuienAfecta": [
       {
-        "grupo": "PyMEs",
+        "grupo": "PyMEs que necesitan financiamiento",
         "icono": "building-2",
-        "descripcion": "Acceso más fácil al mercado de capitales con requisitos simplificados."
+        "descripcion": "Esta norma está hecha para ustedes. Si tu empresa factura menos de $2.000 millones anuales, tiene un balance ordenado, y necesita capital para crecer (comprar maquinaria, abrir una sucursal, lanzar un producto), ahora tenés una opción que antes estaba fuera de alcance. Emitir un bono o vender acciones en el mercado te permite conseguir plata sin depender exclusivamente de los bancos. El proceso sigue siendo complejo y vas a necesitar asesores, pero es más accesible que antes."
       },
       {
-        "grupo": "Inversores",
+        "grupo": "Inversores individuales",
         "icono": "trending-up",
-        "descripcion": "Nuevas oportunidades de inversión en empresas medianas."
+        "descripcion": "Vas a tener más donde elegir. Las PyMEs que entren al mercado van a ofrecer rendimientos potencialmente más altos que las empresas grandes (porque son más riesgosas). Si te interesa invertir en empresas chicas de la economía real —una fábrica, una empresa de software, una agroindustria regional— este régimen abre esas puertas. Pero hacé la tarea: leé los prospectos, entendé los riesgos, y no pongas plata que no puedas permitirte perder."
       },
       {
-        "grupo": "Plataformas de crowdfunding",
+        "grupo": "Plataformas de crowdfunding y fintech",
         "icono": "globe",
-        "descripcion": "Marco regulatorio claro para operar con valores negociables."
+        "descripcion": "Si tu modelo de negocio incluye conectar inversores con emprendimientos a cambio de participación, ahora tenés un marco legal claro. Vas a tener que registrarte en la CNV y cumplir sus reglas, pero a cambio podés operar con seguridad jurídica. Esto también te permite escalar: una plataforma regulada puede captar inversores institucionales (fondos, aseguradoras) que no podían participar cuando todo era informal."
+      },
+      {
+        "grupo": "Agentes de Bolsa y asesores financieros",
+        "icono": "briefcase",
+        "descripcion": "Nuevos clientes potenciales: las PyMEs que quieran aprovechar el régimen simplificado van a necesitar ayuda profesional para estructurar sus emisiones, preparar la documentación, y colocar los valores en el mercado. Es una oportunidad de negocio para quienes puedan ofrecer servicios adaptados a empresas medianas, con costos acordes a su escala."
       }
     ]
   },
@@ -57,7 +67,12 @@
       {
         "numero": "2-4",
         "titulo": "Requisitos",
-        "contenido": "Artículo 2° - Las empresas que se acojan al régimen simplificado presentarán estados contables semestrales en lugar de trimestrales. Artículo 3° - Se reducen los requisitos de prospecto de emisión."
+        "contenido": "Artículo 2° - Las empresas que se acojan al régimen simplificado presentarán estados contables semestrales en lugar de trimestrales. Artículo 3° - Se reducen los requisitos del prospecto de emisión conforme lo establecido en el Anexo I. Artículo 4° - Se flexibilizan los requisitos de gobierno corporativo para emisoras PyME."
+      },
+      {
+        "numero": "5-7",
+        "titulo": "Crowdfunding",
+        "contenido": "Artículo 5° - Establécese el régimen regulatorio para Plataformas de Financiamiento Colectivo de Valores Negociables. Artículo 6° - Las plataformas deberán inscribirse en el Registro que a tal efecto llevará esta Comisión. Artículo 7° - Se establecen límites de inversión por persona para protección del inversor minorista."
       }
     ]
   },
@@ -75,6 +90,6 @@
   ],
   "imagen": "/images/articulos/bolsa.jpg",
   "fechaPublicacion": "2025-03-13T09:30:00Z",
-  "tiempoLectura": 4,
-  "tags": ["cnv", "mercado-capitales", "inversiones", "bolsa"]
+  "tiempoLectura": 7,
+  "tags": ["cnv", "pymes", "bolsa", "inversiones", "crowdfunding", "financiamiento"]
 }

@@ -6,7 +6,7 @@ export async function POST(req: Request) {
     const { messages, articuloContext } = await req.json();
 
     const result = streamText({
-      model: google('gemini-2.0-flash'),
+      model: google('gemini-2.5-pro'),
       system: `Sos un asistente experto en legislación argentina. Tu rol es explicar de forma clara y accesible el contenido del Boletín Oficial.
 
 CONTEXTO DEL ARTÍCULO:

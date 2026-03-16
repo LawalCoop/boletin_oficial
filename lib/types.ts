@@ -107,6 +107,8 @@ export interface Articulo {
   contenidoIA: {
     titulo: string;
     resumen: string;
+    // Contexto educativo - explica conceptos del Boletín Oficial
+    contexto?: string;
     puntosClaves: PuntoClave[];
     aQuienAfecta: GrupoAfectado[];
   };

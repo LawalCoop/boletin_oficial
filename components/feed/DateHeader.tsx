@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Sparkles, Calendar, X } from 'lucide-react';
-import { formatFechaCorta, formatFechaCompleta, MESES } from '@/lib/constants';
+import { formatFechaCorta, MESES, parseFechaLocal } from '@/lib/constants';
 
 interface DateHeaderProps {
   fecha: string;
@@ -15,7 +15,9 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
   const [showPicker, setShowPicker] = useState(false);
 
   const fechaFormateada = formatFechaCorta(fecha);
-  const hoy = new Date().toISOString().split('T')[0];
+  // Get today's date in local timezone (not UTC)
+  const now = new Date();
+  const hoy = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
   const esHoy = fecha === hoy;
 
   // Get current index in available dates
@@ -125,7 +127,7 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
                       <div className="flex flex-wrap gap-2">
                         {dates.sort((a, b) => b.localeCompare(a)).map((date) => {
                           const isSelected = date === fecha;
-                          const day = new Date(date).getDate();
+                          const { day } = parseFechaLocal(date);
                           const isToday = date === hoy;
 
                           return (

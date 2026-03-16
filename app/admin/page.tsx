@@ -1,35 +1,47 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { Play, RefreshCw, CheckCircle, Clock, AlertCircle, ArrowLeft } from 'lucide-react';
+import { useState, useRef } from 'react';
+import { Play, RefreshCw, CheckCircle, AlertCircle, ArrowLeft, FileText } from 'lucide-react';
 import Link from 'next/link';
-import { JobStatus, SeccionBoletin } from '@/lib/types';
+import { SeccionBoletin, PipelineEvent } from '@/lib/types';
 import { SECCIONES_BOLETIN } from '@/lib/constants';
+
+interface LogEntry {
+  id: number;
+  type: 'info' | 'success' | 'error';
+  message: string;
+  timestamp: string;
+}
 
 export default function AdminPage() {
   const [fecha, setFecha] = useState(new Date().toISOString().split('T')[0]);
   const [seccion, setSeccion] = useState<SeccionBoletin | ''>('');
-  const [loading, setLoading] = useState(false);
-  const [jobs, setJobs] = useState<JobStatus[]>([]);
-  const [lastTrigger, setLastTrigger] = useState<{ jobId: string; status: string } | null>(null);
+  const [running, setRunning] = useState(false);
+  const [progress, setProgress] = useState<{ current: number; total: number; phase: string } | null>(null);
+  const [logs, setLogs] = useState<LogEntry[]>([]);
+  const [result, setResult] = useState<{ success: number; failed: number; total: number } | null>(null);
+  const logIdRef = useRef(0);
+  const logsEndRef = useRef<HTMLDivElement>(null);
 
-  // Fetch job statuses
-  useEffect(() => {
-    async function fetchJobs() {
-      try {
-        const res = await fetch('/api/admin/trigger');
-        const data = await res.json();
-        setJobs(data.jobs || []);
-      } catch (error) {
-        console.error('Error fetching jobs:', error);
-      }
-    }
-    fetchJobs();
-  }, []);
+  const addLog = (type: LogEntry['type'], message: string) => {
+    const entry: LogEntry = {
+      id: logIdRef.current++,
+      type,
+      message,
+      timestamp: new Date().toLocaleTimeString(),
+    };
+    setLogs((prev) => [...prev, entry]);
+    setTimeout(() => logsEndRef.current?.scrollIntoView({ behavior: 'smooth' }), 50);
+  };
 
   const handleTrigger = async () => {
-    setLoading(true);
-    setLastTrigger(null);
+    setRunning(true);
+    setLogs([]);
+    setProgress(null);
+    setResult(null);
+    logIdRef.current = 0;
+
+    addLog('info', `Iniciando procesamiento del boletín ${fecha}...`);
 
     try {
       const res = await fetch('/api/admin/trigger', {
@@ -41,57 +53,86 @@ export default function AdminPage() {
         }),
       });
 
-      const data = await res.json();
+      if (!res.ok) {
+        const errorData = await res.json();
+        addLog('error', `Error: ${errorData.error}`);
+        setRunning(false);
+        return;
+      }
 
-      if (res.ok) {
-        setLastTrigger(data);
-        // Add to jobs list
-        setJobs(prev => [{
-          jobId: data.jobId,
-          status: data.status,
-          fecha,
-          seccion: seccion || undefined,
-        }, ...prev]);
-      } else {
-        alert(`Error: ${data.error}`);
+      const reader = res.body?.getReader();
+      if (!reader) {
+        addLog('error', 'No se pudo obtener el stream de respuesta');
+        setRunning(false);
+        return;
+      }
+
+      const decoder = new TextDecoder();
+      let buffer = '';
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop() || '';
+
+        for (const line of lines) {
+          if (!line.startsWith('data: ')) continue;
+
+          try {
+            const event: PipelineEvent = JSON.parse(line.slice(6));
+            handleEvent(event);
+          } catch {
+            // Skip malformed SSE lines
+          }
+        }
       }
     } catch (error) {
-      console.error('Error triggering job:', error);
-      alert('Error al procesar la solicitud');
+      const msg = error instanceof Error ? error.message : 'Error desconocido';
+      addLog('error', `Error de conexión: ${msg}`);
     } finally {
-      setLoading(false);
+      setRunning(false);
     }
   };
 
-  const getStatusIcon = (status: string) => {
-    switch (status) {
-      case 'completed':
-        return <CheckCircle className="w-4 h-4 text-status-positive" />;
-      case 'running':
-        return <RefreshCw className="w-4 h-4 text-accent animate-spin" />;
-      case 'queued':
-        return <Clock className="w-4 h-4 text-text-muted" />;
-      case 'failed':
-        return <AlertCircle className="w-4 h-4 text-status-negative" />;
-      default:
-        return null;
+  const handleEvent = (event: PipelineEvent) => {
+    switch (event.type) {
+      case 'start':
+        addLog('info', `Encontrados ${event.total} documentos para procesar`);
+        setProgress({ current: 0, total: event.total, phase: 'Scraping' });
+        break;
+      case 'scraping':
+        addLog('info', `Scraping ${event.current}/${event.total}: ${event.doc}`);
+        setProgress({ current: event.current, total: event.total, phase: 'Scraping' });
+        break;
+      case 'processing':
+        addLog('info', `Procesando con IA ${event.current}/${event.total}: ${event.doc}`);
+        setProgress({ current: event.current, total: event.total, phase: 'Procesando con IA' });
+        break;
+      case 'saved':
+        addLog('success', `Guardado: ${event.slug}`);
+        break;
+      case 'error':
+        addLog('error', `${event.doc}: ${event.error}`);
+        break;
+      case 'complete':
+        setResult({ success: event.success, failed: event.failed, total: event.total });
+        if (event.success > 0) {
+          addLog('success', `Completado: ${event.success} artículos generados, ${event.failed} fallidos de ${event.total} total`);
+        } else if (event.total === 0) {
+          addLog('info', 'No se encontraron documentos para esa fecha/sección');
+        } else {
+          addLog('error', `Completado con errores: ${event.failed} fallidos de ${event.total}`);
+        }
+        break;
     }
   };
 
-  const getStatusLabel = (status: string) => {
-    switch (status) {
-      case 'completed':
-        return 'Completado';
-      case 'running':
-        return 'Procesando';
-      case 'queued':
-        return 'En cola';
-      case 'failed':
-        return 'Error';
-      default:
-        return status;
-    }
-  };
+  const progressPercent = progress
+    ? Math.round((progress.current / progress.total) * 100)
+    : 0;
 
   return (
     <div className="min-h-screen bg-bg-surface">
@@ -126,7 +167,8 @@ export default function AdminPage() {
                 type="date"
                 value={fecha}
                 onChange={(e) => setFecha(e.target.value)}
-                className="w-full px-4 py-2 border border-border rounded focus:outline-none focus:border-accent"
+                disabled={running}
+                className="w-full px-4 py-2 border border-border rounded focus:outline-none focus:border-accent disabled:opacity-50"
               />
             </div>
 
@@ -138,9 +180,10 @@ export default function AdminPage() {
               <select
                 value={seccion}
                 onChange={(e) => setSeccion(e.target.value as SeccionBoletin | '')}
-                className="w-full px-4 py-2 border border-border rounded focus:outline-none focus:border-accent bg-white"
+                disabled={running}
+                className="w-full px-4 py-2 border border-border rounded focus:outline-none focus:border-accent bg-white disabled:opacity-50"
               >
-                <option value="">Todas las secciones</option>
+                <option value="">Primera Sección (default)</option>
                 {Object.entries(SECCIONES_BOLETIN).map(([key, value]) => (
                   <option key={key} value={key}>
                     {value.label} - {value.descripcion}
@@ -152,13 +195,13 @@ export default function AdminPage() {
             {/* Trigger Button */}
             <button
               onClick={handleTrigger}
-              disabled={loading}
+              disabled={running}
               className="flex items-center justify-center gap-2 w-full h-12 bg-accent text-white rounded font-medium hover:bg-accent/90 disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {loading ? (
+              {running ? (
                 <>
                   <RefreshCw className="w-5 h-5 animate-spin" />
-                  Procesando...
+                  {progress ? `${progress.phase} ${progress.current}/${progress.total}...` : 'Iniciando...'}
                 </>
               ) : (
                 <>
@@ -168,74 +211,64 @@ export default function AdminPage() {
               )}
             </button>
 
-            {/* Last Trigger Result */}
-            {lastTrigger && (
-              <div className="flex items-center gap-2 p-3 bg-accent-soft rounded">
-                {getStatusIcon(lastTrigger.status)}
-                <span className="text-sm">
-                  Job <code className="bg-bg px-1 rounded">{lastTrigger.jobId}</code> creado
+            {/* Progress Bar */}
+            {running && progress && (
+              <div className="w-full bg-bg-surface rounded-full h-2 overflow-hidden">
+                <div
+                  className="bg-accent h-full rounded-full transition-all duration-300"
+                  style={{ width: `${progressPercent}%` }}
+                />
+              </div>
+            )}
+
+            {/* Result Summary */}
+            {result && !running && (
+              <div className={`flex items-center gap-2 p-3 rounded ${
+                result.success > 0 ? 'bg-status-positive/10' : 'bg-status-negative/10'
+              }`}>
+                {result.success > 0 ? (
+                  <CheckCircle className="w-5 h-5 text-status-positive" />
+                ) : (
+                  <AlertCircle className="w-5 h-5 text-status-negative" />
+                )}
+                <span className="text-sm font-medium">
+                  {result.success} artículos generados
+                  {result.failed > 0 && `, ${result.failed} fallidos`}
+                  {' '}de {result.total} documentos
                 </span>
               </div>
             )}
           </div>
         </section>
 
-        {/* Jobs List */}
-        <section className="bg-bg rounded-lg border border-border p-6">
-          <h2 className="font-[family-name:var(--font-lora)] text-lg font-medium text-text-primary mb-4">
-            Historial de Procesamiento
-          </h2>
+        {/* Log Panel */}
+        {logs.length > 0 && (
+          <section className="bg-bg rounded-lg border border-border p-6">
+            <h2 className="font-[family-name:var(--font-lora)] text-lg font-medium text-text-primary mb-4 flex items-center gap-2">
+              <FileText className="w-5 h-5" />
+              Log de procesamiento
+            </h2>
 
-          {jobs.length === 0 ? (
-            <p className="text-text-muted text-sm">No hay jobs registrados</p>
-          ) : (
-            <div className="flex flex-col gap-2">
-              {jobs.map((job) => (
+            <div className="max-h-96 overflow-y-auto space-y-1 font-mono text-xs">
+              {logs.map((log) => (
                 <div
-                  key={job.jobId}
-                  className="flex items-center justify-between p-3 bg-bg-surface rounded"
+                  key={log.id}
+                  className={`flex gap-2 py-1 px-2 rounded ${
+                    log.type === 'error'
+                      ? 'bg-status-negative/5 text-status-negative'
+                      : log.type === 'success'
+                      ? 'bg-status-positive/5 text-status-positive'
+                      : 'text-text-secondary'
+                  }`}
                 >
-                  <div className="flex items-center gap-3">
-                    {getStatusIcon(job.status)}
-                    <div>
-                      <p className="text-sm font-medium text-text-primary">
-                        {job.fecha}
-                        {job.seccion && (
-                          <span className="text-text-muted"> · {SECCIONES_BOLETIN[job.seccion as SeccionBoletin]?.label}</span>
-                        )}
-                      </p>
-                      <p className="text-xs text-text-muted">
-                        {job.jobId}
-                      </p>
-                    </div>
-                  </div>
-                  <span
-                    className={`text-xs font-medium px-2 py-1 rounded ${
-                      job.status === 'completed'
-                        ? 'bg-status-positive/10 text-status-positive'
-                        : job.status === 'running'
-                        ? 'bg-accent/10 text-accent'
-                        : job.status === 'failed'
-                        ? 'bg-status-negative/10 text-status-negative'
-                        : 'bg-bg text-text-muted'
-                    }`}
-                  >
-                    {getStatusLabel(job.status)}
-                  </span>
+                  <span className="text-text-muted shrink-0">{log.timestamp}</span>
+                  <span>{log.message}</span>
                 </div>
               ))}
+              <div ref={logsEndRef} />
             </div>
-          )}
-        </section>
-
-        {/* Info Note */}
-        <div className="mt-6 p-4 bg-bg-warm border border-border rounded">
-          <p className="text-sm text-text-secondary">
-            <strong>Nota:</strong> Este panel es un skeleton para el equipo de workers.
-            En producción, el botón "Procesar Boletín" enviará un job al sistema de
-            scraping + LLM que generará los artículos automáticamente.
-          </p>
-        </div>
+          </section>
+        )}
       </main>
     </div>
   );

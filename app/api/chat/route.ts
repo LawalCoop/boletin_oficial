@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { google } from '@ai-sdk/google';
 import { streamText } from 'ai';
 
 export async function POST(req: Request) {
@@ -6,7 +6,7 @@ export async function POST(req: Request) {
     const { messages, articuloContext } = await req.json();
 
     const result = streamText({
-      model: openai('gpt-4o-mini'),
+      model: google('gemini-2.0-flash'),
       system: `Sos un asistente experto en legislación argentina. Tu rol es explicar de forma clara y accesible el contenido del Boletín Oficial.
 
 CONTEXTO DEL ARTÍCULO:

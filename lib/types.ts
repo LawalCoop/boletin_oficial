@@ -29,7 +29,7 @@ export type Tema =
   | 'otros';
 
 export type SeccionBoletin = 'primera' | 'segunda' | 'tercera' | 'cuarta';
-export type TipoDocumento = 'decreto' | 'resolucion' | 'disposicion' | 'ordenanza' | 'edicto' | 'licitacion';
+export type TipoDocumento = 'decreto' | 'resolucion' | 'disposicion' | 'ordenanza' | 'edicto' | 'licitacion' | 'comunicacion' | 'acordada' | 'ley' | 'decision_administrativa';
 
 export interface NoticiaPreview {
   id: string;
@@ -148,3 +148,30 @@ export interface JobStatus {
   completedAt?: string;
   error?: string;
 }
+
+// Pipeline types
+export interface BoraDocumentEntry {
+  id: string;
+  organismo: string;
+  tipoDocumento: string;
+  numero: string;
+  referencia: string;
+  descripcion: string;
+  urlDetalle: string;
+  seccion: SeccionBoletin;
+}
+
+export interface BoraDocumentDetail {
+  entry: BoraDocumentEntry;
+  textoCompleto: string;
+  encabezado: string;
+  articulos: { numero: string; titulo: string; contenido: string }[];
+}
+
+export type PipelineEvent =
+  | { type: 'start'; total: number }
+  | { type: 'scraping'; current: number; total: number; doc: string }
+  | { type: 'processing'; current: number; total: number; doc: string }
+  | { type: 'saved'; slug: string }
+  | { type: 'error'; doc: string; error: string }
+  | { type: 'complete'; total: number; success: number; failed: number };

@@ -47,8 +47,8 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
 
       {/* Content */}
       <div className="flex flex-col gap-[6px] flex-1 min-w-0">
-        {/* Tags Row */}
-        <div className="flex items-center gap-2 flex-wrap">
+        {/* Tags Row - No wrap to keep titles aligned across cards */}
+        <div className="flex items-center gap-2 overflow-hidden">
           <span
             className="px-2 py-[2px] text-[9px] font-semibold tracking-[1px] text-white rounded"
             style={{ backgroundColor: categoria.color }}

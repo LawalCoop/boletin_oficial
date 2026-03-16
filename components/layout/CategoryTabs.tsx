@@ -51,6 +51,13 @@ export function CategoryTabs({ activeCategory, onCategoryChange }: CategoryTabsP
 
   return (
     <div className="border-b border-border">
+      {/* Site explanation */}
+      <div className="bg-gradient-to-r from-accent/5 via-accent/10 to-accent/5 px-4 py-3 lg:py-4 border-b border-accent/20">
+        <p className="max-w-7xl mx-auto text-center text-base lg:text-lg font-[family-name:var(--font-lora)] text-text-secondary italic">
+          Lo que firma el Gobierno hoy, <span className="text-accent font-semibold not-italic">traducido al castellano</span>
+        </p>
+      </div>
+
       {/* Tabs */}
       <div className="overflow-x-auto no-scrollbar">
         <div className="flex px-4 lg:px-0 lg:justify-center lg:gap-2 max-w-7xl mx-auto">

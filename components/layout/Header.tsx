@@ -19,9 +19,14 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <ScrollText className="w-6 h-6 lg:w-7 lg:h-7 text-accent" />
-          <span className="font-[family-name:var(--font-lora)] text-[22px] lg:text-[26px] font-medium text-text-primary tracking-tight">
-            BoletínAI
-          </span>
+          <div className="flex flex-col">
+            <span className="font-[family-name:var(--font-lora)] text-[22px] lg:text-[26px] font-medium text-text-primary tracking-tight leading-none">
+              BoletínAI
+            </span>
+            <span className="hidden sm:block text-[10px] lg:text-[11px] text-text-muted tracking-wide">
+              El Estado, sin vueltas
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}

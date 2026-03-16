@@ -74,8 +74,13 @@
       "categoria": "nacional"
     }
   ],
-  "imagen": "/images/articulos/mineria.jpg",
+  "imagen": "/images/articulos/industria.jpg",
   "fechaPublicacion": "2025-03-12T07:00:00Z",
   "tiempoLectura": 4,
-  "tags": ["afip", "mineria", "exportaciones", "retenciones"]
+  "tags": [
+    "afip",
+    "mineria",
+    "exportaciones",
+    "retenciones"
+  ]
 }

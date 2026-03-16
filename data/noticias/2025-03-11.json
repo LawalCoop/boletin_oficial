@@ -18,7 +18,11 @@
       "tiempoLectura": 5,
       "fechaPublicacion": "2025-03-11T06:00:00Z",
       "destacado": true,
-      "tags": ["dnu", "poder-ejecutivo", "administracion"],
+      "tags": [
+        "dnu",
+        "poder-ejecutivo",
+        "administracion"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1792025/20250311"
     },
     {
@@ -36,7 +40,11 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-11T06:30:00Z",
       "destacado": false,
-      "tags": ["energia", "tarifas", "economia"],
+      "tags": [
+        "energia",
+        "tarifas",
+        "economia"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1152025/20250311"
     },
     {
@@ -54,7 +62,12 @@
       "tiempoLectura": 3,
       "fechaPublicacion": "2025-03-11T07:00:00Z",
       "destacado": true,
-      "tags": ["vialidad", "rutas", "infraestructura", "obras"],
+      "tags": [
+        "vialidad",
+        "rutas",
+        "infraestructura",
+        "obras"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/3042025/20250311"
     },
     {
@@ -71,8 +84,13 @@
       "tiempoLectura": 2,
       "fechaPublicacion": "2025-03-11T07:30:00Z",
       "destacado": false,
-      "tags": ["capital-humano", "designaciones", "funcionarios"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1242025/20250311"
+      "tags": [
+        "capital-humano",
+        "designaciones",
+        "funcionarios"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1242025/20250311",
+      "imagen": "/images/articulos/funcionarios.jpg"
     },
     {
       "id": "resol-desregulacion-14-2025",
@@ -88,8 +106,13 @@
       "tiempoLectura": 3,
       "fechaPublicacion": "2025-03-11T08:00:00Z",
       "destacado": false,
-      "tags": ["desregulacion", "tramites", "simplificacion"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/142025/20250311"
+      "tags": [
+        "desregulacion",
+        "tramites",
+        "simplificacion"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/142025/20250311",
+      "imagen": "/images/articulos/casa-rosada.jpg"
     },
     {
       "id": "resol-senasa-154-2025",
@@ -106,7 +129,12 @@
       "tiempoLectura": 4,
       "fechaPublicacion": "2025-03-11T08:30:00Z",
       "destacado": false,
-      "tags": ["senasa", "exportaciones", "agro", "sanidad"],
+      "tags": [
+        "senasa",
+        "exportaciones",
+        "agro",
+        "sanidad"
+      ],
       "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1542025/20250311"
     },
     {
@@ -123,8 +151,13 @@
       "tiempoLectura": 3,
       "fechaPublicacion": "2025-03-11T09:00:00Z",
       "destacado": false,
-      "tags": ["agro", "forestal", "produccion"],
-      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/72025/20250311"
+      "tags": [
+        "agro",
+        "forestal",
+        "produccion"
+      ],
+      "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/72025/20250311",
+      "imagen": "/images/articulos/agro.jpg"
     }
   ]
 }

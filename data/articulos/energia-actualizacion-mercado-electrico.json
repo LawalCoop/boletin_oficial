@@ -77,5 +77,10 @@
   "imagen": "/images/articulos/energia.jpg",
   "fechaPublicacion": "2025-03-12T08:30:00Z",
   "tiempoLectura": 5,
-  "tags": ["energia", "electricidad", "renovables", "mercado eléctrico"]
+  "tags": [
+    "energia",
+    "electricidad",
+    "renovables",
+    "mercado eléctrico"
+  ]
 }

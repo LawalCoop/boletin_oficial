@@ -91,5 +91,11 @@
   "imagen": "/images/articulos/gas.jpg",
   "fechaPublicacion": "2025-03-14T08:00:00Z",
   "tiempoLectura": 5,
-  "tags": ["enargas", "gas", "distribuidoras", "regulacion", "usuarios"]
+  "tags": [
+    "enargas",
+    "gas",
+    "distribuidoras",
+    "regulacion",
+    "usuarios"
+  ]
 }

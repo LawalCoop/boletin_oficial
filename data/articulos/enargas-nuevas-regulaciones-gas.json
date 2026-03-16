@@ -77,5 +77,10 @@
   "imagen": "/images/articulos/gas.jpg",
   "fechaPublicacion": "2025-03-12T07:30:00Z",
   "tiempoLectura": 4,
-  "tags": ["enargas", "gas", "conexiones", "servicio al cliente"]
+  "tags": [
+    "enargas",
+    "gas",
+    "conexiones",
+    "servicio al cliente"
+  ]
 }

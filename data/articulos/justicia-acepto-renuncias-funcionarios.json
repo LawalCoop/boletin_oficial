@@ -74,8 +74,13 @@
       "categoria": "nacional"
     }
   ],
-  "imagen": "/images/articulos/justicia.jpg",
+  "imagen": "/images/articulos/funcionarios.jpg",
   "fechaPublicacion": "2025-03-14T07:00:00Z",
   "tiempoLectura": 4,
-  "tags": ["justicia", "renuncias", "funcionarios", "ministerio"]
+  "tags": [
+    "justicia",
+    "renuncias",
+    "funcionarios",
+    "ministerio"
+  ]
 }

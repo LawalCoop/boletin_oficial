@@ -77,8 +77,13 @@
     "negativos": 112
   },
   "relacionados": [],
-  "imagen": "/images/articulos/transito.jpg",
+  "imagen": "/images/articulos/rutas.jpg",
   "fechaPublicacion": "2025-03-14T09:30:00Z",
   "tiempoLectura": 5,
-  "tags": ["seguridad-vial", "licencias", "transito", "registro"]
+  "tags": [
+    "seguridad-vial",
+    "licencias",
+    "transito",
+    "registro"
+  ]
 }

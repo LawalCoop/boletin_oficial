@@ -80,5 +80,11 @@
   "imagen": "/images/articulos/agro.jpg",
   "fechaPublicacion": "2025-03-11T08:30:00Z",
   "tiempoLectura": 5,
-  "tags": ["senasa", "exportaciones", "agro", "carne", "china"]
+  "tags": [
+    "senasa",
+    "exportaciones",
+    "agro",
+    "carne",
+    "china"
+  ]
 }

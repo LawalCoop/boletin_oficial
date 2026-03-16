@@ -76,5 +76,10 @@
   "imagen": "/images/articulos/justicia.jpg",
   "fechaPublicacion": "2025-03-13T07:00:00Z",
   "tiempoLectura": 5,
-  "tags": ["procedimientos", "recursos", "administrativo", "justicia"]
+  "tags": [
+    "procedimientos",
+    "recursos",
+    "administrativo",
+    "justicia"
+  ]
 }

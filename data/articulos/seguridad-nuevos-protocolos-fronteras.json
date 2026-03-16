@@ -68,8 +68,13 @@
     "negativos": 145
   },
   "relacionados": [],
-  "imagen": "/images/articulos/fronteras.jpg",
+  "imagen": "/images/articulos/exportaciones.jpg",
   "fechaPublicacion": "2025-03-12T09:30:00Z",
   "tiempoLectura": 5,
-  "tags": ["seguridad", "fronteras", "control", "biometria"]
+  "tags": [
+    "seguridad",
+    "fronteras",
+    "control",
+    "biometria"
+  ]
 }

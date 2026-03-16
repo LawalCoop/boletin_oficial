@@ -56,7 +56,7 @@
       {
         "numero": "1",
         "titulo": "Artículo 1",
-        "contenido": "ARTÍCULO 1º.- Apruébase el "Plan de Retiros de Voluntad Recíproca (RVR) para el personal de esta ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL (ANSES)" que, como Anexo N° IF-2026-25966336-ANSES-ANSES, forma parte integral de la presente, en virtud de los considerandos precedentes."
+        "contenido": "ARTÍCULO 1º.- Apruébase el 'Plan de Retiros de Voluntad Recíproca (RVR) para el personal de esta ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL (ANSES)' que, como Anexo N° IF-2026-25966336-ANSES-ANSES, forma parte integral de la presente, en virtud de los considerandos precedentes."
       },
       {
         "numero": "2",
@@ -76,8 +76,13 @@
     "negativos": 123
   },
   "relacionados": [],
-  "imagen": "/images/articulos/anses.jpg",
+  "imagen": "/images/articulos/funcionarios.jpg",
   "fechaPublicacion": "2026-03-16T08:00:00Z",
   "tiempoLectura": 5,
-  "tags": ["anses", "retiro voluntario", "empleo publico", "trabajo"]
+  "tags": [
+    "anses",
+    "retiro voluntario",
+    "empleo publico",
+    "trabajo"
+  ]
 }

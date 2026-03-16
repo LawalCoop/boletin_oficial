@@ -82,8 +82,15 @@
     "negativos": 167
   },
   "relacionados": [],
-  "imagen": "/images/articulos/frontera.jpg",
+  "imagen": "/images/articulos/exportaciones.jpg",
   "fechaPublicacion": "2025-03-13T08:00:00Z",
   "tiempoLectura": 6,
-  "tags": ["aduana", "formosa", "frontera", "control", "contrabando", "paraguay"]
+  "tags": [
+    "aduana",
+    "formosa",
+    "frontera",
+    "control",
+    "contrabando",
+    "paraguay"
+  ]
 }

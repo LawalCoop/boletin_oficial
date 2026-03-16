@@ -83,8 +83,14 @@
       "categoria": "nacional"
     }
   ],
-  "imagen": "/images/articulos/agro.jpg",
+  "imagen": "/images/articulos/funcionarios.jpg",
   "fechaPublicacion": "2025-03-14T10:00:00Z",
   "tiempoLectura": 5,
-  "tags": ["trabajo", "agrario", "salarios", "rural", "campo"]
+  "tags": [
+    "trabajo",
+    "agrario",
+    "salarios",
+    "rural",
+    "campo"
+  ]
 }

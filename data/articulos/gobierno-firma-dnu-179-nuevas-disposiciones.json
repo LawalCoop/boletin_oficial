@@ -91,5 +91,10 @@
   "imagen": "/images/articulos/casa-rosada.jpg",
   "fechaPublicacion": "2025-03-11T06:00:00Z",
   "tiempoLectura": 5,
-  "tags": ["dnu", "burocracia", "tramites", "administracion publica"]
+  "tags": [
+    "dnu",
+    "burocracia",
+    "tramites",
+    "administracion publica"
+  ]
 }

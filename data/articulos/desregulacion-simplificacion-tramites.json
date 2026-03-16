@@ -83,8 +83,13 @@
       "categoria": "nacional"
     }
   ],
-  "imagen": "/images/articulos/tramites.jpg",
+  "imagen": "/images/articulos/casa-rosada.jpg",
   "fechaPublicacion": "2025-03-11T08:00:00Z",
   "tiempoLectura": 5,
-  "tags": ["desregulacion", "tramites", "digitalizacion", "TAD"]
+  "tags": [
+    "desregulacion",
+    "tramites",
+    "digitalizacion",
+    "TAD"
+  ]
 }

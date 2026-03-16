@@ -88,8 +88,15 @@
       "categoria": "nacional"
     }
   ],
-  "imagen": "/images/articulos/bolsa.jpg",
+  "imagen": "/images/articulos/presupuesto.jpg",
   "fechaPublicacion": "2025-03-13T09:30:00Z",
   "tiempoLectura": 7,
-  "tags": ["cnv", "pymes", "bolsa", "inversiones", "crowdfunding", "financiamiento"]
+  "tags": [
+    "cnv",
+    "pymes",
+    "bolsa",
+    "inversiones",
+    "crowdfunding",
+    "financiamiento"
+  ]
 }

@@ -88,8 +88,13 @@
       "categoria": "nacional"
     }
   ],
-  "imagen": "/images/articulos/bosques.jpg",
+  "imagen": "/images/articulos/agro.jpg",
   "fechaPublicacion": "2025-03-11T09:00:00Z",
   "tiempoLectura": 5,
-  "tags": ["bosques nativos", "forestacion", "medio ambiente", "agro"]
+  "tags": [
+    "bosques nativos",
+    "forestacion",
+    "medio ambiente",
+    "agro"
+  ]
 }

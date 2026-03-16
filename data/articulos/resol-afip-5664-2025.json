@@ -96,5 +96,10 @@
   "imagen": "/images/articulos/exportaciones.jpg",
   "fechaPublicacion": "2025-03-14T06:00:00Z",
   "tiempoLectura": 5,
-  "tags": ["exportaciones", "pymes", "comercio exterior", "simplificacion"]
+  "tags": [
+    "exportaciones",
+    "pymes",
+    "comercio exterior",
+    "simplificacion"
+  ]
 }

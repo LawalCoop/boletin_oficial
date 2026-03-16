@@ -83,8 +83,13 @@
       "categoria": "nacional"
     }
   ],
-  "imagen": "/images/articulos/industria.jpg",
+  "imagen": "/images/articulos/casa-rosada.jpg",
   "fechaPublicacion": "2025-03-14T09:00:00Z",
   "tiempoLectura": 5,
-  "tags": ["transformacion", "industria", "ventanilla unica", "digitalizacion"]
+  "tags": [
+    "transformacion",
+    "industria",
+    "ventanilla unica",
+    "digitalizacion"
+  ]
 }

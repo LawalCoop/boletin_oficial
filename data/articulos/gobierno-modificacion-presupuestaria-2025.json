@@ -87,5 +87,11 @@
   "imagen": "/images/articulos/presupuesto.jpg",
   "fechaPublicacion": "2025-03-13T06:00:00Z",
   "tiempoLectura": 6,
-  "tags": ["presupuesto", "economia", "gobierno", "salud", "seguridad"]
+  "tags": [
+    "presupuesto",
+    "economia",
+    "gobierno",
+    "salud",
+    "seguridad"
+  ]
 }

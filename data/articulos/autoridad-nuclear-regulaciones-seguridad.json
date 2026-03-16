@@ -77,8 +77,13 @@
     "negativos": 23
   },
   "relacionados": [],
-  "imagen": "/images/articulos/nuclear.jpg",
+  "imagen": "/images/articulos/energia.jpg",
   "fechaPublicacion": "2025-03-14T08:30:00Z",
   "tiempoLectura": 5,
-  "tags": ["nuclear", "seguridad", "centrales", "OIEA"]
+  "tags": [
+    "nuclear",
+    "seguridad",
+    "centrales",
+    "OIEA"
+  ]
 }

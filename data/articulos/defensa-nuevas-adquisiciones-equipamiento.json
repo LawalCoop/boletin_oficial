@@ -71,5 +71,10 @@
   "imagen": "/images/articulos/defensa.jpg",
   "fechaPublicacion": "2025-03-12T09:00:00Z",
   "tiempoLectura": 4,
-  "tags": ["defensa", "fuerzas-armadas", "adquisiciones", "seguridad"]
+  "tags": [
+    "defensa",
+    "fuerzas-armadas",
+    "adquisiciones",
+    "seguridad"
+  ]
 }

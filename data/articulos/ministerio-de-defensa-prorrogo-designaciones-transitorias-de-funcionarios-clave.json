@@ -72,8 +72,14 @@
     "negativos": 234
   },
   "relacionados": [],
-  "imagen": "/images/articulos/defensa.jpg",
+  "imagen": "/images/articulos/funcionarios.jpg",
   "fechaPublicacion": "2026-03-16T08:00:00Z",
   "tiempoLectura": 4,
-  "tags": ["defensa", "designaciones", "prorrogas", "funcionarios", "concursos"]
+  "tags": [
+    "defensa",
+    "designaciones",
+    "prorrogas",
+    "funcionarios",
+    "concursos"
+  ]
 }

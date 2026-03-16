@@ -112,26 +112,6 @@ export function Sidebar({ fechasDisponibles }: SidebarProps) {
         </div>
       </div>
 
-      {/* Footer Links */}
-      <div className="text-xs text-text-muted space-y-2">
-        <div className="flex flex-wrap gap-x-3 gap-y-1">
-          <Link href="/sobre" className="hover:text-text-secondary">Sobre nosotros</Link>
-          <Link href="/contacto" className="hover:text-text-secondary">Contacto</Link>
-          <Link href="/privacidad" className="hover:text-text-secondary">Privacidad</Link>
-          <Link href="/terminos" className="hover:text-text-secondary">Términos</Link>
-        </div>
-        <p className="pt-2">
-          Powered by AI. Fuente:{' '}
-          <a
-            href="https://www.boletinoficial.gob.ar"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent hover:underline"
-          >
-            Boletín Oficial
-          </a>
-        </p>
-      </div>
     </div>
   );
 }

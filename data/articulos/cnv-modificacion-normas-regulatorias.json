@@ -86,5 +86,11 @@
   "imagen": "/images/articulos/bolsa.jpg",
   "fechaPublicacion": "2025-03-14T06:30:00Z",
   "tiempoLectura": 5,
-  "tags": ["cnv", "bolsa", "inversiones", "derivados", "proteccion"]
+  "tags": [
+    "cnv",
+    "bolsa",
+    "inversiones",
+    "derivados",
+    "proteccion"
+  ]
 }

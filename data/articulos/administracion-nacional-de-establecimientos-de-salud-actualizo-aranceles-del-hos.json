@@ -52,7 +52,7 @@
       {
         "numero": "1",
         "titulo": "Artículo 1",
-        "contenido": "ARTICULO 1°.- Apruébase la actualización de aranceles del Nomenclador de Prestaciones Valorizado del Hospital Nacional "Profesor Alejandro Posadas" (IF-2026-09605156-APN-DGRS#HP) y el ABM del Nomenclador (IF-2026-08504618-APN-DGRS#HP), con sus Normas Operativas, Composición Modular y Listado de Materiales Descartables y Medicamentos Incluidos y Excluidos."
+        "contenido": "ARTICULO 1°.- Apruébase la actualización de aranceles del Nomenclador de Prestaciones Valorizado del Hospital Nacional 'Profesor Alejandro Posadas' (IF-2026-09605156-APN-DGRS#HP) y el ABM del Nomenclador (IF-2026-08504618-APN-DGRS#HP), con sus Normas Operativas, Composición Modular y Listado de Materiales Descartables y Medicamentos Incluidos y Excluidos."
       },
       {
         "numero": "2-3",
@@ -67,8 +67,13 @@
     "negativos": 56
   },
   "relacionados": [],
-  "imagen": "/images/articulos/hospital.jpg",
+  "imagen": "/images/articulos/salud.jpg",
   "fechaPublicacion": "2026-03-16T08:00:00Z",
   "tiempoLectura": 4,
-  "tags": ["hospital posadas", "aranceles", "salud publica", "obras sociales"]
+  "tags": [
+    "hospital posadas",
+    "aranceles",
+    "salud publica",
+    "obras sociales"
+  ]
 }

@@ -75,5 +75,11 @@
   "imagen": "/images/articulos/cine.jpg",
   "fechaPublicacion": "2025-03-12T08:00:00Z",
   "tiempoLectura": 5,
-  "tags": ["incaa", "cine", "cultura", "series", "streaming"]
+  "tags": [
+    "incaa",
+    "cine",
+    "cultura",
+    "series",
+    "streaming"
+  ]
 }

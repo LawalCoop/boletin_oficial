@@ -90,5 +90,12 @@
   "imagen": "/images/articulos/telecomunicaciones.jpg",
   "fechaPublicacion": "2025-03-13T09:00:00Z",
   "tiempoLectura": 7,
-  "tags": ["enacom", "telecomunicaciones", "internet", "5g", "celular", "portabilidad"]
+  "tags": [
+    "enacom",
+    "telecomunicaciones",
+    "internet",
+    "5g",
+    "celular",
+    "portabilidad"
+  ]
 }

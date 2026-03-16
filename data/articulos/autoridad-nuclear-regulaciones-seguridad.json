@@ -1,0 +1,82 @@
+{
+  "id": "resol-ara-71-75-2025",
+  "slug": "autoridad-nuclear-regulaciones-seguridad",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "ciencia",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "71-75/2025",
+    "organismoEmisor": "Autoridad Regulatoria Nuclear",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/712025/20250314",
+    "fechaBoletinOficial": "2025-03-14",
+    "numeroEdicion": "35.879"
+  },
+  "contenidoIA": {
+    "titulo": "La Autoridad Regulatoria Nuclear actualizó normas de seguridad",
+    "resumen": "La Autoridad Regulatoria Nuclear publicó las Resoluciones 71 y 75/2025 con actualizaciones a los protocolos de seguridad nuclear y radiológica. Las nuevas normas incorporan estándares internacionales del OIEA y refuerzan los requisitos para instalaciones que operan con material radiactivo.",
+    "puntosClaves": [
+      {
+        "titulo": "Estándares OIEA",
+        "descripcion": "Se adoptan las últimas guías de seguridad del Organismo Internacional de Energía Atómica publicadas en 2024."
+      },
+      {
+        "titulo": "Inspecciones más frecuentes",
+        "descripcion": "Se incrementa la frecuencia de inspecciones a instalaciones nucleares de categoría I de anual a semestral."
+      },
+      {
+        "titulo": "Capacitación obligatoria",
+        "descripcion": "El personal de instalaciones nucleares deberá completar 40 horas anuales de capacitación en seguridad."
+      },
+      {
+        "titulo": "Planes de emergencia",
+        "descripcion": "Todas las instalaciones deben actualizar sus planes de emergencia radiológica antes del 1° de julio de 2025."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Centrales nucleares",
+        "icono": "zap",
+        "descripcion": "Deben adaptar sus procedimientos a los nuevos estándares de seguridad."
+      },
+      {
+        "grupo": "Hospitales con medicina nuclear",
+        "icono": "heart-pulse",
+        "descripcion": "Actualizarán protocolos de manejo de material radiactivo."
+      },
+      {
+        "grupo": "Institutos de investigación",
+        "icono": "flask-conical",
+        "descripcion": "Deberán cumplir nuevos requisitos de capacitación y documentación."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIONES 71-75/2025 - AUTORIDAD REGULATORIA NUCLEAR",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Objeto",
+        "contenido": "Artículo 1° - Apruébanse las actualizaciones a la Norma AR 10.1.1. \"Norma Básica de Seguridad Radiológica\" conforme el texto que como Anexo I integra la presente resolución."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Inspecciones",
+        "contenido": "Artículo 2° - Establécese que las instalaciones nucleares de Categoría I serán objeto de inspecciones regulatorias con frecuencia semestral. Artículo 3° - Las instalaciones de Categoría II y III mantendrán el régimen de inspección anual."
+      },
+      {
+        "numero": "5-7",
+        "titulo": "Capacitación",
+        "contenido": "Artículo 5° - El personal de operación de instalaciones nucleares y radiactivas deberá acreditar un mínimo de CUARENTA (40) horas anuales de capacitación en seguridad nuclear y protección radiológica."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 678,
+    "neutrales": 189,
+    "negativos": 23
+  },
+  "relacionados": [],
+  "fechaPublicacion": "2025-03-14T08:30:00Z",
+  "tiempoLectura": 4,
+  "tags": ["nuclear", "seguridad", "regulacion"]
+}

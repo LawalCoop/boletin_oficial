@@ -1,0 +1,78 @@
+{
+  "id": "disp-aduana-24-2025",
+  "slug": "aduana-formosa-operativo-control-fronterizo",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "comercio-exterior",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "24/2025",
+    "organismoEmisor": "AFIP - Aduana Formosa",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/242025/20250313",
+    "fechaBoletinOficial": "2025-03-13",
+    "numeroEdicion": "35.878"
+  },
+  "contenidoIA": {
+    "titulo": "Aduana Formosa intensificó controles en zona de frontera",
+    "resumen": "La Disposición 24/2025 de AFIP-Aduana Formosa estableció nuevos procedimientos para el control aduanero en la zona fronteriza con Paraguay. Se refuerzan las inspecciones de mercaderías y se implementan tecnologías de detección más avanzadas.",
+    "puntosClaves": [
+      {
+        "titulo": "Control intensificado",
+        "descripcion": "Se incrementa en un 50% el personal de control en los pasos fronterizos de la provincia."
+      },
+      {
+        "titulo": "Nueva tecnología",
+        "descripcion": "Se incorporan escáneres de última generación para inspección no intrusiva de cargas."
+      },
+      {
+        "titulo": "Horario ampliado",
+        "descripcion": "Los controles operarán las 24 horas en los principales cruces fronterizos."
+      },
+      {
+        "titulo": "Cooperación bilateral",
+        "descripcion": "Se establece un mecanismo de intercambio de información en tiempo real con autoridades paraguayas."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Importadores/Exportadores",
+        "icono": "ship",
+        "descripcion": "Deben prever tiempos adicionales de inspección en sus operaciones."
+      },
+      {
+        "grupo": "Transportistas",
+        "icono": "truck",
+        "descripcion": "Enfrentarán controles más rigurosos en zona de frontera."
+      },
+      {
+        "grupo": "Comerciantes locales",
+        "icono": "store",
+        "descripcion": "Mayor fiscalización del origen de mercaderías en comercios fronterizos."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIÓN 24/2025 - AFIP ADUANA FORMOSA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Objeto",
+        "contenido": "Artículo 1° - Establécese el \"Operativo Control Frontera Norte\" en la jurisdicción de la Aduana de Formosa, con el objetivo de intensificar la fiscalización del tráfico de mercaderías."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Medidas",
+        "contenido": "Artículo 2° - Increméntase la dotación de personal de verificación en un CINCUENTA POR CIENTO (50%). Artículo 3° - Impleméntase el uso de scanners de inspección no intrusiva en todos los pasos habilitados."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 445,
+    "neutrales": 234,
+    "negativos": 67
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/exportaciones.jpg",
+  "fechaPublicacion": "2025-03-13T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["aduana", "formosa", "frontera", "control"]
+}

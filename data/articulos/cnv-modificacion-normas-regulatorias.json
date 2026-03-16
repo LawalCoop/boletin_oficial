@@ -1,0 +1,89 @@
+{
+  "id": "resol-cnv-1058-2025",
+  "slug": "cnv-modificacion-normas-regulatorias",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "finanzas",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "RG 1058/2025",
+    "organismoEmisor": "Comisión Nacional de Valores",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/10582025/20250314",
+    "fechaBoletinOficial": "2025-03-14",
+    "numeroEdicion": "35.879"
+  },
+  "contenidoIA": {
+    "titulo": "La CNV modificó normas regulatorias del mercado de valores",
+    "resumen": "La Comisión Nacional de Valores publicó la Resolución General 1058/2025 que introduce cambios significativos en el marco regulatorio para operadores del mercado de valores. Las modificaciones apuntan a modernizar los requisitos de compliance, fortalecer la protección al inversor minorista y adaptar la normativa a estándares internacionales.",
+    "puntosClaves": [
+      {
+        "titulo": "Nuevos requisitos de capital",
+        "descripcion": "Se incrementan los requisitos mínimos de capital para Agentes de Liquidación y Compensación (ALyCs) en un 25%."
+      },
+      {
+        "titulo": "Protección al inversor",
+        "descripcion": "Se establece la obligatoriedad de test de idoneidad para inversores minoristas antes de operar con instrumentos derivados."
+      },
+      {
+        "titulo": "Compliance reforzado",
+        "descripcion": "Los agentes deberán designar un Oficial de Cumplimiento independiente con dedicación exclusiva."
+      },
+      {
+        "titulo": "Plazo de adaptación",
+        "descripcion": "Los agentes tienen 180 días para adecuarse a las nuevas exigencias a partir de la publicación."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Agentes de bolsa",
+        "icono": "briefcase",
+        "descripcion": "Deben incrementar su capital y reforzar sus estructuras de compliance."
+      },
+      {
+        "grupo": "Inversores minoristas",
+        "icono": "users",
+        "descripcion": "Tendrán mayor protección pero deberán completar evaluaciones antes de operar derivados."
+      },
+      {
+        "grupo": "Sociedades emisoras",
+        "icono": "building-2",
+        "descripcion": "Enfrentarán requisitos de disclosure más estrictos en sus informes."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN GENERAL 1058/2025 - COMISIÓN NACIONAL DE VALORES",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Objeto",
+        "contenido": "Artículo 1° - Modifícanse las Normas (N.T. 2013 y mod.) de la COMISIÓN NACIONAL DE VALORES en los términos que se establecen en la presente resolución."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Requisitos de capital",
+        "contenido": "Artículo 2° - Sustitúyese el artículo 35 del Capítulo II del Título VII de las Normas, el que quedará redactado de la siguiente forma: Los Agentes de Liquidación y Compensación deberán acreditar y mantener un patrimonio neto mínimo de PESOS QUINIENTOS MILLONES ($500.000.000)."
+      },
+      {
+        "numero": "5-8",
+        "titulo": "Protección al inversor",
+        "contenido": "Artículo 5° - Incorpórase como artículo 47 bis del Capítulo III del Título VII: Previo a autorizar operaciones con instrumentos financieros derivados a inversores no calificados, los Agentes deberán realizar un test de idoneidad que evalúe el conocimiento y experiencia del cliente."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 412,
+    "neutrales": 298,
+    "negativos": 156
+  },
+  "relacionados": [
+    {
+      "slug": "cnv-nuevas-normas-mercado-capitales",
+      "titulo": "La CNV actualizó normativas para el mercado de capitales",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/bolsa.jpg",
+  "fechaPublicacion": "2025-03-14T06:30:00Z",
+  "tiempoLectura": 4,
+  "tags": ["cnv", "bolsa", "mercado-valores", "regulacion"]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "decreto-184-2025",
+  "slug": "rechazo-recurso-administrativo-procedimientos",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "justicia",
+    "tipoDocumento": "decreto",
+    "numeroDocumento": "184/2025",
+    "organismoEmisor": "Poder Ejecutivo Nacional",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1842025/20250313",
+    "fechaBoletinOficial": "2025-03-13",
+    "numeroEdicion": "35.878"
+  },
+  "contenidoIA": {
+    "titulo": "El Ejecutivo rechazó un recurso administrativo por cuestiones formales",
+    "resumen": "Mediante el Decreto 184/2025, el Poder Ejecutivo resolvió rechazar un recurso jerárquico interpuesto contra una decisión administrativa previa. El rechazo se fundamentó en el incumplimiento de plazos procesales establecidos en la Ley de Procedimiento Administrativo.",
+    "puntosClaves": [
+      {
+        "titulo": "Recurso rechazado",
+        "descripcion": "Se rechaza el recurso jerárquico por haber sido interpuesto fuera del plazo legal de 15 días hábiles."
+      },
+      {
+        "titulo": "Fundamento legal",
+        "descripcion": "El rechazo se basa en el artículo 90 del Reglamento de Procedimientos Administrativos."
+      },
+      {
+        "titulo": "Decisión firme",
+        "descripcion": "La resolución originalmente recurrida queda firme y consentida."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Recurrente",
+        "icono": "user",
+        "descripcion": "Ve rechazada su impugnación sin posibilidad de revisión administrativa."
+      },
+      {
+        "grupo": "Administración pública",
+        "icono": "landmark",
+        "descripcion": "Confirma criterio estricto en el cumplimiento de plazos procesales."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DECRETO 184/2025 - PODER EJECUTIVO NACIONAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Rechazo",
+        "contenido": "Artículo 1° - Recházase el recurso jerárquico interpuesto por el señor XXXX contra la Resolución N° XXX/2024 del MINISTERIO DE ECONOMÍA."
+      },
+      {
+        "numero": "2",
+        "titulo": "Fundamentos",
+        "contenido": "Artículo 2° - El rechazo se funda en la presentación extemporánea del recurso, conforme lo establecido en el artículo 90 del Reglamento de Procedimientos Administrativos aprobado por Decreto N° 1759/72."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 156,
+    "neutrales": 523,
+    "negativos": 67
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/justicia.jpg",
+  "fechaPublicacion": "2025-03-13T07:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["procedimientos", "recursos", "administrativo"]
+}

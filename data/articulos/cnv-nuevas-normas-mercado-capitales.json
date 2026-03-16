@@ -1,0 +1,80 @@
+{
+  "id": "resol-cnv-2025",
+  "slug": "cnv-nuevas-normas-mercado-capitales",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "finanzas",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "CNV/2025",
+    "organismoEmisor": "Comisión Nacional de Valores",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/cnv2025/20250313",
+    "fechaBoletinOficial": "2025-03-13",
+    "numeroEdicion": "35.878"
+  },
+  "contenidoIA": {
+    "titulo": "La CNV actualizó normativas para el mercado de capitales",
+    "resumen": "La Comisión Nacional de Valores emitió 2 resoluciones con modificaciones al régimen normativo del mercado de capitales argentino. Los cambios apuntan a facilitar el acceso de PyMEs al financiamiento bursátil y modernizar los requisitos de información.",
+    "puntosClaves": [
+      {
+        "titulo": "Régimen PyME simplificado",
+        "descripcion": "Se crea un régimen de oferta pública simplificado para empresas con facturación menor a $2.000 millones anuales."
+      },
+      {
+        "titulo": "Información continua",
+        "descripcion": "Se actualizan los plazos de presentación de información periódica, alineándolos con estándares IFRS."
+      },
+      {
+        "titulo": "Crowdfunding regulado",
+        "descripcion": "Se establecen nuevas reglas para plataformas de financiamiento colectivo de valores."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "PyMEs",
+        "icono": "building-2",
+        "descripcion": "Acceso más fácil al mercado de capitales con requisitos simplificados."
+      },
+      {
+        "grupo": "Inversores",
+        "icono": "trending-up",
+        "descripcion": "Nuevas oportunidades de inversión en empresas medianas."
+      },
+      {
+        "grupo": "Plataformas de crowdfunding",
+        "icono": "globe",
+        "descripcion": "Marco regulatorio claro para operar con valores negociables."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIONES CNV/2025 - COMISIÓN NACIONAL DE VALORES",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Régimen simplificado",
+        "contenido": "Artículo 1° - Créase el \"Régimen de Oferta Pública Simplificado para PyMEs\" destinado a empresas cuya facturación anual no supere los PESOS DOS MIL MILLONES ($2.000.000.000)."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Requisitos",
+        "contenido": "Artículo 2° - Las empresas que se acojan al régimen simplificado presentarán estados contables semestrales en lugar de trimestrales. Artículo 3° - Se reducen los requisitos de prospecto de emisión."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 489,
+    "neutrales": 267,
+    "negativos": 78
+  },
+  "relacionados": [
+    {
+      "slug": "cnv-modificacion-normas-regulatorias",
+      "titulo": "La CNV modificó normas regulatorias del mercado de valores",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/bolsa.jpg",
+  "fechaPublicacion": "2025-03-13T09:30:00Z",
+  "tiempoLectura": 4,
+  "tags": ["cnv", "mercado-capitales", "inversiones", "bolsa"]
+}

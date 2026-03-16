@@ -1,0 +1,83 @@
+{
+  "id": "resol-enacom-2025",
+  "slug": "enacom-regulaciones-telecomunicaciones",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "telecomunicaciones",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "ENACOM/2025",
+    "organismoEmisor": "Ente Nacional de Comunicaciones",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/enacom2025/20250313",
+    "fechaBoletinOficial": "2025-03-13",
+    "numeroEdicion": "35.878"
+  },
+  "contenidoIA": {
+    "titulo": "ENACOM publicó 4 resoluciones para el sector de telecomunicaciones",
+    "resumen": "El Ente Nacional de Comunicaciones emitió un paquete de 4 resoluciones que regulan distintos aspectos del mercado de telecomunicaciones y servicios digitales. Las normas abordan calidad de servicio, portabilidad numérica, espectro radioeléctrico y protección al usuario.",
+    "puntosClaves": [
+      {
+        "titulo": "Calidad de internet",
+        "descripcion": "Se establecen velocidades mínimas garantizadas: 80% del ancho de banda contratado en horario pico."
+      },
+      {
+        "titulo": "Portabilidad express",
+        "descripcion": "El proceso de portabilidad numérica deberá completarse en un máximo de 24 horas."
+      },
+      {
+        "titulo": "Asignación de espectro",
+        "descripcion": "Se licita nuevo espectro en banda de 3.5 GHz para despliegue de redes 5G."
+      },
+      {
+        "titulo": "Transparencia tarifaria",
+        "descripcion": "Los prestadores deberán publicar comparadores de precios en sus sitios web."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Empresas de telecomunicaciones",
+        "icono": "wifi",
+        "descripcion": "Deben cumplir nuevos estándares de calidad y transparencia."
+      },
+      {
+        "grupo": "Usuarios de internet",
+        "icono": "users",
+        "descripcion": "Tendrán garantías de velocidad mínima y portabilidad más rápida."
+      },
+      {
+        "grupo": "Operadores móviles",
+        "icono": "smartphone",
+        "descripcion": "Podrán participar en licitación de espectro para 5G."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIONES ENACOM/2025 - ENTE NACIONAL DE COMUNICACIONES",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Calidad de servicio",
+        "contenido": "Artículo 1° - Los prestadores de servicios de acceso a internet deberán garantizar una velocidad mínima equivalente al OCHENTA POR CIENTO (80%) del ancho de banda contratado durante las horas pico."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Portabilidad",
+        "contenido": "Artículo 2° - El proceso de portabilidad numérica, tanto fija como móvil, deberá completarse en un plazo máximo de VEINTICUATRO (24) horas contadas desde la solicitud del usuario."
+      },
+      {
+        "numero": "5-7",
+        "titulo": "Espectro 5G",
+        "contenido": "Artículo 5° - Convócase a concurso público para la asignación de frecuencias en la banda de 3.4 a 3.6 GHz para el despliegue de tecnología 5G."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 567,
+    "neutrales": 234,
+    "negativos": 89
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/telecomunicaciones.jpg",
+  "fechaPublicacion": "2025-03-13T09:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["enacom", "telecomunicaciones", "internet", "comunicaciones"]
+}

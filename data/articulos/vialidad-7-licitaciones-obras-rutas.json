@@ -1,0 +1,89 @@
+{
+  "id": "resol-vialidad-333-342-2025",
+  "slug": "vialidad-7-licitaciones-obras-rutas",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "transporte",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "333-342/2025",
+    "organismoEmisor": "Dirección Nacional de Vialidad",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/3332025/20250314",
+    "fechaBoletinOficial": "2025-03-14",
+    "numeroEdicion": "35.879"
+  },
+  "contenidoIA": {
+    "titulo": "Vialidad Nacional convocó a 7 licitaciones para obras en rutas",
+    "resumen": "La Dirección Nacional de Vialidad publicó un paquete de resoluciones (333 a 342/2025) convocando a licitaciones públicas para obras de mantenimiento, repavimentación y mejora en diversas rutas nacionales del país. Las obras incluyen tramos en las provincias de Buenos Aires, Córdoba, Santa Fe, Mendoza y Neuquén, con una inversión total estimada de $45.000 millones.",
+    "puntosClaves": [
+      {
+        "titulo": "7 licitaciones simultáneas",
+        "descripcion": "Se abren procesos licitatorios para obras en Ruta 7, Ruta 9, Ruta 33, Ruta 40, Ruta 22, Ruta 188 y Ruta 5, abarcando más de 400 km de trabajos."
+      },
+      {
+        "titulo": "Inversión millonaria",
+        "descripcion": "El presupuesto oficial total supera los $45.000 millones, financiados con fondos del Tesoro Nacional y créditos del BID."
+      },
+      {
+        "titulo": "Plazo de presentación",
+        "descripcion": "Las empresas interesadas tienen hasta el 15 de abril de 2025 para presentar sus ofertas técnicas y económicas."
+      },
+      {
+        "titulo": "Requisitos de participación",
+        "descripcion": "Pueden participar empresas nacionales y extranjeras con capacidad técnica y financiera comprobada en obras viales de similar envergadura."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Empresas constructoras",
+        "icono": "hard-hat",
+        "descripcion": "Oportunidad de participar en licitaciones de obra pública vial de gran escala."
+      },
+      {
+        "grupo": "Transportistas",
+        "icono": "truck",
+        "descripcion": "Se beneficiarán con mejores condiciones de circulación una vez finalizadas las obras."
+      },
+      {
+        "grupo": "Comunidades locales",
+        "icono": "users",
+        "descripcion": "Las obras generarán empleo local y mejorarán la conectividad regional."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIONES 333-342/2025 - DIRECCIÓN NACIONAL DE VIALIDAD",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Convocatoria",
+        "contenido": "Artículo 1° - Convócase a Licitación Pública Nacional e Internacional para la contratación de las obras de \"Rehabilitación y Mantenimiento de la Ruta Nacional N° 7 - Tramo: Km 310 - Km 380 - Provincia de Mendoza\"."
+      },
+      {
+        "numero": "2-3",
+        "titulo": "Presupuesto y plazo",
+        "contenido": "Artículo 2° - El presupuesto oficial para la presente obra asciende a PESOS SEIS MIL QUINIENTOS MILLONES ($6.500.000.000). Artículo 3° - El plazo de ejecución será de DIECIOCHO (18) meses contados a partir del Acta de Inicio."
+      },
+      {
+        "numero": "4-6",
+        "titulo": "Documentación y garantías",
+        "contenido": "Artículo 4° - Los Pliegos de Bases y Condiciones podrán adquirirse en la sede central de la Dirección Nacional de Vialidad. Artículo 5° - Las ofertas deberán estar acompañadas de una garantía de mantenimiento de oferta equivalente al 1% del presupuesto oficial."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 523,
+    "neutrales": 189,
+    "negativos": 67
+  },
+  "relacionados": [
+    {
+      "slug": "vialidad-nacional-licitaciones-rutas",
+      "titulo": "Vialidad Nacional publicó 9 resoluciones para obras en rutas nacionales",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/rutas.jpg",
+  "fechaPublicacion": "2025-03-14T07:30:00Z",
+  "tiempoLectura": 4,
+  "tags": ["vialidad", "licitaciones", "rutas", "obras"]
+}

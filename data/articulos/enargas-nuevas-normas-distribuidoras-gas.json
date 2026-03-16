@@ -1,0 +1,94 @@
+{
+  "id": "resol-enargas-151-2025",
+  "slug": "enargas-nuevas-normas-distribuidoras-gas",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "energia",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "151/2025",
+    "organismoEmisor": "Ente Nacional Regulador del Gas",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1512025/20250314",
+    "fechaBoletinOficial": "2025-03-14",
+    "numeroEdicion": "35.879"
+  },
+  "contenidoIA": {
+    "titulo": "ENARGAS estableció nuevas normas para distribuidoras de gas",
+    "resumen": "El Ente Nacional Regulador del Gas publicó la Resolución 151/2025 con actualizaciones al marco regulatorio de las empresas distribuidoras de gas natural. La norma establece nuevos estándares de calidad de servicio, procedimientos de atención al usuario y requisitos de inversión en mantenimiento de redes.",
+    "puntosClaves": [
+      {
+        "titulo": "Estándares de calidad",
+        "descripcion": "Se establecen indicadores de calidad de servicio técnico y comercial con metas más exigentes que las actuales."
+      },
+      {
+        "titulo": "Atención al usuario",
+        "descripcion": "Las distribuidoras deberán resolver reclamos en un plazo máximo de 10 días hábiles, reduciendo el plazo actual de 15 días."
+      },
+      {
+        "titulo": "Inversiones obligatorias",
+        "descripcion": "Se fija un piso mínimo de inversión anual en mantenimiento y renovación de redes equivalente al 3% de los ingresos regulados."
+      },
+      {
+        "titulo": "Sanciones",
+        "descripcion": "Se actualizan las multas por incumplimiento, que podrán alcanzar hasta el 5% de la facturación mensual."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Distribuidoras de gas",
+        "icono": "building-2",
+        "descripcion": "Deben cumplir nuevos estándares de calidad e invertir más en mantenimiento."
+      },
+      {
+        "grupo": "Usuarios residenciales",
+        "icono": "home",
+        "descripcion": "Tendrán mejor atención y tiempos de respuesta más rápidos ante reclamos."
+      },
+      {
+        "grupo": "Industrias",
+        "icono": "factory",
+        "descripcion": "Se beneficiarán de una mayor confiabilidad en el suministro de gas."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 151/2025 - ENTE NACIONAL REGULADOR DEL GAS",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Objeto",
+        "contenido": "Artículo 1° - Apruébanse las Normas de Calidad de Servicio y Atención al Usuario para Distribuidoras de Gas Natural que como Anexo I forman parte integrante de la presente resolución."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Indicadores de calidad",
+        "contenido": "Artículo 2° - Establécense los siguientes indicadores de calidad técnica: a) Frecuencia de interrupciones: máximo 2 por usuario/año; b) Duración media de interrupciones: máximo 4 horas por evento; c) Presión mínima de suministro: 18 mbar en punto de entrega."
+      },
+      {
+        "numero": "5-7",
+        "titulo": "Inversiones y mantenimiento",
+        "contenido": "Artículo 5° - Las Distribuidoras deberán destinar anualmente a inversiones en mantenimiento y renovación de redes un monto no inferior al TRES POR CIENTO (3%) de sus ingresos regulados del ejercicio anterior."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 567,
+    "neutrales": 201,
+    "negativos": 89
+  },
+  "relacionados": [
+    {
+      "slug": "enargas-nuevas-regulaciones-gas",
+      "titulo": "ENARGAS emitió nuevas regulaciones para distribuidoras de gas",
+      "categoria": "nacional"
+    },
+    {
+      "slug": "energia-actualizacion-mercado-electrico",
+      "titulo": "Secretaría de Energía actualizó normativa del mercado eléctrico",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/gas.jpg",
+  "fechaPublicacion": "2025-03-14T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["enargas", "gas", "distribuidoras", "regulacion"]
+}

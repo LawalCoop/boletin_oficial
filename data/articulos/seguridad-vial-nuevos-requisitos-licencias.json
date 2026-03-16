@@ -1,0 +1,82 @@
+{
+  "id": "disp-ansv-53-2025",
+  "slug": "seguridad-vial-nuevos-requisitos-licencias",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "transporte",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "53/2025",
+    "organismoEmisor": "Agencia Nacional de Seguridad Vial",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/532025/20250314",
+    "fechaBoletinOficial": "2025-03-14",
+    "numeroEdicion": "35.879"
+  },
+  "contenidoIA": {
+    "titulo": "Seguridad Vial actualizó requisitos para licencias de conducir",
+    "resumen": "La Agencia Nacional de Seguridad Vial publicó la Disposición 53/2025 con nuevos requisitos y procedimientos para la obtención de licencias de conducir. Se incorporan evaluaciones psicofísicas más rigurosas y se actualizan los contenidos del examen teórico.",
+    "puntosClaves": [
+      {
+        "titulo": "Examen teórico actualizado",
+        "descripcion": "Se incorporan preguntas sobre conducción segura en zonas urbanas, uso de tecnología y manejo defensivo."
+      },
+      {
+        "titulo": "Evaluación psicofísica",
+        "descripcion": "Se agregan tests de visión nocturna y evaluación de tiempos de reacción para conductores mayores de 65 años."
+      },
+      {
+        "titulo": "Licencia digital",
+        "descripcion": "Se habilita la licencia de conducir en formato digital, válida en todo el territorio nacional."
+      },
+      {
+        "titulo": "Curso obligatorio",
+        "descripcion": "Los solicitantes de primera licencia deberán completar un curso de 8 horas sobre seguridad vial."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Nuevos conductores",
+        "icono": "user",
+        "descripcion": "Deberán cumplir requisitos adicionales incluyendo un curso obligatorio."
+      },
+      {
+        "grupo": "Conductores mayores de 65",
+        "icono": "users",
+        "descripcion": "Tendrán evaluaciones psicofísicas más completas en cada renovación."
+      },
+      {
+        "grupo": "Municipios",
+        "icono": "landmark",
+        "descripcion": "Deben adaptar sus centros de emisión al nuevo sistema digital."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIÓN 53/2025 - AGENCIA NACIONAL DE SEGURIDAD VIAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Objeto",
+        "contenido": "Artículo 1° - Actualízanse los requisitos para la obtención, renovación y duplicado de la Licencia Nacional de Conducir conforme las disposiciones de la presente norma."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Examen teórico",
+        "contenido": "Artículo 2° - El examen teórico constará de CUARENTA (40) preguntas de opción múltiple, debiendo aprobarse con un mínimo del 80% de respuestas correctas. Artículo 3° - El contenido del examen incluirá: a) Normas de tránsito; b) Conducción defensiva; c) Primeros auxilios básicos; d) Impacto ambiental."
+      },
+      {
+        "numero": "5-7",
+        "titulo": "Licencia digital",
+        "contenido": "Artículo 5° - Créase la Licencia Nacional de Conducir Digital, la cual tendrá la misma validez que el documento físico en todo el territorio de la República Argentina."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 534,
+    "neutrales": 287,
+    "negativos": 112
+  },
+  "relacionados": [],
+  "fechaPublicacion": "2025-03-14T09:30:00Z",
+  "tiempoLectura": 3,
+  "tags": ["seguridad-vial", "licencias", "transito"]
+}

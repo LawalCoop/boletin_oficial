@@ -1,0 +1,75 @@
+{
+  "id": "decreto-181-182-2025",
+  "slug": "renuncias-ministerio-justicia-ministerio-publico",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "designaciones",
+    "tipoDocumento": "decreto",
+    "numeroDocumento": "181-182/2025",
+    "organismoEmisor": "Poder Ejecutivo Nacional",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1812025/20250313",
+    "fechaBoletinOficial": "2025-03-13",
+    "numeroEdicion": "35.878"
+  },
+  "contenidoIA": {
+    "titulo": "Aceptaron renuncias en el Ministerio de Justicia y el Ministerio Público",
+    "resumen": "Los Decretos 181 y 182/2025 formalizaron la aceptación de renuncias de funcionarios en el Ministerio de Justicia y el Ministerio Público respectivamente. Los funcionarios salientes dejan sus cargos por motivos personales.",
+    "puntosClaves": [
+      {
+        "titulo": "Renuncia en Justicia",
+        "descripcion": "Se acepta la renuncia del Director de Asuntos Legales del Ministerio de Justicia."
+      },
+      {
+        "titulo": "Renuncia en Ministerio Público",
+        "descripcion": "Se acepta la renuncia del Secretario Administrativo del Ministerio Público Fiscal."
+      },
+      {
+        "titulo": "Agradecimiento formal",
+        "descripcion": "En ambos casos se agradecen los servicios prestados por los funcionarios salientes."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Ministerio de Justicia",
+        "icono": "scale",
+        "descripcion": "Debe cubrir vacantes en área de asuntos legales."
+      },
+      {
+        "grupo": "Ministerio Público",
+        "icono": "landmark",
+        "descripcion": "Necesita designar nuevo secretario administrativo."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DECRETOS 181-182/2025 - PODER EJECUTIVO NACIONAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Aceptación",
+        "contenido": "Artículo 1° - Acéptase la renuncia presentada por el Doctor XXXX al cargo de Director de Asuntos Legales del MINISTERIO DE JUSTICIA."
+      },
+      {
+        "numero": "2",
+        "titulo": "Agradecimiento",
+        "contenido": "Artículo 2° - Agradecer al funcionario renunciante los valiosos servicios prestados en el desempeño de su cargo."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 189,
+    "neutrales": 467,
+    "negativos": 45
+  },
+  "relacionados": [
+    {
+      "slug": "justicia-acepto-renuncias-funcionarios",
+      "titulo": "Ministerio de Justicia formalizó la aceptación de dos renuncias",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/funcionarios.jpg",
+  "fechaPublicacion": "2025-03-13T07:30:00Z",
+  "tiempoLectura": 2,
+  "tags": ["justicia", "renuncias", "funcionarios"]
+}

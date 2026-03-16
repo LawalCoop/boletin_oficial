@@ -1,0 +1,78 @@
+{
+  "id": "decreto-187-188-2025",
+  "slug": "justicia-acepto-renuncias-funcionarios",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "designaciones",
+    "tipoDocumento": "decreto",
+    "numeroDocumento": "187-188/2025",
+    "organismoEmisor": "Poder Ejecutivo Nacional",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/1872025/20250314",
+    "fechaBoletinOficial": "2025-03-14",
+    "numeroEdicion": "35.879"
+  },
+  "contenidoIA": {
+    "titulo": "Ministerio de Justicia formalizó la aceptación de dos renuncias",
+    "resumen": "Mediante los Decretos 187 y 188/2025, el Poder Ejecutivo aceptó las renuncias presentadas por dos funcionarios del Ministerio de Justicia. Se trata de un Director Nacional y un Subsecretario que dejaron sus cargos por razones personales.",
+    "puntosClaves": [
+      {
+        "titulo": "Renuncia del Director Nacional",
+        "descripcion": "Se aceptó la renuncia del Director Nacional de Asuntos Jurídicos, quien se desempeñaba en el cargo desde enero de 2024."
+      },
+      {
+        "titulo": "Renuncia del Subsecretario",
+        "descripcion": "También se formalizó la renuncia del Subsecretario de Justicia y Política Criminal."
+      },
+      {
+        "titulo": "Efectos inmediatos",
+        "descripcion": "Ambas renuncias tienen efecto a partir de la fecha de publicación en el Boletín Oficial."
+      },
+      {
+        "titulo": "Reemplazos pendientes",
+        "descripcion": "Aún no se han designado los reemplazantes para ambos cargos vacantes."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Ministerio de Justicia",
+        "icono": "building",
+        "descripcion": "Debe reorganizar funciones hasta la designación de nuevos funcionarios."
+      },
+      {
+        "grupo": "Personal del organismo",
+        "icono": "users",
+        "descripcion": "Puede haber redistribución temporal de responsabilidades."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DECRETOS 187-188/2025 - PODER EJECUTIVO NACIONAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Aceptación de renuncia",
+        "contenido": "Artículo 1° - Acéptase, a partir de la fecha del presente decreto, la renuncia presentada por el Doctor Juan Carlos RODRÍGUEZ (D.N.I. N° 20.XXX.XXX) al cargo de Director Nacional de Asuntos Jurídicos del MINISTERIO DE JUSTICIA."
+      },
+      {
+        "numero": "2",
+        "titulo": "Agradecimiento",
+        "contenido": "Artículo 2° - Agradecer al funcionario renunciante los servicios prestados durante su gestión."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 123,
+    "neutrales": 456,
+    "negativos": 34
+  },
+  "relacionados": [
+    {
+      "slug": "renuncias-ministerio-justicia-ministerio-publico",
+      "titulo": "Aceptaron renuncias en el Ministerio de Justicia y el Ministerio Público",
+      "categoria": "nacional"
+    }
+  ],
+  "fechaPublicacion": "2025-03-14T07:00:00Z",
+  "tiempoLectura": 2,
+  "tags": ["justicia", "renuncias", "funcionarios"]
+}

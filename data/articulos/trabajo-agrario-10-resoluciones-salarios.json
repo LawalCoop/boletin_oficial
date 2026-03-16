@@ -1,0 +1,89 @@
+{
+  "id": "resol-trabajo-agrario-35-44-2025",
+  "slug": "trabajo-agrario-10-resoluciones-salarios",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "trabajo",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "35-44/2025",
+    "organismoEmisor": "Comisión Nacional de Trabajo Agrario",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/352025/20250314",
+    "fechaBoletinOficial": "2025-03-14",
+    "numeroEdicion": "35.879"
+  },
+  "contenidoIA": {
+    "titulo": "Trabajo Agrario publicó 10 resoluciones sobre salarios rurales",
+    "resumen": "La Comisión Nacional de Trabajo Agrario emitió las Resoluciones 35 a 44/2025 actualizando las escalas salariales para distintas actividades del sector rural. Los incrementos promedian el 15% y abarcan desde trabajadores de cosecha hasta personal de establecimientos ganaderos.",
+    "puntosClaves": [
+      {
+        "titulo": "Incremento salarial",
+        "descripcion": "Los salarios mínimos del sector rural aumentan en promedio un 15%, efectivo a partir del 1° de abril de 2025."
+      },
+      {
+        "titulo": "Actividades alcanzadas",
+        "descripcion": "Se actualizan escalas para cosecha, ganadería, tambos, avicultura, horticultura, fruticultura y otras 4 actividades."
+      },
+      {
+        "titulo": "Bonificación por antigüedad",
+        "descripcion": "Se incrementa el adicional por antigüedad del 1% al 1,5% por año de servicio."
+      },
+      {
+        "titulo": "Viáticos y alimentación",
+        "descripcion": "Se actualizan los montos de viáticos diarios y el valor del módulo alimentario."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Trabajadores rurales",
+        "icono": "users",
+        "descripcion": "Recibirán incrementos salariales a partir de abril de 2025."
+      },
+      {
+        "grupo": "Empleadores del agro",
+        "icono": "tractor",
+        "descripcion": "Deben ajustar las remuneraciones conforme las nuevas escalas."
+      },
+      {
+        "grupo": "Contratistas rurales",
+        "icono": "file-text",
+        "descripcion": "Deberán recalcular sus presupuestos de mano de obra."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIONES 35-44/2025 - COMISIÓN NACIONAL DE TRABAJO AGRARIO",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Escalas salariales",
+        "contenido": "Artículo 1° - Fíjanse las remuneraciones mínimas para el personal que se desempeña en la actividad de COSECHA conforme la escala que como Anexo I forma parte de la presente resolución."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Vigencia y adicionales",
+        "contenido": "Artículo 2° - Las remuneraciones establecidas tendrán vigencia a partir del 1° de abril de 2025. Artículo 3° - El adicional por antigüedad se fija en el UNO COMA CINCO POR CIENTO (1,5%) del salario básico por cada año de servicio."
+      },
+      {
+        "numero": "5-6",
+        "titulo": "Viáticos",
+        "contenido": "Artículo 5° - El viático diario para trabajadores que deban pernoctar fuera de su domicilio se fija en PESOS QUINCE MIL ($15.000) a partir del 1° de abril de 2025."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 612,
+    "neutrales": 178,
+    "negativos": 89
+  },
+  "relacionados": [
+    {
+      "slug": "senasa-nuevas-normas-sanitarias-exportacion",
+      "titulo": "SENASA actualizó normas sanitarias para exportaciones agropecuarias",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/agro.jpg",
+  "fechaPublicacion": "2025-03-14T10:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["trabajo", "agrario", "salarios", "rural"]
+}

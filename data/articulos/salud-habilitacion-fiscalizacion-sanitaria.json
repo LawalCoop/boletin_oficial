@@ -1,0 +1,83 @@
+{
+  "id": "disp-salud-335-2025",
+  "slug": "salud-habilitacion-fiscalizacion-sanitaria",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "salud",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "335/2025",
+    "organismoEmisor": "Ministerio de Salud",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/3352025/20250313",
+    "fechaBoletinOficial": "2025-03-13",
+    "numeroEdicion": "35.878"
+  },
+  "contenidoIA": {
+    "titulo": "Salud actualizó requisitos de habilitación y fiscalización sanitaria",
+    "resumen": "El Ministerio de Salud publicó la Disposición 335/2025 con nuevos requisitos para la habilitación y fiscalización de establecimientos sanitarios. Se actualizan estándares de bioseguridad y se incorporan requisitos de infraestructura tecnológica.",
+    "puntosClaves": [
+      {
+        "titulo": "Nuevos estándares de bioseguridad",
+        "descripcion": "Se incorporan protocolos actualizados post-pandemia para control de infecciones."
+      },
+      {
+        "titulo": "Historia clínica digital",
+        "descripcion": "Todos los establecimientos deberán implementar sistemas de historia clínica electrónica antes de diciembre 2025."
+      },
+      {
+        "titulo": "Inspecciones periódicas",
+        "descripcion": "Se establece un régimen de inspecciones semestrales para establecimientos de alta complejidad."
+      },
+      {
+        "titulo": "Capacitación obligatoria",
+        "descripcion": "El personal sanitario deberá acreditar 20 horas anuales de capacitación en bioseguridad."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Hospitales y clínicas",
+        "icono": "building-2",
+        "descripcion": "Deben adaptar su infraestructura y sistemas a los nuevos requisitos."
+      },
+      {
+        "grupo": "Profesionales de salud",
+        "icono": "stethoscope",
+        "descripcion": "Deben completar capacitaciones obligatorias en bioseguridad."
+      },
+      {
+        "grupo": "Pacientes",
+        "icono": "users",
+        "descripcion": "Se beneficiarán de estándares más altos de seguridad sanitaria."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIÓN 335/2025 - MINISTERIO DE SALUD",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Objeto",
+        "contenido": "Artículo 1° - Actualízanse los requisitos para la habilitación y fiscalización de establecimientos de salud en todo el territorio nacional."
+      },
+      {
+        "numero": "2-4",
+        "titulo": "Bioseguridad",
+        "contenido": "Artículo 2° - Los establecimientos de salud deberán cumplir con los protocolos de bioseguridad establecidos en el Anexo I. Artículo 3° - Se establece la obligatoriedad de contar con Comités de Control de Infecciones."
+      },
+      {
+        "numero": "5-7",
+        "titulo": "Digitalización",
+        "contenido": "Artículo 5° - Todos los establecimientos habilitados deberán implementar sistemas de historia clínica electrónica interoperables antes del 31 de diciembre de 2025."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 678,
+    "neutrales": 156,
+    "negativos": 34
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/salud.jpg",
+  "fechaPublicacion": "2025-03-13T08:30:00Z",
+  "tiempoLectura": 4,
+  "tags": ["salud", "habilitacion", "fiscalizacion"]
+}

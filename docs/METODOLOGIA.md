@@ -33,6 +33,47 @@ BoletínAI transforma cada documento oficial en contenido **pedagógico y period
 3. **Simple sin ser simplista**: Lenguaje claro, pero con profundidad
 4. **Contextual**: Cada artículo es una oportunidad de enseñar algo sobre el Estado
 
+### Mirada Editorial: Desde el Pueblo, Para el Pueblo
+
+BoletínAI no es un medio neutral ni pretende serlo. Tenemos una mirada **cooperativa y comunitaria**: hablamos desde las personas que van a ser afectadas por las normas, no desde quienes las escriben.
+
+**Lo que esto significa en la práctica:**
+
+- **Una reforma laboral** no la describimos como "flexibilización" ni como "modernización". Contamos qué derechos pierden los trabajadores, qué ganan los empleadores, y dejamos que el lector saque conclusiones. Pero el enfoque está puesto en el trabajador, no en la empresa.
+
+- **Un aumento de tarifas** no es "actualización" ni "sinceramiento". Es un aumento, y explicamos cuánto más va a pagar una familia tipo, qué porcentaje del salario mínimo representa, y a quién beneficia.
+
+- **Una designación de funcionarios** no es solo un nombre y un cargo. Preguntamos: ¿qué hizo esta persona antes? ¿A qué intereses representa? ¿Qué podemos esperar?
+
+**Lo que NO hacemos:**
+
+- ❌ No usamos lenguaje panfletario ni consignas políticas
+- ❌ No hacemos militancia partidaria ni apoyamos candidatos
+- ❌ No hacemos amarillismo ni exageramos para generar indignación
+- ❌ No inventamos datos ni tergiversamos el contenido original
+
+**Lo que SÍ hacemos:**
+
+- ✅ Tomamos posición cuando una medida perjudica a las mayorías
+- ✅ Preguntamos "¿a quién beneficia esto?" y lo respondemos honestamente
+- ✅ Usamos un lenguaje que la gente común usa, no el de los comunicados de prensa
+- ✅ Damos contexto histórico: "esto ya se intentó en [año] y pasó [tal cosa]"
+- ✅ Señalamos contradicciones entre el discurso oficial y los hechos
+
+**Ejemplos concretos:**
+
+| Lenguaje oficial | Nuestra traducción |
+|------------------|-------------------|
+| "Optimización de recursos humanos" | "Despidos en el Estado" |
+| "Desregulación del mercado laboral" | "Se eliminan protecciones para trabajadores" |
+| "Actualización tarifaria" | "Aumento del X% en la boleta de luz" |
+| "Incentivos a la inversión" | "Beneficios fiscales para empresas" |
+| "Reestructuración de programas sociales" | "Recorte en [programa específico]" |
+
+**El criterio final:**
+
+Ante la duda, preguntate: **¿Cómo le explicarías esto a tu vieja, a tu vecino, a alguien que labura todo el día y no tiene tiempo de descifrar el Boletín Oficial?** Esa es nuestra audiencia. Esa es nuestra mirada.
+
 ### Qué Generamos
 
 - **Título periodístico**: Cuenta qué pasó de forma atractiva

@@ -37,8 +37,8 @@ export default function TemaPage({ params }: { params: Promise<{ tema: string }>
   const [data, setData] = useState<TemaPageData | null>(null);
   const [loading, setLoading] = useState(true);
   const { data: session } = useSession();
-  const { subscriptions, subscribe, unsubscribe, loading: userLoading } = useUserData();
-  const isSubscribed = subscriptions.includes(tema);
+  const { isSubscribed, subscribe, unsubscribe, isLoading: userLoading } = useUserData();
+  const subscribed = isSubscribed(tema);
 
   useEffect(() => {
     async function fetchData() {
@@ -177,16 +177,16 @@ export default function TemaPage({ params }: { params: Promise<{ tema: string }>
             {/* Subscribe Button */}
             {session ? (
               <button
-                onClick={() => isSubscribed ? unsubscribe(tema) : subscribe(tema)}
+                onClick={() => subscribed ? unsubscribe(tema) : subscribe(tema)}
                 disabled={userLoading}
                 className={`flex items-center gap-2 px-4 lg:px-6 py-2 lg:py-3 rounded-lg font-medium text-sm lg:text-base transition-all shrink-0 disabled:opacity-50 ${
-                  isSubscribed
+                  subscribed
                     ? 'bg-bg border border-border text-text-secondary'
                     : 'text-white shadow-lg hover:shadow-xl'
                 }`}
-                style={!isSubscribed ? { backgroundColor: data.temaInfo.color } : undefined}
+                style={!subscribed ? { backgroundColor: data.temaInfo.color } : undefined}
               >
-                {isSubscribed ? (
+                {subscribed ? (
                   <>
                     <BellOff className="w-4 h-4 lg:w-5 lg:h-5" />
                     <span>Suscripto</span>
@@ -392,16 +392,16 @@ export default function TemaPage({ params }: { params: Promise<{ tema: string }>
               </p>
               {session ? (
                 <button
-                  onClick={() => isSubscribed ? unsubscribe(tema) : subscribe(tema)}
+                  onClick={() => subscribed ? unsubscribe(tema) : subscribe(tema)}
                   disabled={userLoading}
                   className={`w-full px-3 py-2 text-sm font-medium rounded-lg transition-colors disabled:opacity-50 ${
-                    isSubscribed
+                    subscribed
                       ? 'bg-bg border border-border text-text-secondary'
                       : 'text-white'
                   }`}
-                  style={!isSubscribed ? { backgroundColor: data.temaInfo.color } : undefined}
+                  style={!subscribed ? { backgroundColor: data.temaInfo.color } : undefined}
                 >
-                  {isSubscribed ? 'Suscripto' : 'Suscribirse'}
+                  {subscribed ? 'Suscripto' : 'Suscribirse'}
                 </button>
               ) : (
                 <LoginButton variant="full" className="w-full justify-center" />

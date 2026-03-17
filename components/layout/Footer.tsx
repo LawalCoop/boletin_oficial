@@ -11,14 +11,14 @@ export function Footer() {
           <Link href="/terminos" className="hover:text-text-secondary">Términos</Link>
         </div>
         <p className="text-center">
-          Powered by AI · Fuente:{' '}
+          Fuente:{' '}
           <a
             href="https://www.boletinoficial.gob.ar"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:underline"
           >
-            Boletín Oficial
+            Boletín Oficial de la República Argentina
           </a>
         </p>
       </div>

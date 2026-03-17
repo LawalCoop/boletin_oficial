@@ -51,18 +51,6 @@ export function CategoryTabs({ activeCategory, onCategoryChange }: CategoryTabsP
 
   return (
     <div className="border-b border-border">
-      {/* Site explanation */}
-      <div className="bg-gradient-to-r from-accent/5 via-accent/10 to-accent/5 px-4 py-4 lg:py-5 border-b border-accent/20">
-        <div className="max-w-7xl mx-auto text-center">
-          <p className="text-lg lg:text-xl font-[family-name:var(--font-lora)] text-text-primary font-medium">
-            El Boletín Oficial del día, <span className="text-accent">de un pantallazo</span>
-          </p>
-          <p className="text-xs lg:text-sm text-text-muted mt-1.5">
-            Usamos la IA para traducir la burocracia en lenguaje cotidiano.
-          </p>
-        </div>
-      </div>
-
       {/* Tabs */}
       <div className="overflow-x-auto no-scrollbar">
         <div className="flex px-4 lg:px-0 lg:justify-center lg:gap-2 max-w-7xl mx-auto">

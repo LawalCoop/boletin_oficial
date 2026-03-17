@@ -9,6 +9,7 @@ import { CategoryTabs } from '@/components/layout/CategoryTabs';
 import { DateHeader } from '@/components/feed/DateHeader';
 import { TemaFilter } from '@/components/feed/TemaFilter';
 import { HeroCard } from '@/components/feed/HeroCard';
+import { HeroBanner } from '@/components/feed/HeroBanner';
 import { NewsCard } from '@/components/feed/NewsCard';
 import { VariedNewsLayout, AdaptiveHeroLayout } from '@/components/feed/VariedNewsLayout';
 import { SeccionResumen } from '@/components/feed/SeccionResumen';
@@ -215,7 +216,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-bg pb-20 lg:pb-0">
       <Header />
-      <CategoryTabs activeCategory={categoria} onCategoryChange={setCategoria} />
+      <HeroBanner />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 lg:py-6">
         <DateHeader
@@ -224,6 +225,9 @@ export default function Home() {
           onDateChange={setFecha}
           edicionBoletin={noticias?.edicionBoletin}
         />
+        <div className="mt-4">
+          <CategoryTabs activeCategory={categoria} onCategoryChange={setCategoria} />
+        </div>
 
         {/* Tema Filter - Solo para categorías con múltiples artículos */}
         {!loading && (temasDisponibles.length > 0 || subscriptions.length > 0) &&

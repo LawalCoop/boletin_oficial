@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { Articulo } from '@/lib/types';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
@@ -23,6 +24,51 @@ async function getArticulo(slug: string): Promise<Articulo | null> {
   } catch {
     return null;
   }
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const articulo = await getArticulo(slug);
+
+  if (!articulo) {
+    return {
+      title: 'Artículo no encontrado | entreLín[IA]s',
+    };
+  }
+
+  const title = articulo.contenidoIA.titulo;
+  const description = articulo.contenidoIA.resumen.slice(0, 160) + '...';
+  const image = articulo.imagen || '/og-image.jpg';
+
+  return {
+    title: `${title} | entreLín[IA]s`,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: 'article',
+      url: `https://entrelinias.vercel.app/articulo/${slug}`,
+      siteName: 'entreLín[IA]s',
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [image],
+    },
+  };
 }
 
 export default async function ArticuloPage({

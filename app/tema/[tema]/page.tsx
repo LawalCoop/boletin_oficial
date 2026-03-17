@@ -8,6 +8,9 @@ import { NoticiaPreview, Tema } from '@/lib/types';
 import { TEMAS, formatFechaCorta, TIPO_DOCUMENTO_LABELS, CATEGORIAS } from '@/lib/constants';
 import { Header } from '@/components/layout/Header';
 import { BottomTabBar } from '@/components/layout/BottomTabBar';
+import { useUserData } from '@/contexts/UserDataContext';
+import { useSession } from 'next-auth/react';
+import { LoginButton } from '@/components/auth/LoginButton';
 
 interface TemaPageData {
   tema: string;
@@ -33,7 +36,9 @@ export default function TemaPage({ params }: { params: Promise<{ tema: string }>
   const tema = resolvedParams.tema as Tema;
   const [data, setData] = useState<TemaPageData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [subscribed, setSubscribed] = useState(false);
+  const { data: session } = useSession();
+  const { subscriptions, subscribe, unsubscribe, loading: userLoading } = useUserData();
+  const isSubscribed = subscriptions.includes(tema);
 
   useEffect(() => {
     async function fetchData() {
@@ -170,27 +175,34 @@ export default function TemaPage({ params }: { params: Promise<{ tema: string }>
             </div>
 
             {/* Subscribe Button */}
-            <button
-              onClick={() => setSubscribed(!subscribed)}
-              className={`flex items-center gap-2 px-4 lg:px-6 py-2 lg:py-3 rounded-lg font-medium text-sm lg:text-base transition-all shrink-0 ${
-                subscribed
-                  ? 'bg-bg border border-border text-text-secondary'
-                  : 'text-white shadow-lg hover:shadow-xl'
-              }`}
-              style={!subscribed ? { backgroundColor: data.temaInfo.color } : undefined}
-            >
-              {subscribed ? (
-                <>
-                  <BellOff className="w-4 h-4 lg:w-5 lg:h-5" />
-                  <span>Suscripto</span>
-                </>
-              ) : (
-                <>
-                  <Bell className="w-4 h-4 lg:w-5 lg:h-5" />
-                  <span>Suscribirse</span>
-                </>
-              )}
-            </button>
+            {session ? (
+              <button
+                onClick={() => isSubscribed ? unsubscribe(tema) : subscribe(tema)}
+                disabled={userLoading}
+                className={`flex items-center gap-2 px-4 lg:px-6 py-2 lg:py-3 rounded-lg font-medium text-sm lg:text-base transition-all shrink-0 disabled:opacity-50 ${
+                  isSubscribed
+                    ? 'bg-bg border border-border text-text-secondary'
+                    : 'text-white shadow-lg hover:shadow-xl'
+                }`}
+                style={!isSubscribed ? { backgroundColor: data.temaInfo.color } : undefined}
+              >
+                {isSubscribed ? (
+                  <>
+                    <BellOff className="w-4 h-4 lg:w-5 lg:h-5" />
+                    <span>Suscripto</span>
+                  </>
+                ) : (
+                  <>
+                    <Bell className="w-4 h-4 lg:w-5 lg:h-5" />
+                    <span>Suscribirse</span>
+                  </>
+                )}
+              </button>
+            ) : (
+              <div className="flex items-center gap-2">
+                <LoginButton variant="full" />
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -378,17 +390,22 @@ export default function TemaPage({ params }: { params: Promise<{ tema: string }>
               <p className="text-xs text-text-secondary mb-3">
                 Recibí notificaciones cuando se publiquen nuevas normas sobre este tema.
               </p>
-              <button
-                onClick={() => setSubscribed(!subscribed)}
-                className={`w-full px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
-                  subscribed
-                    ? 'bg-bg border border-border text-text-secondary'
-                    : 'text-white'
-                }`}
-                style={!subscribed ? { backgroundColor: data.temaInfo.color } : undefined}
-              >
-                {subscribed ? 'Suscripto' : 'Suscribirse'}
-              </button>
+              {session ? (
+                <button
+                  onClick={() => isSubscribed ? unsubscribe(tema) : subscribe(tema)}
+                  disabled={userLoading}
+                  className={`w-full px-3 py-2 text-sm font-medium rounded-lg transition-colors disabled:opacity-50 ${
+                    isSubscribed
+                      ? 'bg-bg border border-border text-text-secondary'
+                      : 'text-white'
+                  }`}
+                  style={!isSubscribed ? { backgroundColor: data.temaInfo.color } : undefined}
+                >
+                  {isSubscribed ? 'Suscripto' : 'Suscribirse'}
+                </button>
+              ) : (
+                <LoginButton variant="full" className="w-full justify-center" />
+              )}
             </div>
 
             {/* Footer */}

@@ -24,8 +24,8 @@ export function Header() {
             <span className="font-[family-name:var(--font-lora)] text-[22px] lg:text-[26px] font-medium text-text-primary tracking-tight leading-none">
               entreLín<span className="text-accent">[IA]</span>s
             </span>
-            <span className="hidden sm:block text-xs lg:text-sm text-text-muted tracking-wide mt-1">
-              Ciudadanía informada
+            <span className="hidden sm:block text-[10px] lg:text-xs text-text-muted tracking-wider mt-0.5">
+              ciudadanIA informada
             </span>
           </div>
         </Link>

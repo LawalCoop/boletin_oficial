@@ -11,6 +11,7 @@ import { TemaFilter } from '@/components/feed/TemaFilter';
 import { HeroCard } from '@/components/feed/HeroCard';
 import { NewsCard } from '@/components/feed/NewsCard';
 import { VariedNewsLayout, AdaptiveHeroLayout } from '@/components/feed/VariedNewsLayout';
+import { SeccionResumen } from '@/components/feed/SeccionResumen';
 import { Sidebar } from '@/components/layout/Sidebar';
 import { NoticiasDia, Categoria, NoticiaPreview, Tema } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido } from '@/lib/constants';
@@ -202,8 +203,9 @@ export default function Home() {
           edicionBoletin={noticias?.edicionBoletin}
         />
 
-        {/* Tema Filter */}
-        {!loading && temasDisponibles.length > 0 && (
+        {/* Tema Filter - Solo para categorías con múltiples artículos */}
+        {!loading && temasDisponibles.length > 0 &&
+         categoria !== 'empresas' && categoria !== 'contrataciones' && categoria !== 'judicial' && (
           <div className="mt-4">
             <TemaFilter
               temasDisponibles={temasDisponibles}
@@ -213,7 +215,20 @@ export default function Home() {
           </div>
         )}
 
-        {loading ? (
+        {/* Secciones especiales: mostrar resumen directamente */}
+        {(categoria === 'empresas' || categoria === 'contrataciones' || categoria === 'judicial') ? (
+          <div className="mt-6 lg:flex lg:gap-8">
+            <div className="flex-1">
+              <SeccionResumen
+                seccion={categoria === 'empresas' ? 'segunda' : categoria === 'contrataciones' ? 'tercera' : 'cuarta'}
+                fecha={fecha}
+              />
+            </div>
+            <aside className="hidden lg:block w-72 shrink-0 mt-6 lg:mt-0">
+              <Sidebar fechasDisponibles={fechasDisponibles} />
+            </aside>
+          </div>
+        ) : loading ? (
           <div className="flex flex-col gap-6 mt-6">
             {/* Loading skeleton */}
             <div className="lg:grid lg:grid-cols-2 lg:gap-6">

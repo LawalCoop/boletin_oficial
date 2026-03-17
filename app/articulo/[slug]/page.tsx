@@ -15,19 +15,11 @@ import { ArticleSidebar } from '@/components/article/ArticleSidebar';
 
 async function getArticulo(slug: string): Promise<Articulo | null> {
   try {
-    const baseUrl = process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : 'http://localhost:3000';
-
-    const res = await fetch(`${baseUrl}/api/noticias/${slug}`, {
-      cache: 'no-store',
-    });
-
-    if (!res.ok) {
-      return null;
-    }
-
-    return res.json();
+    const fs = await import('fs/promises');
+    const path = await import('path');
+    const filePath = path.join(process.cwd(), 'data', 'articulos', `${slug}.json`);
+    const content = await fs.readFile(filePath, 'utf-8');
+    return JSON.parse(content);
   } catch {
     return null;
   }

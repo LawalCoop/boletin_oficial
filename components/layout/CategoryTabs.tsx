@@ -1,7 +1,8 @@
 'use client';
 
+import { useState } from 'react';
 import { Categoria } from '@/lib/types';
-import { Info } from 'lucide-react';
+import { Info, ChevronDown, SlidersHorizontal } from 'lucide-react';
 
 interface CategoryTabsProps {
   activeCategory: Categoria | 'todos';
@@ -47,27 +48,69 @@ const categories: {
 ];
 
 export function CategoryTabs({ activeCategory, onCategoryChange }: CategoryTabsProps) {
+  const [mobileOpen, setMobileOpen] = useState(false);
   const activeInfo = categories.find(c => c.key === activeCategory);
 
   return (
-    <div className="border-b border-border">
-      {/* Tabs */}
-      <div className="overflow-x-auto no-scrollbar">
-        <div className="flex px-4 lg:px-0 lg:justify-center lg:gap-2 max-w-7xl mx-auto">
+    <div className="rounded-lg border border-border overflow-hidden">
+      {/* Mobile: Collapsible dropdown */}
+      <div className="lg:hidden">
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="w-full flex items-center justify-between px-3 py-2.5 bg-bg-surface"
+        >
+          <div className="flex items-center gap-2">
+            <SlidersHorizontal className="w-4 h-4 text-text-muted" />
+            <span className="text-xs font-medium text-text-muted">Sección</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-xs font-semibold text-accent uppercase">{activeInfo?.label}</span>
+            <ChevronDown className={`w-4 h-4 text-text-muted transition-transform ${mobileOpen ? 'rotate-180' : ''}`} />
+          </div>
+        </button>
+
+        {mobileOpen && (
+          <div className="border-t border-border bg-bg divide-y divide-border">
+            {categories.map(({ key, label }) => {
+              const isActive = activeCategory === key;
+              return (
+                <button
+                  key={key}
+                  onClick={() => {
+                    onCategoryChange(key);
+                    setMobileOpen(false);
+                  }}
+                  className={`w-full text-left px-3 py-2.5 text-xs font-medium transition-colors ${
+                    isActive
+                      ? 'bg-accent/10 text-accent'
+                      : 'text-text-secondary'
+                  }`}
+                >
+                  {label}
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </div>
+
+      {/* Desktop: Horizontal tabs */}
+      <div className="hidden lg:block overflow-x-auto no-scrollbar border-b border-border">
+        <div className="flex justify-center gap-1">
           {categories.map(({ key, label }) => {
             const isActive = activeCategory === key;
             return (
               <button
                 key={key}
                 onClick={() => onCategoryChange(key)}
-                className={`flex items-center justify-center px-3 lg:px-5 py-[14px] whitespace-nowrap transition-colors ${
+                className={`flex items-center justify-center px-5 py-3 whitespace-nowrap transition-colors ${
                   isActive
-                    ? 'border-b-2 border-accent'
+                    ? 'border-b-2 border-accent bg-accent/5'
                     : 'hover:bg-bg-surface'
                 }`}
               >
                 <span
-                  className={`text-[11px] lg:text-xs font-semibold tracking-[1.5px] ${
+                  className={`text-xs font-semibold tracking-[1.5px] ${
                     isActive ? 'text-accent' : 'text-text-muted'
                   }`}
                 >
@@ -79,10 +122,10 @@ export function CategoryTabs({ activeCategory, onCategoryChange }: CategoryTabsP
         </div>
       </div>
 
-      {/* Descripción de la sección activa */}
+      {/* Descripción de la sección activa - solo desktop */}
       {activeInfo && (
-        <div className="bg-bg-surface px-4 py-3 lg:py-4">
-          <div className="max-w-7xl mx-auto flex items-start gap-2">
+        <div className="hidden lg:block bg-bg-surface px-4 py-3">
+          <div className="flex items-start gap-2">
             <Info className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
             <div className="flex flex-col gap-0.5">
               {activeInfo.seccion && (

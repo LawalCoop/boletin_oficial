@@ -30,6 +30,11 @@ export function ArticleSidebar({ articulo }: ArticleSidebarProps) {
 
   return (
     <div className="sticky top-20 flex flex-col gap-6">
+      {/* Subscribe to Theme - First for visibility */}
+      {articulo.metadata.tema && (
+        <SubscribeButton tema={articulo.metadata.tema} variant="full" />
+      )}
+
       {/* Document Info Card */}
       <div className="bg-bg-surface rounded-lg p-4">
         <h3 className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary mb-4">
@@ -114,11 +119,6 @@ export function ArticleSidebar({ articulo }: ArticleSidebarProps) {
           </button>
         </div>
       </div>
-
-      {/* Subscribe to Theme */}
-      {articulo.metadata.tema && (
-        <SubscribeButton tema={articulo.metadata.tema} variant="full" />
-      )}
 
       {/* Related Tags */}
       {articulo.tags && articulo.tags.length > 0 && (

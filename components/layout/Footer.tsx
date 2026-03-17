@@ -2,15 +2,33 @@ import Link from 'next/link';
 
 export function Footer() {
   return (
-    <footer className="border-t border-border mt-12 py-8 px-4 sm:px-6 lg:px-8 bg-bg">
-      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-text-muted">
-        <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
-          <Link href="/sobre" className="hover:text-text-secondary">Sobre nosotros</Link>
-          <Link href="/contacto" className="hover:text-text-secondary">Contacto</Link>
-          <Link href="/privacidad" className="hover:text-text-secondary">Privacidad</Link>
-          <Link href="/terminos" className="hover:text-text-secondary">Términos</Link>
-        </div>
-        <p className="text-center">
+    <footer className="border-t border-border mt-12 py-6 px-4 sm:px-6 lg:px-8 bg-bg">
+      <div className="max-w-7xl mx-auto text-center text-xs text-text-muted space-y-2">
+        <p>
+          <Link href="/sobre" className="text-accent hover:underline font-medium">
+            ¿Por qué hacemos esto?
+          </Link>
+          {' · '}
+          Hecho por{' '}
+          <a
+            href="https://lawal.coop"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline font-medium"
+          >
+            Cooperativa Lawal
+          </a>
+          {' · '}
+          <a
+            href="https://www.mozilla.org/en-US/MPL/2.0/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-text-secondary"
+          >
+            MPL 2.0
+          </a>
+        </p>
+        <p>
           Fuente:{' '}
           <a
             href="https://www.boletinoficial.gob.ar"

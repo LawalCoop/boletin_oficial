@@ -1,9 +1,10 @@
 'use client';
 
+import { useState } from 'react';
 import { Tema } from '@/lib/types';
 import { TEMAS } from '@/lib/constants';
 import * as LucideIcons from 'lucide-react';
-import { X, Star } from 'lucide-react';
+import { X, Star, ChevronDown, SlidersHorizontal } from 'lucide-react';
 import { useUserData } from '@/contexts/UserDataContext';
 
 interface TemaFilterProps {
@@ -32,17 +33,50 @@ export function TemaFilter({
   filterByInterest = false,
   onInterestFilterChange
 }: TemaFilterProps) {
+  const [mobileOpen, setMobileOpen] = useState(false);
   const { subscriptions } = useUserData();
   const hasSubscriptions = subscriptions.length > 0;
 
   if (temasDisponibles.length === 0 && !showInterestFilter) return null;
 
+  const activeLabel = filterByInterest
+    ? 'De mi interés'
+    : temaActivo
+      ? TEMAS[temaActivo]?.label
+      : null;
+
   return (
-    <div className="flex flex-col gap-2">
-      <span className="text-xs font-medium text-text-muted uppercase tracking-wide">
-        Filtrar por tema
-      </span>
-      <div className="flex flex-wrap gap-2">
+    <div className="rounded-lg border border-border overflow-hidden">
+      {/* Mobile: Collapsible */}
+      <div className="lg:hidden">
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="w-full flex items-center justify-between px-3 py-2.5 bg-bg-surface"
+        >
+          <div className="flex items-center gap-2">
+            <SlidersHorizontal className="w-4 h-4 text-text-muted" />
+            <span className="text-xs font-medium text-text-muted">Tema</span>
+          </div>
+          <div className="flex items-center gap-2">
+            {activeLabel ? (
+              <span className="text-xs font-semibold text-accent uppercase">{activeLabel}</span>
+            ) : (
+              <span className="text-xs text-text-muted uppercase">Todos</span>
+            )}
+            <ChevronDown className={`w-4 h-4 text-text-muted transition-transform ${mobileOpen ? 'rotate-180' : ''}`} />
+          </div>
+        </button>
+      </div>
+
+      {/* Desktop: Always visible label */}
+      <div className="hidden lg:block px-3 py-2 bg-bg-surface border-b border-border">
+        <span className="text-xs font-medium text-text-muted uppercase tracking-wide">
+          Filtrar por tema
+        </span>
+      </div>
+
+      {/* Filters - collapsible on mobile, always visible on desktop */}
+      <div className={`p-2 flex-wrap gap-1.5 bg-bg ${mobileOpen ? 'flex' : 'hidden lg:flex'}`}>
         {/* Interest filter button */}
         {showInterestFilter && hasSubscriptions && onInterestFilterChange && (
           <button

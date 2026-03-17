@@ -218,7 +218,7 @@ export default function Home() {
       <Header />
       <HeroBanner />
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 lg:py-6">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 lg:py-6">
         <DateHeader
           fecha={fecha}
           fechasDisponibles={fechasDisponibles}
@@ -232,7 +232,7 @@ export default function Home() {
         {/* Tema Filter - Solo para categorías con múltiples artículos */}
         {!loading && (temasDisponibles.length > 0 || subscriptions.length > 0) &&
          categoria !== 'empresas' && categoria !== 'contrataciones' && categoria !== 'judicial' && (
-          <div className="mt-4">
+          <div className="mt-4 mb-6">
             <TemaFilter
               temasDisponibles={temasDisponibles}
               temaActivo={temaActivo}

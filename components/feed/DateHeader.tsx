@@ -50,7 +50,7 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
 
   return (
     <>
-      <div className="flex flex-col gap-3 py-3">
+      <div className="flex flex-col gap-3 py-2">
         {/* Desktop: Indicators left, Date center, Weather right */}
         <div className="hidden lg:grid lg:grid-cols-3 lg:items-center">
           {/* Left: Economic indicators */}
@@ -141,7 +141,7 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
         </div>
 
         {/* Mobile: Indicators + Weather in separate row */}
-        <div className="lg:hidden flex items-center justify-between py-2 border-t border-border">
+        <div className="lg:hidden flex items-center justify-evenly py-2 border-t border-border">
           <EconomicIndicators />
           <WeatherIndicator />
         </div>

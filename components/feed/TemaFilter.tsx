@@ -3,12 +3,16 @@
 import { Tema } from '@/lib/types';
 import { TEMAS } from '@/lib/constants';
 import * as LucideIcons from 'lucide-react';
-import { X } from 'lucide-react';
+import { X, Star } from 'lucide-react';
+import { useUserData } from '@/contexts/UserDataContext';
 
 interface TemaFilterProps {
   temasDisponibles: Tema[];
   temaActivo: Tema | null;
   onTemaChange: (tema: Tema | null) => void;
+  showInterestFilter?: boolean;
+  filterByInterest?: boolean;
+  onInterestFilterChange?: (enabled: boolean) => void;
 }
 
 // Helper to get icon component dynamically
@@ -20,8 +24,18 @@ function getIconComponent(iconName: string) {
   return (LucideIcons as any)[pascalName];
 }
 
-export function TemaFilter({ temasDisponibles, temaActivo, onTemaChange }: TemaFilterProps) {
-  if (temasDisponibles.length === 0) return null;
+export function TemaFilter({
+  temasDisponibles,
+  temaActivo,
+  onTemaChange,
+  showInterestFilter = false,
+  filterByInterest = false,
+  onInterestFilterChange
+}: TemaFilterProps) {
+  const { subscriptions } = useUserData();
+  const hasSubscriptions = subscriptions.length > 0;
+
+  if (temasDisponibles.length === 0 && !showInterestFilter) return null;
 
   return (
     <div className="flex flex-col gap-2">
@@ -29,6 +43,28 @@ export function TemaFilter({ temasDisponibles, temaActivo, onTemaChange }: TemaF
         Filtrar por tema
       </span>
       <div className="flex flex-wrap gap-2">
+        {/* Interest filter button */}
+        {showInterestFilter && hasSubscriptions && onInterestFilterChange && (
+          <button
+            onClick={() => {
+              onInterestFilterChange(!filterByInterest);
+              if (!filterByInterest) {
+                onTemaChange(null); // Clear tema filter when enabling interest filter
+              }
+            }}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
+              filterByInterest
+                ? 'bg-[#FFD700] text-white shadow-md'
+                : 'bg-bg-surface text-text-secondary hover:bg-border/30'
+            }`}
+          >
+            <Star
+              className={`w-3.5 h-3.5 ${filterByInterest ? 'fill-white' : 'text-[#FFD700]'}`}
+            />
+            <span>De mi interés</span>
+            {filterByInterest && <X className="w-3 h-3 ml-0.5" />}
+          </button>
+        )}
         {temasDisponibles.map((tema) => {
           const temaInfo = TEMAS[tema];
           if (!temaInfo) return null;

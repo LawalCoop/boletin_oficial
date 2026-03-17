@@ -1,10 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { ExternalLink, Clock } from 'lucide-react';
+import { ExternalLink, Clock, Star } from 'lucide-react';
 import { NoticiaPreview } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
+import { useUserData } from '@/contexts/UserDataContext';
 
 interface NewsCardProps {
   noticia: NoticiaPreview;
@@ -18,21 +19,32 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
   const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[noticia.tipoDocumento] || noticia.tipoDocumento;
   const displayNumber = String(index + 1).padStart(2, '0');
+  const { isSubscribed } = useUserData();
+  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
     <article
-      className={`flex gap-4 py-5 border-t border-border ${
-        highlighted ? 'bg-bg-highlight p-5 -mx-4 border-0' : ''
+      className={`flex gap-4 py-5 border-t rounded-lg transition-all ${
+        isSubscribedTema
+          ? 'border-2 border-[#FFD700] bg-[#FFD700]/5 p-4 -mx-2 shadow-sm'
+          : highlighted
+          ? 'bg-bg-highlight p-5 -mx-4 border-0'
+          : 'border-border'
       }`}
     >
-      {/* Number */}
-      <span
-        className={`font-[family-name:var(--font-lora)] text-3xl font-medium tracking-tight ${
-          highlighted ? 'text-[#D4A843]' : 'text-border'
-        }`}
-      >
-        {displayNumber}
-      </span>
+      {/* Number + Badge */}
+      <div className="flex flex-col items-center gap-1">
+        <span
+          className={`font-[family-name:var(--font-lora)] text-3xl font-medium tracking-tight ${
+            isSubscribedTema || highlighted ? 'text-[#FFD700]' : 'text-border'
+          }`}
+        >
+          {displayNumber}
+        </span>
+        {isSubscribedTema && (
+          <Star className="w-4 h-4 text-[#FFD700] fill-[#FFD700]" />
+        )}
+      </div>
 
       {/* Content */}
       <div className="flex flex-col gap-2 flex-1 min-w-0">

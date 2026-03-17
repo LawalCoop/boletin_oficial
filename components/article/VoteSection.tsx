@@ -13,9 +13,9 @@ export function VoteSection({ votacion, onVote }: VoteSectionProps) {
   const [userVote, setUserVote] = useState<'positivo' | 'neutral' | 'negativo' | null>(null);
 
   const total = votacion.positivos + votacion.neutrales + votacion.negativos;
-  const positivePercent = Math.round((votacion.positivos / total) * 100);
-  const neutralPercent = Math.round((votacion.neutrales / total) * 100);
-  const negativePercent = 100 - positivePercent - neutralPercent;
+  const positivePercent = total > 0 ? Math.round((votacion.positivos / total) * 100) : 0;
+  const neutralPercent = total > 0 ? Math.round((votacion.neutrales / total) * 100) : 0;
+  const negativePercent = total > 0 ? 100 - positivePercent - neutralPercent : 0;
 
   const handleVote = (tipo: 'positivo' | 'neutral' | 'negativo') => {
     setUserVote(tipo);

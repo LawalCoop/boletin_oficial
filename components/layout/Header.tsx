@@ -1,9 +1,10 @@
 'use client';
 
-import { ScrollText, Search, Bell, Home, Bookmark, User } from 'lucide-react';
+import { ScrollText, Search, Bell, Home, Bookmark } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { CountrySelector } from './CountrySelector';
+import { UserMenu } from '@/components/auth/UserMenu';
 
 const navItems = [
   { href: '/', label: 'Inicio', icon: Home },
@@ -66,15 +67,10 @@ export function Header() {
             <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-accent rounded-full" />
           </button>
 
-          {/* Profile - desktop only */}
-          <Link
-            href="/perfil"
-            className="hidden lg:flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-bg-surface transition-colors"
-          >
-            <div className="w-8 h-8 bg-bg-surface rounded-full flex items-center justify-center">
-              <User className="w-4 h-4 text-text-muted" />
-            </div>
-          </Link>
+          {/* User Menu - desktop only */}
+          <div className="hidden lg:block">
+            <UserMenu />
+          </div>
         </div>
       </div>
     </header>

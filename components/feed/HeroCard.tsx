@@ -1,10 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { ExternalLink, Clock } from 'lucide-react';
+import { ExternalLink, Clock, Star } from 'lucide-react';
 import { NoticiaPreview } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
+import { useUserData } from '@/contexts/UserDataContext';
 
 interface HeroCardProps {
   noticia: NoticiaPreview;
@@ -15,11 +16,24 @@ export function HeroCard({ noticia }: HeroCardProps) {
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
   const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[noticia.tipoDocumento] || noticia.tipoDocumento;
+  const { isSubscribed } = useUserData();
+  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className="border border-border rounded-lg overflow-hidden bg-bg hover:shadow-lg transition-shadow h-full flex flex-col">
+    <article className={`rounded-lg overflow-hidden bg-bg hover:shadow-lg transition-all h-full flex flex-col ${
+      isSubscribedTema
+        ? 'border-2 border-[#FFD700] shadow-[0_0_20px_rgba(255,215,0,0.5)] ring-2 ring-[#FFD700]/20'
+        : 'border border-border'
+    }`}>
       {/* Hero Image */}
       <div className="relative h-[220px] lg:h-[260px] bg-bg-surface">
+        {/* Subscribed badge overlay */}
+        {isSubscribedTema && (
+          <div className="absolute top-3 right-3 z-10 flex items-center gap-1.5 px-2.5 py-1.5 bg-[#FFD700] text-black rounded-full text-xs font-bold shadow-[0_0_15px_rgba(255,215,0,0.6)]">
+            <Star className="w-3.5 h-3.5 fill-black" />
+            <span>De tu interés</span>
+          </div>
+        )}
         {noticia.imagen ? (
           <div
             className="absolute inset-0 bg-cover bg-center"
@@ -33,7 +47,7 @@ export function HeroCard({ noticia }: HeroCardProps) {
       </div>
 
       {/* Content */}
-      <div className="p-4 lg:p-5 flex flex-col gap-3 flex-1">
+      <div className={`p-4 lg:p-5 flex flex-col gap-3 flex-1 ${isSubscribedTema ? 'bg-[#FFD700]/5' : ''}`}>
         {/* Tags Row */}
         <div className="flex items-center gap-2 flex-wrap">
           <span

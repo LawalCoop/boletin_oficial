@@ -1,10 +1,12 @@
 'use client';
 
-import { ArrowLeft, Share2, Bookmark, MoreVertical, ExternalLink } from 'lucide-react';
+import { ArrowLeft, Share2, MoreVertical, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 import { Articulo } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS, formatFechaCompleta } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
+import { SubscribedBanner } from './SubscribedBanner';
+import { SaveArticleButton } from '@/components/user/SaveArticleButton';
 
 interface ArticleHeroProps {
   articulo: Articulo;
@@ -18,19 +20,24 @@ export function ArticleHero({ articulo }: ArticleHeroProps) {
 
   return (
     <>
+      {/* Subscribed Banner - Shows if user is subscribed to this topic */}
+      <SubscribedBanner tema={articulo.metadata.tema} />
+
       {/* Mobile Navigation - Only visible on mobile */}
       <nav className="lg:hidden flex items-center justify-between h-[52px] px-5 border-b border-border bg-bg sticky top-0 z-10">
         <Link href="/" className="flex items-center gap-[6px]">
           <ArrowLeft className="w-[22px] h-[22px] text-text-primary" />
           <span className="text-sm font-medium text-text-primary">Feed</span>
         </Link>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
           <button aria-label="Compartir">
             <Share2 className="w-5 h-5 text-text-muted" />
           </button>
-          <button aria-label="Guardar">
-            <Bookmark className="w-5 h-5 text-text-muted" />
-          </button>
+          <SaveArticleButton
+            slug={articulo.slug}
+            tema={articulo.metadata.tema}
+            variant="icon"
+          />
           <button aria-label="Más opciones">
             <MoreVertical className="w-5 h-5 text-text-muted" />
           </button>

@@ -2,19 +2,26 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Clock, ExternalLink } from 'lucide-react';
+import { Clock, ExternalLink, Star } from 'lucide-react';
 import { NoticiaPreview } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
+import { useUserData } from '@/contexts/UserDataContext';
 
 // Card con imagen a la izquierda (horizontal)
 function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
   const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const { isSubscribed } = useUserData();
+  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className="flex gap-4 p-4 bg-bg-surface rounded-lg hover:shadow-md transition-shadow group">
+    <article className={`flex gap-4 p-4 rounded-lg hover:shadow-md transition-all group ${
+      isSubscribedTema
+        ? 'bg-[#FFD700]/5 border-2 border-[#FFD700] shadow-[0_0_15px_rgba(255,215,0,0.4)]'
+        : 'bg-bg-surface'
+    }`}>
       {/* Image */}
       <Link href={`/articulo/${noticia.slug}`} className="relative w-32 h-24 lg:w-40 lg:h-28 shrink-0 rounded-lg overflow-hidden bg-bg-warm">
         {noticia.imagen ? (
@@ -24,6 +31,11 @@ function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
           />
         ) : (
           <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5" />
+        )}
+        {isSubscribedTema && (
+          <span className="absolute top-2 right-2 p-1.5 bg-[#FFD700] rounded-full shadow">
+            <Star className="w-3 h-3 text-black fill-black" />
+          </span>
         )}
       </Link>
 
@@ -73,12 +85,24 @@ function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[noticia.tipoDocumento] || noticia.tipoDocumento;
+  const { isSubscribed } = useUserData();
+  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className="flex flex-col gap-2 p-4 border-l-4 hover:bg-bg-surface transition-colors" style={{ borderColor: categoria.color }}>
+    <article
+      className={`flex flex-col gap-2 p-4 border-l-4 transition-colors rounded-r-lg ${
+        isSubscribedTema
+          ? 'bg-[#FFD700]/5 border-[#FFD700] shadow-sm'
+          : 'hover:bg-bg-surface'
+      }`}
+      style={!isSubscribedTema ? { borderColor: categoria.color } : undefined}
+    >
       {/* Tags */}
       <div className="flex items-center gap-2 text-[10px]">
-        <span className="font-semibold uppercase tracking-wide" style={{ color: categoria.color }}>
+        {isSubscribedTema && (
+          <Star className="w-3.5 h-3.5 text-[#FFD700] fill-[#FFD700]" />
+        )}
+        <span className="font-semibold uppercase tracking-wide" style={{ color: isSubscribedTema ? '#FFD700' : categoria.color }}>
           {categoria.label}
         </span>
         <span className="text-text-muted">
@@ -120,9 +144,15 @@ function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
   const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const { isSubscribed } = useUserData();
+  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className="flex flex-col lg:flex-row gap-4 lg:gap-6 p-4 lg:p-5 bg-bg-surface rounded-xl hover:shadow-lg transition-shadow group">
+    <article className={`flex flex-col lg:flex-row gap-4 lg:gap-6 p-4 lg:p-5 rounded-xl hover:shadow-lg transition-all group ${
+      isSubscribedTema
+        ? 'bg-[#FFD700]/5 border-2 border-[#FFD700] shadow-[0_0_20px_rgba(255,215,0,0.5)]'
+        : 'bg-bg-surface'
+    }`}>
       {/* Image */}
       <Link href={`/articulo/${noticia.slug}`} className="relative h-48 lg:h-40 lg:w-72 shrink-0 rounded-lg overflow-hidden bg-bg-warm">
         {noticia.imagen ? (
@@ -139,6 +169,12 @@ function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
         >
           {categoria.label}
         </span>
+        {isSubscribedTema && (
+          <span className="absolute top-3 right-3 flex items-center gap-1.5 px-2.5 py-1.5 bg-[#FFD700] text-black rounded-full text-[10px] font-bold shadow-[0_0_12px_rgba(255,215,0,0.6)]">
+            <Star className="w-3 h-3 fill-black" />
+            De tu interés
+          </span>
+        )}
       </Link>
 
       {/* Content */}
@@ -192,9 +228,15 @@ function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
 function CompactVerticalCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const { isSubscribed } = useUserData();
+  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className="flex flex-col h-full rounded-lg overflow-hidden bg-bg-surface hover:shadow-md transition-shadow group">
+    <article className={`flex flex-col h-full rounded-lg overflow-hidden hover:shadow-md transition-all group ${
+      isSubscribedTema
+        ? 'bg-[#FFD700]/5 border-2 border-[#FFD700] shadow-[0_0_15px_rgba(255,215,0,0.4)]'
+        : 'bg-bg-surface'
+    }`}>
       <Link href={`/articulo/${noticia.slug}`} className="relative h-28 bg-bg-warm block">
         {noticia.imagen ? (
           <div
@@ -210,6 +252,11 @@ function CompactVerticalCard({ noticia }: { noticia: NoticiaPreview }) {
         >
           {categoria.label}
         </span>
+        {isSubscribedTema && (
+          <span className="absolute top-2 right-2 p-1 bg-[#FFD700] rounded-full shadow">
+            <Star className="w-2.5 h-2.5 text-black fill-black" />
+          </span>
+        )}
       </Link>
 
       <div className="p-3 flex flex-col gap-1.5 flex-1">

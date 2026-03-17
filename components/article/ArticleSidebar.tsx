@@ -1,10 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import { ExternalLink, Share2, Bookmark, Printer, FileText, Bell } from 'lucide-react';
+import { ExternalLink, Share2, Printer, FileText } from 'lucide-react';
 import { Articulo } from '@/lib/types';
 import { TEMAS, CATEGORIAS } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
+import { SaveArticleButton } from '@/components/user/SaveArticleButton';
+import { SubscribeButton } from '@/components/user/SubscribeButton';
 
 interface ArticleSidebarProps {
   articulo: Articulo;
@@ -102,10 +104,7 @@ export function ArticleSidebar({ articulo }: ArticleSidebarProps) {
             <Share2 className="w-4 h-4 text-text-secondary" />
             <span className="text-sm text-text-primary">Compartir</span>
           </button>
-          <button className="flex items-center gap-3 px-3 py-2.5 bg-bg border border-border rounded-lg hover:bg-border/20 transition-colors">
-            <Bookmark className="w-4 h-4 text-text-secondary" />
-            <span className="text-sm text-text-primary">Guardar</span>
-          </button>
+          <SaveArticleButton slug={articulo.slug} tema={articulo.metadata.tema} />
           <button
             onClick={() => window.print()}
             className="flex items-center gap-3 px-3 py-2.5 bg-bg border border-border rounded-lg hover:bg-border/20 transition-colors"
@@ -117,24 +116,8 @@ export function ArticleSidebar({ articulo }: ArticleSidebarProps) {
       </div>
 
       {/* Subscribe to Theme */}
-      {tema && (
-        <div className="bg-accent-soft rounded-lg p-4 border border-accent/20">
-          <div className="flex items-center gap-2 mb-2">
-            <Bell className="w-4 h-4 text-accent" />
-            <h3 className="font-medium text-text-primary text-sm">
-              Seguir tema: {tema.label}
-            </h3>
-          </div>
-          <p className="text-xs text-text-secondary mb-3">
-            Recibí notificaciones cuando se publiquen nuevas normas sobre este tema.
-          </p>
-          <button
-            className="w-full px-3 py-2 text-sm font-medium text-white rounded-lg transition-colors"
-            style={{ backgroundColor: tema.color }}
-          >
-            Suscribirse
-          </button>
-        </div>
+      {articulo.metadata.tema && (
+        <SubscribeButton tema={articulo.metadata.tema} variant="full" />
       )}
 
       {/* Related Tags */}

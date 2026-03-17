@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Lora, Inter } from "next/font/google";
+import { AuthProvider } from "@/components/auth/AuthProvider";
 import "./globals.css";
 
 const lora = Lora({
@@ -57,7 +58,7 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <body className={`${lora.variable} ${inter.variable} antialiased bg-bg min-h-screen`} suppressHydrationWarning>
-        {children}
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );

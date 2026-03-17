@@ -15,7 +15,8 @@ import { SeccionResumen } from '@/components/feed/SeccionResumen';
 import { Sidebar } from '@/components/layout/Sidebar';
 import { NoticiasDia, Categoria, NoticiaPreview, Tema } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido } from '@/lib/constants';
-import { Clock } from 'lucide-react';
+import { Clock, Star } from 'lucide-react';
+import { useUserData } from '@/contexts/UserDataContext';
 
 // Extended interface to include edition info
 interface NoticiasDiaExtended extends NoticiasDia {
@@ -26,9 +27,15 @@ interface NoticiasDiaExtended extends NoticiasDia {
 function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const { isSubscribed } = useUserData();
+  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className="flex flex-col h-full rounded-lg overflow-hidden bg-bg-surface hover:shadow-md transition-shadow group">
+    <article className={`flex flex-col h-full rounded-lg overflow-hidden hover:shadow-md transition-all group ${
+      isSubscribedTema
+        ? 'bg-[#FFD700]/5 border-2 border-[#FFD700] shadow-[0_0_15px_rgba(255,215,0,0.4)]'
+        : 'bg-bg-surface'
+    }`}>
       {/* Image */}
       <Link href={`/articulo/${noticia.slug}`} className="relative h-32 bg-bg-warm block">
         {noticia.imagen ? (
@@ -46,6 +53,12 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
         >
           {categoria.label}
         </span>
+        {/* Subscribed badge */}
+        {isSubscribedTema && (
+          <span className="absolute top-2 right-2 p-1.5 bg-[#FFD700] rounded-full shadow">
+            <Star className="w-3 h-3 text-black fill-black" />
+          </span>
+        )}
       </Link>
 
       {/* Content */}
@@ -87,9 +100,11 @@ export default function Home() {
   const [fecha, setFecha] = useState<string>('');
   const [categoria, setCategoria] = useState<Categoria | 'todos'>('todos');
   const [temaActivo, setTemaActivo] = useState<Tema | null>(null);
+  const [filterByInterest, setFilterByInterest] = useState(false);
   const [noticias, setNoticias] = useState<NoticiasDiaExtended | null>(null);
   const [loading, setLoading] = useState(true);
   const [initialLoading, setInitialLoading] = useState(true);
+  const { subscriptions } = useUserData();
 
   // Fetch available dates on mount
   useEffect(() => {
@@ -143,6 +158,7 @@ export default function Home() {
   // Reset tema filter when date or category changes
   useEffect(() => {
     setTemaActivo(null);
+    setFilterByInterest(false);
   }, [fecha, categoria]);
 
   // Get all news (before tema filter) for calculating available temas
@@ -167,12 +183,18 @@ export default function Home() {
     return temaCounts.map(t => t.tema);
   }, [allNewsRaw]);
 
-  // Filter by tema if active
+  // Filter by tema or interest
   const allNews: NoticiaPreview[] = useMemo(() => {
-    return temaActivo
-      ? allNewsRaw.filter(n => n.tema === temaActivo)
-      : allNewsRaw;
-  }, [allNewsRaw, temaActivo]);
+    let filtered = allNewsRaw;
+
+    if (filterByInterest && subscriptions.length > 0) {
+      filtered = filtered.filter(n => n.tema && subscriptions.includes(n.tema));
+    } else if (temaActivo) {
+      filtered = filtered.filter(n => n.tema === temaActivo);
+    }
+
+    return filtered;
+  }, [allNewsRaw, temaActivo, filterByInterest, subscriptions]);
 
   // For newspaper layout: first 6 go to hero section, rest below
   const heroMainArticle = allNews[0];
@@ -204,13 +226,16 @@ export default function Home() {
         />
 
         {/* Tema Filter - Solo para categorías con múltiples artículos */}
-        {!loading && temasDisponibles.length > 0 &&
+        {!loading && (temasDisponibles.length > 0 || subscriptions.length > 0) &&
          categoria !== 'empresas' && categoria !== 'contrataciones' && categoria !== 'judicial' && (
           <div className="mt-4">
             <TemaFilter
               temasDisponibles={temasDisponibles}
               temaActivo={temaActivo}
               onTemaChange={setTemaActivo}
+              showInterestFilter={true}
+              filterByInterest={filterByInterest}
+              onInterestFilterChange={setFilterByInterest}
             />
           </div>
         )}
@@ -331,12 +356,21 @@ export default function Home() {
         ) : (
           <div className="flex flex-col items-center justify-center py-16 text-center">
             <p className="text-text-muted mb-2">
-              {temaActivo
+              {filterByInterest
+                ? 'No hay noticias de tus temas de interés para esta fecha'
+                : temaActivo
                 ? `No hay noticias de ${TEMAS[temaActivo]?.label || temaActivo} para esta fecha`
                 : 'No hay noticias para esta fecha'}
             </p>
             <p className="text-sm text-text-muted">
-              {temaActivo ? (
+              {filterByInterest ? (
+                <button
+                  onClick={() => setFilterByInterest(false)}
+                  className="text-accent hover:underline"
+                >
+                  Ver todas las noticias
+                </button>
+              ) : temaActivo ? (
                 <button
                   onClick={() => setTemaActivo(null)}
                   className="text-accent hover:underline"

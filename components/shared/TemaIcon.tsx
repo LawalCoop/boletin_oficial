@@ -25,10 +25,11 @@ function resolveIcon(iconName: string): LucideIcons.LucideIcon | null {
 interface TemaIconProps {
   iconName: string;
   className?: string;
+  style?: React.CSSProperties;
 }
 
-export function TemaIcon({ iconName, className = 'w-3 h-3' }: TemaIconProps) {
+export function TemaIcon({ iconName, className = 'w-3 h-3', style }: TemaIconProps) {
   const Icon = resolveIcon(iconName);
   if (!Icon) return null;
-  return createElement(Icon, { className });
+  return createElement(Icon, { className, style });
 }

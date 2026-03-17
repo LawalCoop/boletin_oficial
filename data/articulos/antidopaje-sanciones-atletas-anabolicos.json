@@ -1,0 +1,80 @@
+{
+  "id": "bora-339503",
+  "slug": "antidopaje-sanciones-atletas-anabolicos",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "cultura",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "26/2026",
+    "organismoEmisor": "Comisión Nacional Antidopaje",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339503/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Sancionan a cuatro atletas argentinos por uso de anabólicos: suspensiones de hasta 4 años",
+    "resumen": "La Comisión Nacional Antidopaje dio a conocer las sanciones contra cuatro deportistas argentinos que dieron positivo en controles por sustancias prohibidas. Las suspensiones van de dos a cuatro años, lo que para algunos significa el fin de su carrera deportiva.\n\nLos casos corresponden a deportistas de atletismo, levantamiento de pesas y fisicoculturismo que fueron controlados en competencias nacionales durante 2025. Las sustancias detectadas fueron principalmente anabólicos esteroides, que aumentan la masa muscular pero tienen efectos secundarios severos.\n\nEl sistema antidopaje argentino funciona bajo los estándares de la Agencia Mundial Antidopaje (WADA). Si un deportista da positivo en un control, se abre un proceso donde puede presentar descargos. Pero la mayoría de los casos terminan con sanciones porque las pruebas de laboratorio son muy difíciles de refutar.",
+    "contexto": "¿Qué hace la Comisión Nacional Antidopaje? Es el organismo que controla que los deportistas argentinos compitan limpios, sin sustancias prohibidas. Hace controles sorpresa en competencias y entrenamientos, analiza las muestras en laboratorios certificados y sanciona a quienes dan positivo. Las sanciones se publican en el Boletín Oficial para que tengan validez legal.",
+    "puntosClaves": [
+      {
+        "titulo": "Cuatro años de suspensión máxima",
+        "descripcion": "El deportista más sancionado recibió cuatro años de inhabilitación, la pena máxima por una primera infracción grave. Durante ese tiempo no puede competir en ningún evento oficial ni entrar a instalaciones deportivas federadas."
+      },
+      {
+        "titulo": "Anabólicos esteroides",
+        "descripcion": "Las sustancias detectadas son derivados de la testosterona que aumentan la fuerza y la masa muscular. Son ilegales en el deporte porque dan ventaja desleal, y además son peligrosos para la salud: pueden causar problemas cardíacos, hepáticos y hormonales."
+      },
+      {
+        "titulo": "Derecho a apelación",
+        "descripcion": "Los deportistas sancionados pueden apelar ante el Tribunal de Arbitraje Deportivo (TAS) en Suiza. Pero los costos de llevar un caso a tribunales internacionales son altísimos, así que en la práctica solo los atletas con sponsors pueden intentarlo."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Deportistas sancionados",
+        "icono": "user-x",
+        "descripcion": "Cuatro atletas ven interrumpidas sus carreras. Para los más jóvenes, una suspensión de cuatro años puede significar volver cuando ya pasó su mejor momento físico. Para los veteranos, probablemente sea el retiro definitivo."
+      },
+      {
+        "grupo": "Federaciones deportivas",
+        "icono": "trophy",
+        "descripcion": "Las federaciones de los deportes involucrados quedan expuestas. Un caso de doping pone en duda los controles internos y puede afectar la imagen del deporte ante sponsors y el público."
+      },
+      {
+        "grupo": "Deportistas limpios",
+        "icono": "medal",
+        "descripcion": "Los atletas que compiten sin sustancias prohibidas se benefician cuando se sanciona a quienes hacen trampa. Cada dopado que cae es una oportunidad más para quien entrena limpio."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIÓN 26/2026 - COMISIÓN NACIONAL ANTIDOPAJE",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Sanciones",
+        "contenido": "Impónese a los deportistas detallados en el Anexo I las sanciones de inhabilitación que en cada caso se especifican, por infracción a las normas antidopaje vigentes."
+      },
+      {
+        "numero": "2",
+        "titulo": "Vigencia",
+        "contenido": "Las sanciones comenzarán a regir a partir del día siguiente a la publicación de la presente en el Boletín Oficial."
+      },
+      {
+        "numero": "3",
+        "titulo": "Comunicación",
+        "contenido": "Comuníquese a las federaciones deportivas correspondientes, al Comité Olímpico Argentino y a la Agencia Mundial Antidopaje (WADA)."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/deportes.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["deportes", "doping", "antidopaje", "sanciones", "atletismo"]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "bora-339490",
+  "slug": "capital-humano-subsidios-cooperativas-trabajo",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "trabajo",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "43/2026",
+    "organismoEmisor": "Ministerio de Capital Humano",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339490/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "El Gobierno recorta subsidios a cooperativas de trabajo y endurece los requisitos para cobrar",
+    "resumen": "El Ministerio de Capital Humano modificó las condiciones para que las cooperativas de trabajo accedan a subsidios estatales. Los nuevos requisitos son más exigentes: ahora tienen que demostrar facturación propia, tener al menos dos años de actividad y presentar planes de 'autosustentabilidad' para dejar de depender del Estado.\n\nLa medida se enmarca en la política de reducción del gasto público que viene aplicando el Gobierno. Miles de cooperativas de todo el país reciben fondos del Estado para pagar parte de los sueldos de sus asociados, un mecanismo que arrancó hace más de una década para formalizar a trabajadores de la economía popular.\n\nPara las cooperativas que no cumplan los nuevos requisitos, los subsidios se van a ir reduciendo gradualmente hasta eliminarse. El Ministerio argumenta que busca 'promover la inserción laboral genuina', pero desde el sector cooperativo advierten que muchas organizaciones van a cerrar porque no tienen cómo generar ingresos propios en un contexto recesivo.",
+    "contexto": "¿Qué son los subsidios a cooperativas de trabajo? Son transferencias de dinero del Estado a cooperativas para complementar los ingresos de sus asociados. Nacieron como una forma de formalizar a cartoneros, recicladores, trabajadores de comedores y otros oficios de la economía popular. El asociado cobra un subsidio del Estado más lo que genera la cooperativa. La idea original era que con el tiempo las cooperativas se volvieran autosustentables, pero muchas nunca lo lograron.",
+    "puntosClaves": [
+      {
+        "titulo": "Dos años de antigüedad mínima",
+        "descripcion": "Las cooperativas nuevas ya no van a poder acceder a subsidios. Tienen que demostrar al menos dos años de funcionamiento con balances presentados. Esto deja afuera a los emprendimientos recientes que necesitan apoyo inicial para despegar."
+      },
+      {
+        "titulo": "Facturación propia obligatoria",
+        "descripcion": "Ahora hay que demostrar que la cooperativa tiene ingresos genuinos, no solo el subsidio estatal. El mínimo exigido es facturar el equivalente al 30% del total de subsidios que recibe. Para muchas cooperativas que solo hacen trabajo comunitario, esto es imposible de cumplir."
+      },
+      {
+        "titulo": "Plan de autosustentabilidad",
+        "descripcion": "Cada cooperativa tiene que presentar un plan detallando cómo va a dejar de depender del subsidio en un plazo de tres años. El Ministerio va a evaluar si los planes son viables y puede rechazar los que considere poco realistas."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Cooperativistas de la economía popular",
+        "icono": "users",
+        "descripcion": "Miles de trabajadores que dependen de estos subsidios para llegar a fin de mes pueden quedarse sin ese ingreso. Son recicladores, albañiles, textiles, gastronómicos que trabajan en condiciones precarias y para quienes el subsidio es fundamental."
+      },
+      {
+        "grupo": "Organizaciones sociales",
+        "icono": "landmark",
+        "descripcion": "Los movimientos sociales que nuclean cooperativas van a perder capacidad de contención. Muchas organizaciones usan las cooperativas como herramienta para dar trabajo a sus bases, y sin subsidios esa estructura se debilita."
+      },
+      {
+        "grupo": "Municipios",
+        "icono": "map",
+        "descripcion": "Los intendentes que tienen convenios con cooperativas para servicios como limpieza, mantenimiento de espacios verdes o comedores comunitarios van a tener que buscar alternativas o aumentar su propio presupuesto."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 43/2026 - MINISTERIO DE CAPITAL HUMANO",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Modificación de requisitos",
+        "contenido": "Modifícanse los requisitos de acceso al Programa de Trabajo Autogestionado establecidos por la Resolución MTEySS N° 203/2004 y sus modificatorias, conforme lo establecido en el Anexo que forma parte integrante de la presente."
+      },
+      {
+        "numero": "2",
+        "titulo": "Antigüedad mínima",
+        "contenido": "Las cooperativas de trabajo que soliciten su incorporación al Programa deberán acreditar una antigüedad mínima de DOS (2) años desde su inscripción en el Instituto Nacional de Asociativismo y Economía Social."
+      },
+      {
+        "numero": "3",
+        "titulo": "Plan de autosustentabilidad",
+        "contenido": "Las cooperativas beneficiarias deberán presentar un Plan de Transición hacia la Autosustentabilidad con un horizonte máximo de TRES (3) años, sujeto a evaluación y aprobación por parte de la autoridad de aplicación."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/cooperativas.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["cooperativas", "subsidios", "economía popular", "Capital Humano", "trabajo", "recortes"]
+}

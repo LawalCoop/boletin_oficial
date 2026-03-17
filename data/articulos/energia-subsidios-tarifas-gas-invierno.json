@@ -1,0 +1,80 @@
+{
+  "id": "bora-339480",
+  "slug": "energia-subsidios-tarifas-gas-invierno",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "energia",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "64/2026",
+    "organismoEmisor": "Secretaría de Energía",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339480/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Reducen subsidios al gas: las boletas de invierno van a venir más caras",
+    "resumen": "La Secretaría de Energía ajustó el esquema de subsidios al gas natural de red, lo que va a impactar en las boletas del próximo invierno. Los usuarios residenciales que no estén inscriptos en el Registro de Acceso a los Subsidios (RASE) van a perder toda bonificación y pagar la tarifa plena.\n\nPara los que sí están en el RASE, los subsidios también se reducen: el tope de consumo bonificado baja de 500 a 400 metros cúbicos mensuales. Todo lo que se consuma por encima de eso se paga a precio completo. En un invierno crudo, una familia tipo con calefacción a gas puede superar fácilmente ese tope.\n\nEl Gobierno argumenta que los subsidios energéticos distorsionan los precios y benefician más a los que más consumen, que suelen ser los de mayores ingresos. Los críticos señalan que el ajuste va a golpear a la clase media, que quedó fuera del RASE pero no tiene cintura para absorber aumentos del 200% o 300% en la boleta de gas.",
+    "contexto": "¿Qué es el RASE? Es el Registro de Acceso a los Subsidios a la Energía, donde los usuarios tienen que inscribirse para mantener el beneficio de pagar tarifas reducidas de luz y gas. Fue creado para focalizar los subsidios en quienes realmente los necesitan. El problema es que mucha gente de clase media quedó afuera porque supera los topes de ingresos, pero igual le cuesta pagar la tarifa plena.",
+    "puntosClaves": [
+      {
+        "titulo": "Tarifa plena para no inscriptos",
+        "descripcion": "Los usuarios que no se anotaron en el RASE o que no renovaron su inscripción van a pagar el 100% del costo del gas. Esto puede significar boletas de $80.000 o más en los meses más fríos del invierno para una vivienda con calefacción central."
+      },
+      {
+        "titulo": "Menor tope de consumo subsidiado",
+        "descripcion": "Incluso para los beneficiarios del RASE, el consumo bonificado baja de 500 a 400 metros cúbicos por mes. Una familia que calefacciona con gas puede consumir 600 o 700 metros cúbicos en julio. Todo el excedente se paga caro."
+      },
+      {
+        "titulo": "Tarifa social se mantiene",
+        "descripcion": "Los usuarios de tarifa social —jubilados de la mínima, beneficiarios de AUH, electrodependientes— mantienen el subsidio completo sin tope de consumo. Son el segmento más protegido, aunque también el más pequeño."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Clase media no inscripta en RASE",
+        "icono": "home",
+        "descripcion": "Familias que ganan por encima del tope pero no son ricas van a enfrentar boletas muy pesadas. Una vivienda con calefacción a gas en zona fría puede pagar el equivalente a medio aguinaldo solo de gas en invierno."
+      },
+      {
+        "grupo": "Jubilados y pensionados",
+        "icono": "users",
+        "descripcion": "Los que tienen la mínima siguen protegidos con tarifa social. Pero los que cobran un poco más y quedaron fuera de la tarifa social van a sentir el impacto, especialmente si viven solos en casas grandes."
+      },
+      {
+        "grupo": "Inquilinos",
+        "icono": "building",
+        "descripcion": "Los que alquilan tienen menos opciones: no pueden cambiar la calefacción a eléctrica ni hacer obras de eficiencia energética sin permiso del propietario. Quedan atrapados pagando lo que venga."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 64/2026 - SECRETARÍA DE ENERGÍA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Modificación del régimen de subsidios",
+        "contenido": "Modifícase el régimen de subsidios al consumo de gas natural por redes establecido por la Resolución SE N° 686/2022 y sus modificatorias, conforme los parámetros establecidos en el Anexo que forma parte integrante de la presente."
+      },
+      {
+        "numero": "2",
+        "titulo": "Tope de consumo subsidiado",
+        "contenido": "El consumo mensual de gas natural subsidiado para usuarios residenciales inscriptos en el RASE no podrá exceder los CUATROCIENTOS (400) metros cúbicos por período de facturación."
+      },
+      {
+        "numero": "3",
+        "titulo": "Usuarios no inscriptos",
+        "contenido": "Los usuarios residenciales que no acrediten su inscripción vigente en el Registro de Acceso a los Subsidios a la Energía (RASE) abonarán el precio pleno del gas natural conforme los cuadros tarifarios vigentes."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/energia.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["gas", "tarifas", "subsidios", "RASE", "energía", "invierno"]
+}

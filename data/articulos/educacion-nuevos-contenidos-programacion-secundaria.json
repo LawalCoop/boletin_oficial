@@ -1,0 +1,80 @@
+{
+  "id": "bora-339515",
+  "slug": "educacion-nuevos-contenidos-programacion-secundaria",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "educacion",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "112/2026",
+    "organismoEmisor": "Ministerio de Educación",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339515/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Programación será contenido obligatorio en todas las secundarias del país desde 2027",
+    "resumen": "El Ministerio de Educación aprobó nuevos Núcleos de Aprendizaje Prioritarios (NAP) que incorporan programación y pensamiento computacional como contenidos obligatorios para todo el nivel secundario. A partir de 2027, todas las escuelas del país deberán enseñar estos temas, independientemente de su orientación.\n\nNo se trata de crear programadores profesionales en la secundaria, sino de que los estudiantes entiendan cómo funcionan las tecnologías que usan todos los días. Desde entender qué es un algoritmo hasta armar proyectos simples de automatización o analizar datos.\n\nEl desafío está en la implementación: hay pocas escuelas con docentes formados en programación, y menos todavía con equipamiento adecuado. Las provincias tienen hasta 2027 para capacitar profesores y adaptar los diseños curriculares. Algunas jurisdicciones ya venían trabajando en esto; otras parten de cero.",
+    "contexto": "¿Qué son los Núcleos de Aprendizaje Prioritarios? Los NAP son los contenidos mínimos que todas las escuelas del país deben enseñar, más allá de las diferencias entre provincias. Los define el Consejo Federal de Educación —donde se sientan la Nación y las 24 jurisdicciones— y son de cumplimiento obligatorio. Cuando un NAP se modifica, todas las provincias tienen que adaptar sus currículas.",
+    "puntosClaves": [
+      {
+        "titulo": "Pensamiento computacional para todos",
+        "descripcion": "El nuevo NAP no es solo 'aprender a programar'. Incluye conceptos como descomposición de problemas, reconocimiento de patrones, abstracción y diseño de algoritmos. Son habilidades que sirven para cualquier profesión, no solo tecnología."
+      },
+      {
+        "titulo": "Implementación gradual",
+        "descripcion": "Las provincias tienen hasta marzo de 2027 para incorporar los contenidos a sus diseños curriculares. Pueden empezar antes, pero la obligatoriedad arranca en el ciclo lectivo 2027. Hay tiempo para formar docentes y equipar escuelas."
+      },
+      {
+        "titulo": "Formación docente urgente",
+        "descripcion": "El talón de Aquiles del plan es que faltan profesores. Los institutos de formación docente ya están ofreciendo actualizaciones, pero muchos docentes de secundaria tienen más de 50 años y les cuesta incorporar tecnología. Habrá que ver cómo se resuelve."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Estudiantes secundarios",
+        "icono": "graduation-cap",
+        "descripcion": "Los chicos que empiecen secundaria en 2027 van a tener programación como contenido obligatorio. Es una herramienta más para el mundo laboral que les espera, donde la tecnología atraviesa todo."
+      },
+      {
+        "grupo": "Docentes",
+        "icono": "book-open",
+        "descripcion": "Los profesores van a tener que capacitarse en contenidos nuevos. Algunos lo ven como una oportunidad; otros, como una carga más sobre una profesión ya exigida. Las capacitaciones serán gratuitas pero fuera del horario laboral."
+      },
+      {
+        "grupo": "Provincias",
+        "icono": "map",
+        "descripcion": "Los ministerios de educación provinciales tienen que adaptar sus currículas, formar docentes y equipar escuelas. Todo esto cuesta plata que no siempre tienen. Las más ricas lo harán sin problemas; las más pobres van a sufrir."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 112/2026 - MINISTERIO DE EDUCACIÓN",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Aprobación de NAP",
+        "contenido": "Apruébanse los Núcleos de Aprendizajes Prioritarios de Programación y Pensamiento Computacional para la Educación Secundaria, que como Anexo forman parte integrante de la presente Resolución."
+      },
+      {
+        "numero": "2",
+        "titulo": "Obligatoriedad",
+        "contenido": "Los contenidos aprobados por el artículo 1° serán de implementación obligatoria en todas las jurisdicciones a partir del ciclo lectivo 2027."
+      },
+      {
+        "numero": "3",
+        "titulo": "Formación docente",
+        "contenido": "Instrúyese al Instituto Nacional de Formación Docente a diseñar e implementar ofertas de actualización disciplinar para los docentes que deban dictar los contenidos aprobados."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/educacion.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["educación", "programación", "secundaria", "tecnología", "NAP", "docentes"]
+}

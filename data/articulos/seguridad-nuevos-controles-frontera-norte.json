@@ -1,0 +1,80 @@
+{
+  "id": "bora-339492",
+  "slug": "seguridad-nuevos-controles-frontera-norte",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "seguridad",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "231/2026",
+    "organismoEmisor": "Ministerio de Seguridad Nacional",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339492/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Refuerzan controles en la frontera norte: más efectivos y tecnología en pasos con Bolivia y Paraguay",
+    "resumen": "El Ministerio de Seguridad desplegará más personal y equipamiento en los pasos fronterizos con Bolivia y Paraguay. La resolución crea un 'corredor de seguridad' que abarca desde La Quiaca hasta Puerto Iguazú, con foco en combatir el contrabando y el narcotráfico.\n\nEl plan incluye la instalación de escáneres para camiones de carga en cinco pasos clave, refuerzo de efectivos de Gendarmería y coordinación con las fuerzas de los países vecinos. También se van a sumar drones para vigilar zonas de difícil acceso donde hoy cruzan mercadería ilegal.\n\nLa frontera norte es la más porosa del país: más de 1.400 kilómetros con cientos de pasos no habilitados que son usados para el contrabando hormiga. Para las comunidades fronterizas, que viven del comercio con el otro lado, más controles pueden significar demoras y complicaciones, aunque también menos competencia desleal del contrabando.",
+    "contexto": "¿Por qué la frontera norte es tan difícil de controlar? Argentina comparte casi 1.500 km de frontera con Bolivia y Paraguay, gran parte a través de territorios selváticos, ríos y zonas rurales con poca presencia estatal. Los 'pasos no habilitados' son caminos informales que la población local usa desde siempre, pero que también aprovechan contrabandistas y narcotraficantes. Reforzar el control implica un delicado equilibrio entre seguridad y la vida cotidiana de las comunidades fronterizas.",
+    "puntosClaves": [
+      {
+        "titulo": "Escáneres en cinco pasos",
+        "descripcion": "Se instalarán equipos de rayos X para revisar camiones sin tener que descargarlos. Esto acelera los controles legítimos y dificulta ocultar mercadería ilegal. Los pasos elegidos son los de mayor tráfico comercial: La Quiaca, Salvador Mazza, Clorinda, Puerto Falcón y Puerto Iguazú."
+      },
+      {
+        "titulo": "Más gendarmes en la zona",
+        "descripcion": "Gendarmería va a sumar 400 efectivos al operativo, reasignados desde destinos del centro del país. Van a patrullar rutas secundarias y caminos rurales que hoy son tierra de nadie entre los pasos oficiales."
+      },
+      {
+        "titulo": "Drones de vigilancia",
+        "descripcion": "Por primera vez se van a usar drones con cámaras térmicas para detectar movimientos nocturnos en zonas de monte. La tecnología permite cubrir áreas donde sería imposible mantener patrullas permanentes."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Comunidades fronterizas",
+        "icono": "users",
+        "descripcion": "Los vecinos de ciudades como La Quiaca, Aguas Blancas o Clorinda van a notar más presencia de fuerzas de seguridad. El comercio hormiga legal —ir a comprar al otro lado— puede volverse más engorroso. Pero también deberían sufrir menos la competencia desleal del contrabando."
+      },
+      {
+        "grupo": "Transportistas y comerciantes",
+        "icono": "truck",
+        "descripcion": "Los camioneros que cruzan mercadería legalmente tendrán que pasar por los nuevos escáneres. En teoría debería ser más rápido que la revisión manual, pero en la práctica habrá un período de adaptación con posibles demoras."
+      },
+      {
+        "grupo": "Fuerzas de seguridad",
+        "icono": "shield",
+        "descripcion": "Los gendarmes destinados a la frontera van a trabajar en condiciones difíciles: calor extremo, zonas aisladas, y la tensión de enfrentar organizaciones narco que no dudan en usar violencia."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 231/2026 - MINISTERIO DE SEGURIDAD NACIONAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Creación del Corredor de Seguridad Norte",
+        "contenido": "Créase el 'Corredor de Seguridad Fronterizo Norte' que comprende los pasos internacionales y zonas adyacentes de las provincias de Jujuy, Salta, Formosa, Chaco y Misiones."
+      },
+      {
+        "numero": "2",
+        "titulo": "Despliegue de personal",
+        "contenido": "Instrúyese a la Gendarmería Nacional a reforzar el despliegue de personal en el área definida en el artículo 1°, mediante la reasignación de efectivos conforme el plan operativo que se detalla en el Anexo I."
+      },
+      {
+        "numero": "3",
+        "titulo": "Equipamiento tecnológico",
+        "contenido": "Autorízase la adquisición e instalación de sistemas de escaneo de cargas y vehículos de vigilancia aérea no tripulados conforme las especificaciones técnicas del Anexo II."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/seguridad.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["seguridad", "fronteras", "Gendarmería", "contrabando", "narcotráfico", "Bolivia", "Paraguay"]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "bora-339483",
+  "slug": "interior-prorrogas-convenios-provincias",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "presupuesto",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "28/2026",
+    "organismoEmisor": "Ministerio del Interior",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339483/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Interior prorroga convenios de asistencia financiera con provincias",
+    "resumen": "El Ministerio del Interior extendió la vigencia de convenios de asistencia financiera con varias provincias argentinas. Se trata de acuerdos mediante los cuales la Nación transfiere fondos a las provincias para obras o programas específicos.\n\nEstas prórrogas son necesarias porque muchas veces los plazos originales de los convenios vencen antes de que se ejecuten completamente los fondos. Burocracia, demoras en licitaciones, cambios de gobierno: hay mil razones por las que una obra planificada para un año termina tardando tres.\n\nPara las provincias beneficiadas, la prórroga significa que no pierden los fondos comprometidos. Para la Nación, es reconocer que los tiempos del Estado rara vez coinciden con los tiempos de la realidad.",
+    "contexto": "¿Qué son los convenios Nación-Provincia? Son acuerdos donde el gobierno nacional se compromete a transferir dinero a una provincia para un fin específico: construir una ruta, equipar un hospital, financiar viviendas. La provincia tiene que rendir cuentas de cómo usa esa plata. Si no ejecuta los fondos en el plazo pactado, puede perderlos, salvo que se prorrogue el convenio.",
+    "puntosClaves": [
+      {
+        "titulo": "Evitar perder fondos",
+        "descripcion": "Las prórrogas permiten que las provincias no pierdan el dinero comprometido por no haber cumplido los plazos originales. Es una segunda (o tercera) oportunidad."
+      },
+      {
+        "titulo": "Obras demoradas",
+        "descripcion": "Detrás de cada prórroga hay una obra o programa que no se ejecutó a tiempo. Pueden ser rutas, escuelas, hospitales, viviendas que llevan años esperando."
+      },
+      {
+        "titulo": "Federalismo fiscal",
+        "descripcion": "Estos convenios son parte del complejo sistema de transferencias entre Nación y provincias. No es plata de coparticipación automática, sino fondos que el gobierno central decide discrecionalmente enviar a las provincias."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Gobiernos provinciales",
+        "icono": "landmark",
+        "descripcion": "Las provincias beneficiadas mantienen la posibilidad de ejecutar fondos que de otra manera hubieran perdido. Menos presión sobre sus presupuestos propios."
+      },
+      {
+        "grupo": "Ciudadanos de las provincias",
+        "icono": "users",
+        "descripcion": "Las obras financiadas con estos convenios (rutas, hospitales, viviendas) siguen en pie, aunque demoradas. Eventualmente llegarán."
+      },
+      {
+        "grupo": "Tesoro Nacional",
+        "icono": "wallet",
+        "descripcion": "La plata comprometida en estos convenios sigue reservada para las provincias. No se puede reasignar a otros fines mientras el convenio esté vigente."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 28/2026 - MINISTERIO DEL INTERIOR",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Prórroga de convenios",
+        "contenido": "Prorróganse los convenios de asistencia financiera celebrados entre el Estado Nacional y las provincias detalladas en el Anexo que forma parte integrante de la presente Resolución."
+      },
+      {
+        "numero": "2",
+        "titulo": "Plazo de prórroga",
+        "contenido": "La prórroga establecida en el artículo anterior será por el término de UN (1) año contado a partir del vencimiento de cada convenio."
+      },
+      {
+        "numero": "3",
+        "titulo": "Rendición de cuentas",
+        "contenido": "Las provincias beneficiarias deberán continuar presentando las rendiciones de cuentas correspondientes conforme los términos originales de cada convenio."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/casa-rosada.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["provincias", "convenios", "presupuesto", "federalismo", "obras públicas"]
+}

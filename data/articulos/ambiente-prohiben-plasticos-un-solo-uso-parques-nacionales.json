@@ -1,0 +1,80 @@
+{
+  "id": "bora-339518",
+  "slug": "ambiente-prohiben-plasticos-un-solo-uso-parques-nacionales",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "ambiente",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "78/2026",
+    "organismoEmisor": "Administración de Parques Nacionales",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339518/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Prohíben plásticos de un solo uso en todos los parques nacionales del país",
+    "resumen": "La Administración de Parques Nacionales prohibió el ingreso y comercialización de plásticos de un solo uso en las 56 áreas protegidas que gestiona. A partir de julio de 2026, no se van a poder vender ni ingresar botellas descartables, sorbetes, cubiertos plásticos ni bolsas de ese material.\n\nLa medida busca reducir la contaminación en ecosistemas frágiles como glaciares, bosques y humedales. Cada año, los guardaparques juntan toneladas de residuos plásticos que dejan los visitantes, desde botellas en senderos hasta bolsas volando en la estepa patagónica.\n\nPara los visitantes significa un cambio de hábitos: hay que llevar botella reutilizable, bolsa de tela y cubiertos propios. Los concesionarios que tienen locales dentro de los parques —kioscos, restaurantes, proveedurías— tienen hasta julio para adaptarse o quedan fuera del negocio.",
+    "contexto": "¿Por qué prohibir el plástico en los parques? Los parques nacionales son las áreas más protegidas del país, pero reciben millones de visitantes cada año. Cada persona que entra puede generar basura, y en lugares remotos esa basura no tiene a dónde ir. El plástico es particularmente problemático porque no se degrada: una botella tirada hoy va a seguir ahí dentro de 400 años.",
+    "puntosClaves": [
+      {
+        "titulo": "Prohibición desde julio 2026",
+        "descripcion": "A partir del 1° de julio no se permite el ingreso de plásticos de un solo uso a ningún parque nacional. Los guardaparques van a controlar en los accesos y pueden decomisar los productos prohibidos."
+      },
+      {
+        "titulo": "Concesionarios tienen que adaptarse",
+        "descripcion": "Los negocios dentro de los parques —desde el kiosco de El Chaltén hasta el restaurante del Iguazú— tienen que reemplazar todo el plástico descartable por alternativas reutilizables o compostables. El que no cumpla pierde la concesión."
+      },
+      {
+        "titulo": "Puntos de agua potable",
+        "descripcion": "Para facilitar que los visitantes usen botellas reutilizables, Parques Nacionales va a instalar bebederos de agua potable en los principales accesos y centros de visitantes. La idea es que nadie necesite comprar agua embotellada."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Visitantes de parques nacionales",
+        "icono": "mountain",
+        "descripcion": "Los millones de turistas que visitan parques cada año van a tener que planificar mejor qué llevan. Nada de comprar una botella de agua en el camino: hay que salir de casa con la botella reutilizable."
+      },
+      {
+        "grupo": "Concesionarios y comerciantes",
+        "icono": "store",
+        "descripcion": "Los que tienen negocios dentro de los parques deben invertir en cambiar sus productos. Las alternativas compostables son más caras que el plástico, así que los precios pueden subir."
+      },
+      {
+        "grupo": "Fauna y ecosistemas",
+        "icono": "leaf",
+        "descripcion": "Los animales silvestres son los principales beneficiados. Cada año mueren cóndores, guanacos y pingüinos por ingerir plásticos o quedar enredados en ellos. Menos plástico es más vida."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 78/2026 - ADMINISTRACIÓN DE PARQUES NACIONALES",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Prohibición",
+        "contenido": "Prohíbese el ingreso, comercialización y distribución de plásticos de un solo uso en todas las áreas protegidas bajo jurisdicción de la Administración de Parques Nacionales."
+      },
+      {
+        "numero": "2",
+        "titulo": "Productos alcanzados",
+        "contenido": "La prohibición comprende: botellas y envases plásticos descartables, bolsas plásticas, sorbetes, cubiertos, platos y vasos de plástico, sachets y envases de telgopor."
+      },
+      {
+        "numero": "3",
+        "titulo": "Entrada en vigencia",
+        "contenido": "La presente Resolución entrará en vigencia el 1° de julio de 2026, otorgando un plazo de adaptación de CIENTO VEINTE (120) días a partir de su publicación."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/parques.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["ambiente", "plásticos", "parques nacionales", "contaminación", "turismo", "sustentabilidad"]
+}

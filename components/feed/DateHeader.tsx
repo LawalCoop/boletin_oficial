@@ -49,8 +49,58 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
 
   return (
     <>
-      <div className="flex items-center justify-between py-3">
-        <div className="flex items-center gap-2">
+      <div className="flex flex-col gap-3 py-3">
+        {/* Desktop: Date centered with indicators on right using grid */}
+        <div className="hidden lg:grid lg:grid-cols-3 lg:items-center">
+          {/* Left spacer */}
+          <div />
+
+          {/* Center: Date selector */}
+          <div className="flex items-center justify-center gap-2">
+            <button
+              onClick={handlePrevDay}
+              disabled={!canGoPrev}
+              className={`p-1.5 hover:bg-bg-surface rounded-full transition-colors ${!canGoPrev ? 'opacity-30 cursor-not-allowed' : ''}`}
+              aria-label="Día anterior"
+            >
+              <ChevronLeft className="w-5 h-5 text-text-muted" />
+            </button>
+
+            <button
+              onClick={() => setShowPicker(true)}
+              className="flex items-center gap-2 px-4 py-2 hover:bg-bg-surface rounded-lg transition-colors"
+            >
+              <Calendar className="w-5 h-5 text-accent" />
+              <div className="flex flex-col items-center">
+                <span className="font-[family-name:var(--font-lora)] text-xl font-medium text-text-primary">
+                  {esHoy ? `Hoy, ${fechaFormateada}` : fechaFormateada}
+                </span>
+                {edicionBoletin && (
+                  <span className="text-[10px] text-text-muted">
+                    Edición N° {edicionBoletin}
+                  </span>
+                )}
+              </div>
+            </button>
+
+            <button
+              onClick={handleNextDay}
+              disabled={!canGoNext}
+              className={`p-1.5 hover:bg-bg-surface rounded-full transition-colors ${!canGoNext ? 'opacity-30 cursor-not-allowed' : ''}`}
+              aria-label="Día siguiente"
+            >
+              <ChevronRight className="w-5 h-5 text-text-muted" />
+            </button>
+          </div>
+
+          {/* Right: Economic indicators */}
+          <div className="flex justify-end">
+            <EconomicIndicators />
+          </div>
+        </div>
+
+        {/* Mobile: Date centered */}
+        <div className="lg:hidden flex items-center justify-center gap-2">
           <button
             onClick={handlePrevDay}
             disabled={!canGoPrev}
@@ -62,11 +112,11 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
 
           <button
             onClick={() => setShowPicker(true)}
-            className="flex items-center gap-2 px-3 py-1.5 hover:bg-bg-surface rounded-lg transition-colors"
+            className="flex items-center gap-2 px-4 py-2 hover:bg-bg-surface rounded-lg transition-colors"
           >
-            <Calendar className="w-4 h-4 text-accent" />
-            <div className="flex flex-col items-start">
-              <span className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary">
+            <Calendar className="w-5 h-5 text-accent" />
+            <div className="flex flex-col items-center">
+              <span className="font-[family-name:var(--font-lora)] text-lg font-medium text-text-primary">
                 {esHoy ? `Hoy, ${fechaFormateada}` : fechaFormateada}
               </span>
               {edicionBoletin && (
@@ -87,7 +137,10 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
           </button>
         </div>
 
-        <EconomicIndicators />
+        {/* Mobile: Economic indicators in separate row */}
+        <div className="lg:hidden flex justify-center py-2 border-t border-border">
+          <EconomicIndicators />
+        </div>
       </div>
 
       {/* Date Picker Modal */}

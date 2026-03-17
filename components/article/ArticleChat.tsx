@@ -128,7 +128,7 @@ ${articulo.textoOriginal.articulos.map(a => `Art. ${a.numero} - ${a.titulo}: ${a
         className="fixed bottom-24 lg:bottom-8 right-4 lg:right-8 flex items-center gap-2 bg-accent text-white px-4 py-3 rounded-full shadow-lg hover:bg-accent/90 transition-all z-40 hover:scale-105"
       >
         <MessageCircle className="w-5 h-5" />
-        <span className="text-sm font-medium">Preguntale a la IA</span>
+        <span className="text-sm font-medium">¿Te quedan dudas? Preguntale a la IA</span>
       </button>
     );
   }

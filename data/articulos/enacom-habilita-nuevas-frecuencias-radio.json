@@ -1,0 +1,80 @@
+{
+  "id": "bora-339495",
+  "slug": "enacom-habilita-nuevas-frecuencias-radio",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "telecomunicaciones",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "5619/2026",
+    "organismoEmisor": "ENACOM - Ente Nacional de Comunicaciones",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339495/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "ENACOM autoriza nuevas licencias de radio en el interior del país",
+    "resumen": "El Ente Nacional de Comunicaciones otorgó licencias para operar radios FM en distintas localidades del interior. Se trata de autorizaciones que permiten a nuevos operadores transmitir en frecuencias específicas.\n\nLas radios FM siguen siendo un medio de comunicación clave en pueblos y ciudades chicas, donde la televisión por cable llega poco y el internet es lento o caro. Para las comunidades locales, tener una radio propia significa tener voz: informarse de lo que pasa en el pueblo, escuchar música local, enterarse de los horarios de colectivos.\n\nEstas licencias vienen después de años de demoras. ENACOM tiene un enorme atraso en el otorgamiento de frecuencias, y muchas radios operan en situación irregular porque nunca les llegó la autorización formal.",
+    "contexto": "¿Qué es una licencia de radio? Para transmitir legalmente en FM necesitás una autorización del ENACOM que te asigna una frecuencia específica (por ejemplo, 98.5 FM). Sin licencia, la radio es técnicamente ilegal y puede ser clausurada. El problema es que el trámite de licencia puede demorar años.",
+    "puntosClaves": [
+      {
+        "titulo": "Frecuencias para el interior",
+        "descripcion": "Las licencias otorgadas son para localidades del interior del país, no para grandes ciudades donde el espectro ya está saturado."
+      },
+      {
+        "titulo": "Regularización de situaciones",
+        "descripcion": "Algunas de estas licencias probablemente corresponden a radios que ya estaban transmitiendo y ahora se regularizan. Es una forma de blanquear una situación de hecho."
+      },
+      {
+        "titulo": "Obligaciones del licenciatario",
+        "descripcion": "Obtener la licencia implica compromisos: transmitir un mínimo de horas diarias, respetar normas técnicas, pagar un canon. Si no cumplís, te pueden quitar la frecuencia."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Radios comunitarias",
+        "icono": "radio",
+        "descripcion": "Las radios locales que esperaban su licencia finalmente la obtienen. Esto les da seguridad jurídica y les permite operar sin miedo a ser clausuradas."
+      },
+      {
+        "grupo": "Comunidades del interior",
+        "icono": "users",
+        "descripcion": "Los pueblos y ciudades donde se otorgan estas licencias ganan un medio de comunicación local que puede informar sobre temas que a los grandes medios no les interesan."
+      },
+      {
+        "grupo": "Otras radios de la zona",
+        "icono": "building-2",
+        "descripcion": "Las radios existentes en la misma zona tienen un nuevo competidor. En mercados chicos, esto puede afectar la torta publicitaria disponible."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIÓN 5619/2026 - ENTE NACIONAL DE COMUNICACIONES",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Otorgamiento de licencia",
+        "contenido": "Otórgase licencia para la instalación, funcionamiento y explotación de un servicio de comunicación audiovisual por modulación de frecuencia, conforme los parámetros técnicos establecidos en el Anexo."
+      },
+      {
+        "numero": "2",
+        "titulo": "Plazo",
+        "contenido": "La presente licencia se otorga por el plazo de DIEZ (10) años contados a partir de la fecha de la presente, renovable por períodos sucesivos."
+      },
+      {
+        "numero": "3",
+        "titulo": "Obligaciones",
+        "contenido": "El licenciatario deberá dar cumplimiento a las obligaciones establecidas en la normativa vigente en materia de servicios de comunicación audiovisual."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/radio.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["ENACOM", "radio FM", "telecomunicaciones", "licencias", "medios"]
+}

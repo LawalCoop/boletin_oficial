@@ -1,0 +1,80 @@
+{
+  "id": "bora-339473",
+  "slug": "anses-lanza-plan-retiros-voluntarios-empleados-publicos",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "trabajo",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "68/2026",
+    "organismoEmisor": "ANSES - Administración Nacional de la Seguridad Social",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339473/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "ANSES abre retiros voluntarios: el Estado achica su planta de empleados",
+    "resumen": "La ANSES puso en marcha un plan de retiros voluntarios para sus empleados. En los papeles se llama 'Plan de Retiros de Voluntad Recíproca', pero en la práctica es una herramienta para reducir la planta de personal del organismo que maneja las jubilaciones de millones de argentinos.\n\nEl plan permite que empleados de ANSES negocien su salida con una indemnización, similar a un retiro voluntario del sector privado. La medida se enmarca en las políticas de 'transformación del Estado' que viene impulsando el gobierno, que ya aplicó esquemas similares en otros organismos.\n\nPara los trabajadores de ANSES que quieran irse, se abre una ventana de oportunidad con compensación económica. Pero para los que se quedan, significa más carga de trabajo con menos personal. Y para los jubilados que dependen del organismo, habrá que ver si la reducción de personal no afecta la calidad de atención.",
+    "contexto": "¿Qué es un Plan de Retiros Voluntarios? Es cuando el Estado ofrece dinero a sus empleados para que renuncien voluntariamente. Se llama 'de voluntad recíproca' porque tanto el empleado como el empleador tienen que estar de acuerdo. No es un despido, pero tampoco es completamente voluntario: muchas veces estos planes vienen acompañados de presión para que la gente se vaya.",
+    "puntosClaves": [
+      {
+        "titulo": "Indemnización por irse",
+        "descripcion": "Los empleados que acepten el plan recibirán una compensación económica negociada. El monto exacto no se especifica en la resolución, pero típicamente estos planes ofrecen entre 6 y 12 meses de sueldo dependiendo de la antigüedad."
+      },
+      {
+        "titulo": "Negociación en el SECLO",
+        "descripcion": "Las desvinculaciones se van a tramitar en el Servicio de Conciliación Laboral Obligatoria (SECLO), el mismo lugar donde se negocian los despidos del sector privado. Esto le da un marco legal a las salidas y evita futuros juicios."
+      },
+      {
+        "titulo": "Menos empleados, ¿mismo servicio?",
+        "descripcion": "La resolución no dice cuántos puestos se buscan eliminar ni cómo se va a garantizar que el servicio a jubilados y beneficiarios de asignaciones no se deteriore. ANSES atiende a más de 18 millones de personas."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Empleados de ANSES",
+        "icono": "briefcase",
+        "descripcion": "Unos 15.000 trabajadores del organismo ahora tienen la opción de irse con una indemnización. Para algunos puede ser una oportunidad, pero para otros es una señal de que el clima laboral se va a poner difícil si no aceptan."
+      },
+      {
+        "grupo": "Jubilados y beneficiarios",
+        "icono": "users",
+        "descripcion": "Los 7 millones de jubilados y 4 millones de beneficiarios de AUH dependen de ANSES para cobrar. Si hay menos empleados atendiendo, los trámites podrían demorar más y la atención empeorar."
+      },
+      {
+        "grupo": "Contribuyentes",
+        "icono": "wallet",
+        "descripcion": "Las indemnizaciones salen del presupuesto público. En el corto plazo es un gasto extra, pero el gobierno apuesta a que a largo plazo se ahorra en sueldos."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 68/2026 - ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Aprobación del Plan",
+        "contenido": "Apruébase el 'Plan de Retiros de Voluntad Recíproca (RVR)' que como Anexo IF-2026-25966336-ANSES-ANSES forma parte integrante de la presente Resolución."
+      },
+      {
+        "numero": "2",
+        "titulo": "Implementación",
+        "contenido": "Delégase en la Dirección General de Recursos Humanos la implementación del Plan aprobado, incluyendo la aprobación de los modelos de acuerdos de desvinculación para su presentación ante la autoridad laboral."
+      },
+      {
+        "numero": "3",
+        "titulo": "Representación ante SECLO",
+        "contenido": "Autorízase a los abogados de ANSES con poderes de representación judicial a representar al organismo ante el Servicio de Conciliación Laboral Obligatoria (SECLO) para negociar la extinción de contratos de trabajo conforme el artículo 241 de la Ley 20.744."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/oficinas.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["anses", "retiro voluntario", "empleo público", "ajuste", "jubilados"]
+}

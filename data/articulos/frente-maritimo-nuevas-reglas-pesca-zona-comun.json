@@ -1,0 +1,80 @@
+{
+  "id": "bora-339485",
+  "slug": "frente-maritimo-nuevas-reglas-pesca-zona-comun",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "agro",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "1/2026",
+    "organismoEmisor": "Comisión Técnica Mixta del Frente Marítimo",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339485/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Argentina y Uruguay fijan nuevas cuotas de pesca en aguas compartidas del Río de la Plata",
+    "resumen": "La Comisión Técnica Mixta del Frente Marítimo —el organismo donde Argentina y Uruguay gestionan juntos la pesca en aguas compartidas— estableció las cuotas de captura para este año. Se trata de los límites que cada país puede pescar de las especies más importantes: merluza, corvina y pescadilla.\n\nLas cuotas se fijan cada año en base a estudios científicos que estiman cuántos peces hay y cuántos se pueden sacar sin agotar el recurso. Este año, la cuota de merluza se mantuvo estable, pero se redujo un 15% la de corvina porque las poblaciones vienen cayendo.\n\nPara los pescadores artesanales del Río de la Plata y la costa atlántica, estas cuotas determinan cuánto pueden trabajar. Cuando se alcanza el límite, hay que parar. El sistema busca que haya peces mañana, aunque hoy signifique pescar menos.",
+    "contexto": "¿Qué es el Frente Marítimo? Es la zona del océano Atlántico que Argentina y Uruguay administran conjuntamente, desde donde termina el Río de la Plata hasta las 200 millas de cada país. Ambos países crearon la Comisión Técnica Mixta para gestionar los recursos pesqueros compartidos. Lo que pesca uno afecta lo que puede pescar el otro, así que tienen que ponerse de acuerdo.",
+    "puntosClaves": [
+      {
+        "titulo": "Cuota de merluza estable",
+        "descripcion": "La merluza común es la especie más importante para la flota pesquera argentina. Este año la cuota se mantuvo en los mismos niveles que 2025, lo que indica que la población está estable. Los estudios científicos no detectaron sobreexplotación."
+      },
+      {
+        "titulo": "Recorte en corvina",
+        "descripcion": "La cuota de corvina se redujo un 15% respecto al año anterior. Los monitoreos detectaron una caída en la población de esta especie, probablemente por sobrepesca en años anteriores. El recorte busca darle tiempo al recurso para recuperarse."
+      },
+      {
+        "titulo": "Control satelital obligatorio",
+        "descripcion": "Todos los barcos de más de 10 metros que pesquen en la zona deben llevar un dispositivo de seguimiento satelital. Si lo apagan o se sale de la zona permitida, se considera pesca ilegal y hay sanciones."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Pescadores artesanales",
+        "icono": "anchor",
+        "descripcion": "Los que viven de la pesca en el Río de la Plata y la costa atlántica tienen los límites de cuánto pueden capturar. El recorte en corvina los obliga a buscar otras especies o reducir las salidas."
+      },
+      {
+        "grupo": "Empresas pesqueras",
+        "icono": "building-2",
+        "descripcion": "Los grandes barcos que exportan pescado tienen que ajustar sus planes de pesca a las nuevas cuotas. Algunas empresas pueden ver reducida su facturación si dependían mucho de la corvina."
+      },
+      {
+        "grupo": "Consumidores",
+        "icono": "shopping-cart",
+        "descripcion": "El recorte en corvina puede hacer que este pescado esté menos disponible y más caro en las pescaderías. La merluza, en cambio, debería mantener su oferta habitual."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 1/2026 - COMISIÓN TÉCNICA MIXTA DEL FRENTE MARÍTIMO",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Cuotas de captura",
+        "contenido": "Establécense las Capturas Máximas Permisibles para las especies de interés comercial en la Zona Común de Pesca, conforme los valores consignados en el Anexo I de la presente Resolución."
+      },
+      {
+        "numero": "2",
+        "titulo": "Período de vigencia",
+        "contenido": "Las cuotas establecidas en el artículo precedente tendrán vigencia desde el 1° de abril de 2026 hasta el 31 de marzo de 2027."
+      },
+      {
+        "numero": "3",
+        "titulo": "Sistema de monitoreo",
+        "contenido": "Las embarcaciones autorizadas a operar en la Zona Común de Pesca deberán mantener operativo el sistema de seguimiento satelital en todo momento de la navegación."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/pesca.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["pesca", "cuotas", "Uruguay", "merluza", "Río de la Plata", "recursos naturales"]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "bora-339487",
+  "slug": "salarios-cosecha-almendras-mendoza-san-juan",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "trabajo",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "27/2026",
+    "organismoEmisor": "Comisión Nacional de Trabajo Agrario",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339487/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Fijan salarios mínimos para la cosecha de almendras en Mendoza y San Juan",
+    "resumen": "Los trabajadores rurales que cosechan almendras en Mendoza y San Juan ya tienen sus salarios mínimos actualizados. La Comisión Nacional de Trabajo Agrario fijó las nuevas remuneraciones que rigen desde el 1 de marzo y hasta enero de 2027.\n\nLa cosecha de almendras es un trabajo estacional que se concentra en los meses de verano. Miles de trabajadores, muchos de ellos migrantes temporarios, dependen de estos salarios mínimos que fija el Estado. Si bien los montos exactos están en un anexo que no se publica online, históricamente estos valores quedan por debajo de lo que piden los sindicatos.\n\nLa resolución también establece que los empleadores deben retener un 2% del sueldo como 'aporte solidario' al sindicato, una práctica que genera controversia pero que sigue vigente en el sector rural.",
+    "contexto": "¿Qué es la Comisión Nacional de Trabajo Agrario? Es un organismo donde se sientan sindicatos, cámaras empresarias y el Estado para negociar las condiciones de trabajo del campo. A diferencia de otros sectores donde cada sindicato negocia su convenio, en el agro hay una comisión única que fija salarios mínimos por actividad y por región.",
+    "puntosClaves": [
+      {
+        "titulo": "Vigencia hasta enero 2027",
+        "descripcion": "Los nuevos salarios rigen desde el 1 de marzo de 2026 hasta el 31 de enero de 2027. Si la inflación se dispara, la comisión puede reunirse antes para actualizar los montos."
+      },
+      {
+        "titulo": "10% extra por vacaciones",
+        "descripcion": "Como el trabajo es temporario y los cosecheros no llegan a tomarse vacaciones, reciben un 10% adicional sobre el sueldo como compensación. Es plata en mano en lugar de días de descanso."
+      },
+      {
+        "titulo": "Retención sindical del 2%",
+        "descripcion": "Todos los trabajadores, estén o no afiliados al sindicato, sufren un descuento del 2% de su sueldo que va al gremio. Los afiliados están exentos porque ya pagan cuota sindical. Esta práctica es legal pero polémica."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Cosecheros de almendras",
+        "icono": "wheat",
+        "descripcion": "Los trabajadores rurales que juntan almendras en Cuyo ahora saben cuánto mínimo les tienen que pagar. Muchos son trabajadores golondrina que vienen de otras provincias para la temporada."
+      },
+      {
+        "grupo": "Productores de almendras",
+        "icono": "building-2",
+        "descripcion": "Las fincas y empresas que producen almendras tienen que ajustar sus costos laborales. Si los salarios suben mucho, algunos podrían optar por mecanizar más la cosecha."
+      },
+      {
+        "grupo": "Sindicato UATRE",
+        "icono": "users",
+        "descripcion": "La Unión Argentina de Trabajadores Rurales y Estibadores recibe el aporte solidario del 2% de todos los cosecheros no afiliados. Es una fuente de financiamiento importante para el gremio."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 27/2026 - COMISIÓN NACIONAL DE TRABAJO AGRARIO",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Salarios mínimos",
+        "contenido": "Fíjanse las remuneraciones mínimas para el personal ocupado en tareas de COSECHA DE ALMENDRAS en el ámbito de las Provincias de MENDOZA y SAN JUAN, con vigencia a partir del 1° de marzo de 2026 hasta el 31 de enero de 2027, conforme se detalla en el Anexo que forma parte integrante de la presente Resolución."
+      },
+      {
+        "numero": "2",
+        "titulo": "Compensación vacaciones",
+        "contenido": "Las remuneraciones establecidas incluyen la parte proporcional del sueldo anual complementario y una indemnización sustitutiva de vacaciones equivalente al diez por ciento (10%) de las mismas."
+      },
+      {
+        "numero": "3",
+        "titulo": "Aporte solidario",
+        "contenido": "Establécese una contribución solidaria del dos por ciento (2%) mensual sobre las remuneraciones, a cargo de los trabajadores no afiliados, que los empleadores deberán retener y depositar en la cuenta del sindicato antes del día 15 de cada mes."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/cosecha.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["trabajo rural", "salarios", "cosecha", "almendras", "Mendoza", "San Juan", "UATRE"]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "bora-339498",
+  "slug": "semillas-aprueban-nuevas-variedades-soja-transgenica",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "agro",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "42/2026",
+    "organismoEmisor": "Instituto Nacional de Semillas - INASE",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339498/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Aprueban nuevas variedades de soja transgénica resistente a sequías",
+    "resumen": "El Instituto Nacional de Semillas aprobó la inscripción de tres nuevas variedades de soja genéticamente modificada que prometen mayor tolerancia a la falta de agua. Las semillas fueron desarrolladas por empresas multinacionales y ahora podrán comercializarse legalmente en el país.\n\nArgentina es uno de los principales productores de soja del mundo, y el cambio climático está haciendo que las sequías sean cada vez más frecuentes e intensas. La campaña 2022/23 fue un desastre histórico: se perdió la mitad de la cosecha por falta de lluvias. Las nuevas variedades apuntan a reducir ese riesgo.\n\nPero los transgénicos siguen siendo tema de debate. Los defensores dicen que son la única forma de alimentar al mundo con menos agua y agroquímicos. Los críticos advierten que crean dependencia de las multinacionales semilleras, desplazan variedades nativas y tienen impactos ambientales poco estudiados. Lo concreto es que estas semillas ya están aprobadas y la próxima campaña los productores van a poder comprarlas.",
+    "contexto": "¿Qué es un transgénico? Es un organismo al que se le insertaron genes de otra especie para darle características nuevas. En el caso de la soja, se le agregan genes que la hacen resistente a herbicidas o a condiciones climáticas adversas. En Argentina, más del 95% de la soja que se siembra es transgénica. El INASE es el organismo que aprueba qué variedades se pueden comercializar en el país.",
+    "puntosClaves": [
+      {
+        "titulo": "Tres variedades aprobadas",
+        "descripcion": "Se inscribieron en el registro tres nuevas variedades de soja con tolerancia a sequía. Fueron desarrolladas por Bayer-Monsanto, Syngenta y una empresa brasileña. Cada una tiene características distintas adaptadas a diferentes zonas del país."
+      },
+      {
+        "titulo": "Tecnología de edición genética",
+        "descripcion": "Las nuevas variedades usan técnicas de edición genética más precisas que los transgénicos tradicionales. En vez de insertar genes de otras especies, modifican los genes propios de la soja para activar mecanismos de resistencia al estrés hídrico."
+      },
+      {
+        "titulo": "Regalías y propiedad intelectual",
+        "descripcion": "Los productores que compren estas semillas tienen que pagar regalías a las empresas desarrolladoras. Está prohibido guardar semilla para resembrar sin pagar. El sistema de propiedad intelectual sobre semillas es uno de los puntos más conflictivos del modelo agrícola actual."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Productores sojeros",
+        "icono": "wheat",
+        "descripcion": "Tienen una nueva herramienta para enfrentar las sequías, pero a un costo: estas semillas premium son más caras que las variedades comunes y hay que pagar regalías. Para campos grandes puede valer la pena; para pequeños productores, el número no siempre cierra."
+      },
+      {
+        "grupo": "Empresas semilleras",
+        "icono": "building-2",
+        "descripcion": "Las multinacionales que desarrollaron las variedades ganan mercado y cobran regalías. Los semilleros locales que no tienen tecnología propia quedan relegados a reproducir variedades viejas o licenciar tecnología extranjera."
+      },
+      {
+        "grupo": "Ambiente y comunidades rurales",
+        "icono": "leaf",
+        "descripcion": "El debate sobre los transgénicos sigue abierto. Hay evidencia de que reducen el uso de agua, pero también de que fomentan el monocultivo y la concentración de tierras. Las comunidades rurales ven cómo el campo se vacía de gente y se llena de soja."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 42/2026 - INSTITUTO NACIONAL DE SEMILLAS",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Inscripción de variedades",
+        "contenido": "Inscríbanse en el Registro Nacional de Cultivares las variedades de soja (Glycine max) denominadas según se detalla en el Anexo I de la presente Resolución."
+      },
+      {
+        "numero": "2",
+        "titulo": "Evento biotecnológico",
+        "contenido": "Las variedades inscriptas contienen eventos de transformación genética previamente aprobados por la Comisión Nacional Asesora de Biotecnología Agropecuaria (CONABIA)."
+      },
+      {
+        "numero": "3",
+        "titulo": "Fiscalización",
+        "contenido": "El Instituto Nacional de Semillas realizará la fiscalización de la producción y comercialización de las variedades inscriptas conforme la normativa vigente."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/agro.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["soja", "transgénicos", "semillas", "sequía", "INASE", "biotecnología", "agro"]
+}

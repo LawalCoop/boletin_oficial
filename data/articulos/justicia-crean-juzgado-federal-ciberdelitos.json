@@ -1,0 +1,80 @@
+{
+  "id": "bora-339505",
+  "slug": "justicia-crean-juzgado-federal-ciberdelitos",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "justicia",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "66/2026",
+    "organismoEmisor": "Ministerio de Justicia",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339505/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Crean un juzgado federal especializado en ciberdelitos y estafas virtuales",
+    "resumen": "El Ministerio de Justicia dispuso la creación de un juzgado federal especializado en ciberdelitos, con sede en Buenos Aires y competencia en todo el país. Es el primero de este tipo en Argentina y va a concentrar las causas por estafas virtuales, ransomware, robo de datos y otros delitos informáticos.\n\nLas estafas virtuales se multiplicaron exponencialmente en los últimos años. Las fiscalías reciben miles de denuncias por mes: desde el clásico cuento del tío por WhatsApp hasta ataques de hackers que secuestran los datos de empresas y piden rescate en criptomonedas. El problema es que los delitos digitales son difíciles de investigar con las herramientas tradicionales.\n\nEl nuevo juzgado va a tener fiscales y peritos especializados en tecnología, con capacidad para rastrear criptomonedas, analizar malware y pedir colaboración a plataformas internacionales como Google o Meta. La idea es que los casos no mueran en fiscalías sobrepasadas que no saben por dónde empezar.",
+    "contexto": "¿Por qué un juzgado especializado? Los delitos informáticos tienen características particulares: los autores pueden estar en cualquier parte del mundo, las pruebas son digitales y pueden desaparecer en segundos, y las investigaciones requieren conocimientos técnicos que la mayoría de los fiscales no tiene. Un juzgado especializado concentra recursos y expertise para abordar estos casos.",
+    "puntosClaves": [
+      {
+        "titulo": "Competencia nacional",
+        "descripcion": "A diferencia de otros juzgados federales que tienen competencia territorial, este nuevo juzgado puede intervenir en ciberdelitos cometidos en cualquier parte del país. Esto evita la dispersión de casos similares en distintas jurisdicciones."
+      },
+      {
+        "titulo": "Equipo técnico propio",
+        "descripcion": "El juzgado va a tener peritos informáticos de planta, no depender de la Policía Federal para cada análisis técnico. También tendrá convenios con empresas de ciberseguridad y universidades para casos complejos."
+      },
+      {
+        "titulo": "Unidad de criptoactivos",
+        "descripcion": "Se crea una unidad especializada en rastrear transacciones de criptomonedas, que son el método de pago preferido por estafadores y hackers porque son difíciles de rastrear. Argentina tiene tratados con exchanges internacionales que permiten solicitar información de cuentas."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Víctimas de estafas virtuales",
+        "icono": "users",
+        "descripcion": "Quienes sufrieron estafas por internet tendrán un lugar especializado donde denunciar con más chances de que el caso avance. Hasta ahora, la mayoría de las denuncias morían en fiscalías desbordadas."
+      },
+      {
+        "grupo": "Empresas afectadas por ciberataques",
+        "icono": "building-2",
+        "descripcion": "Las compañías que sufren ataques de ransomware o robo de datos tendrán interlocutores que entienden de qué les están hablando. Esto puede agilizar las investigaciones y recuperación de información."
+      },
+      {
+        "grupo": "Ciberdelincuentes",
+        "icono": "user-x",
+        "descripcion": "Los que operan estafas desde Argentina van a tener más difícil quedar impunes. Hasta ahora, muchos se aprovechaban de que las fiscalías comunes no tenían recursos para investigarlos."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIÓN 66/2026 - MINISTERIO DE JUSTICIA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Creación del juzgado",
+        "contenido": "Créase el Juzgado Federal en lo Criminal y Correccional Especializado en Ciberdelitos N° 1, con asiento en la Ciudad Autónoma de Buenos Aires y competencia en todo el territorio nacional."
+      },
+      {
+        "numero": "2",
+        "titulo": "Competencia",
+        "contenido": "El Juzgado creado por el artículo 1° entenderá en los delitos previstos en la Ley de Delitos Informáticos N° 26.388, sus modificatorias y toda otra norma que tipifique conductas delictivas cometidas mediante sistemas informáticos o redes de comunicación."
+      },
+      {
+        "numero": "3",
+        "titulo": "Estructura",
+        "contenido": "Asígnase al Juzgado la estructura funcional detallada en el Anexo I, que incluye una Unidad de Análisis de Criptoactivos y un Laboratorio de Informática Forense."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/justicia.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["justicia", "ciberdelitos", "estafas", "tecnología", "criptomonedas", "seguridad"]
+}

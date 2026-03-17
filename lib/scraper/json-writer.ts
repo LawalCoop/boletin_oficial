@@ -114,6 +114,7 @@ export function buildArticulo(
     contenidoIA: {
       titulo: aiResult.titulo,
       resumen: aiResult.resumen,
+      contexto: aiResult.contexto,
       puntosClaves: aiResult.puntosClaves,
       aQuienAfecta: aiResult.aQuienAfecta,
     },
@@ -174,6 +175,7 @@ export async function writeNoticiasDia(
     return buildPreview(art, aiResult || {
       titulo: art.contenidoIA.titulo,
       resumen: art.contenidoIA.resumen,
+      contexto: art.contenidoIA.contexto || '',
       puntosClaves: art.contenidoIA.puntosClaves,
       aQuienAfecta: art.contenidoIA.aQuienAfecta,
       tema: art.metadata.tema,

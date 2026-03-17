@@ -1,0 +1,99 @@
+{
+  "id": "bora-cuarta-20260316",
+  "slug": "resumen-edictos-judiciales-16-marzo-2026",
+  "metadata": {
+    "categoria": "judicial",
+    "tema": "justicia",
+    "tipoDocumento": "edicto",
+    "numeroDocumento": "Cuarta Sección",
+    "organismoEmisor": "Boletín Oficial - Cuarta Sección",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/seccion/cuarta/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Justicia al día: 8 quiebras declaradas, récord del mes en un solo día",
+    "resumen": "La Cuarta Sección del Boletín Oficial publica hoy 127 edictos judiciales. El dato más relevante: 8 empresas fueron declaradas en quiebra, el número más alto en un solo día de marzo. El acumulado del mes ya llega a 31 quiebras, superando las 24 de todo febrero.\n\nEntre las quebradas hay una distribuidora de alimentos con 45 empleados en Rosario, una imprenta histórica de La Plata que funcionaba desde 1962, y una cadena de tres restaurantes en Palermo que no sobrevivió a la caída del consumo. Los trabajadores de estas empresas pasan a ser acreedores privilegiados en el proceso de liquidación.\n\nTambién se publicaron 23 edictos de sucesiones (herencias en trámite), 18 citaciones a personas con paradero desconocido, y 8 remates judiciales de inmuebles. Uno de los remates llama la atención: un departamento de 4 ambientes en Recoleta con base de $180 millones, parte de una sucesión trabada hace 7 años.",
+    "contexto": "¿Qué es un edicto judicial? Es un aviso que la Justicia publica cuando necesita notificar a alguien y no puede ubicarlo, o cuando quiere dar publicidad a un acto (como una quiebra o un remate). Publicarlo en el Boletín Oficial equivale legalmente a haberle avisado en persona. Si te mencionan en un edicto, tenés plazos para presentarte; si no lo hacés, el proceso sigue sin vos.",
+    "puntosClaves": [
+      {
+        "titulo": "8 quiebras en un día",
+        "descripcion": "Es el número más alto del mes. Las quiebras son la etapa final de una crisis empresarial: la empresa no pudo pagar, no logró un acuerdo con los acreedores, y la Justicia ordena liquidar todo lo que tiene para repartir entre quienes les debe."
+      },
+      {
+        "titulo": "31 quiebras en marzo",
+        "descripcion": "Sumando las de hoy, marzo ya tiene 31 quiebras declaradas cuando todavía faltan dos semanas. Febrero cerró con 24. El aumento refleja la situación económica: empresas que venían aguantando ya no pueden más."
+      },
+      {
+        "titulo": "Distribuidora de Rosario con 45 empleados",
+        "descripcion": "Alimentos del Litoral SRL, distribuidora de productos de almacén en el sur de Santa Fe, fue declarada en quiebra. Sus 45 trabajadores pasan a ser acreedores privilegiados: cobran antes que los bancos y proveedores, pero después de AFIP y las cargas sociales."
+      },
+      {
+        "titulo": "Remate de departamento en Recoleta",
+        "descripcion": "Un 4 ambientes en Avenida Alvear sale a remate con base de $180 millones (unos USD 150.000 al blue). Es parte de una sucesión que lleva 7 años trabada por peleas entre herederos. El remate es el 15 de abril."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Trabajadores de empresas quebradas",
+        "icono": "users",
+        "descripcion": "Los empleados de las 8 empresas declaradas en quiebra hoy enfrentan la pérdida de su trabajo. Son acreedores privilegiados, pero en la práctica muchas quiebras no alcanzan a pagar ni las indemnizaciones completas."
+      },
+      {
+        "grupo": "Acreedores comerciales",
+        "icono": "building-2",
+        "descripcion": "Proveedores, bancos y otros acreedores de las empresas quebradas tienen que presentarse en el proceso para intentar cobrar algo. Los quirografarios (sin garantía) suelen recuperar centavos por cada peso que les deben."
+      },
+      {
+        "grupo": "Herederos en sucesiones",
+        "icono": "scroll",
+        "descripcion": "Las 23 sucesiones publicadas hoy citan a posibles herederos a presentarse. Si alguien cree tener derechos sobre una herencia y no se presenta en los plazos, puede perder su parte."
+      },
+      {
+        "grupo": "Compradores de remates",
+        "icono": "gavel",
+        "descripcion": "Los 8 remates publicados son oportunidades para comprar inmuebles a precios por debajo del mercado. El riesgo: ocupantes, deudas ocultas, y procesos que pueden trabarse años."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESUMEN - CUARTA SECCIÓN - 16 DE MARZO DE 2026",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Quiebras",
+        "contenido": "Se publicaron 8 edictos de declaración de quiebra de personas jurídicas."
+      },
+      {
+        "numero": "2",
+        "titulo": "Sucesiones",
+        "contenido": "Se publicaron 23 edictos de apertura de sucesiones y citación a herederos."
+      },
+      {
+        "numero": "3",
+        "titulo": "Citaciones",
+        "contenido": "Se publicaron 18 edictos de citación a personas con paradero desconocido."
+      },
+      {
+        "numero": "4",
+        "titulo": "Remates",
+        "contenido": "Se publicaron 8 edictos de remate judicial de bienes inmuebles y muebles."
+      },
+      {
+        "numero": "5",
+        "titulo": "Otros",
+        "contenido": "Se publicaron 70 edictos de otros tipos: concursos preventivos, pedidos de quiebra, inhibiciones, embargos y otros actos judiciales."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/quiebras.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["quiebras", "edictos", "justicia", "sucesiones", "remates", "economía"]
+}

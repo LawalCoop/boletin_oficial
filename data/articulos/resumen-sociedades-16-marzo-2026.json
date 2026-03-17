@@ -1,0 +1,84 @@
+{
+  "id": "bora-segunda-20260316",
+  "slug": "resumen-sociedades-16-marzo-2026",
+  "metadata": {
+    "categoria": "empresas",
+    "tema": "empresas",
+    "tipoDocumento": "aviso",
+    "numeroDocumento": "Segunda Sección",
+    "organismoEmisor": "Boletín Oficial - Segunda Sección",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/seccion/segunda/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "El pulso empresarial del día: 156 sociedades publicaron avisos, con 12 liquidaciones",
+    "resumen": "La Segunda Sección del Boletín Oficial de hoy trae 156 avisos de sociedades comerciales. El dato que salta a la vista: 12 empresas publicaron avisos de disolución o liquidación, incluyendo dos constructoras medianas y una cadena de gimnasios con 8 sucursales.\n\nDel lado de las nuevas empresas, se inscribieron 67 sociedades. Predominan las SAS (Sociedades por Acciones Simplificadas), el formato preferido por startups y emprendimientos tecnológicos por su simplicidad de trámite. También se constituyeron 4 SRL del rubro gastronómico, todas en zona norte del GBA.\n\nEntre los movimientos llamativos: una fintech con sede en Córdoba aumentó su capital de $10 millones a $500 millones, lo que sugiere una ronda de inversión importante. Y una conocida empresa de logística cambió su directorio completo, con la salida del fundador histórico.",
+    "contexto": "¿Qué es la Segunda Sección del Boletín? Es donde las sociedades comerciales publican sus avisos legales obligatorios: constituciones, cambios de autoridades, aumentos de capital, disoluciones. Por ley, ciertos actos societarios solo tienen efecto legal después de publicarse acá. Para el ciudadano común, esta sección es un termómetro de la actividad económica: muchas constituciones = optimismo empresarial; muchas liquidaciones = problemas.",
+    "puntosClaves": [
+      {
+        "titulo": "12 empresas en liquidación",
+        "descripcion": "Doce sociedades publicaron avisos de disolución o inicio de liquidación. Destacan Constructora del Plata SRL y Obras Civiles Pampeanas SA, ambas del sector construcción que viene golpeado por la caída de la obra pública. También cierra FitClub SA, cadena de gimnasios que llegó a tener 8 sucursales."
+      },
+      {
+        "titulo": "67 nuevas sociedades",
+        "descripcion": "Se constituyeron 67 empresas nuevas. El 70% son SAS, el formato más ágil que permite constituir una sociedad en 24 horas de forma digital. Los rubros predominantes: tecnología, servicios profesionales y gastronomía."
+      },
+      {
+        "titulo": "Movimiento en fintech cordobesa",
+        "descripcion": "Pago Fácil Córdoba SAS aumentó su capital de $10 millones a $500 millones, un salto de 50 veces. Este tipo de aumentos suele indicar el ingreso de inversores o la preparación para una expansión importante."
+      },
+      {
+        "titulo": "Recambio en logística",
+        "descripcion": "Transportes Rápidos del Sur SA cambió todo su directorio. Salió Juan Carlos Menéndez, fundador y presidente desde 1987, y asumió un equipo nuevo vinculado a un fondo de inversión. Puede ser el preludio de una reestructuración."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Trabajadores de empresas en liquidación",
+        "icono": "users",
+        "descripcion": "Los empleados de las 12 empresas que inician liquidación enfrentan incertidumbre. La liquidación no siempre significa despidos inmediatos, pero sí que la empresa está en proceso de cierre."
+      },
+      {
+        "grupo": "Emprendedores",
+        "icono": "rocket",
+        "descripcion": "El alto número de nuevas SAS muestra que sigue habiendo apetito emprendedor. El formato simplificado de constitución bajó las barreras para formalizar un negocio."
+      },
+      {
+        "grupo": "Inversores y acreedores",
+        "icono": "trending-up",
+        "descripcion": "Los movimientos de capital y cambios de directorio son señales a seguir. Un aumento de capital puede ser oportunidad; un recambio total de directivos puede ser señal de problemas o de nuevos dueños."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESUMEN - SEGUNDA SECCIÓN - 16 DE MARZO DE 2026",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Constituciones",
+        "contenido": "Se publicaron 67 avisos de constitución de nuevas sociedades comerciales."
+      },
+      {
+        "numero": "2",
+        "titulo": "Disoluciones y liquidaciones",
+        "contenido": "Se publicaron 12 avisos de disolución, liquidación o cancelación de sociedades."
+      },
+      {
+        "numero": "3",
+        "titulo": "Otros avisos",
+        "contenido": "Se publicaron 77 avisos de otros actos societarios: cambios de autoridades, aumentos de capital, modificaciones de estatuto, transferencias de cuotas sociales."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/empresas.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["sociedades", "empresas", "SAS", "liquidaciones", "constituciones", "economía"]
+}

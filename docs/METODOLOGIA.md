@@ -188,6 +188,33 @@ El Boletín Oficial tiene 4 secciones principales que mapeamos a categorías del
 | **Tercera** | Licitaciones y contrataciones públicas | `contrataciones` | contrataciones |
 | **Cuarta** | Edictos judiciales, avisos legales | `judicial` | justicia |
 
+### Tratamiento por Sección
+
+#### Primera Sección (Legislación)
+- **Artículos individuales** para cada decreto, resolución o disposición relevante
+- Se procesan todos los documentos con impacto ciudadano
+- Priorizar: economía, tarifas, empleo, salud, educación, seguridad
+
+#### Segunda Sección (Sociedades)
+- **Un artículo resumen diario** con las sociedades más relevantes del día
+- Destacar: constituciones de empresas grandes, disoluciones/liquidaciones llamativas, cambios de directorio en empresas conocidas, aumentos de capital significativos
+- Mencionar el volumen total: "Hoy se publicaron X avisos de sociedades"
+- Identificar patrones: "Predominan las SAS tecnológicas" o "Varias constructoras en liquidación"
+
+#### Tercera Sección (Licitaciones)
+- **Un artículo resumen diario** de las licitaciones más importantes
+- Destacar: las de mayor monto, las de obra pública relevante, las de sectores sensibles (salud, educación, seguridad)
+- Incluir montos en pesos y contexto ("equivalente a X salarios mínimos" o "suficiente para construir X escuelas")
+- Mencionar volumen total: "Hoy se publicaron X licitaciones por un total de $X millones"
+
+#### Cuarta Sección (Edictos Judiciales)
+- **Un artículo resumen diario** destacando:
+  - **Cantidad de quiebras** declaradas ese día (dato clave de salud económica)
+  - Quiebras de empresas conocidas o de sectores en crisis
+  - Sucesiones llamativas (grandes patrimonios, casos públicos)
+  - Edictos de búsqueda de personas o citaciones masivas
+- No publicar edictos individuales salvo casos de interés público excepcional
+
 ### Tipos de Documentos
 
 ```typescript
@@ -284,43 +311,60 @@ El lector que lee BoletínAI regularmente debería, con el tiempo:
 
 ### Resumen (Campo `resumen`)
 
-**Tono**: Como el primer párrafo de una nota de Infobae o La Nación. Narrativo, fluido, que enganche.
+**Tono**: Como una nota periodística completa, no solo el primer párrafo. Narrativo, fluido, que informe de verdad.
 
-**Estructura sugerida** (3-4 oraciones):
-1. **El gancho**: Qué cambió y por qué importa
-2. **El contexto**: Una oración que explique el "por qué" o el antecedente
-3. **El dato duro**: El número, fecha o detalle concreto más relevante
+**Estructura sugerida** (5-7 oraciones):
+1. **El gancho** (1-2 oraciones): Qué cambió y por qué importa. Arrancar con impacto.
+2. **El contexto** (1-2 oraciones): Antecedentes, situación actual, por qué se tomó esta medida.
+3. **Los detalles clave** (1-2 oraciones): Números, plazos, montos, obligaciones concretas.
+4. **El impacto** (1-2 oraciones): Cómo afecta a la gente común, qué cambia en la práctica.
 
 **Ejemplo**:
 
-❌ **Malo** (burocrático):
+❌ **Malo** (burocrático y corto):
 > La Secretaría de Energía publicó la Resolución 119/2025 con actualizaciones para el funcionamiento del mercado eléctrico mayorista. Se modifican los mecanismos de despacho y se incorporan incentivos para energías renovables.
 
-✅ **Bueno** (periodístico-pedagógico):
-> A partir de ahora, cuando haya que decidir qué central eléctrica abastece al país, las renovables van primero. La Secretaría de Energía acaba de cambiar las reglas del juego en el mercado eléctrico mayorista —el sistema donde las generadoras venden energía a las distribuidoras— con un claro mensaje: la transición energética es prioridad. El cambio entra en vigencia en 30 días.
+✅ **Bueno** (periodístico-pedagógico y completo):
+> A partir de ahora, cuando haya que decidir qué central eléctrica abastece al país, las renovables van primero. La Secretaría de Energía acaba de cambiar las reglas del juego en el mercado eléctrico mayorista —el sistema donde las generadoras venden energía a las distribuidoras— con un claro mensaje: la transición energética es prioridad.
+>
+> La medida llega en un contexto donde Argentina busca cumplir sus compromisos ambientales y reducir la dependencia del gas importado. Concretamente, los parques solares y eólicos tendrán despacho garantizado antes que las centrales térmicas, lo que les asegura ingresos más estables.
+>
+> Para los usuarios, el impacto no será inmediato en la boleta, pero a mediano plazo podría significar tarifas más predecibles al depender menos de combustibles con precios volátiles. El cambio entra en vigencia en 30 días.
 
 **Técnicas clave**:
 - **Explicar inline**: "el mercado eléctrico mayorista —el sistema donde las generadoras venden energía—"
 - **Usar analogías**: "cambiar las reglas del juego"
-- **Humanizar**: "con un claro mensaje"
+- **Dar contexto real**: "busca cumplir sus compromisos ambientales"
+- **Conectar con el bolsillo**: "para los usuarios... podría significar tarifas más predecibles"
 - **Cerrar con lo concreto**: fechas, números, plazos
 
 ---
 
-### Contexto Educativo (Campo `contexto` - NUEVO)
+### Contexto Educativo (Campo `contexto`) - OBLIGATORIO
 
-Un párrafo que explique **el marco institucional** de la noticia. Es la oportunidad de enseñar cómo funciona el Estado.
+**Este campo es clave para nuestra misión pedagógica.** Cada artículo debe enseñar algo sobre cómo funciona el Estado argentino.
+
+Un párrafo de 2-3 oraciones que explique:
+1. **Qué tipo de norma es** y qué significa eso
+2. **Por qué la firma quien la firma** (jerarquía institucional)
+3. **Qué implica en términos de proceso** (si corresponde)
 
 **Ejemplos por tipo de documento**:
 
 Para un **Decreto**:
-> 📚 **¿Qué es un Decreto?** Es una norma que firma el Presidente. Hay de dos tipos: los comunes (que reglamentan leyes) y los DNU (Decretos de Necesidad y Urgencia), que tienen fuerza de ley pero deben ser aprobados después por el Congreso. Este es un decreto común, lo que significa que no modifica ninguna ley, sino que organiza cómo el Poder Ejecutivo gestiona sus recursos.
+> 📚 **¿Qué es un Decreto?** Es una norma que firma el Presidente. Hay de dos tipos: los comunes (que reglamentan leyes existentes) y los DNU (Decretos de Necesidad y Urgencia), que tienen fuerza de ley pero deben ser aprobados después por el Congreso. Este es un decreto común, lo que significa que no crea derechos nuevos, sino que organiza cómo el Poder Ejecutivo gestiona sus recursos.
 
 Para una **Resolución**:
-> 📚 **¿Por qué una Resolución y no un Decreto?** En Argentina, cada nivel de autoridad tiene su tipo de norma. El Presidente firma Decretos; los Ministros y Secretarios firman Resoluciones. Esta es una Resolución porque la decisión está dentro de las competencias de la Secretaría de Energía, sin necesidad de que intervenga el Presidente.
+> 📚 **¿Por qué una Resolución y no un Decreto?** En Argentina, cada nivel de autoridad tiene su tipo de norma. El Presidente firma Decretos; los Ministros y Secretarios firman Resoluciones. Esta es una Resolución porque la decisión está dentro de las competencias de la Secretaría de Energía, sin necesidad de que intervenga el Presidente. Si mañana quisieran hacer algo más amplio, necesitarían un Decreto.
 
 Para una **Disposición**:
-> 📚 **¿Qué es una Disposición?** Es la norma que emiten los organismos descentralizados —entes con cierta autonomía dentro del Estado, como AFIP, ANSES o el SENASA—. Tienen menos jerarquía que las Resoluciones, pero son igual de obligatorias para quienes les compete.
+> 📚 **¿Qué es una Disposición?** Es la norma que emiten los organismos descentralizados —entes con cierta autonomía dentro del Estado, como AFIP, ANSES o el SENASA—. Tienen menos jerarquía que las Resoluciones, pero son igual de obligatorias para quienes les compete. Que sea una Disposición y no una Resolución nos dice que la decisión la tomó el organismo por su cuenta, sin intervención del Ministerio.
+
+Para una **Licitación**:
+> 📚 **¿Qué es una licitación pública?** Cuando el Estado necesita comprar algo o contratar un servicio, no puede simplemente elegir a dedo: tiene que abrir un concurso público donde cualquier empresa puede presentarse. Esto se publica en el Boletín Oficial para que todos tengan la misma información y puedan competir en igualdad de condiciones.
+
+Para un **Edicto Judicial**:
+> 📚 **¿Por qué se publica esto en el Boletín Oficial?** Cuando la Justicia necesita notificar a alguien y no puede ubicarlo, publica un edicto: un aviso público que legalmente equivale a haberle avisado en persona. Si te ves mencionado en un edicto, tenés plazos legales para responder.
 
 ---
 

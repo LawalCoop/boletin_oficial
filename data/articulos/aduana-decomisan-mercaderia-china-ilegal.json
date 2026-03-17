@@ -1,0 +1,80 @@
+{
+  "id": "bora-339510",
+  "slug": "aduana-decomisan-mercaderia-china-ilegal",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "comercio",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "47/2026",
+    "organismoEmisor": "Dirección General de Aduanas",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339510/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Aduana decomisa contenedores con $2.000 millones en electrónica falsificada de China",
+    "resumen": "La Aduana secuestró tres contenedores llenos de electrónica falsificada que llegaron al puerto de Buenos Aires declarados como 'accesorios de plástico'. El cargamento incluía celulares, auriculares y cargadores truchos que imitaban marcas como Apple, Samsung y Xiaomi. El valor estimado supera los $2.000 millones.\n\nEl operativo es parte de una investigación más amplia sobre una red de importadores que triangula mercadería china ilegal a través de free shops paraguayos. Los productos entran a Argentina subfacturados o directamente de contrabando, y terminan en el circuito comercial compitiendo con los importadores legales.\n\nPara los consumidores, estos productos son un peligro: las imitaciones no pasan ningún control de calidad y pueden tener fallas eléctricas que causan incendios o electrocuciones. Los cargadores truchos son particularmente riesgosos porque suelen tener componentes de mala calidad que no regulan bien el voltaje.",
+    "contexto": "¿Por qué llegan productos truchos de China? El diferencial de costos es enorme: fabricar una imitación en China cuesta centavos, venderla en Argentina rinde dólares. Los falsificadores aprovechan la demanda de productos de marca a precios accesibles. El problema es que evaden impuestos, roban propiedad intelectual y ponen en circulación productos potencialmente peligrosos.",
+    "puntosClaves": [
+      {
+        "titulo": "Declaración falsa de mercadería",
+        "descripcion": "Los contenedores venían declarados como 'artículos de plástico para uso doméstico', que pagan pocos impuestos. Adentro había miles de celulares, auriculares y cables electrónicos, que tienen aranceles mucho más altos. Es una maniobra clásica de contrabando técnico."
+      },
+      {
+        "titulo": "Marcas falsificadas",
+        "descripcion": "Los productos llevaban logos de Apple, Samsung, Xiaomi y otras marcas premium sin ninguna autorización. Además de violar la propiedad intelectual, esto engaña al consumidor que cree estar comprando algo original."
+      },
+      {
+        "titulo": "Investigación en curso",
+        "descripcion": "La Aduana trabaja con la Justicia Federal para identificar a los responsables. Se investiga una red que opera entre China, Paraguay y Argentina, con ramificaciones en el comercio minorista de Once y otras zonas comerciales."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Importadores legales",
+        "icono": "building-2",
+        "descripcion": "Las empresas que importan electrónica pagando todos los impuestos sufren la competencia desleal del contrabando. No pueden competir en precio contra productos que no pagan aranceles ni IVA."
+      },
+      {
+        "grupo": "Consumidores",
+        "icono": "users",
+        "descripcion": "Quienes compraron estos productos sin saberlo tienen artículos de dudosa calidad y sin garantía. Los cargadores truchos pueden dañar la batería del celular o directamente causar accidentes."
+      },
+      {
+        "grupo": "Comerciantes de Once",
+        "icono": "shopping-cart",
+        "descripcion": "La zona comercial de Once es conocida por vender electrónica importada. Algunos locales venden productos legales, otros no tanto. Un operativo así genera incertidumbre sobre toda la zona."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 47/2026 - DIRECCIÓN GENERAL DE ADUANAS",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Decomiso de mercadería",
+        "contenido": "Declárase el comiso de la mercadería detallada en el Acta de Verificación N° 2026/000847, consistente en artículos electrónicos de origen chino ingresados mediante declaración aduanera falsa."
+      },
+      {
+        "numero": "2",
+        "titulo": "Destrucción de productos falsificados",
+        "contenido": "Dispónese la destrucción de los artículos que presenten marcas falsificadas, conforme el procedimiento establecido en la normativa de propiedad intelectual vigente."
+      },
+      {
+        "numero": "3",
+        "titulo": "Comunicación a la Justicia",
+        "contenido": "Remítanse las actuaciones al Juzgado Federal competente para la investigación del presunto delito de contrabando y falsificación de marcas."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/aduana.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["aduana", "contrabando", "electrónica", "China", "falsificación", "comercio"]
+}

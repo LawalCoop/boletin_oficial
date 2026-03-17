@@ -1,0 +1,80 @@
+{
+  "id": "bora-339512",
+  "slug": "transporte-licitacion-renovacion-trenes-sarmiento",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "transporte",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "89/2026",
+    "organismoEmisor": "Ministerio de Transporte",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339512/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Llaman a licitación para renovar 40 coches del Ferrocarril Sarmiento",
+    "resumen": "El Ministerio de Transporte lanzó la licitación pública para la adquisición de 40 coches nuevos para el Ferrocarril Sarmiento, la línea que une Once con Moreno y transporta a cientos de miles de pasajeros cada día. Es una de las líneas más saturadas del AMBA y también una de las que tiene formaciones más viejas.\n\nLos nuevos coches serán fabricados en el país —es un requisito del pliego— y deberían estar operativos en 2028. Reemplazarán a formaciones que tienen más de 40 años de servicio y que ya no se pueden reparar porque no existen repuestos.\n\nEl Sarmiento es el tren de los laburantes del Oeste: Castelar, Morón, Merlo, Moreno. Lleva más de un millón de pasajeros por día en hora pico. Conseguir asiento es un lujo; viajar cómodo, una utopía. Los nuevos coches prometen aire acondicionado, más espacio y sistemas de seguridad modernos.",
+    "contexto": "¿Por qué los trenes argentinos son tan viejos? Durante décadas no hubo inversión en material rodante. Los coches que circulan hoy son en su mayoría de los años 70 y 80, algunos importados de España o Japón cuando allá los descartaron por obsoletos. Los gobiernos compraron trenes usados como parche, pero nunca hubo un plan de renovación integral de la flota.",
+    "puntosClaves": [
+      {
+        "titulo": "40 coches nuevos",
+        "descripcion": "La licitación es por 40 coches de pasajeros para formar 8 trenes de 5 unidades cada uno. Es un número modesto comparado con la flota total del Sarmiento, pero es un comienzo para sacar de circulación las formaciones más deterioradas."
+      },
+      {
+        "titulo": "Fabricación nacional obligatoria",
+        "descripcion": "El pliego exige que al menos el 60% del valor de los coches se fabrique en Argentina. Esto reactiva la industria ferroviaria local, que tiene capacidad instalada pero poca demanda. Las plantas de Mechita y Junín podrían participar."
+      },
+      {
+        "titulo": "Aire acondicionado y accesibilidad",
+        "descripcion": "Los nuevos coches tendrán aire acondicionado —algo que los actuales no tienen—, espacios para sillas de ruedas, y sistemas de información al pasajero. También cámaras de seguridad conectadas a un centro de monitoreo."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Usuarios del Sarmiento",
+        "icono": "train",
+        "descripcion": "Los cientos de miles de pasajeros que viajan cada día van a tener formaciones más cómodas y seguras. El problema es que 40 coches son pocos para una línea tan demandada. Va a seguir habiendo trenes viejos circulando."
+      },
+      {
+        "grupo": "Industria ferroviaria nacional",
+        "icono": "factory",
+        "descripcion": "Las fábricas de material rodante del país tienen una oportunidad de reactivarse. Hace años que no hay pedidos grandes del Estado. Si ganan esta licitación, pueden generar cientos de puestos de trabajo."
+      },
+      {
+        "grupo": "Empresas extranjeras",
+        "icono": "globe",
+        "descripcion": "Los fabricantes internacionales como Alstom, CAF o las chinas CRRC tendrán que asociarse con empresas locales para cumplir el requisito de contenido nacional. No pueden presentarse solos."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 89/2026 - MINISTERIO DE TRANSPORTE",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Llamado a licitación",
+        "contenido": "Convócase a Licitación Pública Nacional e Internacional N° 15/2026 para la adquisición de CUARENTA (40) coches de pasajeros para el Ferrocarril General Sarmiento."
+      },
+      {
+        "numero": "2",
+        "titulo": "Contenido nacional",
+        "contenido": "El material rodante a adquirir deberá contar con un mínimo de SESENTA POR CIENTO (60%) de integración de partes y componentes de origen nacional."
+      },
+      {
+        "numero": "3",
+        "titulo": "Apertura de ofertas",
+        "contenido": "La apertura de ofertas se realizará el día 15 de mayo de 2026 a las 11:00 horas en la sede del Ministerio de Transporte."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/trenes.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["trenes", "Sarmiento", "licitación", "transporte", "AMBA", "industria nacional"]
+}

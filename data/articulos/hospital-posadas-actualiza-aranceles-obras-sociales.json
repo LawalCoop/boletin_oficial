@@ -1,0 +1,80 @@
+{
+  "id": "bora-339472",
+  "slug": "hospital-posadas-actualiza-aranceles-obras-sociales",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "salud",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "29/2026",
+    "organismoEmisor": "Administración Nacional de Establecimientos de Salud",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339472/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Hospital Posadas sube los aranceles que cobra a obras sociales y prepagas",
+    "resumen": "El Hospital Nacional Profesor Alejandro Posadas actualizó su nomenclador de prestaciones, es decir, la lista de precios que cobra por cada práctica médica a las obras sociales y prepagas. Traducido: le va a facturar más caro a OSDE, Swiss Medical y compañía cuando atienda a sus afiliados.\n\nEl Posadas es uno de los hospitales públicos más grandes del país, ubicado en El Palomar, provincia de Buenos Aires. Atiende principalmente a gente sin cobertura médica de forma gratuita, pero también recibe pacientes con obra social a quienes les factura las prestaciones.\n\nEsta actualización de aranceles busca que el hospital recupere costos en un contexto de alta inflación. Para los pacientes sin obra social, nada cambia: se siguen atendiendo gratis. Para las obras sociales, significa que van a tener que pagar más cuando deriven pacientes al Posadas.",
+    "contexto": "¿Qué es un nomenclador de prestaciones? Es básicamente una lista de precios de todas las prácticas médicas: consultas, cirugías, estudios, internaciones. Cada práctica tiene un código y un valor. Cuando un hospital atiende a alguien con obra social, le factura según este nomenclador. Actualizarlo significa subir esos precios.",
+    "puntosClaves": [
+      {
+        "titulo": "Más plata para el hospital",
+        "descripcion": "Con aranceles más altos, el Posadas puede facturar más a obras sociales y prepagas. Esa plata entra al hospital y se usa para mantener equipos, comprar insumos y pagar sueldos."
+      },
+      {
+        "titulo": "Atención gratuita sigue igual",
+        "descripcion": "Si no tenés obra social, el Hospital Posadas te sigue atendiendo sin cargo. Esto no cambia. Los aranceles solo aplican cuando el hospital le factura a una obra social o prepaga."
+      },
+      {
+        "titulo": "Posible impacto en las cuotas",
+        "descripcion": "Cuando los hospitales suben sus aranceles, las obras sociales y prepagas tienen que pagar más. Parte de ese costo puede terminar trasladándose a las cuotas de los afiliados."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Pacientes del Posadas con obra social",
+        "icono": "heart-pulse",
+        "descripcion": "Si te atendés en el Posadas y tenés obra social, no vas a pagar nada de tu bolsillo. Pero tu obra social va a recibir una factura más alta, lo que puede influir en futuras cuotas."
+      },
+      {
+        "grupo": "Obras sociales y prepagas",
+        "icono": "building-2",
+        "descripcion": "Van a tener que desembolsar más dinero cada vez que uno de sus afiliados se atienda en el Posadas. Esto les complica las cuentas, especialmente a las obras sociales sindicales más chicas."
+      },
+      {
+        "grupo": "El Hospital Posadas",
+        "icono": "hospital",
+        "descripcion": "Mejora sus ingresos propios y depende menos del presupuesto nacional. Con la plata que factura puede comprar insumos y sostener servicios sin tener que mendigar al Ministerio de Salud."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 29/2026 - ADMINISTRACIÓN NACIONAL DE ESTABLECIMIENTOS DE SALUD",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Aprobación del nomenclador",
+        "contenido": "Apruébase la actualización del Nomenclador de Prestaciones Valorizado del HOSPITAL NACIONAL PROFESOR ALEJANDRO POSADAS que como Anexo forma parte integrante de la presente Resolución."
+      },
+      {
+        "numero": "2",
+        "titulo": "Vigencia",
+        "contenido": "Los nuevos aranceles entrarán en vigencia a partir del día siguiente a la publicación de la presente Resolución en el Boletín Oficial."
+      },
+      {
+        "numero": "3",
+        "titulo": "Facturación",
+        "contenido": "El Hospital Nacional Profesor Alejandro Posadas facturará las prestaciones brindadas a beneficiarios de obras sociales y entidades de medicina prepaga conforme los valores establecidos en el nuevo nomenclador."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/salud.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["hospital Posadas", "aranceles", "obras sociales", "salud pública", "prepagas"]
+}

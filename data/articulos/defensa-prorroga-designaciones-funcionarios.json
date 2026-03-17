@@ -1,0 +1,80 @@
+{
+  "id": "bora-339476",
+  "slug": "defensa-prorroga-designaciones-funcionarios",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "designaciones",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "149/2026",
+    "organismoEmisor": "Ministerio de Defensa",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339476/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Defensa extiende designaciones de funcionarios porque no hizo los concursos",
+    "resumen": "El Ministerio de Defensa prorrogó por 180 días más las designaciones 'transitorias' de varios funcionarios que ocupan cargos jerárquicos. ¿Por qué? Porque no hicieron los concursos que exige la ley para cubrir esos puestos de forma definitiva.\n\nEsto es moneda corriente en el Estado argentino: se nombra gente de forma temporal porque supuestamente se va a hacer un concurso, pero el concurso nunca llega. Entonces se prorrogan las designaciones una y otra vez. Algunos funcionarios llevan años en cargos 'transitorios'.\n\nPara los designados es una situación incómoda: tienen el cargo pero sin estabilidad. Para el sistema, es una forma de saltear los mecanismos de ingreso meritocrático al Estado. Y para el bolsillo público, es lo mismo: estos sueldos jerárquicos se pagan igual, con o sin concurso.",
+    "contexto": "¿Por qué los cargos 'transitorios' se prorrogan eternamente? El Estado está obligado por ley a cubrir cargos jerárquicos mediante concursos públicos donde cualquiera puede presentarse y gana el más capacitado. Pero organizar concursos es lento y burocrático. Entonces los ministerios nombran gente 'transitoriamente' por 180 días y cuando se vence, simplemente prorrogan.",
+    "puntosClaves": [
+      {
+        "titulo": "180 días más de prórroga",
+        "descripcion": "Las designaciones transitorias se extienden por seis meses más. Probablemente cuando venzan, se vuelvan a prorrogar. Es un ciclo que puede durar años."
+      },
+      {
+        "titulo": "Concursos pendientes",
+        "descripcion": "La resolución admite que los concursos para cubrir estos cargos 'aún no se pudieron realizar'. No da explicaciones de por qué no se hicieron ni cuándo se van a hacer."
+      },
+      {
+        "titulo": "Varios funcionarios afectados",
+        "descripcion": "La medida abarca a funcionarios de distintas áreas del Ministerio de Defensa que ocupan cargos de coordinación, dirección y jefatura."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Funcionarios designados",
+        "icono": "user-check",
+        "descripcion": "Siguen en sus cargos pero sin la estabilidad que da ganar un concurso. Si cambia el gobierno o el ministro, pueden quedar afuera de un día para el otro."
+      },
+      {
+        "grupo": "Aspirantes a cargos públicos",
+        "icono": "users",
+        "descripcion": "Profesionales que podrían presentarse a un concurso y ganar por mérito quedan afuera porque los concursos nunca se convocan. Los cargos están ocupados por designados a dedo."
+      },
+      {
+        "grupo": "El Estado en general",
+        "icono": "landmark",
+        "descripcion": "Un sistema de designaciones transitorias permanentes debilita la profesionalización del Estado. Los funcionarios le deben el puesto a quien los nombró, no a su capacidad."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 149/2026 - MINISTERIO DE DEFENSA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Prórroga de designaciones",
+        "contenido": "Prorróganse por el término de CIENTO OCHENTA (180) días hábiles las designaciones transitorias de los funcionarios detallados en el Anexo que forma parte integrante de la presente medida."
+      },
+      {
+        "numero": "2",
+        "titulo": "Justificación",
+        "contenido": "La presente prórroga se fundamenta en que aún no se han podido realizar los concursos previstos para cubrir los cargos de manera definitiva."
+      },
+      {
+        "numero": "3",
+        "titulo": "Gastos",
+        "contenido": "El gasto que demande el cumplimiento de la presente medida será atendido con cargo a las partidas específicas del presupuesto del Ministerio de Defensa."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/funcionarios.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["designaciones", "Defensa", "funcionarios", "concursos", "empleo público"]
+}

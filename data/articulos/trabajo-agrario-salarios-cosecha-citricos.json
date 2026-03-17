@@ -1,0 +1,86 @@
+{
+  "id": "bora-339488",
+  "slug": "trabajo-agrario-salarios-cosecha-citricos",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "trabajo",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "28/2026",
+    "organismoEmisor": "Comisión Nacional de Trabajo Agrario",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339488/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Aumentan los salarios mínimos para la cosecha de cítricos en el NEA",
+    "resumen": "Los trabajadores rurales que levantan la cosecha de naranjas, limones y pomelos en Corrientes, Entre Ríos y Misiones van a cobrar más. La Comisión Nacional de Trabajo Agrario —el organismo donde se negocian los sueldos del campo— fijó los nuevos salarios mínimos para la actividad citrícola.\n\nEl aumento llega en plena temporada de cosecha, que en el NEA arranca en marzo y se extiende hasta septiembre. Son meses de trabajo intensivo donde miles de jornaleros se mueven de finca en finca levantando fruta.\n\nLos nuevos valores rigen desde el 1 de marzo y se pagan por kilo cosechado, no por hora trabajada. Esto significa que el ingreso real depende de cuánto rinda cada trabajador, un sistema que tiene defensores y críticos: incentiva la productividad, pero también puede llevar a jornadas agotadoras para llegar a un sueldo digno.",
+    "contexto": "¿Qué es la Comisión Nacional de Trabajo Agrario? Es un organismo tripartito donde se sientan el Estado, los sindicatos rurales y las cámaras empresarias del agro a negociar las condiciones laborales del campo. A diferencia de otras actividades donde los convenios se negocian empresa por empresa, en el trabajo agrario hay salarios mínimos por actividad que rigen para todo el país o por región.",
+    "puntosClaves": [
+      {
+        "titulo": "Pago por kilo cosechado",
+        "descripcion": "Los trabajadores citrícolas cobran por rendimiento: cuantos más kilos levantan, más ganan. Los nuevos mínimos establecen cuánto hay que pagar por cada kilo de naranja, limón o pomelo cosechado. También hay un piso diario garantizado para cuando la cosecha rinde poco."
+      },
+      {
+        "titulo": "Vigencia desde marzo",
+        "descripcion": "Los nuevos valores ya están en vigencia desde el 1 de marzo. Los empleadores que paguen menos están en infracción y pueden ser sancionados por el Ministerio de Trabajo si hay una inspección o denuncia."
+      },
+      {
+        "titulo": "Tres provincias alcanzadas",
+        "descripcion": "La resolución aplica específicamente a Corrientes, Entre Ríos y Misiones, las principales productoras de cítricos del país. Cada región tiene sus particularidades de cosecha y por eso los salarios se fijan por zona."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Trabajadores de la cosecha",
+        "icono": "users",
+        "descripcion": "Miles de jornaleros que cada año migran para la temporada citrícola tienen garantizado un piso salarial más alto. La diferencia puede significar llegar a fin de mes o no, especialmente en un trabajo donde los días de lluvia no se cobran."
+      },
+      {
+        "grupo": "Productores citrícolas",
+        "icono": "wheat",
+        "descripcion": "Las quintas y empaques de cítricos tienen que ajustar sus costos. El aumento en la mano de obra se suma a otros gastos que subieron, como el flete y los insumos. Algunos lo trasladarán al precio de la fruta."
+      },
+      {
+        "grupo": "Consumidores",
+        "icono": "shopping-cart",
+        "descripcion": "El aumento del costo laboral puede impactar en el precio de naranjas, limones y pomelos en la verdulería. Cuánto depende de la oferta total y de cuánto absorban los intermediarios de la cadena."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 28/2026 - COMISIÓN NACIONAL DE TRABAJO AGRARIO",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Fijación de remuneraciones",
+        "contenido": "Fíjanse las remuneraciones mínimas para el personal ocupado en tareas de cosecha de frutas cítricas en las provincias de Corrientes, Entre Ríos y Misiones, conforme los valores establecidos en el Anexo que forma parte integrante de la presente."
+      },
+      {
+        "numero": "2",
+        "titulo": "Vigencia",
+        "contenido": "Las remuneraciones establecidas en el artículo 1° tendrán vigencia a partir del 1° de marzo de 2026 y hasta el 28 de febrero de 2027."
+      },
+      {
+        "numero": "3",
+        "titulo": "Registro",
+        "contenido": "Regístrese, comuníquese, publíquese, dése a la Dirección Nacional del Registro Oficial y archívese."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [
+    {
+      "slug": "salarios-cosecha-almendras-mendoza-san-juan",
+      "titulo": "Fijan salarios mínimos para la cosecha de almendras en Mendoza y San Juan",
+      "categoria": "nacional"
+    }
+  ],
+  "imagen": "/images/articulos/exportaciones.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["trabajo rural", "salarios", "cosecha", "cítricos", "Corrientes", "Entre Ríos", "Misiones"]
+}

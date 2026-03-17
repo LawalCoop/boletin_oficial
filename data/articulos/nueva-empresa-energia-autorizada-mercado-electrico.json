@@ -1,0 +1,80 @@
+{
+  "id": "bora-339479",
+  "slug": "nueva-empresa-energia-autorizada-mercado-electrico",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "energia",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "67/2026",
+    "organismoEmisor": "Secretaría de Energía",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339479/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "Secretaría de Energía habilita a VENERGY S.A. para operar en el mercado eléctrico mayorista",
+    "resumen": "Una nueva empresa podrá comprar y vender energía en el mercado eléctrico mayorista argentino. Se trata de VENERGY S.A., que recibió autorización de la Secretaría de Energía para actuar como agente comercializador.\n\nEl mercado eléctrico mayorista (MEM) es donde las generadoras venden electricidad a las distribuidoras que después la llevan a tu casa. No es un mercado al que cualquiera puede entrar: hay que cumplir requisitos técnicos y financieros que demuestra que podés operar sin poner en riesgo el sistema.\n\nPara los usuarios finales, esto no cambia nada directamente en la boleta de luz. Pero a mediano plazo, más actores en el mercado pueden significar más competencia y, en teoría, precios más eficientes. Eso sí, el mercado eléctrico argentino tiene tantas regulaciones y subsidios que la competencia real es limitada.",
+    "contexto": "¿Qué es el Mercado Eléctrico Mayorista? Es el sistema donde se compra y vende electricidad 'al por mayor' en Argentina. Participan generadores (las centrales que producen energía), distribuidoras (las empresas que la llevan a tu casa) y comercializadores (intermediarios). CAMMESA es el organismo que administra todo el sistema y decide qué central se prende en cada momento.",
+    "puntosClaves": [
+      {
+        "titulo": "Nuevo jugador en el mercado",
+        "descripcion": "VENERGY S.A. podrá comprar energía a generadores y venderla a grandes usuarios o distribuidoras. Es un intermediario comercial, no produce energía propia."
+      },
+      {
+        "titulo": "Cumplió los requisitos",
+        "descripcion": "Para entrar al MEM hay que demostrar solvencia financiera, capacidad técnica y pasar un período de exposición pública donde otros actores pueden objetar. VENERGY pasó todas las etapas sin objeciones."
+      },
+      {
+        "titulo": "Efectivo desde hoy",
+        "descripcion": "La autorización entra en vigencia con la publicación en el Boletín Oficial. CAMMESA y el ENRE (ente regulador) ya fueron notificados para incorporar a VENERGY al sistema."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Grandes consumidores de energía",
+        "icono": "factory",
+        "descripcion": "Industrias y comercios que consumen mucha electricidad tienen un nuevo proveedor potencial para negociar contratos de suministro."
+      },
+      {
+        "grupo": "Generadores de energía",
+        "icono": "zap",
+        "descripcion": "Las centrales eléctricas tienen un comprador más en el mercado, lo que puede mejorar sus opciones de venta."
+      },
+      {
+        "grupo": "Usuarios residenciales",
+        "icono": "home",
+        "descripcion": "El impacto en la boleta de luz de las familias es nulo en lo inmediato. Estos cambios en el mercado mayorista tardan años en reflejarse en tarifas finales, si es que lo hacen."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 67/2026 - SECRETARÍA DE ENERGÍA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Autorización",
+        "contenido": "Autorízase a VENERGY SOCIEDAD ANÓNIMA (VENERGY S.A.) a participar en el MERCADO ELÉCTRICO MAYORISTA (MEM) como Agente Comercializador, debiendo cumplir con las normas vigentes que regulan su funcionamiento."
+      },
+      {
+        "numero": "2",
+        "titulo": "Comunicación",
+        "contenido": "Instrúyese al Organismo Encargado del Despacho (OED) a informar a todos los agentes del mercado mayorista sobre la presente autorización."
+      },
+      {
+        "numero": "3",
+        "titulo": "Notificación",
+        "contenido": "Notifíquese a VENERGY S.A., a CAMMESA y al Ente Nacional Regulador de la Electricidad (ENRE)."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/energia.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["energía", "mercado eléctrico", "MEM", "CAMMESA", "empresas"]
+}

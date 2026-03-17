@@ -1,5 +1,6 @@
 import { Articulo } from '@/lib/types';
 import { Header } from '@/components/layout/Header';
+import { Footer } from '@/components/layout/Footer';
 import { ArticleHero } from '@/components/article/ArticleHero';
 import { AIBanner } from '@/components/article/AIBanner';
 import { Summary } from '@/components/article/Summary';
@@ -133,6 +134,9 @@ export default async function ArticuloPage({
       <div className="lg:hidden">
         <CTABar articulo={articulo} />
       </div>
+
+      {/* Footer */}
+      <Footer />
 
       {/* Chat Widget */}
       <ArticleChat articulo={articulo} />

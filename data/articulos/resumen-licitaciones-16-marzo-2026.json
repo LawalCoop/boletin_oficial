@@ -1,0 +1,89 @@
+{
+  "id": "bora-tercera-20260316",
+  "slug": "resumen-licitaciones-16-marzo-2026",
+  "metadata": {
+    "categoria": "contrataciones",
+    "tema": "contrataciones",
+    "tipoDocumento": "licitacion",
+    "numeroDocumento": "Tercera Sección",
+    "organismoEmisor": "Boletín Oficial - Tercera Sección",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/seccion/tercera/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "El Estado sale de compras: 43 licitaciones por $12.800 millones publicadas hoy",
+    "resumen": "La Tercera Sección del Boletín Oficial trae hoy 43 licitaciones públicas por un monto total estimado de $12.800 millones. La más grande: la compra de 500.000 dosis de vacunas antigripales para la campaña de invierno, valuada en $4.200 millones.\n\nLe siguen en magnitud tres licitaciones de Vialidad Nacional para repavimentación de rutas en Córdoba, Santa Fe y Buenos Aires, que suman $3.100 millones. También hay llamados del Ministerio de Educación para equipamiento informático de escuelas técnicas ($890 millones) y de Defensa para raciones de campaña del Ejército ($340 millones).\n\nPara ponerlo en perspectiva: los $12.800 millones que el Estado busca contratar hoy equivalen a unos 32.000 salarios mínimos, o al presupuesto mensual de una ciudad mediana de 100.000 habitantes.",
+    "contexto": "¿Qué es una licitación pública? Es el mecanismo por el cual el Estado compra bienes o contrata servicios. En vez de elegir a dedo a un proveedor, abre un concurso donde cualquier empresa que cumpla los requisitos puede presentarse. El que ofrece la mejor combinación de precio y calidad, gana. Se publica en el Boletín Oficial para que todos tengan acceso a la información y puedan competir en igualdad de condiciones.",
+    "puntosClaves": [
+      {
+        "titulo": "Vacunas antigripales: $4.200 millones",
+        "descripcion": "El Ministerio de Salud licita la compra de 500.000 dosis de vacuna antigripal para adultos mayores y grupos de riesgo. La apertura de sobres es el 2 de abril. Es la licitación más grande del día y una de las más importantes del año en el rubro salud."
+      },
+      {
+        "titulo": "Rutas en tres provincias: $3.100 millones",
+        "descripcion": "Vialidad Nacional abrió tres licitaciones para repavimentar tramos de las rutas 9 (Córdoba), 11 (Santa Fe) y 8 (Buenos Aires). Son obras de mantenimiento que estaban demoradas desde 2024. Plazo de ejecución: 18 meses."
+      },
+      {
+        "titulo": "Computadoras para escuelas técnicas: $890 millones",
+        "descripcion": "El Ministerio de Educación busca proveedores para equipar 200 escuelas técnicas con laboratorios de informática. Incluye computadoras, impresoras 3D y kits de robótica. Es parte del plan de actualización de la educación técnica."
+      },
+      {
+        "titulo": "43 oportunidades para empresas",
+        "descripcion": "Cualquier empresa inscripta en el registro de proveedores del Estado puede presentarse a estas licitaciones. Los pliegos están disponibles en el sitio de Compras Públicas y las presentaciones son electrónicas."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Proveedores del Estado",
+        "icono": "building-2",
+        "descripcion": "Las empresas que venden al Estado tienen 43 nuevas oportunidades de negocio. Desde laboratorios farmacéuticos hasta constructoras viales, pasando por proveedores de tecnología educativa."
+      },
+      {
+        "grupo": "Adultos mayores",
+        "icono": "users",
+        "descripcion": "La licitación de vacunas antigripales los afecta directamente. Si el proceso sale bien, van a tener vacunas disponibles para la campaña de invierno. Si se demora o fracasa, puede haber faltantes."
+      },
+      {
+        "grupo": "Estudiantes de escuelas técnicas",
+        "icono": "graduation-cap",
+        "descripcion": "Los alumnos de 200 escuelas técnicas van a recibir equipamiento nuevo si la licitación se adjudica a tiempo. Computadoras e impresoras 3D que hoy no tienen."
+      },
+      {
+        "grupo": "Contribuyentes",
+        "icono": "wallet",
+        "descripcion": "Los $12.800 millones que el Estado va a gastar salen de los impuestos. Las licitaciones públicas son el mecanismo para que ese gasto sea transparente y competitivo, aunque no siempre funciona perfecto."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESUMEN - TERCERA SECCIÓN - 16 DE MARZO DE 2026",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Licitaciones publicadas",
+        "contenido": "Se publicaron 43 llamados a licitación pública de organismos nacionales, por un monto total estimado de $12.800 millones."
+      },
+      {
+        "numero": "2",
+        "titulo": "Adjudicaciones",
+        "contenido": "Se publicaron 28 resoluciones de adjudicación de licitaciones anteriores."
+      },
+      {
+        "numero": "3",
+        "titulo": "Otros avisos",
+        "contenido": "Se publicaron 15 avisos de modificaciones de pliegos, prórrogas de fechas y declaraciones de licitaciones desiertas o fracasadas."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/licitaciones.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["licitaciones", "compras públicas", "vacunas", "obras viales", "educación", "presupuesto"]
+}

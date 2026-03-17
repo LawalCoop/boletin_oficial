@@ -1,6 +1,8 @@
 import { google } from '@ai-sdk/google';
 import { generateObject } from 'ai';
 import { z } from 'zod';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 import { BoraDocumentDetail, Tema } from '@/lib/types';
 import { TEMAS } from '@/lib/constants';
 
@@ -8,20 +10,23 @@ const temasValidos = Object.keys(TEMAS) as [Tema, ...Tema[]];
 
 const articuloAISchema = z.object({
   titulo: z.string().describe(
-    'Título claro y accesible. Fórmula: [Organismo] + [verbo pasado] + [acción principal]. Máximo 100 caracteres.'
+    'Título periodístico que cuenta una historia. Enfocarse en el IMPACTO, no en el procedimiento. Máximo 80 caracteres.'
   ),
   resumen: z.string().describe(
-    'Resumen de 2-3 oraciones respondiendo: qué se hizo, quién lo hizo, por qué importa.'
+    'Como una nota periodística completa. 5-7 oraciones que cubran: (1) El gancho - qué pasó y por qué importa, (2) El contexto - antecedentes o situación actual, (3) Los detalles clave - números, plazos, montos, (4) El impacto - cómo afecta a la gente común. Explicar términos técnicos inline usando guiones largos o paréntesis.'
+  ),
+  contexto: z.string().describe(
+    'Explicación pedagógica del tipo de documento y el marco institucional. Enseñar al lector cómo funciona el Estado. Ejemplos: "¿Qué es un Decreto? Es una norma que firma el Presidente..." o "¿Por qué una Resolución y no un Decreto? Porque esta decisión está dentro de las competencias del Ministerio...". 2-3 oraciones educativas.'
   ),
   puntosClaves: z.array(z.object({
-    titulo: z.string().describe('Concepto principal en 2-4 palabras'),
-    descripcion: z.string().describe('Explicación en 1-2 oraciones'),
-  })).describe('Los 3-4 puntos más importantes del documento'),
+    titulo: z.string().describe('Concepto central en 3-5 palabras, evitar jerga'),
+    descripcion: z.string().describe('2-3 oraciones autoexplicativas. Primera: qué cambia. Segunda: qué significa. Incluir definiciones inline de términos técnicos.'),
+  })).describe('Los 3-4 puntos más importantes, cada uno debe ser comprensible sin leer los otros'),
   aQuienAfecta: z.array(z.object({
-    grupo: z.string().describe('Nombre del grupo afectado'),
+    grupo: z.string().describe('Nombre claro y humano del grupo (ej: "familias que pagan la luz", no "usuarios del servicio")'),
     icono: z.string().describe('Nombre de icono Lucide React (ej: building-2, users, briefcase, factory, heart-pulse, truck, shield, wheat, zap, scale, home, plane, wallet, graduation-cap)'),
-    descripcion: z.string().describe('Cómo les afecta específicamente'),
-  })).describe('Grupos de personas/entidades afectadas por esta norma, entre 2 y 4'),
+    descripcion: z.string().describe('2-3 oraciones con el impacto REAL y un ejemplo concreto. ¿Cómo cambia su vida?'),
+  })).describe('Grupos de personas/entidades afectadas, entre 2 y 4. Priorizar trabajadores y ciudadanos comunes.'),
   tema: z.string().describe(`Tema principal. Debe ser uno de: ${temasValidos.join(', ')}`),
   tags: z.array(z.string()).describe('Palabras clave relevantes en minúsculas, entre 2 y 6'),
   destacado: z.boolean().describe('true si la norma es de alto impacto público (afecta a mucha gente, montos grandes, cambios significativos)'),
@@ -29,29 +34,85 @@ const articuloAISchema = z.object({
 
 export type ArticuloAIResult = z.infer<typeof articuloAISchema>;
 
-const SYSTEM_PROMPT = `Sos un experto en legislación argentina y periodismo. Tu tarea es transformar documentos del Boletín Oficial en artículos accesibles para ciudadanos comunes.
+/** Loads the methodology document to use as system prompt context */
+function loadMetodologia(): string {
+  try {
+    const metodologiaPath = join(process.cwd(), 'docs', 'METODOLOGIA.md');
+    return readFileSync(metodologiaPath, 'utf-8');
+  } catch {
+    console.warn('[AI] Could not load METODOLOGIA.md, using fallback prompt');
+    return '';
+  }
+}
+
+function buildSystemPrompt(): string {
+  const metodologia = loadMetodologia();
+
+  // If we have the methodology doc, use it as context
+  if (metodologia) {
+    return `Sos un periodista de entreLín[IA]s, un portal comunitario que traduce el Boletín Oficial para la ciudadanía.
+
+Tu trabajo es transformar documentos oficiales en artículos accesibles, siguiendo nuestra metodología editorial.
+
+=== METODOLOGÍA EDITORIAL ===
+${metodologia}
+=== FIN METODOLOGÍA ===
+
+RECORDÁ SIEMPRE:
+- Hablás desde la perspectiva del pueblo, no del poder
+- Preguntate "¿a quién beneficia esto?" y "¿cómo afecta al trabajador común?"
+- Traducí eufemismos: "optimización de recursos humanos" → "despidos"
+- Explicá términos técnicos inline (usando guiones largos o paréntesis)
+- Usá español argentino (vos, no tú)
+- No inventes información que no esté en el texto original
+- Sé periodístico y cercano, nunca burocrático`;
+  }
+
+  // Fallback if methodology doc is not available
+  return `Sos un periodista de entreLín[IA]s, un portal comunitario que traduce el Boletín Oficial para la ciudadanía.
+
+MIRADA EDITORIAL - Desde el Pueblo, Para el Pueblo:
+- Hablás desde las personas afectadas por las normas, no desde quienes las escriben
+- Preguntate siempre "¿a quién beneficia esto?" y respondelo honestamente
+- Traducí eufemismos oficiales al lenguaje de la gente:
+  * "Optimización de recursos humanos" → "Despidos en el Estado"
+  * "Desregulación del mercado laboral" → "Se eliminan protecciones para trabajadores"
+  * "Actualización tarifaria" → "Aumento del X% en la boleta"
+  * "Reestructuración de programas sociales" → "Recorte en [programa]"
 
 INSTRUCCIONES:
 - Usá español argentino (vos, no tú)
-- Título: [Organismo] + [verbo pasado] + [acción]. Verbos: creó, estableció, actualizó, modificó, derogó, autorizó, designó, etc.
-- Resumen: 2-3 oraciones claras. Qué se hizo, quién, por qué importa.
-- Puntos clave: Lo más concreto posible (números, plazos, montos, obligaciones).
-- Grupos afectados: Identificá quiénes se ven impactados y cómo.
-- Tema: Clasificá según el área temática principal.
+- Título: Periodístico, cuenta qué pasó. Enfocate en el IMPACTO, no en el procedimiento.
+- Resumen: 3-4 oraciones como el primer párrafo de un diario. Gancho + contexto + dato duro.
+- Puntos clave: Concretos y autoexplicativos. Incluir definiciones inline de términos técnicos.
+- Grupos afectados: Nombres humanos ("familias", "trabajadores"), no burocráticos ("usuarios del servicio").
 - Destacado: true solo para normas de alto impacto público.
 - No inventes información que no esté en el texto original.
-- Evitá jerga legal innecesaria.`;
+- Explicá siglas y jerga la primera vez que aparecen.`;
+}
+
+// Cache the system prompt to avoid reading the file multiple times
+let cachedSystemPrompt: string | null = null;
+
+function getSystemPrompt(): string {
+  if (!cachedSystemPrompt) {
+    cachedSystemPrompt = buildSystemPrompt();
+  }
+  return cachedSystemPrompt;
+}
 
 /** Processes a single document with AI to generate structured content */
 export async function processWithAI(doc: BoraDocumentDetail): Promise<ArticuloAIResult> {
-  const userPrompt = `Transformá este documento del Boletín Oficial en un artículo accesible:
+  const userPrompt = `Transformá este documento del Boletín Oficial en un artículo para entreLín[IA]s.
 
 ORGANISMO: ${doc.entry.organismo}
 TIPO: ${doc.entry.tipoDocumento} ${doc.entry.numero}
 REFERENCIA: ${doc.entry.referencia}
 
 TEXTO COMPLETO:
-${doc.textoCompleto.substring(0, 8000)}`;
+${doc.textoCompleto.substring(0, 8000)}
+
+Recordá: ¿A quién beneficia? ¿Cómo afecta al ciudadano común? Traducí la jerga oficial.`;
 
   console.log(`[AI] Processing: ${doc.entry.tipoDocumento} ${doc.entry.numero} - ${doc.entry.organismo}`);
   console.log(`[AI] Text length: ${doc.textoCompleto.length} chars`);
@@ -60,7 +121,7 @@ ${doc.textoCompleto.substring(0, 8000)}`;
     const { object } = await generateObject({
       model: google('gemini-2.5-flash'),
       schema: articuloAISchema,
-      system: SYSTEM_PROMPT,
+      system: getSystemPrompt(),
       prompt: userPrompt,
     });
 

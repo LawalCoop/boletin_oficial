@@ -1,0 +1,80 @@
+{
+  "id": "bora-339501",
+  "slug": "anmat-autoriza-nuevos-medicamentos-genericos",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "salud",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "1388/2026",
+    "organismoEmisor": "ANMAT - Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339501/20260316",
+    "fechaBoletinOficial": "2026-03-16",
+    "numeroEdicion": "35.892"
+  },
+  "contenidoIA": {
+    "titulo": "ANMAT aprueba genéricos de medicamentos para hipertensión y diabetes",
+    "resumen": "La ANMAT —el organismo que regula qué medicamentos se pueden vender en Argentina— autorizó la comercialización de nuevos medicamentos genéricos para tratar hipertensión arterial y diabetes tipo 2. Son versiones más baratas de drogas que ya estaban en el mercado pero solo se conseguían de marca.\n\nLos genéricos contienen exactamente el mismo principio activo que el original, en la misma dosis y forma. La diferencia está en el precio: pueden costar entre un 30% y un 70% menos que la versión de marca, porque el laboratorio no tuvo que invertir en investigación ni en publicidad.\n\nPara los pacientes crónicos que toman estos medicamentos todos los días de su vida, la diferencia en el bolsillo puede ser significativa. Y para el sistema de salud, es una forma de estirar el presupuesto sin resignar calidad.",
+    "contexto": "¿Qué es la ANMAT? Es el organismo estatal que controla que los medicamentos, alimentos y productos médicos que se venden en Argentina sean seguros y efectivos. Ningún remedio puede venderse legalmente en el país sin la aprobación de ANMAT. Cuando autoriza un genérico, significa que comprobó que es 'bioequivalente' al original: hace lo mismo, con la misma eficacia.",
+    "puntosClaves": [
+      {
+        "titulo": "Genéricos más accesibles",
+        "descripcion": "Los nuevos genéricos aprobados son para tratar enfermedades crónicas muy comunes: presión alta y diabetes. Millones de argentinos necesitan estos medicamentos todos los días, así que tener opciones más baratas hace una diferencia real."
+      },
+      {
+        "titulo": "Misma droga, distinto precio",
+        "descripcion": "Un genérico no es un medicamento de segunda. Tiene el mismo principio activo, la misma concentración y la misma forma farmacéutica que el original. La ANMAT exige estudios de bioequivalencia que demuestren que funcionan igual."
+      },
+      {
+        "titulo": "Impacto en obras sociales",
+        "descripcion": "Las obras sociales y prepagas pueden sustituir medicamentos de marca por genéricos aprobados. Esto les permite cubrir más tratamientos con el mismo presupuesto, aunque a veces genera resistencia de pacientes que desconfían."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Pacientes con hipertensión y diabetes",
+        "icono": "heart-pulse",
+        "descripcion": "Tienen una nueva opción más barata para su tratamiento diario. Si su médico lo indica, pueden pedir el genérico en la farmacia y ahorrarse plata todos los meses."
+      },
+      {
+        "grupo": "Laboratorios nacionales",
+        "icono": "flask-conical",
+        "descripcion": "Los laboratorios argentinos que producen genéricos ganan mercado. Pueden competir con las multinacionales que venden las versiones de marca a precios más altos."
+      },
+      {
+        "grupo": "Obras sociales y prepagas",
+        "icono": "building-2",
+        "descripcion": "Pueden ofrecer cobertura de estos medicamentos a menor costo. Algunos podrían empezar a exigir el genérico como primera opción de cobertura."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIÓN 1388/2026 - ADMINISTRACIÓN NACIONAL DE MEDICAMENTOS, ALIMENTOS Y TECNOLOGÍA MÉDICA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Autorización de comercialización",
+        "contenido": "Autorízase la inscripción en el Registro de Especialidades Medicinales (REM) de los productos farmacéuticos detallados en el Anexo I de la presente Disposición."
+      },
+      {
+        "numero": "2",
+        "titulo": "Condiciones de expendio",
+        "contenido": "Los productos autorizados por el artículo 1° sólo podrán ser comercializados bajo receta archivada, de acuerdo con lo establecido en la normativa vigente."
+      },
+      {
+        "numero": "3",
+        "titulo": "Obligaciones del titular",
+        "contenido": "El titular del registro deberá cumplir con los planes de farmacovigilancia establecidos por esta Administración Nacional."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/medicina.jpg",
+  "fechaPublicacion": "2026-03-16T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["ANMAT", "medicamentos", "genéricos", "salud", "diabetes", "hipertensión"]
+}

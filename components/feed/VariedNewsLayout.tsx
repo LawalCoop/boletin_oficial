@@ -304,10 +304,10 @@ export function VariedNewsLayout({ articles, startIndex = 0 }: VariedNewsLayoutP
 export function AdaptiveHeroLayout({ articles }: { articles: NoticiaPreview[] }) {
   if (articles.length === 0) return null;
 
-  // 1 artículo: solo el hero grande
+  // 1 artículo: solo el hero grande, ancho completo
   if (articles.length === 1) {
     return (
-      <div className="max-w-3xl">
+      <div className="w-full">
         <FeaturedWideCard noticia={articles[0]} />
       </div>
     );

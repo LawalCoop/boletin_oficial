@@ -3,6 +3,8 @@
 import { useState, useRef } from 'react';
 import { Play, RefreshCw, CheckCircle, AlertCircle, ArrowLeft, FileText } from 'lucide-react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { AdminLogoutButton } from '@/components/admin/AdminLogoutButton';
 import { SeccionBoletin, PipelineEvent } from '@/lib/types';
 import { SECCIONES_BOLETIN } from '@/lib/constants';
 
@@ -14,6 +16,7 @@ interface LogEntry {
 }
 
 export default function AdminPage() {
+  const router = useRouter();
   const [fecha, setFecha] = useState(new Date().toISOString().split('T')[0]);
   const [seccion, setSeccion] = useState<SeccionBoletin | ''>('');
   const [running, setRunning] = useState(false);
@@ -54,6 +57,12 @@ export default function AdminPage() {
       });
 
       if (!res.ok) {
+        if (res.status === 401) {
+          router.push('/admin/login');
+          router.refresh();
+          return;
+        }
+
         const errorData = await res.json();
         addLog('error', `Error: ${errorData.error}`);
         setRunning(false);
@@ -147,6 +156,7 @@ export default function AdminPage() {
               Panel de Administración
             </h1>
           </div>
+          <AdminLogoutButton />
         </div>
       </header>
 

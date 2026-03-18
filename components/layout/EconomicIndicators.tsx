@@ -1,12 +1,14 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { TrendingUp, TrendingDown, AlertTriangle, Percent } from 'lucide-react';
+import { AlertTriangle, Percent } from 'lucide-react';
 
 interface Indicator {
   value: number;
   date: string;
   change?: number;
+  interanual?: number;
+  month?: string;
 }
 
 export function EconomicIndicators() {
@@ -30,16 +32,34 @@ export function EconomicIndicators() {
           }
         }
 
-        // Fetch inflación
-        const inflacionRes = await fetch('https://api.argentinadatos.com/v1/finanzas/indices/inflacion');
+        // Fetch inflación mensual e interanual
+        const [inflacionRes, interanualRes] = await Promise.all([
+          fetch('https://api.argentinadatos.com/v1/finanzas/indices/inflacion'),
+          fetch('https://api.argentinadatos.com/v1/finanzas/indices/inflacionInteranual'),
+        ]);
+
         if (inflacionRes.ok) {
           const inflacionData = await inflacionRes.json();
           const latest = inflacionData[inflacionData.length - 1];
-          const previous = inflacionData[inflacionData.length - 2];
+
+          // Get interanual from API
+          let interanual: number | undefined;
+          if (interanualRes.ok) {
+            const interanualData = await interanualRes.json();
+            const latestInteranual = interanualData[interanualData.length - 1];
+            interanual = latestInteranual?.valor;
+          }
+
+          // Get month name from date (format: YYYY-MM-DD)
+          const months = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
+          const monthIndex = parseInt(latest.fecha.split('-')[1], 10) - 1;
+          const monthName = months[monthIndex];
+
           setInflacion({
             value: latest.valor,
             date: latest.fecha,
-            change: previous ? latest.valor - previous.valor : undefined,
+            interanual,
+            month: monthName,
           });
         }
       } catch (error) {
@@ -79,16 +99,14 @@ export function EconomicIndicators() {
         <div className="flex items-center gap-2">
           <Percent className="w-5 h-5 lg:w-6 lg:h-6 text-red-500" />
           <div className="flex flex-col">
-            <span className="text-[10px] lg:text-xs text-text-muted uppercase tracking-wide leading-none">Inflación</span>
-            <div className="flex items-center gap-1">
+            <span className="text-[10px] lg:text-xs text-text-muted uppercase tracking-wide leading-none">
+              Inflación {inflacion.month}
+            </span>
+            <div className="flex items-center gap-1.5">
               <span className="font-semibold text-text-primary text-base lg:text-lg leading-tight">{inflacion.value.toFixed(1)}%</span>
-              {inflacion.change !== undefined && (
-                <span className={`flex items-center ${inflacion.change > 0 ? 'text-red-500' : 'text-green-600'}`}>
-                  {inflacion.change > 0 ? (
-                    <TrendingUp className="w-4 h-4" />
-                  ) : (
-                    <TrendingDown className="w-4 h-4" />
-                  )}
+              {inflacion.interanual !== undefined && (
+                <span className="text-[10px] lg:text-xs text-text-muted">
+                  ({inflacion.interanual.toFixed(1)}% anual)
                 </span>
               )}
             </div>

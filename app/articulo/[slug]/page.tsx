@@ -150,7 +150,7 @@ export default async function ArticuloPage({
             <h2 className="text-xs font-semibold text-text-muted tracking-[1.5px] uppercase mb-4 text-center">
               ¿Qué te parece esta medida?
             </h2>
-            <VoteSection votacion={articulo.votacion} />
+            <VoteSection slug={articulo.slug} />
           </section>
 
           {/* Related Articles - At the very end */}

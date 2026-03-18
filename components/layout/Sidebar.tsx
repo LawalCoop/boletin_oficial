@@ -1,10 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { Calendar, TrendingUp, Bell } from 'lucide-react';
+import { Calendar, Compass, Bell } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
 import { TEMAS, formatFechaCorta } from '@/lib/constants';
 import { Tema } from '@/lib/types';
+import { TopVotedSection } from '@/components/feed/TopVotedSection';
 
 interface SidebarProps {
   fechasDisponibles: string[];
@@ -25,12 +26,38 @@ const topTemas: Tema[] = ['energia', 'transporte', 'finanzas', 'trabajo', 'salud
 export function Sidebar({ fechasDisponibles }: SidebarProps) {
   return (
     <div className="sticky top-20 flex flex-col gap-6">
-      {/* Trending Topics */}
+      {/* Newsletter CTA */}
+      <div className="bg-accent-soft rounded-lg p-4 border border-accent/20">
+        <div className="flex items-center gap-2 mb-2">
+          <Bell className="w-4 h-4 text-accent" />
+          <h3 className="font-medium text-text-primary text-sm">
+            Newsletter diario
+          </h3>
+        </div>
+        <p className="text-xs text-text-secondary mb-3">
+          Recibí un resumen diario del Boletín Oficial en tu email.
+        </p>
+        <div className="flex gap-2">
+          <input
+            type="email"
+            placeholder="tu@email.com"
+            className="min-w-0 flex-1 px-3 py-2 text-xs bg-bg border border-border rounded-lg focus:outline-none focus:border-accent"
+          />
+          <button className="shrink-0 px-3 py-2 text-xs font-medium bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors whitespace-nowrap">
+            Suscribir
+          </button>
+        </div>
+      </div>
+
+      {/* Top Voted Articles */}
+      <TopVotedSection />
+
+      {/* Explorá por tema */}
       <div className="bg-bg-surface rounded-lg p-4">
         <div className="flex items-center gap-2 mb-4">
-          <TrendingUp className="w-4 h-4 text-accent" />
+          <Compass className="w-4 h-4 text-accent" />
           <h3 className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary">
-            Temas del momento
+            Explorá por tema
           </h3>
         </div>
         <div className="flex flex-col gap-2">
@@ -88,30 +115,6 @@ export function Sidebar({ fechasDisponibles }: SidebarProps) {
           ))}
         </div>
       </div>
-
-      {/* Newsletter CTA */}
-      <div className="bg-accent-soft rounded-lg p-4 border border-accent/20">
-        <div className="flex items-center gap-2 mb-2">
-          <Bell className="w-4 h-4 text-accent" />
-          <h3 className="font-medium text-text-primary text-sm">
-            Newsletter diario
-          </h3>
-        </div>
-        <p className="text-xs text-text-secondary mb-3">
-          Recibí un resumen diario del Boletín Oficial en tu email.
-        </p>
-        <div className="flex gap-2">
-          <input
-            type="email"
-            placeholder="tu@email.com"
-            className="flex-1 px-3 py-2 text-xs bg-bg border border-border rounded-lg focus:outline-none focus:border-accent"
-          />
-          <button className="px-3 py-2 text-xs font-medium bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors">
-            Suscribir
-          </button>
-        </div>
-      </div>
-
     </div>
   );
 }

@@ -21,6 +21,7 @@ model User {
   sessions      Session[]
   subscriptions Subscription[]
   savedArticles SavedArticle[]
+  votes         Vote[]
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 }
@@ -81,4 +82,18 @@ model SavedArticle {
 
   @@unique([userId, articleSlug])
   @@index([userId])
+}
+
+model Vote {
+  id          String   @id @default(cuid())
+  userId      String
+  articleSlug String
+  vote        Int      // 1 = a favor, 0 = neutro, -1 = en contra
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, articleSlug])
+  @@index([userId])
+  @@index([articleSlug])
 }

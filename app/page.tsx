@@ -37,7 +37,7 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
   return (
     <article className={`flex flex-col h-full rounded-lg overflow-hidden hover:shadow-md transition-all group ${
       isSubscribedTema
-        ? 'bg-[#FFD700]/5 border-2 border-[#FFD700] shadow-[0_0_15px_rgba(255,215,0,0.4)]'
+        ? 'bg-[#FFE455]/5 border-2 border-[#FFE455] glow-pulse'
         : 'bg-bg-surface'
     }`}>
       {/* Image */}
@@ -59,8 +59,8 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
         </span>
         {/* Subscribed badge */}
         {isSubscribedTema && (
-          <span className="absolute top-2 right-2 p-1.5 bg-[#FFD700] rounded-full shadow">
-            <Star className="w-3 h-3 text-black fill-black" />
+          <span className="absolute top-2 right-2 p-1.5 bg-[#FFE455] rounded-full shadow">
+            <Star className="w-3 h-3 text-[#7A6200] fill-[#7A6200]" />
           </span>
         )}
       </Link>

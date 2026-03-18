@@ -21,7 +21,7 @@ export function SubscriptionBadge({ tema, className = '' }: SubscriptionBadgePro
       className={`inline-flex items-center justify-center ${className}`}
       title="Tema al que estás suscrito"
     >
-      <Star className="w-4 h-4 text-[#FFD700] fill-[#FFD700]" />
+      <Star className="w-4 h-4 text-[#FFE455] fill-[#FFE455]" />
     </span>
   );
 }

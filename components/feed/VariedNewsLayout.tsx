@@ -20,7 +20,7 @@ function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
   return (
     <article className={`flex gap-4 p-4 rounded-lg hover:shadow-md transition-all group ${
       isSubscribedTema
-        ? 'bg-[#FFD700]/5 border-2 border-[#FFD700] shadow-[0_0_15px_rgba(255,215,0,0.4)]'
+        ? 'bg-[#FFE455]/5 border-2 border-[#FFE455] glow-pulse'
         : 'bg-bg-surface'
     }`}>
       {/* Image */}
@@ -34,8 +34,8 @@ function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
           <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5" />
         )}
         {isSubscribedTema && (
-          <span className="absolute top-2 right-2 p-1.5 bg-[#FFD700] rounded-full shadow">
-            <Star className="w-3 h-3 text-black fill-black" />
+          <span className="absolute top-2 right-2 p-1.5 bg-[#FFE455] rounded-full shadow">
+            <Star className="w-3 h-3 text-[#7A6200] fill-[#7A6200]" />
           </span>
         )}
       </Link>
@@ -96,7 +96,7 @@ function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
     <article
       className={`flex flex-col gap-2 p-4 border-l-4 transition-colors rounded-r-lg ${
         isSubscribedTema
-          ? 'bg-[#FFD700]/5 border-[#FFD700] shadow-sm'
+          ? 'bg-[#FFE455]/5 border-[#FFE455] glow-pulse'
           : 'hover:bg-bg-surface'
       }`}
       style={!isSubscribedTema ? { borderColor: categoria.color } : undefined}
@@ -104,9 +104,9 @@ function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
       {/* Tags */}
       <div className="flex items-center gap-2 text-[10px]">
         {isSubscribedTema && (
-          <Star className="w-3.5 h-3.5 text-[#FFD700] fill-[#FFD700]" />
+          <Star className="w-3.5 h-3.5 text-[#FFE455] fill-[#FFE455]" />
         )}
-        <span className="font-semibold uppercase tracking-wide" style={{ color: isSubscribedTema ? '#FFD700' : categoria.color }}>
+        <span className="font-semibold uppercase tracking-wide" style={{ color: isSubscribedTema ? '#FFE455' : categoria.color }}>
           {categoria.label}
         </span>
         <span className="text-text-muted">
@@ -157,7 +157,7 @@ function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
   return (
     <article className={`flex flex-col lg:flex-row gap-4 lg:gap-6 p-4 lg:p-5 rounded-xl hover:shadow-lg transition-all group ${
       isSubscribedTema
-        ? 'bg-[#FFD700]/5 border-2 border-[#FFD700] shadow-[0_0_20px_rgba(255,215,0,0.5)]'
+        ? 'bg-[#FFE455]/5 border-2 border-[#FFE455] glow-pulse'
         : 'bg-bg-surface'
     }`}>
       {/* Image */}
@@ -177,8 +177,8 @@ function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
           {categoria.label}
         </span>
         {isSubscribedTema && (
-          <span className="absolute top-3 right-3 flex items-center gap-1.5 px-2.5 py-1.5 bg-[#FFD700] text-black rounded-full text-[10px] font-bold shadow-[0_0_12px_rgba(255,215,0,0.6)]">
-            <Star className="w-3 h-3 fill-black" />
+          <span className="absolute top-3 right-3 flex items-center gap-1.5 px-2.5 py-1.5 bg-[#FFE455] text-[#7A6200] rounded-full text-[10px] font-bold ">
+            <Star className="w-3 h-3 fill-[#7A6200]" />
             De tu interés
           </span>
         )}
@@ -244,7 +244,7 @@ function CompactVerticalCard({ noticia }: { noticia: NoticiaPreview }) {
   return (
     <article className={`flex flex-col h-full rounded-lg overflow-hidden hover:shadow-md transition-all group ${
       isSubscribedTema
-        ? 'bg-[#FFD700]/5 border-2 border-[#FFD700] shadow-[0_0_15px_rgba(255,215,0,0.4)]'
+        ? 'bg-[#FFE455]/5 border-2 border-[#FFE455] glow-pulse'
         : 'bg-bg-surface'
     }`}>
       <Link href={`/articulo/${noticia.slug}`} className="relative h-28 bg-bg-warm block">
@@ -263,8 +263,8 @@ function CompactVerticalCard({ noticia }: { noticia: NoticiaPreview }) {
           {categoria.label}
         </span>
         {isSubscribedTema && (
-          <span className="absolute top-2 right-2 p-1 bg-[#FFD700] rounded-full shadow">
-            <Star className="w-2.5 h-2.5 text-black fill-black" />
+          <span className="absolute top-2 right-2 p-1 bg-[#FFE455] rounded-full shadow">
+            <Star className="w-2.5 h-2.5 text-[#7A6200] fill-[#7A6200]" />
           </span>
         )}
       </Link>

@@ -27,7 +27,7 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
     <article
       className={`flex gap-4 py-5 border-t rounded-lg transition-all ${
         isSubscribedTema
-          ? 'border-2 border-[#FFD700] bg-[#FFD700]/5 p-4 -mx-2 shadow-sm'
+          ? 'border-2 border-[#FFE455] bg-[#FFE455]/5 p-4 -mx-2 shadow-sm'
           : highlighted
           ? 'bg-bg-highlight p-5 -mx-4 border-0'
           : 'border-border'
@@ -37,13 +37,13 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
       <div className="flex flex-col items-center gap-1">
         <span
           className={`font-[family-name:var(--font-lora)] text-3xl font-medium tracking-tight ${
-            isSubscribedTema || highlighted ? 'text-[#FFD700]' : 'text-border'
+            isSubscribedTema || highlighted ? 'text-[#FFE455]' : 'text-border'
           }`}
         >
           {displayNumber}
         </span>
         {isSubscribedTema && (
-          <Star className="w-4 h-4 text-[#FFD700] fill-[#FFD700]" />
+          <Star className="w-4 h-4 text-[#FFE455] fill-[#FFE455]" />
         )}
       </div>
 

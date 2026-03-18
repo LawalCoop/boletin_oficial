@@ -88,12 +88,12 @@ export function TemaFilter({
             }}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
               filterByInterest
-                ? 'bg-[#FFD700] text-white shadow-md'
+                ? 'bg-[#FFE455] text-white shadow-md'
                 : 'bg-bg-surface text-text-secondary hover:bg-border/30'
             }`}
           >
             <Star
-              className={`w-3.5 h-3.5 ${filterByInterest ? 'fill-white' : 'text-[#FFD700]'}`}
+              className={`w-3.5 h-3.5 ${filterByInterest ? 'fill-white' : 'text-[#FFE455]'}`}
             />
             <span>De mi interés</span>
             {filterByInterest && <X className="w-3 h-3 ml-0.5" />}

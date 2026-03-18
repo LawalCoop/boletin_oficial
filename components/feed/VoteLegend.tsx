@@ -6,8 +6,8 @@ export function VoteLegend() {
   return (
     <div className="flex flex-wrap items-center justify-center gap-3 lg:gap-4 text-[10px] lg:text-xs text-text-muted">
       <div className="flex items-center gap-1.5">
-        <span className="p-1 rounded-full bg-[#FFD700]/20">
-          <Star className="w-3 h-3 text-[#FFD700] fill-[#FFD700]" />
+        <span className="p-1 rounded-full bg-[#FFE455]">
+          <Star className="w-3 h-3 text-[#7A6200] fill-[#7A6200]" />
         </span>
         <span>De tu interés</span>
       </div>
@@ -24,8 +24,8 @@ export function VoteLegend() {
         <span>Más cuestionada</span>
       </div>
       <div className="flex items-center gap-1.5">
-        <span className="p-1 rounded-full bg-yellow-100">
-          <Zap className="w-3 h-3 text-yellow-600" />
+        <span className="p-1 rounded-full bg-sky-100">
+          <Zap className="w-3 h-3 text-sky-500" />
         </span>
         <span>Dividida</span>
       </div>

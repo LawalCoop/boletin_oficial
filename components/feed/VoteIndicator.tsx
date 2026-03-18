@@ -54,8 +54,8 @@ export function VoteIndicator({ slug, size = 'sm' }: VoteIndicatorProps) {
   // score === 0 pero hay votos - está peleado/dividido
   if (data.hasVotes) {
     return (
-      <span className={`${containerSize} rounded-full bg-yellow-100`} title="Opiniones divididas">
-        <Zap className={`${iconSize} text-yellow-600`} />
+      <span className={`${containerSize} rounded-full bg-sky-100`} title="Opiniones divididas">
+        <Zap className={`${iconSize} text-sky-500`} />
       </span>
     );
   }

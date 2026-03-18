@@ -23,15 +23,15 @@ export function HeroCard({ noticia }: HeroCardProps) {
   return (
     <article className={`rounded-lg overflow-hidden bg-bg hover:shadow-lg transition-all h-full flex flex-col ${
       isSubscribedTema
-        ? 'border-2 border-[#FFD700] shadow-[0_0_20px_rgba(255,215,0,0.5)] ring-2 ring-[#FFD700]/20'
+        ? 'border-2 border-[#FFE455] glow-pulse'
         : 'border border-border'
     }`}>
       {/* Hero Image */}
       <div className="relative h-[220px] lg:h-[260px] bg-bg-surface">
         {/* Subscribed badge overlay */}
         {isSubscribedTema && (
-          <div className="absolute top-3 right-3 z-10 flex items-center gap-1.5 px-2.5 py-1.5 bg-[#FFD700] text-black rounded-full text-xs font-bold shadow-[0_0_15px_rgba(255,215,0,0.6)]">
-            <Star className="w-3.5 h-3.5 fill-black" />
+          <div className="absolute top-3 right-3 z-10 flex items-center gap-1.5 px-2.5 py-1.5 bg-[#FFE455] text-[#7A6200] rounded-full text-xs font-bold shadow-[0_0_15px_rgba(255,228,85,0.6)]">
+            <Star className="w-3.5 h-3.5 fill-[#7A6200]" />
             <span>De tu interés</span>
           </div>
         )}
@@ -48,7 +48,7 @@ export function HeroCard({ noticia }: HeroCardProps) {
       </div>
 
       {/* Content */}
-      <div className={`p-4 lg:p-5 flex flex-col gap-3 flex-1 ${isSubscribedTema ? 'bg-[#FFD700]/5' : ''}`}>
+      <div className={`p-4 lg:p-5 flex flex-col gap-3 flex-1 ${isSubscribedTema ? 'bg-[#FFE455]/5' : ''}`}>
         {/* Tags Row */}
         <div className="flex items-center gap-2 flex-wrap">
           <span

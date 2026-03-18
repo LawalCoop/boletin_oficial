@@ -27,19 +27,33 @@ export function WeatherIndicator() {
   useEffect(() => {
     async function fetchWeather() {
       try {
-        // First, get location from IP
+        // Get location - use API in prod (Vercel headers), direct call in local
         let lat = -34.61;
         let lon = -58.38;
         let city = 'Buenos Aires';
 
         try {
-          const geoRes = await fetch('https://ipapi.co/json/');
-          if (geoRes.ok) {
-            const geoData = await geoRes.json();
-            if (geoData.latitude && geoData.longitude) {
+          const isLocal = window.location.hostname === 'localhost';
+
+          if (isLocal) {
+            // In local dev, call ip-api.com directly from browser (no API key needed)
+            const geoRes = await fetch('http://ip-api.com/json/?fields=status,city,lat,lon');
+            if (geoRes.ok) {
+              const geoData = await geoRes.json();
+              if (geoData.status === 'success' && geoData.lat && geoData.lon) {
+                lat = geoData.lat;
+                lon = geoData.lon;
+                city = geoData.city || 'Tu ubicación';
+              }
+            }
+          } else {
+            // In production, use our API (Vercel geo headers)
+            const geoRes = await fetch('/api/geo');
+            if (geoRes.ok) {
+              const geoData = await geoRes.json();
               lat = geoData.latitude;
               lon = geoData.longitude;
-              city = geoData.city || geoData.region || 'Tu ubicación';
+              city = geoData.city;
             }
           }
         } catch {

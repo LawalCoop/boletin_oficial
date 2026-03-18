@@ -29,6 +29,13 @@ function toBytes(value: string): Uint8Array {
   return new TextEncoder().encode(value);
 }
 
+function toBuffer(value: string): ArrayBuffer {
+  const bytes = toBytes(value);
+  const copy = new Uint8Array(bytes.byteLength);
+  copy.set(bytes);
+  return copy.buffer;
+}
+
 function toHex(buffer: ArrayBuffer): string {
   return Array.from(new Uint8Array(buffer))
     .map((byte) => byte.toString(16).padStart(2, '0'))
@@ -38,7 +45,7 @@ function toHex(buffer: ArrayBuffer): string {
 async function importSigningKey(secret: string): Promise<CryptoKey> {
   return crypto.subtle.importKey(
     'raw',
-    toBytes(secret),
+    toBuffer(secret),
     { name: 'HMAC', hash: 'SHA-256' },
     false,
     ['sign']
@@ -47,7 +54,7 @@ async function importSigningKey(secret: string): Promise<CryptoKey> {
 
 async function signValue(value: string, secret: string): Promise<string> {
   const key = await importSigningKey(secret);
-  const signature = await crypto.subtle.sign('HMAC', key, toBytes(value));
+  const signature = await crypto.subtle.sign('HMAC', key, toBuffer(value));
   return toHex(signature);
 }
 

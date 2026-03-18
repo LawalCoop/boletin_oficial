@@ -141,7 +141,7 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
         </div>
 
         {/* Mobile: Indicators + Weather in separate row */}
-        <div className="lg:hidden flex items-center justify-evenly py-2 border-t border-border">
+        <div className="lg:hidden flex items-center justify-evenly pt-6 pb-2 mt-2 border-t border-border">
           <EconomicIndicators />
           <WeatherIndicator />
         </div>

@@ -6,6 +6,7 @@ import { NoticiaPreview } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
 import { useUserData } from '@/contexts/UserDataContext';
+import { VoteIndicator } from '@/components/feed/VoteIndicator';
 
 interface HeroCardProps {
   noticia: NoticiaPreview;
@@ -76,11 +77,14 @@ export function HeroCard({ noticia }: HeroCardProps) {
         </div>
 
         {/* Title - Link to article detail */}
-        <Link href={`/articulo/${noticia.slug}`} className="flex-1">
-          <h2 className="font-[family-name:var(--font-lora)] text-xl lg:text-2xl font-medium text-text-primary leading-tight hover:text-accent transition-colors line-clamp-3">
-            {noticia.titulo}
-          </h2>
-        </Link>
+        <div className="flex items-start gap-2 flex-1">
+          <Link href={`/articulo/${noticia.slug}`} className="flex-1">
+            <h2 className="font-[family-name:var(--font-lora)] text-xl lg:text-2xl font-medium text-text-primary leading-tight hover:text-accent transition-colors line-clamp-3">
+              {noticia.titulo}
+            </h2>
+          </Link>
+          <VoteIndicator slug={noticia.slug} size="md" />
+        </div>
 
         {/* Excerpt */}
         <p className="text-sm text-text-secondary leading-relaxed line-clamp-2">

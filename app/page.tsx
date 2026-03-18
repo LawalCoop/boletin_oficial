@@ -14,6 +14,9 @@ import { NewsCard } from '@/components/feed/NewsCard';
 import { VariedNewsLayout, AdaptiveHeroLayout } from '@/components/feed/VariedNewsLayout';
 import { SeccionResumen } from '@/components/feed/SeccionResumen';
 import { Sidebar } from '@/components/layout/Sidebar';
+import { TopVotedSection, TopVotedProvider } from '@/components/feed/TopVotedSection';
+import { VoteIndicator } from '@/components/feed/VoteIndicator';
+import { VoteLegend } from '@/components/feed/VoteLegend';
 import { NoticiasDia, Categoria, NoticiaPreview, Tema } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido } from '@/lib/constants';
 import { Clock, Star } from 'lucide-react';
@@ -65,11 +68,14 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
       {/* Content */}
       <div className="p-4 flex flex-col gap-2 flex-1">
         {/* Title */}
-        <Link href={`/articulo/${noticia.slug}`}>
-          <h3 className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">
-            {noticia.titulo}
-          </h3>
-        </Link>
+        <div className="flex items-start gap-2">
+          <Link href={`/articulo/${noticia.slug}`} className="flex-1">
+            <h3 className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">
+              {noticia.titulo}
+            </h3>
+          </Link>
+          <VoteIndicator slug={noticia.slug} />
+        </div>
 
         {/* Meta row */}
         <div className="flex items-center justify-between mt-auto text-xs text-text-muted">
@@ -214,6 +220,7 @@ export default function Home() {
   }
 
   return (
+    <TopVotedProvider>
     <div className="min-h-screen bg-bg pb-20 lg:pb-0">
       <Header />
       <HeroBanner />
@@ -277,6 +284,9 @@ export default function Home() {
           </div>
         ) : noticias && allNews.length > 0 ? (
           <div className="flex flex-col gap-8 mt-4">
+            {/* Legend */}
+            <VoteLegend />
+
             {/* ===== ADAPTIVE LAYOUT based on article count ===== */}
             {allNews.length <= 5 ? (
               /* Pocos artículos: layout adaptativo */
@@ -318,13 +328,38 @@ export default function Home() {
                     </div>
                   )}
 
-                  {/* Mobile: Show hero grid articles as regular cards */}
-                  <div className="lg:hidden mt-4 flex flex-col">
-                    {heroGridArticles.map((noticia, index) => (
+                  {/* Mobile: Show hero grid articles with top voted sections interspersed */}
+                  <div className="lg:hidden mt-4 flex flex-col gap-4">
+                    {/* First 2 news */}
+                    {heroGridArticles.slice(0, 2).map((noticia, index) => (
                       <NewsCard
                         key={noticia.id}
                         noticia={noticia}
                         index={index + 1}
+                      />
+                    ))}
+
+                    {/* Más apoyadas */}
+                    <TopVotedSection type="apoyadas" />
+
+                    {/* Next 2 news */}
+                    {heroGridArticles.slice(2, 4).map((noticia, index) => (
+                      <NewsCard
+                        key={noticia.id}
+                        noticia={noticia}
+                        index={index + 3}
+                      />
+                    ))}
+
+                    {/* Más cuestionadas */}
+                    <TopVotedSection type="cuestionadas" />
+
+                    {/* Remaining news */}
+                    {heroGridArticles.slice(4).map((noticia, index) => (
+                      <NewsCard
+                        key={noticia.id}
+                        noticia={noticia}
+                        index={index + 5}
                       />
                     ))}
                   </div>
@@ -394,5 +429,6 @@ export default function Home() {
 
       <BottomTabBar />
     </div>
+    </TopVotedProvider>
   );
 }

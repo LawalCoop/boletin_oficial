@@ -7,6 +7,7 @@ import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS, f
 import { TemaIcon } from '@/components/shared/TemaIcon';
 import { SubscribedBanner } from './SubscribedBanner';
 import { SaveArticleButton } from '@/components/user/SaveArticleButton';
+import { VoteIndicator } from '@/components/feed/VoteIndicator';
 
 interface ArticleHeroProps {
   articulo: Articulo;
@@ -106,9 +107,12 @@ export function ArticleHero({ articulo }: ArticleHeroProps) {
               </div>
 
               {/* Title */}
-              <h1 className="font-[family-name:var(--font-lora)] text-[22px] lg:text-3xl xl:text-4xl font-medium text-white leading-[1.2] tracking-tight">
-                {articulo.contenidoIA.titulo}
-              </h1>
+              <div className="flex items-start gap-3">
+                <h1 className="font-[family-name:var(--font-lora)] text-[22px] lg:text-3xl xl:text-4xl font-medium text-white leading-[1.2] tracking-tight flex-1">
+                  {articulo.contenidoIA.titulo}
+                </h1>
+                <VoteIndicator slug={articulo.slug} size="md" />
+              </div>
 
               {/* Document Info with Link to Original */}
               <div className="flex items-center gap-2 pt-1 flex-wrap">

@@ -7,6 +7,7 @@ import { NoticiaPreview } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
 import { useUserData } from '@/contexts/UserDataContext';
+import { VoteIndicator } from '@/components/feed/VoteIndicator';
 
 // Card con imagen a la izquierda (horizontal)
 function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
@@ -60,11 +61,14 @@ function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
         </div>
 
         {/* Title */}
-        <Link href={`/articulo/${noticia.slug}`}>
-          <h3 className="font-[family-name:var(--font-lora)] text-sm lg:text-base font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">
-            {noticia.titulo}
-          </h3>
-        </Link>
+        <div className="flex items-start gap-2">
+          <Link href={`/articulo/${noticia.slug}`} className="flex-1">
+            <h3 className="font-[family-name:var(--font-lora)] text-sm lg:text-base font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">
+              {noticia.titulo}
+            </h3>
+          </Link>
+          <VoteIndicator slug={noticia.slug} />
+        </div>
 
         {/* Meta */}
         <div className="flex items-center gap-2 mt-auto text-[10px] text-text-muted">
@@ -111,11 +115,14 @@ function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
       </div>
 
       {/* Title */}
-      <Link href={`/articulo/${noticia.slug}`}>
-        <h3 className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary leading-snug hover:text-accent transition-colors">
-          {noticia.titulo}
-        </h3>
-      </Link>
+      <div className="flex items-start gap-2">
+        <Link href={`/articulo/${noticia.slug}`} className="flex-1">
+          <h3 className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary leading-snug hover:text-accent transition-colors">
+            {noticia.titulo}
+          </h3>
+        </Link>
+        <VoteIndicator slug={noticia.slug} />
+      </div>
 
       {/* Excerpt */}
       <p className="text-sm text-text-secondary leading-relaxed line-clamp-2">
@@ -190,11 +197,14 @@ function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
           </Link>
         )}
 
-        <Link href={`/articulo/${noticia.slug}`}>
-          <h3 className="font-[family-name:var(--font-lora)] text-xl lg:text-2xl font-medium text-text-primary leading-snug group-hover:text-accent transition-colors">
-            {noticia.titulo}
-          </h3>
-        </Link>
+        <div className="flex items-start gap-2">
+          <Link href={`/articulo/${noticia.slug}`} className="flex-1">
+            <h3 className="font-[family-name:var(--font-lora)] text-xl lg:text-2xl font-medium text-text-primary leading-snug group-hover:text-accent transition-colors">
+              {noticia.titulo}
+            </h3>
+          </Link>
+          <VoteIndicator slug={noticia.slug} size="md" />
+        </div>
 
         <p className="text-sm text-text-secondary leading-relaxed line-clamp-3">
           {noticia.extracto}
@@ -260,11 +270,14 @@ function CompactVerticalCard({ noticia }: { noticia: NoticiaPreview }) {
       </Link>
 
       <div className="p-3 flex flex-col gap-1.5 flex-1">
-        <Link href={`/articulo/${noticia.slug}`}>
-          <h3 className="font-[family-name:var(--font-lora)] text-sm font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">
-            {noticia.titulo}
-          </h3>
-        </Link>
+        <div className="flex items-start gap-1.5">
+          <Link href={`/articulo/${noticia.slug}`} className="flex-1">
+            <h3 className="font-[family-name:var(--font-lora)] text-sm font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">
+              {noticia.titulo}
+            </h3>
+          </Link>
+          <VoteIndicator slug={noticia.slug} />
+        </div>
 
         <div className="flex items-center gap-2 mt-auto text-[10px] text-text-muted">
           <span>{tiempoTranscurrido}</span>

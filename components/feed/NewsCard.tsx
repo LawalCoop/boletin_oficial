@@ -6,6 +6,7 @@ import { NoticiaPreview } from '@/lib/types';
 import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
 import { useUserData } from '@/contexts/UserDataContext';
+import { VoteIndicator } from '@/components/feed/VoteIndicator';
 
 interface NewsCardProps {
   noticia: NoticiaPreview;
@@ -76,11 +77,14 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
         </div>
 
         {/* Title - Link to article detail */}
-        <Link href={`/articulo/${noticia.slug}`}>
-          <h3 className="font-[family-name:var(--font-lora)] text-lg font-medium text-text-primary leading-snug hover:text-accent transition-colors">
-            {noticia.titulo}
-          </h3>
-        </Link>
+        <div className="flex items-start gap-2">
+          <Link href={`/articulo/${noticia.slug}`} className="flex-1">
+            <h3 className="font-[family-name:var(--font-lora)] text-lg font-medium text-text-primary leading-snug hover:text-accent transition-colors">
+              {noticia.titulo}
+            </h3>
+          </Link>
+          <VoteIndicator slug={noticia.slug} />
+        </div>
 
         {/* Excerpt */}
         <p className="text-sm text-text-secondary leading-relaxed line-clamp-2">

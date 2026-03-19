@@ -18,8 +18,8 @@ import { TopVotedSection, TopVotedProvider } from '@/components/feed/TopVotedSec
 import { VoteIndicator } from '@/components/feed/VoteIndicator';
 import { VoteLegend } from '@/components/feed/VoteLegend';
 import { NoticiasDia, Categoria, NoticiaPreview, Tema } from '@/lib/types';
-import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido } from '@/lib/constants';
-import { Clock, Star } from 'lucide-react';
+import { CATEGORIAS, TEMAS, formatFechaCorta } from '@/lib/constants';
+import { Star } from 'lucide-react';
 import { useUserData } from '@/contexts/UserDataContext';
 
 // Extended interface to include edition info
@@ -30,12 +30,12 @@ interface NoticiasDiaExtended extends NoticiasDia {
 // Compact card for the hero grid (right side)
 function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
-  const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const { isSubscribed } = useUserData();
   const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className={`flex flex-col h-full rounded-lg overflow-hidden hover:shadow-md transition-all group ${
+    <article className={`flex flex-col h-full rounded-none overflow-hidden hover:shadow-md transition-all group ${
       isSubscribedTema
         ? 'bg-[#FFE455]/5 border-2 border-[#FFE455] glow-pulse'
         : 'bg-bg-surface'
@@ -79,23 +79,18 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
 
         {/* Meta row */}
         <div className="flex items-center justify-between mt-auto text-xs text-text-muted">
-          <div className="flex items-center gap-2">
-            <span>{tiempoTranscurrido}</span>
-            <span>·</span>
-            <span className="flex items-center gap-1">
-              <Clock className="w-3 h-3" />
-              {noticia.tiempoLectura} min
-            </span>
-          </div>
-          <a
-            href={noticia.urlOriginal}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent hover:underline font-medium"
-            onClick={(e) => e.stopPropagation()}
-          >
-            Original
-          </a>
+          <span>{fechaFormateada}</span>
+          {noticia.urlOriginal && (
+            <a
+              href={noticia.urlOriginal}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:underline font-medium"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Original
+            </a>
+          )}
         </div>
       </div>
     </article>

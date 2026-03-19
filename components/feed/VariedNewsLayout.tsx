@@ -2,9 +2,9 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Clock, ExternalLink, Star } from 'lucide-react';
+import { ExternalLink, Clock, Star } from 'lucide-react';
 import { NoticiaPreview } from '@/lib/types';
-import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
+import { CATEGORIAS, TEMAS, formatFechaCorta, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
 import { useUserData } from '@/contexts/UserDataContext';
 import { VoteIndicator } from '@/components/feed/VoteIndicator';
@@ -13,18 +13,18 @@ import { VoteIndicator } from '@/components/feed/VoteIndicator';
 function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
-  const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const { isSubscribed } = useUserData();
   const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className={`flex gap-4 p-4 rounded-lg hover:shadow-md transition-all group ${
+    <article className={`flex gap-4 p-4 rounded-none hover:shadow-md transition-all group ${
       isSubscribedTema
         ? 'bg-[#FFE455]/5 border-2 border-[#FFE455] glow-pulse'
         : 'bg-bg-surface'
     }`}>
       {/* Image */}
-      <Link href={`/articulo/${noticia.slug}`} className="relative w-32 h-24 lg:w-40 lg:h-28 shrink-0 rounded-lg overflow-hidden bg-bg-warm">
+      <Link href={`/articulo/${noticia.slug}`} className="relative w-32 h-24 lg:w-40 lg:h-28 shrink-0 rounded-none overflow-hidden bg-bg-warm">
         {noticia.imagen ? (
           <div
             className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform"
@@ -71,13 +71,26 @@ function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
         </div>
 
         {/* Meta */}
-        <div className="flex items-center gap-2 mt-auto text-[10px] text-text-muted">
-          <span>{tiempoTranscurrido}</span>
-          <span>·</span>
-          <span className="flex items-center gap-1">
-            <Clock className="w-3 h-3" />
-            {noticia.tiempoLectura} min
-          </span>
+        <div className="flex items-center justify-between mt-auto text-[10px] text-text-muted">
+          <div className="flex items-center gap-2">
+            <span>{fechaFormateada}</span>
+            <span>·</span>
+            <span className="flex items-center gap-1">
+              <Clock className="w-3 h-3" />
+              {noticia.tiempoLectura} min
+            </span>
+          </div>
+          {noticia.urlOriginal && (
+            <a
+              href={noticia.urlOriginal}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-accent hover:underline font-medium"
+            >
+              <ExternalLink className="w-3 h-3" />
+              Original
+            </a>
+          )}
         </div>
       </div>
     </article>
@@ -87,7 +100,7 @@ function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
 // Card solo texto (sin imagen)
 function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
-  const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[noticia.tipoDocumento] || noticia.tipoDocumento;
   const { isSubscribed } = useUserData();
   const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
@@ -131,16 +144,25 @@ function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
 
       {/* Meta */}
       <div className="flex items-center justify-between text-xs text-text-muted pt-1">
-        <span>{tiempoTranscurrido}</span>
-        <a
-          href={noticia.urlOriginal}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-1 text-accent hover:underline font-medium"
-        >
-          <ExternalLink className="w-3 h-3" />
-          Original
-        </a>
+        <div className="flex items-center gap-2">
+          <span>{fechaFormateada}</span>
+          <span>·</span>
+          <span className="flex items-center gap-1">
+            <Clock className="w-3 h-3" />
+            {noticia.tiempoLectura} min
+          </span>
+        </div>
+        {noticia.urlOriginal && (
+          <a
+            href={noticia.urlOriginal}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-accent hover:underline font-medium"
+          >
+            <ExternalLink className="w-3 h-3" />
+            Original
+          </a>
+        )}
       </div>
     </article>
   );
@@ -150,18 +172,18 @@ function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
 function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
-  const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const { isSubscribed } = useUserData();
   const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className={`flex flex-col lg:flex-row gap-4 lg:gap-6 p-4 lg:p-5 rounded-xl hover:shadow-lg transition-all group ${
+    <article className={`flex flex-col lg:flex-row gap-4 lg:gap-6 p-4 lg:p-5 rounded-none hover:shadow-lg transition-all group ${
       isSubscribedTema
         ? 'bg-[#FFE455]/5 border-2 border-[#FFE455] glow-pulse'
         : 'bg-bg-surface'
     }`}>
       {/* Image */}
-      <Link href={`/articulo/${noticia.slug}`} className="relative h-48 lg:h-40 lg:w-72 shrink-0 rounded-lg overflow-hidden bg-bg-warm">
+      <Link href={`/articulo/${noticia.slug}`} className="relative h-48 lg:h-40 lg:w-72 shrink-0 rounded-none overflow-hidden bg-bg-warm">
         {noticia.imagen ? (
           <div
             className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform"
@@ -212,22 +234,24 @@ function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
 
         <div className="flex items-center justify-between mt-auto pt-2">
           <div className="flex items-center gap-2 text-xs text-text-muted">
-            <span>{tiempoTranscurrido}</span>
+            <span>{fechaFormateada}</span>
             <span>·</span>
             <span className="flex items-center gap-1">
               <Clock className="w-3 h-3" />
               {noticia.tiempoLectura} min
             </span>
           </div>
-          <a
-            href={noticia.urlOriginal}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 text-xs font-medium text-accent hover:underline"
-          >
-            <ExternalLink className="w-3 h-3" />
-            Original
-          </a>
+          {noticia.urlOriginal && (
+            <a
+              href={noticia.urlOriginal}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-xs font-medium text-accent hover:underline"
+            >
+              <ExternalLink className="w-3 h-3" />
+              Original
+            </a>
+          )}
         </div>
       </div>
     </article>
@@ -237,12 +261,12 @@ function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
 // Card compacta vertical (para grids)
 function CompactVerticalCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
-  const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const { isSubscribed } = useUserData();
   const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className={`flex flex-col h-full rounded-lg overflow-hidden hover:shadow-md transition-all group ${
+    <article className={`flex flex-col h-full rounded-none overflow-hidden hover:shadow-md transition-all group ${
       isSubscribedTema
         ? 'bg-[#FFE455]/5 border-2 border-[#FFE455] glow-pulse'
         : 'bg-bg-surface'
@@ -279,10 +303,18 @@ function CompactVerticalCard({ noticia }: { noticia: NoticiaPreview }) {
           <VoteIndicator slug={noticia.slug} />
         </div>
 
-        <div className="flex items-center gap-2 mt-auto text-[10px] text-text-muted">
-          <span>{tiempoTranscurrido}</span>
-          <span>·</span>
-          <span>{noticia.tiempoLectura} min</span>
+        <div className="flex items-center justify-between mt-auto text-[10px] text-text-muted">
+          <span>{fechaFormateada}</span>
+          {noticia.urlOriginal && (
+            <a
+              href={noticia.urlOriginal}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:underline font-medium"
+            >
+              Original
+            </a>
+          )}
         </div>
       </div>
     </article>

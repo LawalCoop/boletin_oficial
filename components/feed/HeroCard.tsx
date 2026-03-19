@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { ExternalLink, Clock, Star } from 'lucide-react';
 import { NoticiaPreview } from '@/lib/types';
-import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
+import { CATEGORIAS, TEMAS, formatFechaCorta, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
 import { useUserData } from '@/contexts/UserDataContext';
 import { VoteIndicator } from '@/components/feed/VoteIndicator';
@@ -15,13 +15,13 @@ interface HeroCardProps {
 export function HeroCard({ noticia }: HeroCardProps) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
-  const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[noticia.tipoDocumento] || noticia.tipoDocumento;
   const { isSubscribed } = useUserData();
   const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
 
   return (
-    <article className={`rounded-lg overflow-hidden bg-bg hover:shadow-lg transition-all h-full flex flex-col ${
+    <article className={`rounded-none overflow-hidden bg-bg hover:shadow-lg transition-all h-full flex flex-col ${
       isSubscribedTema
         ? 'border-2 border-[#FFE455] glow-pulse'
         : 'border border-border'
@@ -94,7 +94,7 @@ export function HeroCard({ noticia }: HeroCardProps) {
         {/* Meta Row */}
         <div className="flex items-center justify-between pt-1 mt-auto">
           <div className="flex items-center gap-2 text-xs text-text-muted">
-            <span>{tiempoTranscurrido}</span>
+            <span>{fechaFormateada}</span>
             <span>·</span>
             <span className="flex items-center gap-1">
               <Clock className="w-3.5 h-3.5" />
@@ -103,15 +103,17 @@ export function HeroCard({ noticia }: HeroCardProps) {
           </div>
 
           {/* Link to original Boletín Oficial */}
-          <a
-            href={noticia.urlOriginal}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 text-xs font-medium text-accent hover:underline"
-          >
-            Ver original
-            <ExternalLink className="w-3.5 h-3.5" />
-          </a>
+          {noticia.urlOriginal && (
+            <a
+              href={noticia.urlOriginal}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-xs font-medium text-accent hover:underline"
+            >
+              Ver original
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          )}
         </div>
       </div>
     </article>

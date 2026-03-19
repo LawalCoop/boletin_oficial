@@ -1,8 +1,8 @@
 'use client';
 
-import { useState } from 'react';
-import { ChevronLeft, ChevronRight, Calendar, X } from 'lucide-react';
-import { formatFechaCorta, MESES, parseFechaLocal } from '@/lib/constants';
+import { useState, useMemo } from 'react';
+import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Calendar, X } from 'lucide-react';
+import { formatFechaCorta, MESES } from '@/lib/constants';
 import { EconomicIndicators } from '@/components/layout/EconomicIndicators';
 import { WeatherIndicator } from '@/components/layout/WeatherIndicator';
 
@@ -13,8 +13,14 @@ interface DateHeaderProps {
   edicionBoletin?: string;
 }
 
+const DIAS_SEMANA = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
+
 export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBoletin }: DateHeaderProps) {
   const [showPicker, setShowPicker] = useState(false);
+
+  // Calendar view state - start with the selected date's month
+  const [viewYear, setViewYear] = useState(() => parseInt(fecha.split('-')[0]));
+  const [viewMonth, setViewMonth] = useState(() => parseInt(fecha.split('-')[1]) - 1);
 
   const fechaFormateada = formatFechaCorta(fecha);
   // Get today's date in local timezone (not UTC)
@@ -39,14 +45,66 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
     }
   };
 
-  // Group dates by month for picker
-  const datesByMonth = fechasDisponibles.reduce((acc, date) => {
-    const [year, month] = date.split('-');
-    const key = `${year}-${month}`;
-    if (!acc[key]) acc[key] = [];
-    acc[key].push(date);
-    return acc;
-  }, {} as Record<string, string[]>);
+  // Set of available dates for quick lookup
+  const availableDatesSet = useMemo(() => new Set(fechasDisponibles), [fechasDisponibles]);
+
+  // Generate calendar days for current view month
+  const calendarDays = useMemo(() => {
+    const firstDay = new Date(viewYear, viewMonth, 1);
+    const lastDay = new Date(viewYear, viewMonth + 1, 0);
+    const daysInMonth = lastDay.getDate();
+    const startDayOfWeek = firstDay.getDay();
+
+    const days: (number | null)[] = [];
+
+    // Add empty slots for days before the first day of the month
+    for (let i = 0; i < startDayOfWeek; i++) {
+      days.push(null);
+    }
+
+    // Add all days of the month
+    for (let day = 1; day <= daysInMonth; day++) {
+      days.push(day);
+    }
+
+    return days;
+  }, [viewYear, viewMonth]);
+
+  const handlePrevMonth = () => {
+    if (viewMonth === 0) {
+      setViewMonth(11);
+      setViewYear(viewYear - 1);
+    } else {
+      setViewMonth(viewMonth - 1);
+    }
+  };
+
+  const handleNextMonth = () => {
+    if (viewMonth === 11) {
+      setViewMonth(0);
+      setViewYear(viewYear + 1);
+    } else {
+      setViewMonth(viewMonth + 1);
+    }
+  };
+
+  const handlePrevYear = () => {
+    setViewYear(viewYear - 1);
+  };
+
+  const handleNextYear = () => {
+    setViewYear(viewYear + 1);
+  };
+
+  const formatDateString = (day: number) => {
+    return `${viewYear}-${String(viewMonth + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+  };
+
+  // Count available dates in current view month
+  const availableInCurrentMonth = useMemo(() => {
+    const prefix = `${viewYear}-${String(viewMonth + 1).padStart(2, '0')}`;
+    return fechasDisponibles.filter(f => f.startsWith(prefix)).length;
+  }, [fechasDisponibles, viewYear, viewMonth]);
 
   return (
     <>
@@ -70,7 +128,11 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
             </button>
 
             <button
-              onClick={() => setShowPicker(true)}
+              onClick={() => {
+                setViewYear(parseInt(fecha.split('-')[0]));
+                setViewMonth(parseInt(fecha.split('-')[1]) - 1);
+                setShowPicker(true);
+              }}
               className="flex items-center gap-2 px-4 py-2 hover:bg-bg-surface rounded-lg transition-colors"
             >
               <Calendar className="w-6 h-6 text-accent" />
@@ -114,7 +176,11 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
           </button>
 
           <button
-            onClick={() => setShowPicker(true)}
+            onClick={() => {
+              setViewYear(parseInt(fecha.split('-')[0]));
+              setViewMonth(parseInt(fecha.split('-')[1]) - 1);
+              setShowPicker(true);
+            }}
             className="flex items-center gap-2 px-4 py-2 hover:bg-bg-surface rounded-lg transition-colors"
           >
             <Calendar className="w-5 h-5 text-accent" />
@@ -147,10 +213,10 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
         </div>
       </div>
 
-      {/* Date Picker Modal */}
+      {/* Date Picker Modal - Calendar View */}
       {showPicker && (
         <div className="fixed inset-0 bg-black/50 z-50 flex items-end justify-center sm:items-center">
-          <div className="bg-bg w-full max-w-md rounded-t-2xl sm:rounded-2xl max-h-[70vh] overflow-hidden">
+          <div className="bg-bg w-full max-w-sm rounded-t-2xl sm:rounded-2xl overflow-hidden">
             {/* Header */}
             <div className="flex items-center justify-between px-4 py-3 border-b border-border">
               <h2 className="font-[family-name:var(--font-lora)] text-lg font-medium text-text-primary">
@@ -164,61 +230,116 @@ export function DateHeader({ fecha, fechasDisponibles, onDateChange, edicionBole
               </button>
             </div>
 
-            {/* Dates List */}
-            <div className="overflow-y-auto max-h-[50vh] p-4">
-              {Object.entries(datesByMonth)
-                .sort(([a], [b]) => b.localeCompare(a))
-                .map(([monthKey, dates]) => {
-                  const [year, month] = monthKey.split('-');
-                  const monthName = MESES[parseInt(month) - 1];
+            {/* Month/Year Navigation */}
+            <div className="flex items-center justify-between px-4 py-3">
+              <div className="flex items-center gap-1">
+                <button
+                  onClick={handlePrevYear}
+                  className="p-1.5 hover:bg-bg-surface rounded-full transition-colors"
+                  title="Año anterior"
+                >
+                  <ChevronsLeft className="w-4 h-4 text-text-muted" />
+                </button>
+                <button
+                  onClick={handlePrevMonth}
+                  className="p-1.5 hover:bg-bg-surface rounded-full transition-colors"
+                  title="Mes anterior"
+                >
+                  <ChevronLeft className="w-5 h-5 text-text-muted" />
+                </button>
+              </div>
+              <div className="flex flex-col items-center">
+                <span className="font-[family-name:var(--font-lora)] text-lg font-medium text-text-primary">
+                  {MESES[viewMonth]} {viewYear}
+                </span>
+                {availableInCurrentMonth > 0 ? (
+                  <span className="text-[10px] text-accent font-medium">
+                    {availableInCurrentMonth} {availableInCurrentMonth === 1 ? 'edición' : 'ediciones'}
+                  </span>
+                ) : (
+                  <span className="text-[10px] text-text-muted">
+                    Sin ediciones
+                  </span>
+                )}
+              </div>
+              <div className="flex items-center gap-1">
+                <button
+                  onClick={handleNextMonth}
+                  className="p-1.5 hover:bg-bg-surface rounded-full transition-colors"
+                  title="Mes siguiente"
+                >
+                  <ChevronRight className="w-5 h-5 text-text-muted" />
+                </button>
+                <button
+                  onClick={handleNextYear}
+                  className="p-1.5 hover:bg-bg-surface rounded-full transition-colors"
+                  title="Año siguiente"
+                >
+                  <ChevronsRight className="w-4 h-4 text-text-muted" />
+                </button>
+              </div>
+            </div>
+
+            {/* Calendar Grid */}
+            <div className="px-4 pb-4">
+              {/* Day headers */}
+              <div className="grid grid-cols-7 gap-1 mb-2">
+                {DIAS_SEMANA.map((dia) => (
+                  <div key={dia} className="text-center text-xs font-medium text-text-muted py-2">
+                    {dia}
+                  </div>
+                ))}
+              </div>
+
+              {/* Calendar days */}
+              <div className="grid grid-cols-7 gap-1">
+                {calendarDays.map((day, index) => {
+                  if (day === null) {
+                    return <div key={`empty-${index}`} className="w-10 h-10" />;
+                  }
+
+                  const dateStr = formatDateString(day);
+                  const isAvailable = availableDatesSet.has(dateStr);
+                  const isSelected = dateStr === fecha;
+                  const isToday = dateStr === hoy;
 
                   return (
-                    <div key={monthKey} className="mb-4">
-                      <h3 className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-2">
-                        {monthName} {year}
-                      </h3>
-                      <div className="flex flex-wrap gap-2">
-                        {dates.sort((a, b) => b.localeCompare(a)).map((date) => {
-                          const isSelected = date === fecha;
-                          const { day } = parseFechaLocal(date);
-                          const isToday = date === hoy;
-
-                          return (
-                            <button
-                              key={date}
-                              onClick={() => {
-                                onDateChange(date);
-                                setShowPicker(false);
-                              }}
-                              className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition-colors ${
-                                isSelected
-                                  ? 'bg-accent text-white'
-                                  : isToday
-                                  ? 'bg-accent-soft text-accent border-2 border-accent'
-                                  : 'bg-bg-surface text-text-primary hover:bg-border'
-                              }`}
-                            >
-                              {day}
-                            </button>
-                          );
-                        })}
-                      </div>
-                    </div>
+                    <button
+                      key={day}
+                      onClick={() => {
+                        if (isAvailable) {
+                          onDateChange(dateStr);
+                          setShowPicker(false);
+                        }
+                      }}
+                      disabled={!isAvailable}
+                      className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition-colors ${
+                        isSelected
+                          ? 'bg-accent text-white'
+                          : isToday && isAvailable
+                          ? 'bg-accent-soft text-accent border-2 border-accent'
+                          : isAvailable
+                          ? 'bg-bg-surface text-text-primary hover:bg-border cursor-pointer'
+                          : 'text-text-muted/40 cursor-not-allowed'
+                      }`}
+                    >
+                      {day}
+                    </button>
                   );
                 })}
-
-              {fechasDisponibles.length === 0 && (
-                <p className="text-center text-text-muted py-8">
-                  No hay fechas disponibles
-                </p>
-              )}
+              </div>
             </div>
 
             {/* Footer info */}
             <div className="px-4 py-3 bg-bg-surface border-t border-border">
               <p className="text-xs text-text-muted text-center">
-                Mostrando {fechasDisponibles.length} ediciones disponibles del Boletín Oficial
+                {fechasDisponibles.length} ediciones disponibles
               </p>
+              {fechasDisponibles.length > 0 && (
+                <p className="text-[10px] text-text-muted text-center mt-1">
+                  Desde {formatFechaCorta(fechasDisponibles[fechasDisponibles.length - 1])} hasta {formatFechaCorta(fechasDisponibles[0])}
+                </p>
+              )}
             </div>
           </div>
         </div>

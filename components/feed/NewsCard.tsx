@@ -1,9 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { ExternalLink, Clock, Star } from 'lucide-react';
+import { ExternalLink, Star } from 'lucide-react';
 import { NoticiaPreview } from '@/lib/types';
-import { CATEGORIAS, TEMAS, calcularTiempoTranscurrido, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
+import { CATEGORIAS, TEMAS, formatFechaCorta, TIPO_DOCUMENTO_LABELS } from '@/lib/constants';
 import { TemaIcon } from '@/components/shared/TemaIcon';
 import { useUserData } from '@/contexts/UserDataContext';
 import { VoteIndicator } from '@/components/feed/VoteIndicator';
@@ -17,7 +17,7 @@ interface NewsCardProps {
 export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
-  const tiempoTranscurrido = calcularTiempoTranscurrido(noticia.fechaPublicacion);
+  const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[noticia.tipoDocumento] || noticia.tipoDocumento;
   const displayNumber = String(index + 1).padStart(2, '0');
   const { isSubscribed } = useUserData();
@@ -25,7 +25,7 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
 
   return (
     <article
-      className={`flex gap-4 py-5 border-t rounded-lg transition-all ${
+      className={`flex gap-4 py-5 border-t rounded-none transition-all ${
         isSubscribedTema
           ? 'border-2 border-[#FFE455] bg-[#FFE455]/5 p-4 -mx-2 shadow-sm'
           : highlighted
@@ -93,26 +93,21 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
 
         {/* Meta Row with Original Link */}
         <div className="flex items-center justify-between gap-2 pt-1">
-          <div className="flex items-center gap-2 text-xs text-text-muted">
-            <span>{tiempoTranscurrido}</span>
-            <span>·</span>
-            <span className="flex items-center gap-1">
-              <Clock className="w-3 h-3" />
-              {noticia.tiempoLectura} min
-            </span>
-          </div>
+          <span className="text-xs text-text-muted">{fechaFormateada}</span>
 
-          {/* Link to original Boletín Oficial - Always visible */}
-          <a
-            href={noticia.urlOriginal}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 text-xs font-medium text-accent hover:underline shrink-0"
-            title="Ver documento original en el Boletín Oficial"
-          >
-            <ExternalLink className="w-3 h-3" />
-            Original
-          </a>
+          {/* Link to original Boletín Oficial */}
+          {noticia.urlOriginal && (
+            <a
+              href={noticia.urlOriginal}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-xs font-medium text-accent hover:underline shrink-0"
+              title="Ver documento original en el Boletín Oficial"
+            >
+              <ExternalLink className="w-3 h-3" />
+              Original
+            </a>
+          )}
         </div>
       </div>
     </article>

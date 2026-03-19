@@ -1,6 +1,6 @@
 'use client';
 
-import { ScrollText, Search, Bell, Home, HelpCircle } from 'lucide-react';
+import { ScrollText, Search, Bell, Home, HelpCircle, Tags } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { CountrySelector } from './CountrySelector';
@@ -9,6 +9,7 @@ import { UserMenu } from '@/components/auth/UserMenu';
 const navItems = [
   { href: '/', label: 'Inicio', icon: Home },
   { href: '/buscar', label: 'Buscar', icon: Search },
+  { href: '/temas', label: 'Temas', icon: Tags },
   { href: '/sobre', label: '¿Por qué?', icon: HelpCircle },
 ];
 

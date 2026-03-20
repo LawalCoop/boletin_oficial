@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ExternalLink, Clock, Star } from 'lucide-react';
 import { NoticiaPreview } from '@/lib/types';
@@ -17,8 +18,14 @@ export function HeroCard({ noticia }: HeroCardProps) {
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
   const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[noticia.tipoDocumento] || noticia.tipoDocumento;
+  const [mounted, setMounted] = useState(false);
   const { isSubscribed } = useUserData();
-  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const isSubscribedTema = mounted && noticia.tema && isSubscribed(noticia.tema);
 
   return (
     <article className={`rounded-none overflow-hidden bg-bg hover:shadow-lg transition-all h-full flex flex-col ${

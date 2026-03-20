@@ -34,8 +34,15 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
   const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
+  const [mounted, setMounted] = useState(false);
   const { isSubscribed } = useUserData();
-  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Only check subscription after mount to avoid hydration mismatch
+  const isSubscribedTema = mounted && noticia.tema && isSubscribed(noticia.tema);
 
   return (
     <article className={`flex flex-col h-full rounded-none overflow-hidden hover:shadow-md transition-all group ${

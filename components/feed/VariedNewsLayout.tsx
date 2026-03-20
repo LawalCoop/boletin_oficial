@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ExternalLink, Clock, Star } from 'lucide-react';
 import { NoticiaPreview } from '@/lib/types';
@@ -9,13 +9,23 @@ import { TemaIcon } from '@/components/shared/TemaIcon';
 import { useUserData } from '@/contexts/UserDataContext';
 import { VoteIndicator } from '@/components/feed/VoteIndicator';
 
+// Hook to avoid hydration mismatch
+function useMounted() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  return mounted;
+}
+
 // Card con imagen a la izquierda (horizontal)
 function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
+  const mounted = useMounted();
   const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const { isSubscribed } = useUserData();
-  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
+  const isSubscribedTema = mounted && noticia.tema && isSubscribed(noticia.tema);
 
   return (
     <article className={`flex gap-4 p-4 rounded-none hover:shadow-md transition-all group ${
@@ -107,10 +117,11 @@ function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
 function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
+  const mounted = useMounted();
   const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[noticia.tipoDocumento] || noticia.tipoDocumento;
   const { isSubscribed } = useUserData();
-  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
+  const isSubscribedTema = mounted && noticia.tema && isSubscribed(noticia.tema);
 
   return (
     <article
@@ -193,9 +204,10 @@ function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
 function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
+  const mounted = useMounted();
   const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const { isSubscribed } = useUserData();
-  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
+  const isSubscribedTema = mounted && noticia.tema && isSubscribed(noticia.tema);
 
   return (
     <article className={`flex flex-col lg:flex-row gap-4 lg:gap-6 p-4 lg:p-5 rounded-none hover:shadow-lg transition-all group ${
@@ -283,9 +295,10 @@ function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
 function CompactVerticalCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
   const tema = noticia.tema ? TEMAS[noticia.tema] : null;
+  const mounted = useMounted();
   const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const { isSubscribed } = useUserData();
-  const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
+  const isSubscribedTema = mounted && noticia.tema && isSubscribed(noticia.tema);
 
   return (
     <article className={`flex flex-col h-full rounded-none overflow-hidden hover:shadow-md transition-all group ${

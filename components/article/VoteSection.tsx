@@ -18,12 +18,17 @@ interface VoteCounts {
 }
 
 export function VoteSection({ slug }: VoteSectionProps) {
-  const { data: session } = useSession();
+  const { data: session, status } = useSession();
   const { getVote, vote, removeVote } = useUserData();
   const [counts, setCounts] = useState<VoteCounts>({ favor: 0, neutro: 0, contra: 0, total: 0 });
   const [isVoting, setIsVoting] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   const userVote = getVote(slug);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     fetch(`/api/votes/${encodeURIComponent(slug)}`)
@@ -78,6 +83,20 @@ export function VoteSection({ slug }: VoteSectionProps) {
   const positivePercent = total > 0 ? Math.round((counts.favor / total) * 100) : 0;
   const neutralPercent = total > 0 ? Math.round((counts.neutro / total) * 100) : 0;
   const negativePercent = total > 0 ? 100 - positivePercent - neutralPercent : 0;
+
+  // Wait for client-side hydration to avoid mismatch
+  if (!mounted || status === 'loading') {
+    return (
+      <div className="bg-bg-surface rounded-lg p-4 animate-pulse">
+        <div className="h-5 bg-bg rounded w-48 mb-3" />
+        <div className="flex gap-2">
+          <div className="flex-1 h-16 bg-bg rounded" />
+          <div className="flex-1 h-16 bg-bg rounded" />
+          <div className="flex-1 h-16 bg-bg rounded" />
+        </div>
+      </div>
+    );
+  }
 
   if (!session) {
     return (

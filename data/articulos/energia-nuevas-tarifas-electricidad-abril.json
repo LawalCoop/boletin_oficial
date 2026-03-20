@@ -81,7 +81,13 @@
     "neutrales": 0,
     "negativos": 0
   },
-  "relacionados": ["energia-subsidios-tarifas-gas-invierno"],
+  "relacionados": [
+    {
+      "slug": "energia-subsidios-tarifas-gas-invierno",
+      "categoria": "nacional",
+      "titulo": "Reducen subsidios al gas: las boletas de invierno van a venir más caras"
+    }
+  ],
   "imagen": "/images/articulos/energia.jpg",
   "fechaPublicacion": "2026-03-20T08:00:00Z",
   "tiempoLectura": 5,

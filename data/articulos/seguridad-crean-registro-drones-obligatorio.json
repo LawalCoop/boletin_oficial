@@ -1,0 +1,89 @@
+{
+  "id": "bora-339840",
+  "slug": "seguridad-crean-registro-drones-obligatorio",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "seguridad",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "251/2026",
+    "organismoEmisor": "Ministerio de Seguridad",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339840/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Será obligatorio registrar todos los drones: crean el Registro Nacional de Aeronaves No Tripuladas",
+    "resumen": "Si tenés un drone —ya sea un juguete de $50.000 o un equipo profesional de filmación—, vas a tener que registrarlo. El Ministerio de Seguridad acaba de crear el Registro Nacional de Aeronaves No Tripuladas, de inscripción obligatoria para todos los drones que operen en el país.\n\nEl plazo para inscribir los drones que ya están en uso es de 90 días a partir de hoy. Los que se compren a partir de ahora tienen que registrarse dentro de los 30 días de la adquisición. La inscripción es gratuita y se hace online, pero hay que aportar datos del equipo (marca, modelo, número de serie) y del propietario.\n\nEl que no registre su drone se arriesga a que se lo secuestren si lo detectan volando. Además, hay multas de hasta 5 salarios mínimos. El Ministerio argumenta que la medida busca 'ordenar el espacio aéreo' y prevenir usos ilegales como el contrabando de drogas en las cárceles —algo que viene pasando cada vez más— o la invasión de la privacidad.",
+    "contexto": "¿Por qué lo maneja Seguridad y no Transporte? Los drones tocan dos áreas: aviación (Transporte) y seguridad. Como el principal argumento para el registro es prevenir usos delictivos, quedó en la órbita del Ministerio de Seguridad. La ANAC (aviación civil) sigue regulando dónde y cómo se puede volar, pero el registro de propietarios lo lleva Seguridad.",
+    "puntosClaves": [
+      {
+        "titulo": "Registro obligatorio y gratuito",
+        "descripcion": "Todos los drones tienen que inscribirse en el nuevo registro. No importa el tamaño ni el uso: desde el DJI Mini de un hobbyista hasta los equipos agrícolas de fumigación. La inscripción es online y no tiene costo."
+      },
+      {
+        "titulo": "90 días para registrar los que ya tenés",
+        "descripcion": "Si ya tenés un drone, tenés hasta mediados de junio para inscribirlo. Los que compres de ahora en adelante tienen que registrarse dentro de los 30 días de la compra."
+      },
+      {
+        "titulo": "Multas y secuestro si no cumplís",
+        "descripcion": "Volar un drone no registrado es una infracción que puede terminar con el secuestro del equipo y multas de hasta 5 salarios mínimos ($1,5 millones aproximadamente). Las fuerzas de seguridad van a poder exigir el certificado de registro."
+      },
+      {
+        "titulo": "Datos del drone y del dueño",
+        "descripcion": "El registro pide información del equipo (marca, modelo, número de serie, peso máximo de despegue) y del propietario (DNI, domicilio, datos de contacto). Todo queda en una base de datos accesible para las fuerzas de seguridad."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Hobbyistas y aficionados",
+        "icono": "gamepad-2",
+        "descripcion": "Los que compraron un drone para divertirse los fines de semana van a tener que hacer un trámite burocrático. Es gratuito pero molesto. Ojo: si volás en un parque sin registrarlo, te lo pueden secuestrar."
+      },
+      {
+        "grupo": "Fotógrafos y videógrafos",
+        "icono": "camera",
+        "descripcion": "Los profesionales de la imagen aérea ya estaban bastante regulados por la ANAC. Ahora suman un registro más, pero al menos es simple y online. Es un papelerío extra para poder trabajar."
+      },
+      {
+        "grupo": "Empresas agrícolas",
+        "icono": "wheat",
+        "descripcion": "Las empresas que usan drones para fumigar o mapear campos van a tener que registrar toda su flota. Son equipos caros, así que les conviene tenerlos en regla para evitar problemas."
+      },
+      {
+        "grupo": "Delivery con drones (futuro)",
+        "icono": "package",
+        "descripcion": "Las empresas que planean usar drones para delivery —como ya se hace en otros países— van a tener que cumplir con este registro. Es un paso hacia la regulación del espacio aéreo para drones comerciales."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 251/2026 - MINISTERIO DE SEGURIDAD",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Creación del Registro",
+        "contenido": "Créase el REGISTRO NACIONAL DE AERONAVES NO TRIPULADAS (RENAT) en el ámbito del Ministerio de Seguridad, el cual tendrá carácter obligatorio para todas las aeronaves no tripuladas que operen en el territorio nacional."
+      },
+      {
+        "numero": "2",
+        "titulo": "Plazo de inscripción",
+        "contenido": "Los propietarios de aeronaves no tripuladas en uso a la fecha de publicación de la presente deberán inscribirlas en el RENAT dentro de los NOVENTA (90) días corridos. Las aeronaves adquiridas con posterioridad deberán registrarse dentro de los TREINTA (30) días de su adquisición."
+      },
+      {
+        "numero": "3",
+        "titulo": "Sanciones",
+        "contenido": "La operación de aeronaves no tripuladas no inscriptas en el RENAT será sancionada con el secuestro del equipo y multa de hasta CINCO (5) Salarios Mínimos Vitales y Móviles vigentes al momento de la infracción."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/seguridad.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["drones", "registro", "seguridad", "aviación", "tecnología", "ANAC"]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "bora-339850",
+  "slug": "parques-nacionales-limitan-turismo-glaciares",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "medio-ambiente",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "84/2026",
+    "organismoEmisor": "Administración de Parques Nacionales",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339850/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Parques Nacionales limita el turismo en el Glaciar Perito Moreno: máximo 4.000 visitantes por día",
+    "resumen": "El Perito Moreno va a tener cupo. La Administración de Parques Nacionales estableció un límite de 4.000 visitantes diarios para las pasarelas del glaciar más famoso de Argentina. Hasta ahora no había tope y en temporada alta llegaban a entrar 7.000 personas por día.\n\nLa medida entra en vigencia el 1 de octubre, justo antes de la temporada alta de turismo en la Patagonia. Los visitantes van a tener que reservar su lugar con anticipación a través de la web de Parques Nacionales. La entrada sigue costando lo mismo, pero ahora hay que sacar turno.\n\nParques Nacionales argumenta que el exceso de visitantes estaba afectando tanto la experiencia turística —colas interminables, pasarelas abarrotadas— como el ecosistema del parque. El glaciar en sí no se ve afectado por los visitantes, pero el bosque circundante y las especies que lo habitan sí sufren el impacto de miles de personas pisoteando cada día.",
+    "contexto": "¿Qué es Parques Nacionales? Es el organismo que administra las 56 áreas protegidas del país, incluyendo joyas como el Glaciar Perito Moreno, las Cataratas del Iguazú y el Parque Nahuel Huapi. Depende del Ministerio de Ambiente y tiene la facultad de regular el acceso a estos espacios para proteger los ecosistemas.",
+    "puntosClaves": [
+      {
+        "titulo": "Cupo diario de 4.000 personas",
+        "descripcion": "A partir de octubre, no van a poder entrar más de 4.000 visitantes por día a las pasarelas del glaciar. Es casi la mitad de lo que entraba en los días pico de enero y febrero."
+      },
+      {
+        "titulo": "Reserva obligatoria online",
+        "descripcion": "Ya no se puede llegar y comprar la entrada en la boletería. Hay que reservar con anticipación en la web de Parques Nacionales, eligiendo fecha y franja horaria. Sin reserva, no entrás."
+      },
+      {
+        "titulo": "Misma tarifa, distinta experiencia",
+        "descripcion": "El precio de la entrada no cambia, pero la experiencia debería mejorar: menos gente, menos colas, más tiempo para disfrutar del glaciar sin empujones."
+      },
+      {
+        "titulo": "Temporada alta más organizada",
+        "descripcion": "En enero y febrero, cuando el cupo se llene rápido, los turistas van a tener que planificar con tiempo. Los que lleguen sin reserva van a tener que ir otro día o buscar alternativas."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Turistas nacionales",
+        "icono": "user",
+        "descripcion": "Ahora hay que planificar mejor el viaje a El Calafate. Si vas en temporada alta sin reserva, te podés quedar afuera del glaciar. La buena noticia: cuando entres, vas a poder disfrutarlo sin multitudes."
+      },
+      {
+        "grupo": "Turistas extranjeros",
+        "icono": "plane",
+        "descripcion": "Los paquetes turísticos internacionales van a tener que incluir la reserva anticipada. Las agencias que venden tours a la Patagonia ya están adaptando su operatoria."
+      },
+      {
+        "grupo": "Operadores turísticos de El Calafate",
+        "icono": "bus",
+        "descripcion": "Las empresas de excursiones van a tener que gestionar reservas para sus clientes. Algunas se quejan de que el cupo los limita; otras celebran que mejore la experiencia."
+      },
+      {
+        "grupo": "Hotelería de El Calafate",
+        "icono": "bed",
+        "descripcion": "Si hay cupo en el glaciar, los turistas podrían quedarse más noches esperando su turno. O podrían elegir otros destinos patagónicos sin cupos. El impacto económico está por verse."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 84/2026 - ADMINISTRACIÓN DE PARQUES NACIONALES",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Capacidad de carga",
+        "contenido": "Establécese en CUATRO MIL (4.000) visitantes diarios la capacidad de carga máxima para el sistema de pasarelas del Glaciar Perito Moreno, ubicado en el Parque Nacional Los Glaciares."
+      },
+      {
+        "numero": "2",
+        "titulo": "Sistema de reservas",
+        "contenido": "Impleméntase un sistema de reservas previas obligatorio para el acceso a las pasarelas del Glaciar Perito Moreno, el cual funcionará a través de la plataforma web de la Administración de Parques Nacionales."
+      },
+      {
+        "numero": "3",
+        "titulo": "Vigencia",
+        "contenido": "La presente resolución entrará en vigencia a partir del 1° de octubre de 2026."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": ["ambiente-prohiben-plasticos-un-solo-uso-parques-nacionales"],
+  "imagen": "/images/articulos/parques.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["Perito Moreno", "turismo", "parques nacionales", "glaciares", "Patagonia", "ambiente", "cupo"]
+}

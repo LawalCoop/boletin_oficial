@@ -1,0 +1,89 @@
+{
+  "id": "bora-339885",
+  "slug": "ansv-nuevos-requisitos-licencia-conducir-profesional",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "transporte",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "70/2026",
+    "organismoEmisor": "Agencia Nacional de Seguridad Vial",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339885/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Cambian los requisitos para obtener la licencia de conducir profesional",
+    "resumen": "Si querés manejar un colectivo, un camión o un remís, ahora te van a pedir más cosas. La Agencia Nacional de Seguridad Vial modificó los requisitos para las licencias profesionales de transporte de pasajeros y carga. El cambio más importante: ahora se exige un curso de 40 horas y un examen psicofísico más completo.\n\nLa medida apunta a reducir los accidentes protagonizados por vehículos de transporte, que suelen ser los más graves. Cada año mueren en Argentina más de 300 personas en choques que involucran colectivos de larga distancia o camiones de carga.\n\nPara los que ya tienen licencia profesional, la renovación también se complica: van a tener que hacer un curso de actualización de 8 horas cada vez que renueven. Los costos corren por cuenta del conductor, aunque algunos sindicatos negociaron que las empresas los cubran.",
+    "contexto": "¿Qué es una licencia profesional? Es la habilitación que necesitás para manejar vehículos de transporte de pasajeros (colectivos, remises, taxis, combis escolares) o de carga (camiones). Se diferencia de la licencia particular en que requiere más exámenes, cursos específicos y controles más estrictos de salud.",
+    "puntosClaves": [
+      {
+        "titulo": "Curso obligatorio de 40 horas",
+        "descripcion": "Antes de dar el examen práctico, los aspirantes a licencia profesional tienen que completar un curso teórico-práctico de 40 horas sobre seguridad vial, primeros auxilios, mecánica básica y normativa del transporte."
+      },
+      {
+        "titulo": "Examen psicofísico más exigente",
+        "descripcion": "El nuevo examen incluye test de sueño para detectar apnea, evaluación de reflejos y tiempos de reacción, y una entrevista psicológica más profunda. Se busca filtrar a quienes no están en condiciones de manejar vehículos pesados."
+      },
+      {
+        "titulo": "Actualización cada 2 años",
+        "descripcion": "Al renovar la licencia profesional, hay que hacer un curso de actualización de 8 horas. Cubre cambios normativos, nuevas tecnologías de seguridad y repaso de procedimientos de emergencia."
+      },
+      {
+        "titulo": "Costos mayores para los conductores",
+        "descripcion": "Entre el curso, el examen psicofísico y las tasas, obtener una licencia profesional va a costar alrededor de $150.000. Antes estaba en unos $80.000. El salto es significativo para quienes recién empiezan."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Aspirantes a choferes",
+        "icono": "user",
+        "descripcion": "Los que quieran entrar al rubro van a tener que invertir más tiempo y plata. El curso de 40 horas hay que hacerlo en horarios que muchas veces coinciden con trabajos actuales."
+      },
+      {
+        "grupo": "Choferes actuales",
+        "icono": "truck",
+        "descripcion": "Al renovar van a tener que hacer el curso de 8 horas. Algunos sindicatos lograron que las empresas paguen, pero muchos choferes independientes van a tener que afrontarlo de su bolsillo."
+      },
+      {
+        "grupo": "Empresas de transporte",
+        "icono": "bus",
+        "descripcion": "Les va a costar más conseguir choferes nuevos, porque el pool de candidatos se achica con requisitos más duros. Puede haber presión salarial a favor de los que ya tienen licencia."
+      },
+      {
+        "grupo": "Pasajeros",
+        "icono": "users",
+        "descripcion": "En teoría, viajar en colectivo o taxi debería ser más seguro si los choferes están mejor capacitados y evaluados. El impacto real se va a ver en las estadísticas de accidentes."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIÓN 70/2026 - AGENCIA NACIONAL DE SEGURIDAD VIAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Curso de capacitación",
+        "contenido": "Establécese como requisito previo a la obtención de licencias de conducir de las clases profesionales (D, E) la aprobación de un curso de capacitación de CUARENTA (40) horas de duración."
+      },
+      {
+        "numero": "2",
+        "titulo": "Examen psicofísico",
+        "contenido": "Modifícase el Anexo II de la Disposición ANSV N° 207/2022, incorporándose a la evaluación psicofísica para licencias profesionales el estudio de trastornos del sueño y la evaluación de tiempos de reacción."
+      },
+      {
+        "numero": "3",
+        "titulo": "Actualización periódica",
+        "contenido": "Los titulares de licencias profesionales deberán completar un curso de actualización de OCHO (8) horas de duración en ocasión de cada renovación de su habilitación."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/transito.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["licencia de conducir", "transporte", "seguridad vial", "camiones", "colectivos", "choferes"]
+}

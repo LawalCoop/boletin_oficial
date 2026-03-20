@@ -1,0 +1,89 @@
+{
+  "id": "bora-339830",
+  "slug": "economia-nuevos-requisitos-compra-dolar-ahorro",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "finanzas",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "364/2026",
+    "organismoEmisor": "Ministerio de Economía",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339830/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Economía endurece requisitos para comprar dólar ahorro: ahora piden declaración jurada",
+    "resumen": "Si pensabas comprar tus USD 200 del mes, ojo: ahora te van a pedir un papel más. El Ministerio de Economía sumó un nuevo requisito para acceder al cupo de dólar ahorro: una declaración jurada de que no tenés activos en el exterior.\n\nLa medida apunta a un perfil específico: argentinos que tienen cuentas en Uruguay, Miami o donde sea, y que igual siguen comprando dólar oficial aprovechando la brecha con el blue. El Gobierno dice que no tiene sentido subsidiar dólares baratos a gente que ya tiene dólares afuera.\n\nEn la práctica, todos vamos a tener que completar una declaración jurada adicional en el homebanking antes de poder hacer la compra mensual. El banco la va a cruzar con datos de AFIP y del BCRA. Si mentís y después te detectan, además de la multa te van a inhabilitar para operar con dólares por 5 años.",
+    "contexto": "¿Por qué una Resolución del Ministerio de Economía? El 'cepo' cambiario —es decir, las restricciones para comprar dólares— se maneja con resoluciones del Ministerio de Economía y comunicaciones del Banco Central. No necesitan pasar por el Congreso porque se consideran medidas de política cambiaria, que son facultad del Poder Ejecutivo.",
+    "puntosClaves": [
+      {
+        "titulo": "Nueva declaración jurada obligatoria",
+        "descripcion": "Antes de cada compra de dólar ahorro, vas a tener que declarar bajo juramento que no tenés cuentas bancarias, inversiones ni propiedades en el exterior. Es un trámite online que se hace desde el homebanking."
+      },
+      {
+        "titulo": "Cruce de datos con AFIP",
+        "descripcion": "No es solo tu palabra: el banco va a cruzar tu declaración con las bases de datos de AFIP, que tiene información de cuentas en el exterior gracias a los acuerdos de intercambio automático con otros países."
+      },
+      {
+        "titulo": "Multas y sanciones si mentís",
+        "descripcion": "Si declarás que no tenés activos afuera y después te detectan, las consecuencias son graves: multa de hasta el 100% de lo que compraste, más inhabilitación para operar con dólares por 5 años."
+      },
+      {
+        "titulo": "El cupo sigue siendo USD 200",
+        "descripcion": "El límite mensual de compra no cambia. Lo que cambia es que ahora hay un filtro más para poder acceder a ese cupo. Si no completás la declaración, el banco no te deja comprar."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Ahorristas comunes",
+        "icono": "wallet",
+        "descripcion": "Vas a tener que hacer un trámite más antes de comprar dólares. Es un paso adicional molesto, pero si no tenés nada afuera, es solo completar un formulario. La compra sigue funcionando igual."
+      },
+      {
+        "grupo": "Argentinos con cuentas en el exterior",
+        "icono": "globe",
+        "descripcion": "Si tenés una cuenta en Uruguay, una inversión en Estados Unidos o una propiedad en el exterior declarada, no vas a poder comprar dólar ahorro. Punto. Tenés que elegir entre el cupo oficial o tus activos afuera."
+      },
+      {
+        "grupo": "Evasores y sub-declarantes",
+        "icono": "alert-triangle",
+        "descripcion": "Los que tienen activos afuera sin declarar se enfrentan a un dilema: si mienten en la declaración jurada y los pescan, les cae AFIP encima. Es una trampa para forzar el blanqueo o la renuncia al cupo."
+      },
+      {
+        "grupo": "Bancos y fintech",
+        "icono": "building-2",
+        "descripcion": "Van a tener que implementar el sistema de declaración jurada y los cruces de datos. Más burocracia operativa que probablemente traslade al usuario en tiempos de espera."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 364/2026 - MINISTERIO DE ECONOMÍA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Requisito de declaración jurada",
+        "contenido": "Establécese como requisito previo para el acceso al cupo de compra de moneda extranjera para atesoramiento la presentación de una declaración jurada en la que el adquirente manifieste no poseer activos financieros ni inmuebles radicados en el exterior."
+      },
+      {
+        "numero": "2",
+        "titulo": "Verificación de información",
+        "contenido": "Las entidades financieras deberán verificar la información declarada mediante consulta a las bases de datos de la AFIP y del BCRA, previo a autorizar la operación de compra."
+      },
+      {
+        "numero": "3",
+        "titulo": "Sanciones por falsedad",
+        "contenido": "La falsedad en la declaración jurada dará lugar a una multa equivalente al CIEN POR CIENTO (100%) del monto operado y a la inhabilitación para realizar operaciones de cambio por el término de CINCO (5) años."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/bolsa.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["dólar", "economía", "BCRA", "ahorro", "cepo", "declaración jurada", "AFIP"]
+}

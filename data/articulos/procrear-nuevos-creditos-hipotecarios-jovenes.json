@@ -1,0 +1,84 @@
+{
+  "id": "bora-339925",
+  "slug": "procrear-nuevos-creditos-hipotecarios-jovenes",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "vivienda",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "156/2026",
+    "organismoEmisor": "Secretaría de Vivienda",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339925/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Vuelve PROCREAR para jóvenes: créditos hipotecarios a 30 años con tasa subsidiada",
+    "resumen": "El sueño de la casa propia vuelve a tener un programa del Estado. La Secretaría de Vivienda relanzó PROCREAR con una línea específica para menores de 35 años: créditos hipotecarios a 30 años con tasa subsidiada del 4,5% anual en UVA.\n\nEl programa financia hasta $50 millones (ajustables por UVA) para compra de vivienda única. El requisito principal: ingresos familiares de entre 2 y 6 salarios mínimos, es decir, entre $600.000 y $1.800.000 por mes. También hay que demostrar 2 años de antigüedad laboral.\n\nLa inscripción abre el 1 de abril en Argentina.gob.ar. El sistema funciona por sorteo: te anotás, y si salís sorteado, tenés 6 meses para encontrar la vivienda y cerrar la operación con el banco. Los créditos los otorga el Banco Nación con garantía del Estado.",
+    "contexto": "¿Qué es PROCREAR? Es un programa de créditos hipotecarios subsidiados por el Estado que existe desde 2012. Tuvo varias versiones: para construcción, para compra, para ampliación. La idea es que gente que no califica para un crédito bancario común pueda acceder a financiamiento para la vivienda propia con tasas más bajas y plazos más largos.",
+    "puntosClaves": [
+      {
+        "titulo": "Tasa del 4,5% anual en UVA",
+        "descripcion": "Es la mitad de lo que cobran los bancos privados por un crédito hipotecario común. El catch: está en UVA, así que la cuota se ajusta por inflación. Si la inflación baja, ganás; si sube mucho, la cuota se te puede ir."
+      },
+      {
+        "titulo": "Hasta $50 millones de crédito",
+        "descripcion": "Alcanza para un departamento de 2 ambientes en CABA o una casa en el conurbano y el interior. El monto se ajusta por UVA desde hoy, así que cuando efectivamente compres puede ser más en pesos nominales."
+      },
+      {
+        "titulo": "Solo para menores de 35 años",
+        "descripcion": "Esta línea es exclusiva para jóvenes. Si tenés más de 35, hay otras líneas de PROCREAR pero con condiciones distintas. La idea es facilitar el acceso a la primera vivienda."
+      },
+      {
+        "titulo": "Sistema por sorteo desde el 1 de abril",
+        "descripcion": "Te inscribís online, cargás la documentación, y entrás a un sorteo. Si salís, tenés 6 meses para encontrar la propiedad y hacer todos los trámites. Si no encontrás en ese plazo, perdés el cupo."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Jóvenes que alquilan",
+        "icono": "home",
+        "descripcion": "Si tenés entre 25 y 35 años, trabajo estable y estás cansado de pagar alquiler, este programa puede ser tu salida. La cuota de un crédito de $50 millones a 30 años arranca en unos $180.000 mensuales."
+      },
+      {
+        "grupo": "Parejas jóvenes",
+        "icono": "users",
+        "descripcion": "El límite de ingresos de $1.800.000 familiares permite que parejas donde trabajan los dos califiquen cómodamente. Es ideal para comprar la primera vivienda juntos."
+      },
+      {
+        "grupo": "Mercado inmobiliario",
+        "icono": "building-2",
+        "descripcion": "Más créditos hipotecarios significa más demanda de propiedades, especialmente en el segmento de primeras viviendas. Podría empujar un poco los precios para arriba en ese nicho."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 156/2026 - SECRETARÍA DE VIVIENDA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Creación de la línea",
+        "contenido": "Créase la línea de créditos hipotecarios 'PROCREAR JOVEN', destinada a personas de hasta TREINTA Y CINCO (35) años de edad para la adquisición de vivienda única, familiar y de ocupación permanente."
+      },
+      {
+        "numero": "2",
+        "titulo": "Condiciones del crédito",
+        "contenido": "Los créditos se otorgarán a un plazo máximo de TREINTA (30) años, con una tasa de interés del CUATRO CON CINCO DÉCIMOS POR CIENTO (4,5%) anual, denominados en Unidades de Valor Adquisitivo (UVA)."
+      },
+      {
+        "numero": "3",
+        "titulo": "Monto máximo",
+        "contenido": "El monto máximo de crédito será el equivalente a CINCUENTA MILLONES DE PESOS ($50.000.000) en UVA al momento de la adjudicación."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/construccion.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["PROCREAR", "créditos", "vivienda", "hipotecarios", "jóvenes", "UVA"]
+}

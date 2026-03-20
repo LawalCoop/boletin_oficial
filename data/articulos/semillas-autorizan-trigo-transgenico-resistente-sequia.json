@@ -1,0 +1,89 @@
+{
+  "id": "bora-339835",
+  "slug": "semillas-autorizan-trigo-transgenico-resistente-sequia",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "agro",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "43/2026",
+    "organismoEmisor": "Instituto Nacional de Semillas",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339835/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Argentina aprueba el primer trigo transgénico del mundo resistente a la sequía",
+    "resumen": "Argentina acaba de hacer historia en el mundo agropecuario: el Instituto Nacional de Semillas (INASE) aprobó la comercialización del trigo HB4, el primer trigo genéticamente modificado para tolerar sequías del mundo. Somos el primer país en autorizar esta tecnología.\n\nEl trigo HB4 fue desarrollado por la empresa argentina Bioceres junto con el CONICET. Incorpora un gen del girasol que le permite a la planta sobrevivir con menos agua sin perder rendimiento. En los ensayos de campo, rindió hasta un 20% más que el trigo convencional en condiciones de sequía severa.\n\nLa aprobación llega después de años de idas y vueltas. El principal obstáculo era el comercial: Brasil, nuestro mayor comprador de trigo, no aceptaba transgénicos. Pero Brasil finalmente aprobó el HB4 el año pasado, desbloqueando el mercado. Ahora los productores argentinos van a poder sembrar HB4 sin miedo a perder compradores.",
+    "contexto": "¿Qué es un transgénico? Es un organismo al que se le insertó un gen de otra especie para darle una característica nueva. En este caso, al trigo le pusieron un gen del girasol que lo hace más resistente a la falta de agua. Argentina es pionera en transgénicos: fue el primer país en aprobar la soja RR en 1996, lo que revolucionó la producción agrícola.",
+    "puntosClaves": [
+      {
+        "titulo": "Primer trigo transgénico del mundo",
+        "descripcion": "Argentina se convierte en el primer país del mundo en autorizar la siembra comercial de trigo genéticamente modificado. Es un hito en la historia de la biotecnología agrícola, comparable a la aprobación de la soja transgénica en los '90."
+      },
+      {
+        "titulo": "20% más de rendimiento en sequía",
+        "descripcion": "En condiciones de estrés hídrico —cuando falta agua—, el trigo HB4 rinde hasta un 20% más que el convencional. En años de sequía como 2023, esto puede significar la diferencia entre perder la cosecha o salvarla."
+      },
+      {
+        "titulo": "Brasil ya lo aprobó",
+        "descripcion": "El año pasado Brasil autorizó la importación de harina de trigo HB4. Como Brasil compra el 40% del trigo que exporta Argentina, esta aprobación era clave para que los productores se animaran a sembrar."
+      },
+      {
+        "titulo": "Desarrollado en Argentina",
+        "descripcion": "El HB4 es tecnología 100% argentina, desarrollada por la empresa Bioceres junto con científicos del CONICET. Argentina cobra regalías cada vez que se usa esta tecnología en el mundo."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Productores trigueros",
+        "icono": "wheat",
+        "descripcion": "Van a tener una nueva herramienta para enfrentar las sequías cada vez más frecuentes. La semilla HB4 es más cara que la convencional, pero en años secos puede salvar la cosecha."
+      },
+      {
+        "grupo": "Industria molinera",
+        "icono": "factory",
+        "descripcion": "Los molinos van a tener que decidir si procesan trigo HB4 mezclado con convencional o segregado. Para exportar a mercados que no aceptan transgénicos (como Europa), van a necesitar segregación."
+      },
+      {
+        "grupo": "Consumidores",
+        "icono": "shopping-cart",
+        "descripcion": "El pan, las galletitas y las pastas podrían estar hechas con harina de trigo transgénico. Para quienes prefieren evitarlo, va a ser difícil saber qué productos lo contienen porque el etiquetado no es obligatorio."
+      },
+      {
+        "grupo": "Científicos argentinos",
+        "icono": "flask-conical",
+        "descripcion": "El éxito del HB4 valida años de investigación del CONICET y abre puertas para otros desarrollos biotecnológicos argentinos. Es una victoria para la ciencia nacional."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 43/2026 - INSTITUTO NACIONAL DE SEMILLAS",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Autorización de comercialización",
+        "contenido": "Autorízase la comercialización en el territorio nacional de la semilla de trigo pan (Triticum aestivum L.) evento HB4, tolerante a sequía, desarrollado por BIOCERES CROP SOLUTIONS CORP."
+      },
+      {
+        "numero": "2",
+        "titulo": "Inscripción en el registro",
+        "contenido": "Inscríbase el evento HB4 en el Registro Nacional de Cultivares y en el Registro Nacional de la Propiedad de Cultivares, conforme las normas vigentes."
+      },
+      {
+        "numero": "3",
+        "titulo": "Requisitos de trazabilidad",
+        "contenido": "Los productores que utilicen semilla HB4 deberán mantener registros de siembra, cosecha y comercialización del grano obtenido, los que estarán a disposición de la autoridad de aplicación."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/cosecha.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["trigo", "transgénicos", "sequía", "biotecnología", "agro", "CONICET", "Bioceres", "HB4"]
+}

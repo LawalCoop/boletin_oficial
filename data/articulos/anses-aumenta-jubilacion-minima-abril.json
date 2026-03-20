@@ -1,0 +1,84 @@
+{
+  "id": "bora-339905",
+  "slug": "anses-aumenta-jubilacion-minima-abril",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "finanzas",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "412/2026",
+    "organismoEmisor": "ANSES",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339905/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "La jubilación mínima sube 8,1% en abril y llega a $287.500",
+    "resumen": "Si cobrás la jubilación mínima, en abril vas a ver un aumento. ANSES oficializó la actualización trimestral por la fórmula de movilidad: 8,1% de suba, que lleva el haber mínimo de $265.900 a $287.500.\n\nEl aumento alcanza a 5,2 millones de jubilados y pensionados que cobran la mínima o haberes cercanos. También sube la Asignación Universal por Hijo (de $45.000 a $48.645) y las pensiones no contributivas.\n\nLa fórmula de movilidad combina 50% de inflación y 50% de variación salarial del trimestre anterior. Este trimestre la inflación le ganó a los salarios, por eso el aumento quedó por debajo del 9,2% de IPC del período.",
+    "contexto": "¿Qué es la fórmula de movilidad? Es el mecanismo legal que determina cuánto suben las jubilaciones cada tres meses (marzo, junio, septiembre y diciembre). Actualmente combina mitad de inflación y mitad de variación salarial. El objetivo es que los haberes no pierdan poder adquisitivo, aunque en la práctica suelen ir detrás de la inflación.",
+    "puntosClaves": [
+      {
+        "titulo": "8,1% de aumento desde abril",
+        "descripcion": "El incremento se aplica sobre todos los haberes previsionales, pero impacta más en los más bajos. La jubilación mínima pasa de $265.900 a $287.500. Los haberes más altos también suben 8,1% pero tienen tope."
+      },
+      {
+        "titulo": "5,2 millones de beneficiarios",
+        "descripcion": "Es la cantidad de jubilados y pensionados que cobran la mínima o montos cercanos. Representan más de la mitad del total del sistema previsional. El resto tiene haberes más altos que también se actualizan."
+      },
+      {
+        "titulo": "La AUH también sube",
+        "descripcion": "La Asignación Universal por Hijo pasa de $45.000 a $48.645. También aumentan las asignaciones familiares de trabajadores registrados y las pensiones no contributivas por discapacidad."
+      },
+      {
+        "titulo": "Próximo aumento en junio",
+        "descripcion": "La siguiente actualización será en junio, calculada con los datos de inflación y salarios del primer trimestre de 2026. Si la inflación baja, el aumento podría ser menor."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Jubilados con la mínima",
+        "icono": "user",
+        "descripcion": "Son 5,2 millones de personas. El aumento de $21.600 ayuda, pero con una canasta básica de jubilados que supera los $400.000, sigue sin alcanzar. Muchos complementan con trabajos informales."
+      },
+      {
+        "grupo": "Madres y padres con AUH",
+        "icono": "baby",
+        "descripcion": "Los 4,5 millones de chicos cubiertos por la Asignación Universal reciben un aumento de $3.645 por hijo. No es mucho, pero suma en familias con varios hijos."
+      },
+      {
+        "grupo": "Pensionados por discapacidad",
+        "icono": "heart-handshake",
+        "descripcion": "Las pensiones no contributivas por invalidez también se actualizan 8,1%. Son más de 1 millón de beneficiarios que dependen exclusivamente de este ingreso."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 412/2026 - ANSES",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Movilidad previsional",
+        "contenido": "Establécese en OCHO CON UNO POR CIENTO (8,1%) el índice de movilidad previsto en el artículo 32 de la Ley N° 24.241, aplicable a las prestaciones previsionales a partir del mes de abril de 2026."
+      },
+      {
+        "numero": "2",
+        "titulo": "Haber mínimo",
+        "contenido": "Fíjase el haber mínimo garantizado en la suma de PESOS DOSCIENTOS OCHENTA Y SIETE MIL QUINIENTOS ($287.500) a partir del 1° de abril de 2026."
+      },
+      {
+        "numero": "3",
+        "titulo": "Asignaciones familiares",
+        "contenido": "Actualízanse los valores de las asignaciones familiares previstas en la Ley N° 24.714 conforme al índice establecido en el artículo 1°."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/anses.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["ANSES", "jubilaciones", "movilidad", "AUH", "pensiones", "aumentos"]
+}

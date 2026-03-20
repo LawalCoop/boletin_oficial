@@ -245,34 +245,97 @@ const CATEGORIAS = {
 };
 ```
 
-### Categorías Temáticas
+### Temas (Clasificación por Área de Interés)
 
-22 temas para clasificar el contenido por área de interés:
+**IMPORTANTE**: Los temas son distintos a las categorías. Las **categorías** (nacional, empresas, contrataciones, judicial) indican la sección del Boletín de donde viene el documento. Los **temas** clasifican el área de política pública que trata el documento.
 
-| Tema | Icono | Color | Descripción |
-|------|-------|-------|-------------|
-| economia | `trending-up` | #0066CC | Medidas económicas, financieras, monetarias |
-| energia | `zap` | #F59E0B | Electricidad, gas, petróleo, renovables |
-| salud | `heart-pulse` | #EF4444 | Sistema sanitario, medicamentos, epidemias |
-| trabajo | `briefcase` | #8B5CF6 | Empleo, convenios, jubilaciones |
-| educacion | `graduation-cap` | #3B82F6 | Sistema educativo, universidades |
-| transporte | `truck` | #6366F1 | Rutas, transporte público, aviación |
-| justicia | `scale` | #1F2937 | Poder judicial, designaciones |
-| seguridad | `shield` | #DC2626 | Fuerzas de seguridad, fronteras |
-| ambiente | `leaf` | #10B981 | Medio ambiente, parques nacionales |
-| tecnologia | `cpu` | #06B6D4 | Telecomunicaciones, digitalización |
-| agro | `wheat` | #84CC16 | Agricultura, ganadería, pesca |
-| comercio | `shopping-cart` | #F97316 | Comercio exterior, aranceles |
-| cultura | `palette` | #EC4899 | INCAA, patrimonio, museos |
-| defensa | `swords` | #475569 | Fuerzas armadas, equipamiento |
-| vivienda | `home` | #14B8A6 | Prourbana, créditos hipotecarios |
-| desarrollo-social | `users` | #A855F7 | Programas sociales, AUH |
-| turismo | `plane` | #0EA5E9 | Turismo, parques nacionales |
-| ciencia | `flask-conical` | #6366F1 | CONICET, investigación |
-| interior | `map` | #78716C | Provincias, municipios |
-| exterior | `globe` | #0D9488 | Relaciones internacionales |
-| empresas | `building-2` | #64748B | Sociedades, registros |
-| contrataciones | `file-text` | #71717A | Licitaciones públicas |
+#### Lista Completa de Temas Válidos
+
+Los 22 temas válidos para etiquetar artículos son:
+
+| Tema | Icono | Incluye | NO incluye |
+|------|-------|---------|------------|
+| `energia` | zap | Electricidad, gas, petróleo, energías renovables, tarifas eléctricas y de gas, Secretaría de Energía, ENARGAS, ENRE | Minería (→ `mineria`) |
+| `transporte` | truck | Rutas, autopistas, transporte público, ferrocarriles, aviación civil, puertos, licencias de conducir, ANSV, CNRT | Comercio internacional por barco (→ `comercio-exterior`) |
+| `salud` | heart-pulse | Hospitales, medicamentos, vacunas, epidemias, ANMAT, obras sociales, sistema sanitario | Seguridad laboral (→ `trabajo`) |
+| `educacion` | graduation-cap | Sistema educativo K-12, universidades, becas, títulos, Ministerio de Educación | Investigación científica (→ `ciencia`) |
+| `trabajo` | briefcase | Empleo, convenios colectivos, sindicatos, despidos, ART, seguridad laboral, Ministerio de Trabajo | Jubilaciones y pensiones (→ `finanzas`) |
+| `comercio-exterior` | ship | Importaciones, exportaciones, aranceles, aduana, acuerdos comerciales internacionales | Exportación agropecuaria sin medidas aduaneras (→ `agro`) |
+| `impuestos` | receipt | AFIP, IVA, Ganancias, monotributo, facturación electrónica, moratorias fiscales | Presupuesto del Estado (→ `presupuesto`), política monetaria (→ `finanzas`) |
+| `seguridad` | shield | Policía Federal, Gendarmería, Prefectura, PSA, fronteras, narcotráfico, registro de armas, drones | Fuerzas Armadas (→ `defensa`) |
+| `medio-ambiente` | leaf | Parques nacionales, contaminación, residuos, cambio climático, fauna protegida, APN, Secretaría de Ambiente | Actividad minera (→ `mineria`), turismo en parques (→ `turismo`) |
+| `agro` | wheat | Agricultura, ganadería, pesca, SENASA, semillas, fitosanitarios, trazabilidad animal | Comercio exterior agrícola con medidas aduaneras (→ `comercio-exterior`) |
+| `mineria` | mountain | Explotación minera, litio, petróleo como commodity, regalías mineras | Energía derivada de hidrocarburos (→ `energia`) |
+| `telecomunicaciones` | wifi | Telefonía fija y móvil, internet, TV cable/satelital, radio, ENACOM, espectro radioeléctrico | Digitalización del Estado (→ `ciencia`) |
+| `finanzas` | landmark | BCRA, política monetaria, dólar, bancos, seguros, jubilaciones, ANSES, mercado de valores, CNV | Impuestos (→ `impuestos`), presupuesto (→ `presupuesto`) |
+| `justicia` | scale | Poder Judicial, fiscalías, defensorías, designación de jueces, reforma judicial | Seguridad pública (→ `seguridad`) |
+| `defensa` | shield-check | Fuerzas Armadas (Ejército, Armada, Fuerza Aérea), equipamiento militar, ejercicios militares | Seguridad interior (→ `seguridad`) |
+| `cultura` | palette | INCAA, cine, teatro, museos, patrimonio cultural, bibliotecas, música, artes | Educación artística formal (→ `educacion`) |
+| `ciencia` | flask-conical | CONICET, investigación científica, innovación tecnológica, becas de investigación | Educación universitaria (→ `educacion`) |
+| `vivienda` | home | PROCREAR, créditos hipotecarios, planes de vivienda, alquileres, desarrollo urbano | Construcción de infraestructura pública (→ tema según uso) |
+| `turismo` | plane | Promoción turística, temporadas, feriados, parques nacionales (aspecto turístico) | Conservación ambiental (→ `medio-ambiente`) |
+| `designaciones` | user-check | Nombramientos de funcionarios, remociones, licencias, estructuras orgánicas | Contenido sustantivo sobre el área del funcionario (→ tema correspondiente) |
+| `presupuesto` | wallet | Presupuesto nacional, transferencias a provincias, asignación de fondos, deuda pública | Impuestos (→ `impuestos`), finanzas privadas (→ `finanzas`) |
+| `otros` | file-text | Todo lo que no encaje claramente en otro tema | Usar solo como último recurso |
+
+#### Guía de Desambiguación
+
+**¿Finanzas, Impuestos o Presupuesto?**
+- **`finanzas`**: Política monetaria, bancos, dólar, jubilaciones/ANSES, mercado de valores. Organismos: BCRA, CNV, SSN.
+- **`impuestos`**: Recaudación tributaria, obligaciones fiscales de contribuyentes. Organismo principal: AFIP.
+- **`presupuesto`**: Cómo el Estado asigna el dinero que ya tiene. Ley de presupuesto, transferencias.
+
+*Ejemplo*: "AFIP crea nuevo régimen de factura electrónica" → `impuestos`. "BCRA modifica encajes bancarios" → `finanzas`. "Nación transfiere fondos a provincias" → `presupuesto`.
+
+**¿Seguridad o Defensa?**
+- **`seguridad`**: Seguridad interior, delito común, fronteras, narcotráfico. Fuerzas: Policía, Gendarmería, Prefectura.
+- **`defensa`**: Defensa nacional, soberanía, equipamiento militar. Fuerzas: Ejército, Armada, Fuerza Aérea.
+
+*Ejemplo*: "Gendarmería despliega operativo en frontera norte" → `seguridad`. "Ejército adquiere vehículos blindados" → `defensa`.
+
+**¿Medio-ambiente o Turismo (en Parques Nacionales)?**
+- **`medio-ambiente`**: Conservación, protección de especies, límites de impacto ambiental.
+- **`turismo`**: Acceso turístico, temporadas, tarifas de entrada, promoción.
+
+*Ejemplo*: "Parques Nacionales limita visitantes por impacto ambiental" → `medio-ambiente`. "Parques Nacionales lanza temporada con descuentos" → `turismo`.
+
+**¿Agro o Comercio-exterior?**
+- **`agro`**: Producción agropecuaria, sanidad animal/vegetal, semillas, normativa de producción.
+- **`comercio-exterior`**: Cuando hay medidas aduaneras (aranceles, cupos, retenciones a exportación).
+
+*Ejemplo*: "SENASA autoriza nueva semilla de trigo" → `agro`. "Reducen retenciones a exportación de soja" → `comercio-exterior`.
+
+**¿Trabajo o Finanzas (jubilaciones)?**
+- **`trabajo`**: Empleo activo, convenios laborales, condiciones de trabajo, despidos.
+- **`finanzas`**: Jubilaciones, pensiones, haberes de pasivos, ANSES.
+
+*Ejemplo*: "Homologan paritarias de comercio" → `trabajo`. "ANSES aumenta jubilación mínima" → `finanzas`.
+
+**¿Designaciones o el tema sustantivo?**
+- **`designaciones`**: Cuando la noticia ES el nombramiento en sí, sin contenido sobre qué hará el funcionario.
+- **Tema sustantivo**: Cuando hay contexto significativo sobre el área del funcionario.
+
+*Ejemplo*: "Designan nuevo titular de AFIP" (sin más contexto) → `designaciones`. "Designan nuevo titular de AFIP con agenda de digitalización tributaria" → `impuestos`.
+
+#### Tema por Organismo Emisor (Guía Rápida)
+
+| Organismo | Tema por defecto |
+|-----------|------------------|
+| Secretaría de Energía, ENRE, ENARGAS | `energia` |
+| ANMAT, Ministerio de Salud | `salud` |
+| AFIP | `impuestos` |
+| BCRA, CNV, SSN | `finanzas` |
+| ANSES | `finanzas` |
+| SENASA | `agro` |
+| ENACOM | `telecomunicaciones` |
+| Parques Nacionales | `medio-ambiente` o `turismo` (según contenido) |
+| Ministerio de Trabajo | `trabajo` |
+| Ministerio de Seguridad, Policía, Gendarmería, Prefectura | `seguridad` |
+| Ministerio de Defensa, Fuerzas Armadas | `defensa` |
+| INCAA, Secretaría de Cultura | `cultura` |
+| CONICET, Agencia I+D+i | `ciencia` |
+| ANSV, CNRT, Vialidad Nacional | `transporte` |
+| Aduana, Secretaría de Comercio Exterior | `comercio-exterior` |
 
 ---
 

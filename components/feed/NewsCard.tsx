@@ -49,10 +49,10 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
 
       {/* Content */}
       <div className="flex flex-col gap-2 flex-1 min-w-0">
-        {/* Tags Row - No wrap to keep titles aligned across cards */}
-        <div className="flex items-center gap-2 overflow-hidden">
+        {/* Tags Row */}
+        <div className="flex items-center gap-2 flex-wrap">
           <span
-            className="px-2 py-[2px] text-[10px] font-semibold tracking-[1px] text-white rounded"
+            className="px-2 py-[2px] text-[10px] font-semibold tracking-[1px] text-white rounded shrink-0"
             style={{ backgroundColor: categoria.color }}
           >
             {categoria.label}
@@ -60,7 +60,7 @@ export function NewsCard({ noticia, index, highlighted = false }: NewsCardProps)
           {tema && (
             <Link
               href={`/tema/${noticia.tema}`}
-              className="flex items-center gap-1 px-2 py-[2px] text-[10px] font-medium rounded border hover:opacity-80 transition-opacity"
+              className="flex items-center gap-1 px-2 py-[2px] text-[10px] font-medium rounded border hover:opacity-80 transition-opacity shrink-0"
               style={{
                 color: tema.color,
                 borderColor: tema.color,

@@ -1,0 +1,89 @@
+{
+  "id": "bora-339825",
+  "slug": "anmat-aprueba-vacuna-dengue-gratuita",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "salud",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "1465/2026",
+    "organismoEmisor": "ANMAT",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339825/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "ANMAT aprueba vacuna contra el dengue que se sumará al calendario gratuito",
+    "resumen": "En medio de un brote de dengue que ya lleva más de 150.000 casos confirmados en lo que va del año, llega una buena noticia: la ANMAT acaba de aprobar una nueva vacuna contra el dengue que promete ser más efectiva y segura que las anteriores. Se trata de TAK-003, desarrollada por el laboratorio japonés Takeda.\n\nLo más importante: el Ministerio de Salud ya confirmó que va a comprar dosis suficientes para incorporarla al calendario nacional de vacunación gratuita. Eso significa que cualquier persona va a poder vacunarse gratis en hospitales y centros de salud públicos, probablemente a partir de septiembre, antes del próximo verano.\n\nLa vacuna requiere dos dosis separadas por tres meses y protege contra los cuatro serotipos del dengue. En los ensayos clínicos mostró una eficacia del 80% para prevenir la enfermedad y del 90% para evitar casos graves que requieren hospitalización. A diferencia de la vacuna anterior (Dengvaxia), TAK-003 se puede aplicar a personas que nunca tuvieron dengue sin riesgo de reacciones adversas graves.",
+    "contexto": "¿Qué es una Disposición de ANMAT? La ANMAT (Administración Nacional de Medicamentos, Alimentos y Tecnología Médica) es el organismo que autoriza qué medicamentos y vacunas se pueden vender en Argentina. Cuando aprueba un producto, emite una Disposición —que es como una resolución pero de un ente descentralizado—. Sin esta autorización, ningún laboratorio puede comercializar un medicamento en el país.",
+    "puntosClaves": [
+      {
+        "titulo": "Vacuna gratuita para todos",
+        "descripcion": "El Ministerio de Salud confirmó que va a incluir esta vacuna en el calendario nacional. Eso significa que va a ser gratuita y obligatoria, como la de la gripe o el sarampión. No vas a necesitar obra social ni prepaga para acceder."
+      },
+      {
+        "titulo": "Dos dosis, protección completa",
+        "descripcion": "El esquema de vacunación son dos dosis separadas por tres meses. Después de la segunda dosis, la protección es del 80% para evitar contagiarte y del 90% para evitar terminar internado si te contagiás igual."
+      },
+      {
+        "titulo": "Sirve aunque nunca hayas tenido dengue",
+        "descripcion": "A diferencia de la vacuna anterior (Dengvaxia), TAK-003 se puede aplicar a cualquier persona mayor de 4 años, haya tenido o no dengue antes. Esto es clave porque simplifica la vacunación masiva."
+      },
+      {
+        "titulo": "Disponible antes del próximo verano",
+        "descripcion": "El Gobierno apunta a tener las dosis listas para septiembre-octubre, antes de que empiece la temporada de mosquitos. La idea es vacunar primero a las provincias del norte, donde el dengue pega más fuerte."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Habitantes del norte argentino",
+        "icono": "map-pin",
+        "descripcion": "Las provincias de Salta, Tucumán, Chaco, Formosa, Misiones y Corrientes son las más castigadas por el dengue cada verano. Van a ser prioritarias en la campaña de vacunación."
+      },
+      {
+        "grupo": "Familias con chicos",
+        "icono": "baby",
+        "descripcion": "La vacuna está aprobada para mayores de 4 años. Los chicos en edad escolar, que suelen contagiarse en la escuela o jugando afuera, van a poder vacunarse gratis."
+      },
+      {
+        "grupo": "Trabajadores al aire libre",
+        "icono": "hard-hat",
+        "descripcion": "Albañiles, jardineros, recolectores, carteros y todos los que trabajan expuestos al mosquito tienen ahora una herramienta más para protegerse."
+      },
+      {
+        "grupo": "Sistema de salud",
+        "icono": "hospital",
+        "descripcion": "Cada temporada de dengue satura los hospitales públicos. Si la vacunación masiva reduce los casos graves, va a haber más camas disponibles para otras urgencias."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIÓN 1465/2026 - ANMAT",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Autorización de comercialización",
+        "contenido": "Autorízase la comercialización en el territorio nacional de la especialidad medicinal denominada TAK-003 (Vacuna tetravalente contra el dengue, virus vivos atenuados), elaborada por TAKEDA PHARMACEUTICAL COMPANY LIMITED (Japón)."
+      },
+      {
+        "numero": "2",
+        "titulo": "Indicaciones aprobadas",
+        "contenido": "La vacuna se indica para la prevención de la enfermedad por dengue causada por cualquiera de los cuatro serotipos del virus (DENV-1, DENV-2, DENV-3 y DENV-4) en personas de CUATRO (4) años de edad en adelante."
+      },
+      {
+        "numero": "3",
+        "titulo": "Esquema de vacunación",
+        "contenido": "El esquema de vacunación completo consta de DOS (2) dosis de 0,5 ml cada una, administradas por vía subcutánea, con un intervalo de TRES (3) meses entre la primera y la segunda dosis."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/salud.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["dengue", "vacunas", "ANMAT", "salud pública", "calendario vacunación", "Takeda"]
+}

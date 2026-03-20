@@ -1,0 +1,84 @@
+{
+  "id": "bora-339920",
+  "slug": "conicet-becas-doctorales-ciencias-datos",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "ciencia",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "892/2026",
+    "organismoEmisor": "CONICET",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339920/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "CONICET abre 500 becas doctorales con foco en inteligencia artificial y ciencia de datos",
+    "resumen": "Si terminaste la carrera y querés hacer un doctorado, CONICET acaba de abrir una convocatoria especial. Son 500 becas doctorales enfocadas en áreas estratégicas: inteligencia artificial, ciencia de datos, biotecnología, energías renovables y desarrollo de software.\n\nLas becas pagan $420.000 mensuales durante 5 años —el tiempo que dura un doctorado típico—. Además incluyen cobertura de obra social y aportes jubilatorios. El requisito: tener título de grado, menos de 30 años al momento de postular, y un proyecto de investigación avalado por un director de CONICET.\n\nLa convocatoria está abierta hasta el 15 de mayo. Los resultados se publican en agosto y las becas arrancan en septiembre. Es la apuesta del Estado por formar investigadores en las áreas que van a definir la economía de los próximos 20 años.",
+    "contexto": "¿Qué es una beca doctoral del CONICET? Es un sueldo que te paga el Estado para que te dediques exclusivamente a investigar y hacer tu doctorado. Durante 5 años no tenés que trabajar de otra cosa: tu trabajo es estudiar y producir conocimiento. A cambio, cuando terminás, se supone que te quedás en el sistema científico argentino (aunque muchos emigran).",
+    "puntosClaves": [
+      {
+        "titulo": "500 becas para áreas estratégicas",
+        "descripcion": "No son becas genéricas: están dirigidas específicamente a inteligencia artificial, ciencia de datos, biotecnología, energías renovables y desarrollo de software. CONICET quiere formar investigadores en las áreas donde Argentina puede competir globalmente."
+      },
+      {
+        "titulo": "$420.000 por mes durante 5 años",
+        "descripcion": "Es un sueldo bajo comparado con lo que gana un programador en el mercado privado, pero incluye estabilidad, obra social, aportes y el prestigio de ser investigador de CONICET. Para muchos es la puerta de entrada a la carrera científica."
+      },
+      {
+        "titulo": "Límite de edad: 30 años",
+        "descripcion": "Para postularte tenés que tener menos de 30 años al momento del cierre de la convocatoria (15 de mayo). Hay excepciones por maternidad/paternidad y algunas situaciones especiales, pero en general apunta a recién graduados."
+      },
+      {
+        "titulo": "Postulaciones hasta el 15 de mayo",
+        "descripcion": "Dos meses para armar la postulación. Lo más difícil es conseguir un director de tesis que avale tu proyecto. Si no tenés contactos en CONICET, conviene empezar a buscar ahora."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Graduados recientes en STEM",
+        "icono": "flask-conical",
+        "descripcion": "Si terminaste una carrera de ciencias exactas, ingeniería, sistemas o biología y querés seguir investigando, esta es tu oportunidad. 500 becas es bastante: en convocatorias anteriores había 200 o 300."
+      },
+      {
+        "grupo": "Programadores y data scientists",
+        "icono": "code",
+        "descripcion": "El foco en IA y ciencia de datos es nuevo. Históricamente CONICET privilegiaba ciencias duras tradicionales. Esto abre puertas a perfiles más tech que antes no encontraban lugar en el sistema científico."
+      },
+      {
+        "grupo": "Universidades del interior",
+        "icono": "building-2",
+        "descripcion": "Hay cupos regionales que garantizan que no todas las becas queden en Buenos Aires. Si estudiaste en Córdoba, Rosario, Mendoza o el NEA, tenés chances de quedarte investigando en tu provincia."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 892/2026 - CONICET",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Convocatoria",
+        "contenido": "Convócase a la presentación de postulaciones para QUINIENTAS (500) Becas Internas Doctorales en Temas Estratégicos del CONSEJO NACIONAL DE INVESTIGACIONES CIENTÍFICAS Y TÉCNICAS (CONICET)."
+      },
+      {
+        "numero": "2",
+        "titulo": "Áreas prioritarias",
+        "contenido": "Las becas se orientarán a las siguientes áreas estratégicas: Inteligencia Artificial y Aprendizaje Automático, Ciencia de Datos, Biotecnología, Energías Renovables y Desarrollo de Software."
+      },
+      {
+        "numero": "3",
+        "titulo": "Estipendio",
+        "contenido": "Fíjase el estipendio mensual de las Becas Internas Doctorales en la suma de PESOS CUATROCIENTOS VEINTE MIL ($420.000), con los incrementos que correspondan según la normativa vigente."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/educacion.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["CONICET", "becas", "doctorado", "ciencia", "inteligencia artificial", "investigación"]
+}

@@ -43,20 +43,26 @@ function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
       {/* Content */}
       <div className="flex flex-col gap-1.5 flex-1 min-w-0">
         {/* Tags */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap">
           <span
-            className="px-2 py-[2px] text-[9px] font-semibold tracking-[0.5px] text-white rounded"
+            className="px-2 py-[2px] text-[9px] font-semibold tracking-[0.5px] text-white rounded shrink-0"
             style={{ backgroundColor: categoria.color }}
           >
             {categoria.label}
           </span>
           {tema && (
-            <span
-              className="text-[9px] font-medium"
-              style={{ color: tema.color }}
+            <Link
+              href={`/tema/${noticia.tema}`}
+              className="flex items-center gap-1 px-1.5 py-[2px] text-[9px] font-medium rounded border hover:opacity-80 transition-opacity shrink-0"
+              style={{
+                color: tema.color,
+                borderColor: tema.color,
+                backgroundColor: `${tema.color}10`
+              }}
             >
+              <TemaIcon iconName={tema.icon} className="w-2.5 h-2.5" />
               {tema.label}
-            </span>
+            </Link>
           )}
         </div>
 
@@ -100,6 +106,7 @@ function HorizontalCard({ noticia }: { noticia: NoticiaPreview }) {
 // Card solo texto (sin imagen)
 function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
+  const tema = noticia.tema ? TEMAS[noticia.tema] : null;
   const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const tipoDoc = TIPO_DOCUMENTO_LABELS[noticia.tipoDocumento] || noticia.tipoDocumento;
   const { isSubscribed } = useUserData();
@@ -115,13 +122,27 @@ function TextOnlyCard({ noticia }: { noticia: NoticiaPreview }) {
       style={!isSubscribedTema ? { borderColor: categoria.color } : undefined}
     >
       {/* Tags */}
-      <div className="flex items-center gap-2 text-[10px]">
+      <div className="flex items-center gap-2 flex-wrap text-[10px]">
         {isSubscribedTema && (
           <Star className="w-3.5 h-3.5 text-[#FFE455] fill-[#FFE455]" />
         )}
         <span className="font-semibold uppercase tracking-wide" style={{ color: isSubscribedTema ? '#FFE455' : categoria.color }}>
           {categoria.label}
         </span>
+        {tema && (
+          <Link
+            href={`/tema/${noticia.tema}`}
+            className="flex items-center gap-1 px-1.5 py-[1px] font-medium rounded border hover:opacity-80 transition-opacity"
+            style={{
+              color: tema.color,
+              borderColor: tema.color,
+              backgroundColor: `${tema.color}10`
+            }}
+          >
+            <TemaIcon iconName={tema.icon} className="w-2.5 h-2.5" />
+            {tema.label}
+          </Link>
+        )}
         <span className="text-text-muted">
           {tipoDoc} {noticia.numeroDocumento}
         </span>
@@ -261,6 +282,7 @@ function FeaturedWideCard({ noticia }: { noticia: NoticiaPreview }) {
 // Card compacta vertical (para grids)
 function CompactVerticalCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
+  const tema = noticia.tema ? TEMAS[noticia.tema] : null;
   const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const { isSubscribed } = useUserData();
   const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
@@ -294,6 +316,22 @@ function CompactVerticalCard({ noticia }: { noticia: NoticiaPreview }) {
       </Link>
 
       <div className="p-3 flex flex-col gap-1.5 flex-1">
+        {/* Tema badge */}
+        {tema && (
+          <Link
+            href={`/tema/${noticia.tema}`}
+            className="flex items-center gap-1 px-1.5 py-0.5 text-[9px] font-medium rounded border hover:opacity-80 transition-opacity w-fit"
+            style={{
+              color: tema.color,
+              borderColor: tema.color,
+              backgroundColor: `${tema.color}10`
+            }}
+          >
+            <TemaIcon iconName={tema.icon} className="w-2.5 h-2.5" />
+            {tema.label}
+          </Link>
+        )}
+
         <div className="flex items-start gap-1.5">
           <Link href={`/articulo/${noticia.slug}`} className="flex-1">
             <h3 className="font-[family-name:var(--font-lora)] text-sm font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">

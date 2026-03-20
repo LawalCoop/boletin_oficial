@@ -1,0 +1,84 @@
+{
+  "id": "bora-339930",
+  "slug": "pesca-veda-merluza-patagonica-proteccion-stocks",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "agro",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "34/2026",
+    "organismoEmisor": "Consejo Federal Pesquero",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339930/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Establecen veda de merluza en la Patagonia por 45 días para proteger la reproducción",
+    "resumen": "Los barcos pesqueros van a tener que quedarse en el puerto. El Consejo Federal Pesquero estableció una veda de 45 días para la pesca de merluza común en aguas patagónicas, desde el 1 de abril hasta el 15 de mayo. Es la época en que la especie se reproduce y los stocks están en niveles preocupantes.\n\nLa medida afecta a toda la flota que opera al sur del paralelo 41° (básicamente de Rawson para abajo). Son unos 200 barcos y 3.000 trabajadores que van a tener que parar o dedicarse a otras especies. El sector pesquero se queja de que la veda es muy larga; los científicos del INIDEP dicen que es lo mínimo necesario.\n\nDurante la veda está prohibido capturar, desembarcar o comercializar merluza común de esa zona. Las infracciones se pagan con multas de hasta $50 millones y decomiso del buque.",
+    "contexto": "¿Qué es una veda pesquera? Es una prohibición temporal de pescar determinada especie en determinada zona. Se usa para proteger a los peces durante su época de reproducción o cuando los stocks están muy bajos. Argentina tiene un problema serio de sobrepesca de merluza: los stocks cayeron 60% en las últimas dos décadas.",
+    "puntosClaves": [
+      {
+        "titulo": "45 días sin pesca de merluza",
+        "descripcion": "Del 1 de abril al 15 de mayo ningún barco puede pescar merluza común al sur del paralelo 41°. Es la veda más larga de los últimos 10 años, lo que da cuenta de lo crítica que está la situación del recurso."
+      },
+      {
+        "titulo": "200 barcos y 3.000 trabajadores afectados",
+        "descripcion": "La flota merlucera patagónica tiene que parar. Los armadores reciben un subsidio parcial para pagar sueldos durante la veda, pero igual muchos trabajadores cobran menos. Algunos barcos se dedican a otras especies como langostino."
+      },
+      {
+        "titulo": "Stocks en niveles críticos",
+        "descripcion": "Según el INIDEP (Instituto de Investigación Pesquera), la biomasa de merluza común está en el nivel más bajo de la serie histórica. Si no se frena la pesca durante la reproducción, la especie podría colapsar comercialmente."
+      },
+      {
+        "titulo": "Multas de hasta $50 millones",
+        "descripcion": "Pescar durante la veda no sale gratis. Las multas arrancan en $10 millones y pueden llegar a $50 millones más decomiso de la carga y hasta del barco. Prefectura controla con patrulleras y drones."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Pescadores y marineros",
+        "icono": "anchor",
+        "descripcion": "45 días sin salir a pescar significa 45 días con sueldo reducido o cobrando el subsidio de veda (que es menos de lo que ganan pescando). Es un golpe duro para las familias de Rawson, Puerto Madryn y Comodoro."
+      },
+      {
+        "grupo": "Plantas procesadoras de pescado",
+        "icono": "factory",
+        "descripcion": "Sin merluza fresca, las plantas también paran o reducen turnos. Algunas procesan pescado congelado de stock, pero la mayoría tiene que suspender personal. Son otros miles de trabajadores indirectos afectados."
+      },
+      {
+        "grupo": "Consumidores",
+        "icono": "shopping-cart",
+        "descripcion": "La merluza fresca va a escasear en pescaderías y supermercados durante abril y mayo. Los precios probablemente suban. Como alternativa hay merluza congelada de stock o pescados importados."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 34/2026 - CONSEJO FEDERAL PESQUERO",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Establecimiento de veda",
+        "contenido": "Establécese una veda temporal para la captura de merluza común (Merluccius hubbsi) en el área marítima comprendida al sur del paralelo 41° de latitud sur, desde el 1° de abril hasta el 15 de mayo de 2026."
+      },
+      {
+        "numero": "2",
+        "titulo": "Prohibiciones",
+        "contenido": "Durante el período de veda queda prohibida la captura, desembarque, transporte, procesamiento y comercialización de merluza común proveniente del área vedada."
+      },
+      {
+        "numero": "3",
+        "titulo": "Sanciones",
+        "contenido": "Las infracciones a la presente resolución serán sancionadas con multas de PESOS DIEZ MILLONES ($10.000.000) a PESOS CINCUENTA MILLONES ($50.000.000), más decomiso de la captura y, en caso de reincidencia, decomiso de la embarcación."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/pesca.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["pesca", "merluza", "veda", "Patagonia", "INIDEP", "recursos naturales"]
+}

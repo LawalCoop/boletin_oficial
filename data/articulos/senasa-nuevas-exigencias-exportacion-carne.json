@@ -1,0 +1,89 @@
+{
+  "id": "bora-339880",
+  "slug": "senasa-nuevas-exigencias-exportacion-carne",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "agro",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "233/2026",
+    "organismoEmisor": "SENASA",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339880/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "SENASA endurece los controles sanitarios para exportar carne a China",
+    "resumen": "El SENASA acaba de subir la vara para los frigoríficos que quieren exportar carne a China. El nuevo protocolo sanitario incluye controles más estrictos de trazabilidad, testeos obligatorios de residuos de antibióticos y hormonas, y auditorías sorpresa a las plantas.\n\nChina es el principal comprador de carne argentina: se lleva casi el 75% de lo que exportamos. Pero también es el más exigente. Cada tanto suspende importaciones de plantas que no cumplen sus estándares, lo que genera pérdidas millonarias. El nuevo protocolo busca adelantarse a esos problemas.\n\nPara los frigoríficos, cumplir implica inversiones en sistemas de trazabilidad, laboratorios y capacitación. Los que no puedan adaptarse van a quedar afuera del negocio exportador más rentable del país. Para los productores ganaderos, el impacto es indirecto pero real: solo van a poder vender a frigoríficos habilitados para China, que van a ser más selectivos con la hacienda que compran.",
+    "contexto": "¿Qué es el SENASA? Es el Servicio Nacional de Sanidad y Calidad Agroalimentaria, el organismo que controla la sanidad de todo lo que producimos y exportamos en el campo: carne, granos, frutas, verduras. Si el SENASA no habilita un frigorífico, ese frigorífico no puede exportar. Es la llave de acceso a los mercados internacionales.",
+    "puntosClaves": [
+      {
+        "titulo": "Trazabilidad de la caravana al contenedor",
+        "descripcion": "Cada corte de carne tiene que poder rastrearse hasta el animal del que salió, incluyendo qué vacunas recibió, qué comió y en qué campo se crió. El sistema tiene que ser digital y estar disponible para auditorías chinas."
+      },
+      {
+        "titulo": "Testeos de residuos obligatorios",
+        "descripcion": "Antes de exportar, se van a testear muestras de cada lote buscando antibióticos, hormonas de crecimiento y otros residuos prohibidos por China. Un positivo puede significar la suspensión de toda la planta."
+      },
+      {
+        "titulo": "Auditorías sin aviso previo",
+        "descripcion": "El SENASA va a poder inspeccionar frigoríficos sin avisar, para verificar que las condiciones de producción sean las mismas que cuando hay inspectores chinos mirando."
+      },
+      {
+        "titulo": "Capacitación obligatoria del personal",
+        "descripcion": "Todos los empleados de plantas exportadoras van a tener que hacer cursos de buenas prácticas. Es un requisito que pide China y que ahora SENASA va a exigir con certificación."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Frigoríficos exportadores",
+        "icono": "factory",
+        "descripcion": "Los 40 frigoríficos argentinos habilitados para exportar a China van a tener que invertir fuerte en sistemas y controles. Los que no puedan, pierden la habilitación y se quedan solo con el mercado interno, mucho menos rentable."
+      },
+      {
+        "grupo": "Productores ganaderos",
+        "icono": "beef",
+        "descripcion": "Si los frigoríficos se ponen más exigentes, van a presionar a los productores para que cumplan con la trazabilidad y eviten el uso de productos prohibidos. Más papeles, más controles, más costos."
+      },
+      {
+        "grupo": "Trabajadores de la carne",
+        "icono": "users",
+        "descripcion": "Van a tener que capacitarse y certificarse. Eso puede ser una oportunidad (mejor curriculum) o un problema (si no pasan las evaluaciones)."
+      },
+      {
+        "grupo": "Economía nacional",
+        "icono": "trending-up",
+        "descripcion": "China compra más de USD 3.000 millones en carne argentina por año. Mantener ese mercado es crítico para las reservas del Banco Central. Este protocolo busca que no nos cierren las puertas."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 233/2026 - SENASA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Actualización del protocolo",
+        "contenido": "Actualízase el Protocolo Sanitario para la Exportación de Carne Bovina a la República Popular China, conforme el texto que como Anexo forma parte integrante de la presente resolución."
+      },
+      {
+        "numero": "2",
+        "titulo": "Sistema de trazabilidad",
+        "contenido": "Los establecimientos faenadores habilitados para exportar a China deberán implementar un sistema de trazabilidad integral que permita identificar el origen de cada unidad de producto, desde el establecimiento de cría hasta el embarque."
+      },
+      {
+        "numero": "3",
+        "titulo": "Control de residuos",
+        "contenido": "Establécese la obligatoriedad de realizar análisis de residuos de sustancias prohibidas en el CIEN POR CIENTO (100%) de los lotes destinados a exportación a China."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/exportaciones.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["SENASA", "carne", "exportaciones", "China", "frigoríficos", "agro", "trazabilidad"]
+}

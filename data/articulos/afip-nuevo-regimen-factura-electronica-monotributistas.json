@@ -1,0 +1,89 @@
+{
+  "id": "bora-339870",
+  "slug": "afip-nuevo-regimen-factura-electronica-monotributistas",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "finanzas",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "355/2026",
+    "organismoEmisor": "AFIP",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339870/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "AFIP obliga a todos los monotributistas a emitir factura electrónica desde mayo",
+    "resumen": "Se acabó la factura de papel para los monotributistas. La AFIP acaba de eliminar la opción de facturar manualmente para todas las categorías del Monotributo, incluso las más bajas que hasta ahora estaban exceptuadas. A partir del 1 de mayo, todos van a tener que emitir factura electrónica sí o sí.\n\nLa medida afecta especialmente a los monotributistas de las categorías A, B y C —los más chicos—, que hasta ahora podían usar talonarios de papel o no emitir factura en ventas a consumidores finales menores a cierto monto. Esa flexibilidad desaparece.\n\nEl argumento de AFIP es la digitalización y el control fiscal: con factura electrónica, el fisco tiene información en tiempo real de todas las operaciones. Para los monotributistas, significa tener que usar la app de AFIP, un sistema de facturación online o alguna aplicación de terceros. No es difícil, pero requiere un celular o computadora con internet.",
+    "contexto": "¿Qué es la factura electrónica? Es un comprobante digital que se emite a través de los sistemas de AFIP y queda registrado automáticamente en sus bases de datos. A diferencia de la factura de papel, AFIP sabe al instante cuánto facturaste, a quién y por qué concepto. Para los contribuyentes es más cómodo (no hay que guardar papeles), pero también significa más control fiscal.",
+    "puntosClaves": [
+      {
+        "titulo": "Obligatorio desde el 1 de mayo",
+        "descripcion": "A partir de esa fecha, ningún monotributista puede emitir factura en papel ni dejar de facturar operaciones. Todas las ventas, sin importar el monto, tienen que tener su factura electrónica."
+      },
+      {
+        "titulo": "Afecta a las categorías más bajas",
+        "descripcion": "Los monotributistas A, B y C (los que facturan hasta $2 millones por año aproximadamente) estaban exceptuados hasta ahora. Son albañiles, plomeros, peluqueras, kiosqueros y miles de trabajadores independientes que ahora tienen que adaptarse."
+      },
+      {
+        "titulo": "Se puede facturar desde el celular",
+        "descripcion": "La app 'Facturador Móvil' de AFIP permite emitir facturas desde el teléfono. Es gratuita y relativamente fácil de usar. También hay aplicaciones privadas que se integran con AFIP."
+      },
+      {
+        "titulo": "Multas por no cumplir",
+        "descripcion": "No emitir factura electrónica cuando corresponde es una infracción fiscal. Las multas van desde $50.000 hasta la clausura del local para casos reiterados."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Monotributistas de categorías bajas",
+        "icono": "user",
+        "descripcion": "Los que venían zafando con factura de papel o sin facturar ventas menores ahora tienen que ponerse al día. Muchos son mayores o no manejan bien la tecnología, así que van a necesitar ayuda."
+      },
+      {
+        "grupo": "Oficios y servicios",
+        "icono": "wrench",
+        "descripcion": "Plomeros, electricistas, albañiles, peluqueras, manicuras: todos los que trabajan por su cuenta y cobraban en efectivo sin dar factura van a tener que cambiar sus hábitos."
+      },
+      {
+        "grupo": "Comercios de barrio",
+        "icono": "store",
+        "descripcion": "Kioscos, verdulerías y pequeños comercios que facturaban poco o nada ahora tienen que registrar todas sus ventas. Esto puede complicar a los que manejan mucho efectivo."
+      },
+      {
+        "grupo": "Contadores",
+        "icono": "calculator",
+        "descripcion": "Van a tener más trabajo ayudando a clientes a configurar la facturación electrónica y explicando cómo usarla. También más información para controlar."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN GENERAL 355/2026 - AFIP",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Obligatoriedad",
+        "contenido": "Los sujetos adheridos al Régimen Simplificado para Pequeños Contribuyentes (RS) deberán emitir comprobantes electrónicos originales para respaldar todas las operaciones de venta de bienes y/o locaciones y prestaciones de servicios."
+      },
+      {
+        "numero": "2",
+        "titulo": "Vigencia",
+        "contenido": "Las disposiciones de la presente resolución general entrarán en vigencia el día 1 de mayo de 2026."
+      },
+      {
+        "numero": "3",
+        "titulo": "Derogación",
+        "contenido": "Derógase la Resolución General N° 4.290 en cuanto establecía excepciones a la obligación de emitir comprobantes electrónicos para determinadas categorías del Régimen Simplificado."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/afip.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["AFIP", "monotributo", "factura electrónica", "impuestos", "pymes", "digitalización"]
+}

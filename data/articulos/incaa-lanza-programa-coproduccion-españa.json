@@ -1,0 +1,89 @@
+{
+  "id": "bora-339900",
+  "slug": "incaa-lanza-programa-coproduccion-españa",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "cultura",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "263/2026",
+    "organismoEmisor": "INCAA",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339900/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "El INCAA lanza un programa de coproducciones con España: habrá $2.000 millones para películas",
+    "resumen": "Buenas noticias para el cine argentino: el INCAA acaba de firmar un acuerdo con su par español para crear un fondo de coproducciones. Argentina va a poner $2.000 millones y España un monto equivalente en euros. Con esa plata se van a financiar al menos 10 largometrajes en los próximos dos años.\n\nLas coproducciones permiten sumar recursos de ambos países, acceder a actores y técnicos de los dos lados del océano, y facilitan la distribución en ambos mercados. Para el cine argentino, que viene golpeado por recortes presupuestarios, es un respiro importante.\n\nEl fondo está destinado a proyectos que tengan participación creativa de ambos países: director de un lado, guionista del otro, rodaje compartido, ese tipo de combinaciones. Los proyectos se van a seleccionar por concurso y tienen que demostrar viabilidad comercial.",
+    "contexto": "¿Qué es una coproducción? Es cuando dos o más países se juntan para hacer una película, compartiendo costos y recursos. La ventaja es que la película se considera 'nacional' en ambos países, lo que facilita el acceso a subsidios, cuotas de pantalla y distribución. Argentina tiene acuerdos de coproducción con España, Brasil, Italia, Francia y otros países.",
+    "puntosClaves": [
+      {
+        "titulo": "Fondo de $2.000 millones de cada lado",
+        "descripcion": "Argentina pone $2.000 millones a través del INCAA y España aporta la misma cantidad en euros a través del ICAA (su instituto de cine). El tipo de cambio al momento del desembolso definirá la equivalencia exacta."
+      },
+      {
+        "titulo": "Mínimo 10 películas en dos años",
+        "descripcion": "El acuerdo establece que se tienen que producir al menos 10 largometrajes de ficción o documental con el fondo. Pueden ser más si los presupuestos individuales son menores."
+      },
+      {
+        "titulo": "Selección por concurso",
+        "descripcion": "Los proyectos se van a elegir por un comité binacional. Tienen que presentar guión, plan de producción, presupuesto y demostrar que hay participación creativa de ambos países."
+      },
+      {
+        "titulo": "Facilita la distribución",
+        "descripcion": "Las películas coproducidas van a tener acceso preferencial a salas y plataformas de streaming tanto en Argentina como en España. También pueden participar en festivales representando a ambos países."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Productoras de cine argentinas",
+        "icono": "film",
+        "descripcion": "Acceden a recursos que no tendrían solas. Pueden hacer películas más ambiciosas, con mejores condiciones técnicas y posibilidades de distribución internacional."
+      },
+      {
+        "grupo": "Directores y guionistas",
+        "icono": "clapperboard",
+        "descripcion": "Tienen un nuevo canal para financiar proyectos. Si logran interesar a un socio español, pueden acceder a este fondo. Es una oportunidad sobre todo para cineastas emergentes."
+      },
+      {
+        "grupo": "Técnicos de cine",
+        "icono": "video",
+        "descripcion": "Las coproducciones generan trabajo. Un rodaje que se hace en Argentina emplea iluminadores, sonidistas, escenógrafos y decenas de profesionales locales."
+      },
+      {
+        "grupo": "Espectadores",
+        "icono": "ticket",
+        "descripcion": "Más películas argentinas (o argentino-españolas) para ver. Las coproducciones suelen tener mejor distribución, así que es más probable que lleguen a las salas de tu ciudad."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 263/2026 - INCAA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Aprobación del convenio",
+        "contenido": "Apruébase el Convenio de Coproducción Cinematográfica entre la República Argentina y el Reino de España, suscripto el día 15 de marzo de 2026, cuyo texto forma parte integrante de la presente."
+      },
+      {
+        "numero": "2",
+        "titulo": "Fondo de coproducción",
+        "contenido": "Créase el Fondo Argentina-España de Coproducción Cinematográfica, con un aporte inicial de la parte argentina de PESOS DOS MIL MILLONES ($2.000.000.000), que será administrado conjuntamente con el Instituto de la Cinematografía y de las Artes Audiovisuales de España."
+      },
+      {
+        "numero": "3",
+        "titulo": "Convocatoria",
+        "contenido": "Instrúyese a la Gerencia de Fomento del INCAA a lanzar la primera convocatoria de proyectos para el Fondo dentro de los SESENTA (60) días de publicada la presente."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/cine.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["INCAA", "cine", "coproducciones", "España", "cultura", "películas", "fondo"]
+}

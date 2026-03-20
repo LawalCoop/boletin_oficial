@@ -1,0 +1,84 @@
+{
+  "id": "bora-339915",
+  "slug": "trabajo-homologan-paritarias-comercio-35-aumento",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "trabajo",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "289/2026",
+    "organismoEmisor": "Ministerio de Trabajo",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339915/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Empleados de comercio logran 35% de aumento en paritarias: se paga en tres cuotas",
+    "resumen": "Los empleados de comercio —el gremio más grande del país con 1,2 millones de trabajadores— cerraron paritarias. El Ministerio de Trabajo homologó el acuerdo entre la Federación de Empleados de Comercio (FAECYS) y las cámaras empresarias: 35% de aumento en tres cuotas.\n\nLa primera cuota del 15% se cobra con el sueldo de marzo (que se paga en abril). La segunda del 12% en junio y la tercera del 8% en septiembre. El básico de un empleado de comercio categoría inicial pasa de $380.000 a $513.000 cuando se complete el aumento.\n\nEl acuerdo incluye una cláusula de revisión en agosto: si la inflación acumulada supera el 35%, se reabre la negociación. Los gremialistas lo vendieron como un triunfo; las cámaras empresarias, como un esfuerzo enorme para las PyMEs.",
+    "contexto": "¿Qué significa que homologuen un convenio? Cuando un sindicato y las empresas acuerdan un aumento salarial, el Ministerio de Trabajo tiene que 'homologarlo', es decir, aprobarlo oficialmente. Recién ahí el aumento es obligatorio para TODAS las empresas del sector, no solo las que negociaron. Sin homologación, el acuerdo sería solo un contrato privado.",
+    "puntosClaves": [
+      {
+        "titulo": "35% de aumento total en tres tramos",
+        "descripcion": "15% con el sueldo de marzo, 12% en junio, 8% en septiembre. Es acumulativo: al final del año el sueldo es 35% más alto que en febrero. El aumento se aplica sobre todos los conceptos salariales."
+      },
+      {
+        "titulo": "1,2 millones de trabajadores alcanzados",
+        "descripcion": "Empleados de comercio es el convenio colectivo más grande del país. Incluye vendedores, repositores, cajeros, administrativos de empresas comerciales, empleados de supermercados, shoppings y comercios de todo tipo."
+      },
+      {
+        "titulo": "Cláusula gatillo en agosto",
+        "descripcion": "Si la inflación de marzo a agosto supera el 35% acumulado, las partes vuelven a sentarse a negociar. Es un seguro contra la pérdida de poder adquisitivo que se activó en varios acuerdos el año pasado."
+      },
+      {
+        "titulo": "Básico inicial: de $380.000 a $513.000",
+        "descripcion": "Un empleado nuevo, categoría más baja, pasa de cobrar $380.000 de básico a $513.000 cuando se complete el aumento. Con antigüedad, presentismo y otros adicionales, los sueldos de bolsillo son más altos."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Empleados de comercio",
+        "icono": "shopping-cart",
+        "descripcion": "1,2 millones de trabajadores van a ver el aumento en el recibo de sueldo de abril. Si tu empleador no lo paga, podés reclamar al sindicato o al Ministerio de Trabajo."
+      },
+      {
+        "grupo": "Comerciantes y PyMEs",
+        "icono": "store",
+        "descripcion": "Los costos laborales suben 35% en 6 meses. Para muchos comercios chicos que vienen golpeados, es un desafío trasladarlo a precios sin perder clientes. Algunos anticipan que reducirán horas extra o personal temporal."
+      },
+      {
+        "grupo": "Consumidores",
+        "icono": "user",
+        "descripcion": "Los comercios probablemente trasladen parte del aumento a los precios. Es uno de los mecanismos por los cuales las paritarias impactan en la inflación general."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 289/2026 - MINISTERIO DE TRABAJO",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Homologación",
+        "contenido": "Homológase el Acuerdo celebrado entre la FEDERACIÓN ARGENTINA DE EMPLEADOS DE COMERCIO Y SERVICIOS (FAECYS) y la CÁMARA ARGENTINA DE COMERCIO Y SERVICIOS (CAC), la CONFEDERACIÓN ARGENTINA DE LA MEDIANA EMPRESA (CAME) y la UNIÓN DE ENTIDADES COMERCIALES ARGENTINAS (UDECA), en el marco del Convenio Colectivo de Trabajo N° 130/75."
+      },
+      {
+        "numero": "2",
+        "titulo": "Incremento salarial",
+        "contenido": "El acuerdo establece un incremento salarial del TREINTA Y CINCO POR CIENTO (35%) sobre las escalas salariales vigentes, pagadero en tres tramos: QUINCE POR CIENTO (15%) con los haberes de marzo 2026, DOCE POR CIENTO (12%) con los haberes de junio 2026 y OCHO POR CIENTO (8%) con los haberes de septiembre 2026."
+      },
+      {
+        "numero": "3",
+        "titulo": "Cláusula de revisión",
+        "contenido": "Las partes acuerdan reunirse en agosto de 2026 para revisar el acuerdo en caso de que el índice de precios al consumidor acumulado desde marzo supere el porcentaje del incremento pactado."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/oficinas.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["paritarias", "comercio", "aumentos", "sindicatos", "trabajo", "FAECYS"]
+}

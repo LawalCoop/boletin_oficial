@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback, Suspense } from 'react';
 import Link from 'next/link';
+import { useSearchParams, useRouter } from 'next/navigation';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { BottomTabBar } from '@/components/layout/BottomTabBar';
@@ -19,6 +20,7 @@ import { VoteIndicator } from '@/components/feed/VoteIndicator';
 import { VoteLegend } from '@/components/feed/VoteLegend';
 import { NoticiasDia, Categoria, NoticiaPreview, Tema } from '@/lib/types';
 import { CATEGORIAS, TEMAS, formatFechaCorta } from '@/lib/constants';
+import { TemaIcon } from '@/components/shared/TemaIcon';
 import { Star } from 'lucide-react';
 import { useUserData } from '@/contexts/UserDataContext';
 
@@ -30,6 +32,7 @@ interface NoticiasDiaExtended extends NoticiasDia {
 // Compact card for the hero grid (right side)
 function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
   const categoria = CATEGORIAS[noticia.categoria];
+  const tema = noticia.tema ? TEMAS[noticia.tema] : null;
   const fechaFormateada = formatFechaCorta(noticia.fechaPublicacion.split('T')[0]);
   const { isSubscribed } = useUserData();
   const isSubscribedTema = noticia.tema && isSubscribed(noticia.tema);
@@ -66,11 +69,27 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
       </Link>
 
       {/* Content */}
-      <div className="p-4 flex flex-col gap-2 flex-1">
+      <div className="p-3 flex flex-col gap-2 flex-1">
+        {/* Tema badge */}
+        {tema && (
+          <Link
+            href={`/tema/${noticia.tema}`}
+            className="flex items-center gap-1 px-2 py-0.5 text-[10px] font-medium rounded border hover:opacity-80 transition-opacity w-fit"
+            style={{
+              color: tema.color,
+              borderColor: tema.color,
+              backgroundColor: `${tema.color}10`
+            }}
+          >
+            <TemaIcon iconName={tema.icon} className="w-3 h-3" />
+            {tema.label}
+          </Link>
+        )}
+
         {/* Title */}
         <div className="flex items-start gap-2">
           <Link href={`/articulo/${noticia.slug}`} className="flex-1">
-            <h3 className="font-[family-name:var(--font-lora)] text-base font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">
+            <h3 className="font-[family-name:var(--font-lora)] text-sm font-medium text-text-primary leading-snug group-hover:text-accent transition-colors line-clamp-2">
               {noticia.titulo}
             </h3>
           </Link>
@@ -97,9 +116,11 @@ function CompactCard({ noticia }: { noticia: NoticiaPreview }) {
   );
 }
 
-export default function Home() {
+function HomeContent() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
   const [fechasDisponibles, setFechasDisponibles] = useState<string[]>([]);
-  const [fecha, setFecha] = useState<string>('');
+  const [fecha, setFechaState] = useState<string>('');
   const [categoria, setCategoria] = useState<Categoria | 'todos'>('todos');
   const [temaActivo, setTemaActivo] = useState<Tema | null>(null);
   const [filterByInterest, setFilterByInterest] = useState(false);
@@ -107,6 +128,14 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [initialLoading, setInitialLoading] = useState(true);
   const { subscriptions } = useUserData();
+
+  // Update URL when date changes
+  const setFecha = useCallback((newFecha: string) => {
+    setFechaState(newFecha);
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('fecha', newFecha);
+    router.replace(`/?${params.toString()}`, { scroll: false });
+  }, [searchParams, router]);
 
   // Fetch available dates on mount
   useEffect(() => {
@@ -117,22 +146,25 @@ export default function Home() {
         const fechas = data.fechas || [];
         setFechasDisponibles(fechas);
 
-        // Set initial date to most recent available
-        if (fechas.length > 0) {
-          setFecha(fechas[0]);
+        // Check if there's a date in URL, otherwise use most recent
+        const urlFecha = searchParams.get('fecha');
+        if (urlFecha && fechas.includes(urlFecha)) {
+          setFechaState(urlFecha);
+        } else if (fechas.length > 0) {
+          setFechaState(fechas[0]);
         }
       } catch (error) {
         console.error('Error fetching fechas:', error);
         // Fallback to hardcoded dates if API fails
         const fallbackDates = ['2025-03-14', '2025-03-13', '2025-03-12', '2025-03-11'];
         setFechasDisponibles(fallbackDates);
-        setFecha(fallbackDates[0]);
+        setFechaState(fallbackDates[0]);
       } finally {
         setInitialLoading(false);
       }
     }
     fetchFechasDisponibles();
-  }, []);
+  }, [searchParams]);
 
   // Fetch news for selected date
   useEffect(() => {
@@ -425,5 +457,25 @@ export default function Home() {
       <BottomTabBar />
     </div>
     </TopVotedProvider>
+  );
+}
+
+// Loading fallback for Suspense
+function HomeLoading() {
+  return (
+    <div className="min-h-screen bg-bg flex items-center justify-center">
+      <div className="flex flex-col items-center gap-3">
+        <div className="w-8 h-8 border-2 border-accent border-t-transparent rounded-full animate-spin" />
+        <span className="text-sm text-text-muted">Cargando Boletín Oficial...</span>
+      </div>
+    </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={<HomeLoading />}>
+      <HomeContent />
+    </Suspense>
   );
 }

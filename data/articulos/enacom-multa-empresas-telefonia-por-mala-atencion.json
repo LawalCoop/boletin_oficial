@@ -1,0 +1,84 @@
+{
+  "id": "bora-339895",
+  "slug": "enacom-multa-empresas-telefonia-por-mala-atencion",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "telecomunicaciones",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "143/2026",
+    "organismoEmisor": "ENACOM",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339895/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "ENACOM multa a tres empresas de telefonía celular por mala atención al cliente",
+    "resumen": "Si alguna vez te pasaste horas esperando que te atiendan en el call center de tu empresa de celular, esta noticia te va a hacer sentir reivindicado. El ENACOM acaba de multar a Personal, Claro y Movistar por $850 millones en total por no cumplir con los tiempos de respuesta a reclamos.\n\nSegún la investigación del ente regulador, las tres empresas tardaban en promedio más de 30 días en resolver quejas de usuarios, cuando la normativa vigente establece un máximo de 10 días hábiles. En algunos casos, los reclamos quedaban sin respuesta por meses.\n\nLas multas son: $320 millones para Claro, $290 millones para Personal y $240 millones para Movistar. Las empresas pueden apelar, pero mientras tanto el ENACOM les advirtió que si no mejoran, las próximas multas van a ser más pesadas y podrían incluir suspensión de publicidad.",
+    "contexto": "¿Qué es el ENACOM? Es el Ente Nacional de Comunicaciones, el organismo que regula las telecomunicaciones en Argentina: telefonía fija y móvil, internet, televisión por cable y satelital, radio. Tiene poder para multar a las empresas que no cumplen con la normativa y, en casos extremos, revocar licencias.",
+    "puntosClaves": [
+      {
+        "titulo": "Multas por $850 millones en total",
+        "descripcion": "Claro se lleva la multa más grande ($320 millones), seguida por Personal ($290 millones) y Movistar ($240 millones). El monto se calcula en base a la gravedad del incumplimiento y la cantidad de usuarios afectados."
+      },
+      {
+        "titulo": "30 días de demora promedio",
+        "descripcion": "Cuando un usuario hace un reclamo formal al ENACOM, la empresa tiene 10 días hábiles para resolverlo. En la práctica, las tres tardaban tres veces más. Muchos reclamos ni siquiera se contestaban."
+      },
+      {
+        "titulo": "Principales quejas: facturación y cobertura",
+        "descripcion": "Los reclamos más comunes son por cobros indebidos, servicios no solicitados, falta de cobertura prometida y dificultades para dar de baja líneas. Las empresas tienen que mejorar en todos estos puntos."
+      },
+      {
+        "titulo": "Puede haber más sanciones",
+        "descripcion": "El ENACOM advirtió que si la situación no mejora en 60 días, va a aplicar multas más altas y podría prohibir la publicidad de nuevos planes hasta que regularicen la atención al cliente."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Usuarios de telefonía celular",
+        "icono": "smartphone",
+        "descripcion": "Si tenés línea con alguna de las tres empresas, esta noticia puede ser el comienzo de una mejora. Las multas presionan a las compañías a invertir en atención al cliente. Ojalá se note."
+      },
+      {
+        "grupo": "Empleados de call centers",
+        "icono": "headphones",
+        "descripcion": "Las empresas van a tener que contratar más gente o mejorar los sistemas para responder más rápido. Puede haber más puestos de trabajo en atención al cliente."
+      },
+      {
+        "grupo": "Accionistas de las telecos",
+        "icono": "trending-down",
+        "descripcion": "Las multas no son astronómicas para empresas de este tamaño, pero sí son una señal de que el regulador está activo. Puede afectar las proyecciones de rentabilidad."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 143/2026 - ENACOM",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Sanción a CLARO",
+        "contenido": "Aplícase a AMX ARGENTINA S.A. (CLARO) una multa de PESOS TRESCIENTOS VEINTE MILLONES ($320.000.000) por incumplimiento de los plazos de respuesta a reclamos de usuarios establecidos en la Resolución ENACOM N° 5.644/2017."
+      },
+      {
+        "numero": "2",
+        "titulo": "Sanción a PERSONAL",
+        "contenido": "Aplícase a TELECOM PERSONAL S.A. una multa de PESOS DOSCIENTOS NOVENTA MILLONES ($290.000.000) por los incumplimientos detallados en los considerandos de la presente."
+      },
+      {
+        "numero": "3",
+        "titulo": "Sanción a MOVISTAR",
+        "contenido": "Aplícase a TELEFÓNICA MÓVILES ARGENTINA S.A. (MOVISTAR) una multa de PESOS DOSCIENTOS CUARENTA MILLONES ($240.000.000) por los incumplimientos detallados en los considerandos de la presente."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/telecomunicaciones.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["ENACOM", "telefonía", "multas", "reclamos", "usuarios", "Claro", "Personal", "Movistar"]
+}

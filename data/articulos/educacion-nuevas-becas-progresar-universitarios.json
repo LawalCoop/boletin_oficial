@@ -1,0 +1,84 @@
+{
+  "id": "bora-339910",
+  "slug": "educacion-nuevas-becas-progresar-universitarios",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "educacion",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "587/2026",
+    "organismoEmisor": "Ministerio de Educación",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339910/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Becas Progresar 2026: abren inscripción con montos que suben a $75.000 mensuales",
+    "resumen": "Si sos estudiante universitario y necesitás una mano, las becas Progresar abren inscripción la semana que viene. El Ministerio de Educación publicó la convocatoria 2026 con montos actualizados: $75.000 por mes para universitarios, $55.000 para terciarios y $45.000 para estudiantes de nivel obligatorio que terminan el secundario.\n\nLas becas son compatibles con trabajo registrado siempre que el ingreso familiar no supere 3 salarios mínimos. Este año se sumaron carreras de programación y enfermería como prioritarias, con cupos adicionales.\n\nLa inscripción es online en Argentina.gob.ar, del 25 de marzo al 30 de abril. Se necesita estar cursando regularmente y no tener más de 2 materias adeudadas del año anterior.",
+    "contexto": "¿Qué es Progresar? Es un programa de becas del Estado para que jóvenes de 18 a 24 años de familias de bajos recursos puedan estudiar. Empezó en 2014 y hoy cubre a más de 800.000 estudiantes. No es un préstamo: es plata que no se devuelve, siempre que cumplas con los requisitos de regularidad académica.",
+    "puntosClaves": [
+      {
+        "titulo": "$75.000 para universitarios",
+        "descripcion": "Es el monto mensual más alto del programa. Se cobra de marzo a diciembre (10 cuotas). Para acceder hay que estar inscripto en una universidad pública o privada con reconocimiento oficial y cursar al menos 2 materias por cuatrimestre."
+      },
+      {
+        "titulo": "Inscripción del 25/3 al 30/4",
+        "descripcion": "Un mes y medio para anotarse. Es 100% online en Argentina.gob.ar con CUIL y Clave Fiscal. Hay que cargar certificado de alumno regular y constancia de ingresos del grupo familiar."
+      },
+      {
+        "titulo": "Carreras prioritarias con más cupos",
+        "descripcion": "Enfermería, programación, docencia e ingenierías tienen cupos adicionales porque el país necesita más profesionales en esas áreas. Los estudiantes de estas carreras tienen prioridad en la selección."
+      },
+      {
+        "titulo": "Compatible con trabajo en blanco",
+        "descripcion": "Podés tener trabajo registrado y cobrar la beca siempre que el ingreso total de tu familia no supere 3 salarios mínimos (hoy $900.000). Si te pasás, perdés la beca."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Estudiantes universitarios",
+        "icono": "graduation-cap",
+        "descripcion": "$75.000 por mes no paga un alquiler, pero ayuda a cubrir transporte, materiales y algo de comida. Para muchos es la diferencia entre poder seguir estudiando o tener que dejar."
+      },
+      {
+        "grupo": "Estudiantes de enfermería y programación",
+        "icono": "code",
+        "descripcion": "Tienen cupos extra porque el Estado quiere fomentar estas carreras. Si dudabas entre varias opciones, este incentivo puede inclinar la balanza."
+      },
+      {
+        "grupo": "Familias de bajos ingresos",
+        "icono": "home",
+        "descripcion": "El requisito de no superar 3 salarios mínimos familiares ($900.000) es bastante amplio. Una familia tipo donde trabajan ambos padres con sueldos promedio todavía califica."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 587/2026 - MINISTERIO DE EDUCACIÓN",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Convocatoria",
+        "contenido": "Convócase a la inscripción del Programa de Becas PROGRESAR para el período académico 2026, destinado a jóvenes de DIECIOCHO (18) a VEINTICUATRO (24) años de edad que se encuentren cursando estudios en instituciones educativas públicas o privadas reconocidas oficialmente."
+      },
+      {
+        "numero": "2",
+        "titulo": "Montos",
+        "contenido": "Fíjanse los montos mensuales de las becas en PESOS SETENTA Y CINCO MIL ($75.000) para nivel universitario, PESOS CINCUENTA Y CINCO MIL ($55.000) para nivel terciario y PESOS CUARENTA Y CINCO MIL ($45.000) para finalización de nivel obligatorio."
+      },
+      {
+        "numero": "3",
+        "titulo": "Período de inscripción",
+        "contenido": "Establécese el período de inscripción entre el 25 de marzo y el 30 de abril de 2026, a través de la plataforma digital del programa."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/educacion.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["becas", "Progresar", "universitarios", "educación", "estudiantes"]
+}

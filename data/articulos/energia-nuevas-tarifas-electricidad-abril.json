@@ -1,0 +1,89 @@
+{
+  "id": "bora-339820",
+  "slug": "energia-nuevas-tarifas-electricidad-abril",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "energia",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "71/2026",
+    "organismoEmisor": "Secretaría de Energía",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339820/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "La luz sube 15% en abril: Energía actualizó el cuadro tarifario de electricidad",
+    "resumen": "Prepará la billetera: la boleta de luz va a venir más pesada a partir del mes que viene. La Secretaría de Energía acaba de aprobar un nuevo cuadro tarifario que implica aumentos del 15% promedio para los usuarios residenciales. El aumento se suma al 12% que ya había pegado en febrero y al 18% de diciembre pasado.\n\nLa buena noticia —si se le puede llamar así— es que los usuarios inscriptos en la tarifa social quedan exceptuados de este aumento. También hay un esquema de 'transición' para la clase media del RASE que suaviza un poco el golpe: en vez del 15%, pagan 10%.\n\nEl Gobierno argumenta que el aumento es necesario para 'normalizar' las tarifas y reducir los subsidios que el Estado paga a las distribuidoras eléctricas. El problema es que estos aumentos vienen acumulándose mientras los salarios no le ganan a la inflación. Para una familia tipo que consume 300 kWh por mes, el aumento representa unos $4.500 más en la boleta de abril.",
+    "contexto": "¿Por qué una Resolución y no un Decreto? Las tarifas de servicios públicos se fijan mediante Resoluciones porque es una competencia técnica de las Secretarías de cada área. El Presidente no firma estos aumentos: los firman los secretarios. Eso no significa que sean decisiones menores —de hecho, impactan en millones de hogares— sino que están dentro de las facultades delegadas al área de Energía.",
+    "puntosClaves": [
+      {
+        "titulo": "15% de aumento promedio",
+        "descripcion": "El incremento varía según el nivel de consumo y la categoría del usuario. Los que más consumen pagan proporcionalmente más. Para un consumo de 300 kWh mensuales (una familia tipo con aire acondicionado), el aumento ronda los $4.500."
+      },
+      {
+        "titulo": "Tarifa social exceptuada",
+        "descripcion": "Los usuarios con tarifa social —jubilados de la mínima, beneficiarios de AUH, personas con discapacidad— no reciben este aumento. Son aproximadamente 4 millones de hogares en todo el país."
+      },
+      {
+        "titulo": "Clase media RASE paga menos",
+        "descripcion": "Los usuarios inscriptos en el RASE (Registro de Acceso a Subsidios Energéticos) que no tienen tarifa social pero sí subsidio parcial van a pagar un aumento menor: 10% en vez del 15%."
+      },
+      {
+        "titulo": "Entra en vigencia el 1 de abril",
+        "descripcion": "El nuevo cuadro tarifario se aplica a partir de los consumos de abril, que se facturan en mayo. Es decir, el impacto se va a ver en las boletas que lleguen entre mayo y junio."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Clase media sin subsidios",
+        "icono": "home",
+        "descripcion": "Las familias que no están inscriptas en el RASE o que ganan por encima de los topes son las más golpeadas. Van a pagar el 100% del aumento, que se suma a los incrementos anteriores. En un año, la boleta de luz subió más del 50%."
+      },
+      {
+        "grupo": "Comercios y pymes",
+        "icono": "store",
+        "descripcion": "Los comercios de barrio, que ya venían complicados con los aumentos de alquiler y la caída del consumo, ahora suman otro costo fijo más caro. Una heladería o un kiosco con freezers puede ver aumentos de $20.000 o más en la boleta."
+      },
+      {
+        "grupo": "Inquilinos",
+        "icono": "building",
+        "descripcion": "Quienes alquilan tienen pocas opciones: no pueden invertir en electrodomésticos más eficientes ni poner paneles solares. Solo les queda asumir el aumento o recortar consumo apagando cosas."
+      },
+      {
+        "grupo": "Beneficiarios de tarifa social",
+        "icono": "heart",
+        "descripcion": "Quedan protegidos por ahora. Pero ojo: el RASE hay que renovarlo cada año. Si te olvidaste de renovar, perdés el beneficio y pagás tarifa plena."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 71/2026 - SECRETARÍA DE ENERGÍA",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Aprobación del cuadro tarifario",
+        "contenido": "Apruébase el Cuadro Tarifario que como Anexo I forma parte integrante de la presente Resolución, el cual será de aplicación a partir del 1° de abril de 2026 para las facturas emitidas por las empresas distribuidoras de energía eléctrica."
+      },
+      {
+        "numero": "2",
+        "titulo": "Usuarios con tarifa social",
+        "contenido": "Los usuarios beneficiarios de la Tarifa Social establecida por la Resolución SE N° 6/2016 y sus modificatorias quedarán exceptuados de los incrementos dispuestos en el artículo precedente."
+      },
+      {
+        "numero": "3",
+        "titulo": "Usuarios RASE categoría intermedia",
+        "contenido": "Los usuarios inscriptos en el Registro de Acceso a los Subsidios a la Energía (RASE) que no revistan la condición de beneficiarios de Tarifa Social aplicarán un incremento del DIEZ POR CIENTO (10%) respecto de los valores vigentes."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": ["energia-subsidios-tarifas-gas-invierno"],
+  "imagen": "/images/articulos/energia.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["electricidad", "tarifas", "aumentos", "energía", "boleta de luz", "RASE", "tarifa social"]
+}

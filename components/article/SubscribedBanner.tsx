@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { Star } from 'lucide-react';
 import { useUserData } from '@/contexts/UserDataContext';
 import { Tema } from '@/lib/types';
@@ -11,8 +12,14 @@ interface SubscribedBannerProps {
 
 export function SubscribedBanner({ tema }: SubscribedBannerProps) {
   const { isSubscribed } = useUserData();
+  const [mounted, setMounted] = useState(false);
 
-  if (!tema || !isSubscribed(tema)) {
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Don't render until mounted to avoid hydration mismatch
+  if (!mounted || !tema || !isSubscribed(tema)) {
     return null;
   }
 

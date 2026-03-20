@@ -24,11 +24,12 @@ export function VoteSection({ slug }: VoteSectionProps) {
   const [isVoting, setIsVoting] = useState(false);
   const [mounted, setMounted] = useState(false);
 
-  const userVote = getVote(slug);
-
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  // Only get vote after mount to avoid hydration mismatch
+  const userVote = mounted ? getVote(slug) : undefined;
 
   useEffect(() => {
     fetch(`/api/votes/${encodeURIComponent(slug)}`)

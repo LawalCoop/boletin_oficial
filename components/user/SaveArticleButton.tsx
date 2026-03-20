@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useSession, signIn } from 'next-auth/react';
 import { Bookmark, Loader2 } from 'lucide-react';
 import { useUserData } from '@/contexts/UserDataContext';
@@ -17,8 +17,14 @@ export function SaveArticleButton({ slug, tema, variant = 'default', className =
   const { status } = useSession();
   const { isSaved, saveArticle, unsaveArticle } = useUserData();
   const [isLoading, setIsLoading] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
-  const saved = isSaved(slug);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Only check after mount to avoid hydration mismatch
+  const saved = mounted ? isSaved(slug) : false;
 
   const handleClick = async () => {
     if (status !== 'authenticated') {

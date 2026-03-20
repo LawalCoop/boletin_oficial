@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import { Bell, BellOff, Loader2 } from 'lucide-react';
 import { useUserData } from '@/contexts/UserDataContext';
@@ -18,9 +18,15 @@ export function SubscribeButton({ tema, variant = 'default', className = '' }: S
   const { status } = useSession();
   const { isSubscribed, subscribe, unsubscribe } = useUserData();
   const [isLoading, setIsLoading] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const temaInfo = TEMAS[tema];
-  const subscribed = isSubscribed(tema);
+  // Only check after mount to avoid hydration mismatch
+  const subscribed = mounted ? isSubscribed(tema) : false;
 
   const handleClick = async () => {
     if (status !== 'authenticated') return;

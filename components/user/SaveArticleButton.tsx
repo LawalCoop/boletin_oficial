@@ -26,6 +26,23 @@ export function SaveArticleButton({ slug, tema, variant = 'default', className =
   // Only check after mount to avoid hydration mismatch
   const saved = mounted ? isSaved(slug) : false;
 
+  // Return skeleton until mounted to avoid hydration mismatch
+  if (!mounted) {
+    if (variant === 'icon') {
+      return (
+        <div className={`p-2 rounded-lg bg-bg-surface animate-pulse ${className}`}>
+          <div className="w-4 h-4" />
+        </div>
+      );
+    }
+    return (
+      <div className={`flex items-center gap-3 px-3 py-2.5 bg-bg border border-border rounded-lg animate-pulse ${className}`}>
+        <div className="w-4 h-4 bg-bg-surface rounded" />
+        <div className="w-16 h-4 bg-bg-surface rounded" />
+      </div>
+    );
+  }
+
   const handleClick = async () => {
     if (status !== 'authenticated') {
       signIn('google');

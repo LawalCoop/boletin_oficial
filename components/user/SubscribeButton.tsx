@@ -28,6 +28,23 @@ export function SubscribeButton({ tema, variant = 'default', className = '' }: S
   // Only check after mount to avoid hydration mismatch
   const subscribed = mounted ? isSubscribed(tema) : false;
 
+  // Return skeleton until mounted to avoid hydration mismatch
+  if (!mounted) {
+    if (variant === 'full') {
+      return (
+        <div className="bg-accent-soft rounded-lg p-4 border border-accent/20 animate-pulse">
+          <div className="h-4 bg-bg rounded w-32 mb-2" />
+          <div className="h-3 bg-bg rounded w-48 mb-3" />
+          <div className="h-9 bg-bg rounded" />
+        </div>
+      );
+    }
+    if (variant === 'compact') {
+      return <div className={`p-2 rounded-lg bg-bg-surface animate-pulse ${className}`}><div className="w-4 h-4" /></div>;
+    }
+    return <div className={`h-9 w-20 bg-bg-surface rounded-lg animate-pulse ${className}`} />;
+  }
+
   const handleClick = async () => {
     if (status !== 'authenticated') return;
 

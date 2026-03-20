@@ -81,7 +81,13 @@
     "neutrales": 0,
     "negativos": 0
   },
-  "relacionados": ["ambiente-prohiben-plasticos-un-solo-uso-parques-nacionales"],
+  "relacionados": [
+    {
+      "slug": "ambiente-prohiben-plasticos-un-solo-uso-parques-nacionales",
+      "categoria": "nacional",
+      "titulo": "Prohíben plásticos de un solo uso en todos los parques nacionales del país"
+    }
+  ],
   "imagen": "/images/articulos/parques.jpg",
   "fechaPublicacion": "2026-03-20T08:00:00Z",
   "tiempoLectura": 4,

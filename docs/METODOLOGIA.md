@@ -196,6 +196,24 @@ Contenido completo de cada documento:
 }
 ```
 
+### Formato del campo `relacionados`
+
+⚠️ **IMPORTANTE**: El campo `relacionados` NO es un array de strings. Es un array de objetos con la estructura:
+
+```json
+"relacionados": [
+  {
+    "slug": "slug-del-articulo-relacionado",
+    "categoria": "nacional",
+    "titulo": "Título completo del artículo relacionado"
+  }
+]
+```
+
+Si el artículo no tiene relacionados, usar array vacío: `"relacionados": []`
+
+**Error común**: Poner solo el slug como string (`["slug-articulo"]`) causa un error de hidratación en React porque el componente espera objetos con `categoria` y `titulo`.
+
 ---
 
 ## Mapeo de Secciones

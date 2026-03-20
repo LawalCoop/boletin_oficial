@@ -87,6 +87,27 @@ Ante la duda, preguntate: **¿Cómo le explicarías esto a tu vieja, a tu vecino
 
 ## Estructura de Datos
 
+### ⚠️ IMPORTANTE: Siempre Crear Ambos Archivos
+
+Cada artículo del Boletín requiere **DOS archivos que deben crearse juntos**:
+
+1. **Entrada en `/data/noticias/YYYY-MM-DD.json`**: Preview corto (título, extracto, metadata básica)
+2. **Archivo en `/data/articulos/[slug].json`**: Artículo completo (todo el contenido IA + texto original)
+
+**Si creás uno sin el otro, el artículo no va a funcionar:**
+- Sin entrada en noticias → No aparece en el feed
+- Sin archivo en articulos → Error 404 al hacer clic
+
+Al agregar artículos nuevos, siempre verificar que ambos existan:
+```bash
+# Verificar que todos los slugs del día tengan su archivo
+for slug in $(cat data/noticias/YYYY-MM-DD.json | grep '"slug"' | sed 's/.*"slug": "\([^"]*\)".*/\1/'); do
+  [ ! -f "data/articulos/${slug}.json" ] && echo "FALTA: $slug"
+done
+```
+
+---
+
 ### Noticias del Día (`/data/noticias/YYYY-MM-DD.json`)
 
 Archivo índice con las noticias de cada edición del Boletín:

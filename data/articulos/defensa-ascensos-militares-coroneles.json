@@ -1,0 +1,84 @@
+{
+  "id": "bora-339865",
+  "slug": "defensa-ascensos-militares-coroneles",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "defensa",
+    "tipoDocumento": "decreto",
+    "numeroDocumento": "170/2026",
+    "organismoEmisor": "PODER EJECUTIVO NACIONAL",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339865/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "El Gobierno asciende a 47 coroneles del Ejército al grado de general de brigada",
+    "resumen": "El Presidente firmó un decreto que promueve a 47 coroneles del Ejército Argentino al grado de general de brigada. Es la tanda de ascensos más grande de los últimos diez años.\n\nLos ascensos se producen tras las evaluaciones anuales de la Junta de Calificaciones del Ejército. Todos los promovidos tienen más de 25 años de carrera y pasaron por destinos en distintas guarniciones del país.\n\nEl rango de general de brigada es el primero dentro de los oficiales generales. Por encima están general de división y teniente general.",
+    "contexto": "¿Cómo funcionan los ascensos militares? En Argentina, los ascensos de oficiales superiores (coroneles para arriba) requieren un decreto del Presidente. No es automático: una junta evalúa antecedentes, formación y desempeño. Solo una parte de cada camada de coroneles llega a general.",
+    "puntosClaves": [
+      {
+        "titulo": "47 nuevos generales de brigada",
+        "descripcion": "Es el número más alto de ascensos en una sola tanda desde 2016. El Ejército tenía un déficit de generales por jubilaciones de años anteriores."
+      },
+      {
+        "titulo": "Requisitos: 25+ años de carrera",
+        "descripcion": "Todos los promovidos tienen más de 25 años de servicio, pasaron por el Colegio Militar, la Escuela Superior de Guerra y destinos en al menos 3 guarniciones distintas."
+      },
+      {
+        "titulo": "Impacto presupuestario",
+        "descripcion": "Cada ascenso implica un aumento salarial. Los 47 ascensos representan aproximadamente $50 millones mensuales adicionales en sueldos."
+      },
+      {
+        "titulo": "Renovación de mandos",
+        "descripcion": "Los nuevos generales asumirán comandos de brigadas y direcciones. Varios de los actuales generales de división pasarán a retiro este año."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Los 47 coroneles ascendidos",
+        "icono": "award",
+        "descripcion": "Pasan al generalato, el máximo escalón de la carrera militar. Implica nuevas responsabilidades, mejor sueldo y una estrella en el uniforme."
+      },
+      {
+        "grupo": "Estructura del Ejército",
+        "icono": "shield",
+        "descripcion": "Se cubren vacantes en mandos de brigadas y direcciones. Mejora la cadena de mando que tenía posiciones sin cubrir."
+      },
+      {
+        "grupo": "Presupuesto de Defensa",
+        "icono": "wallet",
+        "descripcion": "Los ascensos tienen impacto presupuestario. Cada general gana más que un coronel, lo que suma al gasto en personal militar."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DECRETO 170/2026 - PODER EJECUTIVO NACIONAL",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Promociones",
+        "contenido": "Promuévese al grado de General de Brigada a los señores Coroneles que se detallan en el Anexo I que forma parte integrante del presente decreto."
+      },
+      {
+        "numero": "2",
+        "titulo": "Fecha de efectividad",
+        "contenido": "Las promociones dispuestas en el artículo 1° tendrán efectividad a partir del 1° de abril de 2026."
+      },
+      {
+        "numero": "3",
+        "titulo": "Comunicación",
+        "contenido": "Comuníquese al MINISTERIO DE DEFENSA para su conocimiento y demás efectos."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/defensa.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["Ejército", "ascensos", "militares", "Defensa", "generales"]
+}

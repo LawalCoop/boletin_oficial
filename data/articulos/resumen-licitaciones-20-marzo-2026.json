@@ -1,0 +1,84 @@
+{
+  "id": "bora-tercera-20260320",
+  "slug": "resumen-licitaciones-20-marzo-2026",
+  "metadata": {
+    "categoria": "contrataciones",
+    "tema": "presupuesto",
+    "tipoDocumento": "licitacion",
+    "numeroDocumento": "Tercera Sección",
+    "organismoEmisor": "BOLETÍN OFICIAL",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/seccion/tercera/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Compras públicas: 38 licitaciones por $28.500 millones, con la autopista Rosario-Córdoba a la cabeza",
+    "resumen": "La Tercera Sección del Boletín Oficial publica hoy 38 licitaciones públicas por un monto total de $28.500 millones.\n\nLa estrella del día es la ampliación de la autopista Rosario-Córdoba: $180.000 millones es el presupuesto oficial (se contabiliza aparte por su magnitud). Las demás licitaciones suman $28.500 millones.\n\nHay oportunidades para constructoras, proveedores de insumos hospitalarios, empresas de tecnología y más.",
+    "contexto": "¿Qué es la Tercera Sección? Es donde el Estado publica los llamados a licitación para contratar obras, servicios y comprar bienes. Cualquier empresa puede presentarse si cumple los requisitos. La transparencia del proceso está garantizada por la publicación obligatoria.",
+    "puntosClaves": [
+      {
+        "titulo": "38 licitaciones activas",
+        "descripcion": "Desde insumos hospitalarios hasta equipamiento informático, pasando por obras de infraestructura. Hay oportunidades para empresas de distintos rubros y tamaños."
+      },
+      {
+        "titulo": "$28.500 millones en juego",
+        "descripcion": "Es el monto acumulado de todas las licitaciones del día (sin contar la autopista que va por separado). El Estado es el mayor comprador del país."
+      },
+      {
+        "titulo": "Fechas de apertura variadas",
+        "descripcion": "Las aperturas de sobres van desde fin de marzo hasta mayo. Cada licitación tiene su cronograma propio publicado en el aviso."
+      },
+      {
+        "titulo": "Requisitos de inscripción",
+        "descripcion": "Para participar hay que estar inscripto en el SIPRO (Sistema de Proveedores). El trámite es gratuito y se hace online."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Empresas proveedoras del Estado",
+        "icono": "building-2",
+        "descripcion": "Las 38 licitaciones son oportunidades de negocios. Las bases están disponibles en COMPR.AR para quienes quieran presentarse."
+      },
+      {
+        "grupo": "Constructoras",
+        "icono": "hard-hat",
+        "descripcion": "Varias licitaciones son de obras públicas: escuelas, centros de salud, infraestructura vial menor. Trabajo para los próximos meses."
+      },
+      {
+        "grupo": "Contribuyentes",
+        "icono": "wallet",
+        "descripcion": "Son compras con plata de todos. La publicación permite que cualquier ciudadano vea en qué se gasta y controle."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESUMEN TERCERA SECCIÓN - 20 DE MARZO DE 2026",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Obras públicas",
+        "contenido": "Se publicaron 12 licitaciones de obras por un monto total de $18.200 millones. Destacan la autopista Rosario-Córdoba, 3 escuelas y 2 centros de salud."
+      },
+      {
+        "numero": "2",
+        "titulo": "Bienes y servicios",
+        "contenido": "Se publicaron 26 licitaciones de bienes y servicios por $10.300 millones. Incluyen insumos hospitalarios, equipamiento informático y servicios de limpieza."
+      },
+      {
+        "numero": "3",
+        "titulo": "Consulta de pliegos",
+        "contenido": "Los pliegos completos están disponibles en el portal COMPR.AR (comprar.gob.ar). La inscripción en SIPRO es requisito para ofertar."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/licitaciones.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["licitaciones", "obras públicas", "autopista", "hospitales"]
+}

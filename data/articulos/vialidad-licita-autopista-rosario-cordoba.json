@@ -1,0 +1,89 @@
+{
+  "id": "bora-339860",
+  "slug": "vialidad-licita-autopista-rosario-cordoba",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "transporte",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "348/2026",
+    "organismoEmisor": "DIRECCIÓN NACIONAL DE VIALIDAD",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339860/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Vialidad Nacional licita la ampliación de la autopista Rosario-Córdoba por $180.000 millones",
+    "resumen": "Si manejás seguido entre Rosario y Córdoba, esto te interesa. Vialidad Nacional lanzó la licitación para ampliar la autopista a tres carriles por mano.\n\nEs la obra vial más grande del año: $180.000 millones de presupuesto, 280 km de ampliación. La autopista actual tiene dos carriles por mano y se satura los fines de semana largos y en temporada de vacaciones.\n\nLa obra llevaría 3 años. Durante ese tiempo habrá desvíos y zonas con tránsito más lento, pero el resultado final sería una autopista más segura y fluida.",
+    "contexto": "¿Por qué importa esta autopista? La Ruta Nacional 9 entre Rosario y Córdoba es uno de los corredores más transitados del país. Une las dos ciudades más importantes después de Buenos Aires. Pasan más de 15.000 vehículos por día, y los fines de semana largos puede duplicarse.",
+    "puntosClaves": [
+      {
+        "titulo": "Tercer carril en cada mano",
+        "descripcion": "La autopista pasará de 2 a 3 carriles por sentido. Esto aumenta la capacidad un 50% y reduce el riesgo de accidentes por maniobras de adelantamiento."
+      },
+      {
+        "titulo": "$180.000 millones de inversión",
+        "descripcion": "Es el mayor presupuesto para una obra vial en 2026. El financiamiento viene del Tesoro Nacional y préstamos del BID ya aprobados."
+      },
+      {
+        "titulo": "Plazos: apertura en abril, obra en 36 meses",
+        "descripcion": "Las ofertas se abren el 15 de abril. La obra adjudicada debería terminar en 3 años. Durante la construcción habrá tramos con restricciones."
+      },
+      {
+        "titulo": "Nuevas áreas de servicio",
+        "descripcion": "El proyecto incluye 4 nuevas estaciones de servicio y descanso, con baños, combustible y locales gastronómicos cada 70 km aproximadamente."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Conductores que viajan entre Rosario y Córdoba",
+        "icono": "car",
+        "descripcion": "Durante la obra habrá molestias, pero al terminar el viaje será más rápido y seguro. Menos congestionamiento en fines de semana largos."
+      },
+      {
+        "grupo": "Empresas de transporte de carga",
+        "icono": "truck",
+        "descripcion": "El corredor Rosario-Córdoba mueve granos, manufacturas e insumos industriales. Más capacidad significa menos demoras y costos logísticos más bajos."
+      },
+      {
+        "grupo": "Empresas constructoras",
+        "icono": "building-2",
+        "descripcion": "La licitación está abierta. Se esperan ofertas de las principales constructoras del país. Genera miles de puestos de trabajo directos."
+      },
+      {
+        "grupo": "Vecinos de localidades del trayecto",
+        "icono": "users",
+        "descripcion": "Armstrong, Las Varillas, Oncativo y otras localidades verán actividad económica durante la obra. También posibles molestias por el tránsito de maquinaria."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 348/2026 - DIRECCIÓN NACIONAL DE VIALIDAD",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Llamado a licitación",
+        "contenido": "Llámase a Licitación Pública Nacional e Internacional para la contratación de la obra \"Ampliación a Tercer Carril - Ruta Nacional N° 9, Tramo Rosario - Córdoba, Km 299 a Km 579\"."
+      },
+      {
+        "numero": "2",
+        "titulo": "Presupuesto oficial",
+        "contenido": "El presupuesto oficial de la obra asciende a PESOS CIENTO OCHENTA MIL MILLONES ($180.000.000.000), sujeto a redeterminación de precios conforme normativa vigente."
+      },
+      {
+        "numero": "3",
+        "titulo": "Apertura de ofertas",
+        "contenido": "Fíjase el día 15 de abril de 2026, a las 12:00 horas, como fecha de apertura de ofertas, en la sede de la Dirección Nacional de Vialidad, Av. Julio A. Roca 738, CABA."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/rutas.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["autopista", "Rosario", "Córdoba", "obras viales", "licitación"]
+}

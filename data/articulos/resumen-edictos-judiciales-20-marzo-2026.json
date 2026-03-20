@@ -1,0 +1,84 @@
+{
+  "id": "bora-cuarta-20260320",
+  "slug": "resumen-edictos-judiciales-20-marzo-2026",
+  "metadata": {
+    "categoria": "judicial",
+    "tema": "justicia",
+    "tipoDocumento": "edicto",
+    "numeroDocumento": "Cuarta Sección",
+    "organismoEmisor": "BOLETÍN OFICIAL",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/seccion/cuarta/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Edictos judiciales: 5 quiebras declaradas y una sucesión millonaria en disputa",
+    "resumen": "La Cuarta Sección del Boletín Oficial publica hoy 112 edictos judiciales. Lo más destacado: 5 quiebras declaradas, incluyendo una textil con 200 empleados, y una sucesión millonaria que disputan 8 herederos.\n\nTambién hay citaciones a audiencias, notificaciones de remates y varios pedidos de paradero de personas buscadas por la Justicia.\n\nLos edictos son la forma en que la Justicia hace públicas sus resoluciones cuando no puede notificar directamente a los interesados.",
+    "contexto": "¿Qué son los edictos judiciales? Son avisos que publica la Justicia en el Boletín Oficial. Se usan cuando un juez necesita notificar a alguien que no puede ubicar, o cuando quiere dar publicidad a una resolución. Ejemplos: sucesiones, quiebras, remates, citaciones.",
+    "puntosClaves": [
+      {
+        "titulo": "5 quiebras declaradas",
+        "descripcion": "Se declararon en quiebra 5 empresas. La más grande es una textil de 200 empleados. Los acreedores deben presentarse para cobrar."
+      },
+      {
+        "titulo": "Sucesión millonaria en disputa",
+        "descripcion": "Una sucesión de más de $500 millones enfrenta a 8 herederos. El juez citó a todos los interesados a comparecer en 30 días."
+      },
+      {
+        "titulo": "23 remates judiciales",
+        "descripcion": "Se publicaron avisos de 23 remates de bienes embargados. Hay inmuebles, vehículos y maquinaria. Los interesados pueden participar."
+      },
+      {
+        "titulo": "Pedidos de paradero",
+        "descripcion": "La Justicia busca a 7 personas para notificarlas de causas en su contra o a favor. Si las conocés, podés informar al juzgado indicado."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Acreedores de empresas quebradas",
+        "icono": "wallet",
+        "descripcion": "Si te deben plata empresas en quiebra, tenés que presentarte en el expediente. Hay plazos legales que si los pasás, perdés el derecho a cobrar."
+      },
+      {
+        "grupo": "Herederos potenciales",
+        "icono": "users",
+        "descripcion": "Las sucesiones publicadas pueden incluir herederos que aún no se presentaron. Si sos familiar del fallecido, verificá si te corresponde."
+      },
+      {
+        "grupo": "Compradores de remates",
+        "icono": "hammer",
+        "descripcion": "Los remates judiciales pueden ser oportunidades de compra a buenos precios. Los requisitos y fechas están en cada edicto."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESUMEN CUARTA SECCIÓN - 20 DE MARZO DE 2026",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Quiebras",
+        "contenido": "Se publicaron 5 sentencias de quiebra. Destaca TEXTIL DEL PLATA S.A. (200 empleados, rubro confección). Síndico designado: Cr. Roberto GÓMEZ."
+      },
+      {
+        "numero": "2",
+        "titulo": "Sucesiones",
+        "contenido": "Se publicaron 34 edictos de sucesiones. Destaca el expediente \"MARTÍNEZ, CARLOS s/sucesión\", con acervo estimado superior a $500.000.000."
+      },
+      {
+        "numero": "3",
+        "titulo": "Remates y citaciones",
+        "contenido": "Se publicaron 23 avisos de remate y 50 citaciones a audiencias y comparendos."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/justicia.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["quiebras", "sucesiones", "edictos", "justicia"]
+}

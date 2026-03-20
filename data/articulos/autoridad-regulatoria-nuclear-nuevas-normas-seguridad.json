@@ -1,0 +1,84 @@
+{
+  "id": "bora-339875",
+  "slug": "autoridad-regulatoria-nuclear-nuevas-normas-seguridad",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "energia",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "38/2026",
+    "organismoEmisor": "AUTORIDAD REGULATORIA NUCLEAR",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339875/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "La Autoridad Nuclear endurece los controles de seguridad en las centrales atómicas",
+    "resumen": "La Autoridad Regulatoria Nuclear (ARN) actualizó las normas de seguridad para las tres centrales nucleares del país: Atucha I, Atucha II y Embalse.\n\nLos nuevos requisitos incorporan protocolos que surgieron tras el accidente de Fukushima en Japón (2011). Aunque Argentina no tiene riesgo de tsunamis, sí puede tener terremotos y otros eventos extremos.\n\nLas centrales tienen 12 meses para adaptarse. Esto incluye más simulacros de emergencia, nuevos equipos de respaldo y mejores sistemas de monitoreo.",
+    "contexto": "¿Qué es la ARN? Es la Autoridad Regulatoria Nuclear, el organismo que controla todo lo relacionado con energía y materiales nucleares en Argentina. Es independiente del Gobierno y tiene poder de policía: puede clausurar instalaciones que no cumplan las normas de seguridad.",
+    "puntosClaves": [
+      {
+        "titulo": "Protocolos post-Fukushima",
+        "descripcion": "Se incorporan estándares internacionales que surgieron del accidente de Fukushima. Incluyen nuevos sistemas de enfriamiento de emergencia y fuentes de energía de respaldo adicionales."
+      },
+      {
+        "titulo": "Más simulacros obligatorios",
+        "descripcion": "Las centrales deberán realizar simulacros de evacuación cada 6 meses (antes era anual). También simulacros de fallas múltiples con participación de bomberos y defensa civil."
+      },
+      {
+        "titulo": "12 meses para adaptarse",
+        "descripcion": "Las tres centrales tienen un año para cumplir con los nuevos requisitos. Nucleoeléctrica Argentina deberá invertir en equipamiento y capacitación."
+      },
+      {
+        "titulo": "Sanciones por incumplimiento",
+        "descripcion": "La ARN puede ordenar la parada de un reactor si detecta incumplimientos graves. Las multas pueden llegar a $500 millones por infracción."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Nucleoeléctrica Argentina",
+        "icono": "building-2",
+        "descripcion": "La empresa que opera las tres centrales deberá invertir en nuevos equipos, capacitar personal y modificar procedimientos. Costos estimados: $10.000 millones."
+      },
+      {
+        "grupo": "Comunidades cercanas a las centrales",
+        "icono": "users",
+        "descripcion": "Lima, Zárate y Embalse participarán de más simulacros. La mayor frecuencia de ejercicios busca que la población sepa cómo actuar en caso de emergencia."
+      },
+      {
+        "grupo": "Técnicos y operadores nucleares",
+        "icono": "hard-hat",
+        "descripcion": "Deberán recertificarse con los nuevos protocolos. Habrá cursos obligatorios durante los próximos 6 meses."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 38/2026 - AUTORIDAD REGULATORIA NUCLEAR",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Actualización de normas",
+        "contenido": "Apruébase la actualización de la Norma AR 10.1.1 \"Norma Básica de Seguridad Radiológica y Nuclear\" incorporando los requisitos de seguridad post-accidente de Fukushima establecidos por el Organismo Internacional de Energía Atómica."
+      },
+      {
+        "numero": "2",
+        "titulo": "Alcance",
+        "contenido": "Las centrales nucleares de potencia Atucha I, Atucha II y Embalse deberán adecuarse a los nuevos requisitos dentro del plazo de DOCE (12) meses contados desde la publicación de la presente."
+      },
+      {
+        "numero": "3",
+        "titulo": "Simulacros",
+        "contenido": "Establécese la obligatoriedad de realizar simulacros de emergencia nuclear con periodicidad semestral, con participación de organismos de protección civil provinciales y municipales."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/energia.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 5,
+  "tags": ["nuclear", "centrales atómicas", "seguridad", "Atucha", "energía"]
+}

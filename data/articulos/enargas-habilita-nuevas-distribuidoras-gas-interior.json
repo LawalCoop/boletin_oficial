@@ -1,0 +1,84 @@
+{
+  "id": "bora-339845",
+  "slug": "enargas-habilita-nuevas-distribuidoras-gas-interior",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "energia",
+    "tipoDocumento": "resolucion",
+    "numeroDocumento": "344/2026",
+    "organismoEmisor": "ENARGAS",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339845/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "ENARGAS habilita dos nuevas distribuidoras de gas para el norte del país",
+    "resumen": "Si vivís en Salta o Jujuy, esto te puede interesar. El ENARGAS autorizó a dos nuevas empresas para distribuir gas natural por redes en el norte del país.\n\nLas empresas son Gas del Norte SA y Distribuidora Jujeña de Gas SRL. La primera operará en el Valle de Lerma (Salta) y la segunda en San Salvador de Jujuy y alrededores.\n\nLa idea es que más hogares y comercios puedan acceder al gas de red, que es más barato y seguro que las garrafas. Actualmente solo el 60% de esas zonas tiene acceso a gas natural.",
+    "contexto": "¿Qué es ENARGAS? Es el Ente Nacional Regulador del Gas. Controla todo lo relacionado con el gas natural: desde las tarifas que pagás hasta las normas de seguridad que deben cumplir las empresas. Sin su habilitación, ninguna empresa puede distribuir gas en Argentina.",
+    "puntosClaves": [
+      {
+        "titulo": "Dos nuevas distribuidoras",
+        "descripcion": "Gas del Norte SA operará en el Valle de Lerma salteño. Distribuidora Jujeña de Gas SRL cubrirá San Salvador de Jujuy y zonas aledañas. Ambas tienen 18 meses para comenzar a operar."
+      },
+      {
+        "titulo": "Más acceso al gas natural",
+        "descripcion": "El objetivo es que más hogares dejen de depender de garrafas. El gas de red es más barato (hasta 70% menos) y elimina el riesgo de quedarse sin gas en invierno."
+      },
+      {
+        "titulo": "Inversión privada",
+        "descripcion": "Las empresas se comprometieron a invertir $15.000 millones en infraestructura durante los primeros 5 años. Esto incluye tendido de redes y conexiones domiciliarias."
+      },
+      {
+        "titulo": "Tarifas reguladas",
+        "descripcion": "Aunque son empresas privadas, las tarifas que cobren estarán reguladas por ENARGAS. No pueden cobrar lo que quieran."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Hogares de Salta y Jujuy sin gas natural",
+        "icono": "home",
+        "descripcion": "Si vivís en zonas que hoy dependen de garrafas, podrías tener acceso a gas de red en los próximos 2-3 años. Más barato y sin la molestia de cargar tubos."
+      },
+      {
+        "grupo": "Comercios e industrias del norte",
+        "icono": "building-2",
+        "descripcion": "Fábricas, panaderías, restaurantes y otros comercios que usan gas podrán bajar sus costos energéticos significativamente con gas de red."
+      },
+      {
+        "grupo": "Trabajadores de la construcción",
+        "icono": "hard-hat",
+        "descripcion": "El tendido de redes de gas genera trabajo. Se estiman 500 puestos directos durante la etapa de construcción de infraestructura."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESOLUCIÓN 344/2026 - ENARGAS",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Habilitación Gas del Norte SA",
+        "contenido": "Habilítase a GAS DEL NORTE S.A. como subdistribuidora de gas natural por redes en el área del Valle de Lerma, Provincia de Salta, en los términos del artículo 16 de la Ley 24.076."
+      },
+      {
+        "numero": "2",
+        "titulo": "Habilitación Distribuidora Jujeña",
+        "contenido": "Habilítase a DISTRIBUIDORA JUJEÑA DE GAS S.R.L. como subdistribuidora de gas natural por redes en el área de San Salvador de Jujuy y zonas aledañas, Provincia de Jujuy."
+      },
+      {
+        "numero": "3",
+        "titulo": "Plazos y condiciones",
+        "contenido": "Las empresas habilitadas deberán comenzar a prestar el servicio dentro de los DIECIOCHO (18) meses de notificada la presente, cumpliendo con las normas técnicas y de seguridad vigentes."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/gas.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["gas", "distribuidoras", "ENARGAS", "Salta", "Jujuy", "energía"]
+}

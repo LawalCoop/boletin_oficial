@@ -1,0 +1,84 @@
+{
+  "id": "bora-339855",
+  "slug": "anmat-retira-lote-ibuprofeno-contaminado",
+  "metadata": {
+    "categoria": "nacional",
+    "tema": "salud",
+    "tipoDocumento": "disposicion",
+    "numeroDocumento": "1476/2026",
+    "organismoEmisor": "ANMAT",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339855/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "ANMAT ordena retirar del mercado un lote de ibuprofeno por contaminación",
+    "resumen": "Si tenés ibuprofeno en casa, revisá el lote. La ANMAT acaba de ordenar el retiro preventivo de un lote específico de ibuprofeno 400mg del laboratorio Pharmalab porque se detectaron partículas extrañas en algunos comprimidos.\n\nEl lote afectado es el B-2024-0847, con vencimiento en marzo de 2027. Si tenés comprimidos de ese lote, no los tomes y llevalos a la farmacia para que los devuelvan. El laboratorio ya inició el recall y las farmacias están retirando el producto de las góndolas.\n\nLa ANMAT aclara que no se reportaron casos de personas afectadas por consumir estos comprimidos, pero la medida es preventiva. Las partículas detectadas podrían ser restos de material de empaque que entraron durante el proceso de fabricación.",
+    "contexto": "¿Qué es la ANMAT? Es la Administración Nacional de Medicamentos, Alimentos y Tecnología Médica. Es el organismo que autoriza la venta de medicamentos en Argentina, controla su calidad y puede ordenar retiros del mercado cuando detecta problemas. Todo medicamento que se vende legalmente en el país tiene que tener la aprobación de ANMAT.",
+    "puntosClaves": [
+      {
+        "titulo": "Lote específico: B-2024-0847",
+        "descripcion": "No es todo el ibuprofeno del mercado, solo este lote específico del laboratorio Pharmalab. Revisá la caja: el número de lote está impreso cerca de la fecha de vencimiento. Si no es este lote, tu medicamento está bien."
+      },
+      {
+        "titulo": "Partículas extrañas en comprimidos",
+        "descripcion": "Durante un control de rutina se detectaron partículas que no deberían estar ahí. Podrían ser restos de material de empaque. No se sabe exactamente qué son, por eso el retiro es preventivo hasta analizar."
+      },
+      {
+        "titulo": "No se reportaron afectados",
+        "descripcion": "Hasta ahora nadie reportó problemas de salud por tomar estos comprimidos. Pero por las dudas, si tenés ese lote, no lo uses. La medida es preventiva, no significa que necesariamente te haga mal."
+      },
+      {
+        "titulo": "Devolución en farmacias",
+        "descripcion": "Podés llevar los comprimidos a cualquier farmacia y te los tienen que aceptar. El laboratorio se hace cargo del reembolso o reemplazo. No tires el medicamento a la basura."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Personas que compraron ibuprofeno recientemente",
+        "icono": "pill",
+        "descripcion": "Si compraste ibuprofeno 400mg de Pharmalab en los últimos meses, revisá el lote. Si es el B-2024-0847, no lo tomes y devolvelo."
+      },
+      {
+        "grupo": "Farmacias",
+        "icono": "store",
+        "descripcion": "Tienen que retirar el lote de sus estantes y gestionar las devoluciones de clientes. El laboratorio les reembolsa el costo."
+      },
+      {
+        "grupo": "Laboratorio Pharmalab",
+        "icono": "building-2",
+        "descripcion": "Tiene que hacerse cargo del recall, reembolsar a farmacias y clientes, y seguramente enfrentar una investigación de ANMAT sobre cómo llegaron esas partículas al producto."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "DISPOSICIÓN 1476/2026 - ANMAT",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Retiro del mercado",
+        "contenido": "Ordénase el retiro preventivo del mercado del producto IBUPROFENO 400 mg comprimidos, Lote B-2024-0847, elaborado por PHARMALAB S.A., por haberse detectado la presencia de partículas extrañas en unidades del lote mencionado."
+      },
+      {
+        "numero": "2",
+        "titulo": "Notificación",
+        "contenido": "Notifíquese a la firma PHARMALAB S.A. y a las autoridades sanitarias jurisdiccionales para que adopten las medidas correspondientes en sus ámbitos de competencia."
+      },
+      {
+        "numero": "3",
+        "titulo": "Prohibición de comercialización",
+        "contenido": "Prohíbese la comercialización del lote mencionado en el artículo 1° hasta tanto la firma acredite que las unidades en circulación han sido efectivamente retiradas del mercado."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/medicina.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 3,
+  "tags": ["ANMAT", "ibuprofeno", "medicamentos", "retiro", "salud", "farmacias"]
+}

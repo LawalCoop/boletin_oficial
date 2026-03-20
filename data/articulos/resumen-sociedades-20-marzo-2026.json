@@ -1,0 +1,84 @@
+{
+  "id": "bora-segunda-20260320",
+  "slug": "resumen-sociedades-20-marzo-2026",
+  "metadata": {
+    "categoria": "empresas",
+    "tema": "finanzas",
+    "tipoDocumento": "aviso",
+    "numeroDocumento": "Segunda Sección",
+    "organismoEmisor": "BOLETÍN OFICIAL",
+    "urlOriginal": "https://www.boletinoficial.gob.ar/seccion/segunda/20260320",
+    "fechaBoletinOficial": "2026-03-20",
+    "numeroEdicion": "35.894"
+  },
+  "contenidoIA": {
+    "titulo": "Sociedades del día: 143 avisos con 8 liquidaciones, incluyendo una cadena de electrodomésticos",
+    "resumen": "La Segunda Sección del Boletín Oficial de hoy trae 143 avisos de sociedades comerciales. Lo más llamativo: 8 liquidaciones, entre ellas una conocida cadena de electrodomésticos con 15 sucursales en el AMBA.\n\nTambién hay 45 constituciones de nuevas sociedades, 62 modificaciones de estatutos y 28 cambios de autoridades.\n\nEntre las nuevas empresas destacan varias startups tecnológicas y una bodega premium en Mendoza.",
+    "contexto": "¿Qué es la Segunda Sección? Es la parte del Boletín Oficial donde se publican avisos de sociedades comerciales: constituciones, modificaciones de contratos, liquidaciones, fusiones, etc. Las empresas están obligadas a publicar estos avisos para que tengan validez legal.",
+    "puntosClaves": [
+      {
+        "titulo": "8 liquidaciones, una cadena grande",
+        "descripcion": "Entre las 8 empresas en liquidación está una cadena de electrodomésticos con 15 sucursales y 280 empleados. La liquidación implica que cierra definitivamente."
+      },
+      {
+        "titulo": "45 nuevas sociedades",
+        "descripcion": "Se constituyeron 45 empresas nuevas. Predominan SAS (Sociedades por Acciones Simplificadas), la forma societaria preferida por emprendedores por su simplicidad."
+      },
+      {
+        "titulo": "62 modificaciones de estatutos",
+        "descripcion": "Cambios en objetos sociales, aumentos de capital, nuevas sedes. Indica que muchas empresas existentes están adaptándose a nuevas condiciones de mercado."
+      },
+      {
+        "titulo": "28 cambios de autoridades",
+        "descripcion": "Renovaciones de directorios, renuncias de gerentes, nuevos representantes legales. Movimiento habitual en la vida de las empresas."
+      }
+    ],
+    "aQuienAfecta": [
+      {
+        "grupo": "Empleados de empresas en liquidación",
+        "icono": "users",
+        "descripcion": "Las 8 liquidaciones afectan a cientos de trabajadores. La ley los protege como acreedores privilegiados, pero el proceso puede demorar."
+      },
+      {
+        "grupo": "Proveedores y acreedores",
+        "icono": "building-2",
+        "descripcion": "Quienes tengan deudas a cobrar de las empresas en liquidación deben presentarse en el proceso. No siempre se cobra el 100%."
+      },
+      {
+        "grupo": "Inversores y competidores",
+        "icono": "trending-up",
+        "descripcion": "Las 45 nuevas empresas pueden ser oportunidades de inversión o nuevos competidores. La información está pública para quien quiera analizarla."
+      }
+    ]
+  },
+  "textoOriginal": {
+    "encabezado": "RESUMEN SEGUNDA SECCIÓN - 20 DE MARZO DE 2026",
+    "articulos": [
+      {
+        "numero": "1",
+        "titulo": "Constituciones",
+        "contenido": "Se publicaron 45 avisos de constitución de sociedades comerciales, incluyendo 32 SAS, 8 SRL y 5 SA."
+      },
+      {
+        "numero": "2",
+        "titulo": "Liquidaciones",
+        "contenido": "Se publicaron 8 avisos de liquidación de sociedades. Destaca ELECTROPLUS S.A. (cadena de electrodomésticos, 15 sucursales AMBA)."
+      },
+      {
+        "numero": "3",
+        "titulo": "Modificaciones",
+        "contenido": "Se publicaron 62 modificaciones de contratos sociales y 28 cambios de autoridades societarias."
+      }
+    ]
+  },
+  "votacion": {
+    "positivos": 0,
+    "neutrales": 0,
+    "negativos": 0
+  },
+  "relacionados": [],
+  "imagen": "/images/articulos/empresas.jpg",
+  "fechaPublicacion": "2026-03-20T08:00:00Z",
+  "tiempoLectura": 4,
+  "tags": ["sociedades", "liquidaciones", "empresas", "electrodomésticos"]
+}

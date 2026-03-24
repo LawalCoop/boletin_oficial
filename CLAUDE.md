@@ -11,7 +11,7 @@ A civic tech portal that democratizes access to Argentina's Official Gazette (Bo
 - **Styling:** Tailwind CSS 4
 - **AI:** Google Gemini (document processing) + Groq/Llama 3.3 70B (chat)
 - **Database:** PostgreSQL via Prisma
-- **Auth:** NextAuth.js (Google OAuth) + custom admin auth
+- **Auth:** NextAuth.js (Google OAuth) — admin restricted to ai@lawal.com.ar
 
 ## Run Locally
 
@@ -45,7 +45,7 @@ app/                    # Next.js pages and API routes
 ├── api/admin/trigger/  # Pipeline trigger endpoint (needs auth)
 ├── api/chat/           # Article chat endpoint (needs GROQ_API_KEY)
 ├── api/noticias/       # News feed endpoints
-├── admin/              # Admin panel (needs ADMIN_* env vars)
+├── admin/              # Admin panel (requires ai@lawal.com.ar)
 └── articulo/[slug]/    # Article detail pages
 
 lib/scraper/            # Ingestion pipeline
@@ -67,8 +67,8 @@ prisma/schema.prisma    # Database schema (User, Vote, Subscription, SavedArticl
 | Variable | Required For |
 |----------|--------------|
 | `POSTGRES_PRISMA_URL` | Database (user features, votes) |
-| `ADMIN_USERNAME/PASSWORD/SESSION_SECRET` | Admin panel access |
 | `AUTH_SECRET` | User authentication (Auth.js v5) |
+| `GOOGLE_CLIENT_ID/SECRET` | Google OAuth (user login + admin access) |
 | `GOOGLE_GENERATIVE_AI_API_KEY` | Pipeline AI processing |
 | `GROQ_API_KEY` | Article chat |
 

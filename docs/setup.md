@@ -34,19 +34,16 @@ Edit `.env`:
 |----------|---------|-----------------|
 | POSTGRES_PRISMA_URL | Database connection (pooled) | `postgresql://postgres:postgres@localhost:5432/boletin` |
 | POSTGRES_URL_NON_POOLING | Database connection (direct) | Same as above for local |
-| ADMIN_USERNAME | Admin panel login | `admin` |
-| ADMIN_PASSWORD | Admin panel password | Set your own |
-| ADMIN_SESSION_SECRET | Admin session encryption | `openssl rand -base64 32` |
 | NEXTAUTH_URL | App base URL | `http://localhost:3000` |
 | AUTH_SECRET | JWT encryption (Auth.js v5) | `openssl rand -base64 32` |
 | GOOGLE_GENERATIVE_AI_API_KEY | Gemini — pipeline processing | Required for scraper |
 | GROQ_API_KEY | Llama 3.3 70B — article chat | Required for chat |
-| GOOGLE_CLIENT_ID | Google OAuth | For user login |
-| GOOGLE_CLIENT_SECRET | Google OAuth | For user login |
+| GOOGLE_CLIENT_ID | Google OAuth | For user login + admin access |
+| GOOGLE_CLIENT_SECRET | Google OAuth | For user login + admin access |
 
 ### Google OAuth Credentials
 
-Google OAuth is configured for the `lawal.com.ar` organization. All Lawal partners can log in with their Google accounts.
+Google OAuth is used for both user login and admin panel access. The admin panel (`/admin`) is restricted to specific admin accounts.
 
 **Lawal team:**
 1. Open Bitwarden vault (Lawal organization)

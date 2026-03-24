@@ -1,15 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
-import {
-  ADMIN_SESSION_COOKIE,
-  getAdminConfig,
-  normalizeAdminRedirectPath,
-  verifyAdminSessionToken,
-} from '@/lib/admin-auth';
+import { auth, ADMIN_EMAIL } from '@/lib/auth';
 
-const PUBLIC_ADMIN_PATHS = new Set([
-  '/admin/login',
-  '/api/admin/login',
-]);
+function isAdminEmail(email?: string | null): boolean {
+  return email?.toLowerCase() === ADMIN_EMAIL;
+}
 
 function isAdminApiPath(pathname: string): boolean {
   return pathname.startsWith('/api/admin/');
@@ -18,48 +12,50 @@ function isAdminApiPath(pathname: string): boolean {
 export async function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
 
-  if (PUBLIC_ADMIN_PATHS.has(pathname)) {
-    if (pathname === '/admin/login') {
-      try {
-        getAdminConfig();
-        const token = request.cookies.get(ADMIN_SESSION_COOKIE)?.value;
-        const isAuthenticated = await verifyAdminSessionToken(token);
+  // Allow public access to admin login page
+  if (pathname === '/admin/login') {
+    const session = await auth();
 
-        if (isAuthenticated) {
-          return NextResponse.redirect(new URL('/admin', request.url));
-        }
-      } catch {
-        return new NextResponse('Admin authentication is misconfigured', { status: 503 });
-      }
+    // If already logged in with @lawal.com.ar, redirect to admin
+    if (session?.user && isAdminEmail(session.user.email)) {
+      return NextResponse.redirect(new URL('/admin', request.url));
     }
 
     return NextResponse.next();
   }
 
-  try {
-    getAdminConfig();
-  } catch {
+  // Check session for all other admin routes
+  const session = await auth();
+
+  if (!session?.user) {
+    // No session - redirect to login or return 401 for API
     if (isAdminApiPath(pathname)) {
-      return NextResponse.json({ error: 'Admin authentication is misconfigured' }, { status: 503 });
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    return new NextResponse('Admin authentication is misconfigured', { status: 503 });
+    const loginUrl = new URL('/admin/login', request.url);
+    loginUrl.searchParams.set('next', `${pathname}${search}`);
+    return NextResponse.redirect(loginUrl);
   }
 
-  const token = request.cookies.get(ADMIN_SESSION_COOKIE)?.value;
-  const isAuthenticated = await verifyAdminSessionToken(token);
+  // Session exists - check if admin domain
+  if (!isAdminEmail(session.user.email)) {
+    // Wrong domain - return 403
+    if (isAdminApiPath(pathname)) {
+      return NextResponse.json(
+        { error: 'Forbidden' },
+        { status: 403 }
+      );
+    }
 
-  if (isAuthenticated) {
-    return NextResponse.next();
+    // For pages, redirect to login with error
+    const loginUrl = new URL('/admin/login', request.url);
+    loginUrl.searchParams.set('error', 'wrong_domain');
+    return NextResponse.redirect(loginUrl);
   }
 
-  if (isAdminApiPath(pathname)) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-  }
-
-  const loginUrl = new URL('/admin/login', request.url);
-  loginUrl.searchParams.set('next', normalizeAdminRedirectPath(`${pathname}${search}`));
-  return NextResponse.redirect(loginUrl);
+  // Admin domain - allow access
+  return NextResponse.next();
 }
 
 export const config = {

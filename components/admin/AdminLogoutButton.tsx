@@ -1,25 +1,15 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { signOut } from 'next-auth/react';
 import { LogOut } from 'lucide-react';
 
 export function AdminLogoutButton() {
-  const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleLogout = async () => {
+  const handleLogout = () => {
     setIsSubmitting(true);
-
-    try {
-      await fetch('/api/admin/logout', {
-        method: 'POST',
-      });
-    } finally {
-      router.push('/admin/login');
-      router.refresh();
-      setIsSubmitting(false);
-    }
+    signOut({ callbackUrl: '/admin/login' });
   };
 
   return (

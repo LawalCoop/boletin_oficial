@@ -18,20 +18,6 @@ Member of <a href="https://facttic.org.ar/">FACTTIC</a>.
 
 ---
 
-## Quick start
-
-```bash
-git clone https://github.com/LawalCoop/boletin_oficial.git
-cd boletin_oficial
-npm install
-cp .env.example .env
-npm run dev
-```
-
-Open http://localhost:3000. The repo includes 50+ pre-processed articles to browse without any API keys.
-
----
-
 ## Documentation
 
 | Document | Description |
@@ -39,7 +25,8 @@ Open http://localhost:3000. The repo includes 50+ pre-processed articles to brow
 | [Setup guide](docs/setup.md) | Requirements, database, environment variables, troubleshooting |
 | [Roadmap](docs/roadmap.md) | What works today, what's next, long-term vision |
 | [Editorial methodology](docs/METODOLOGIA.md) | How we transform legal documents into accessible content (ES) |
-| [Documentation index](docs/documentation_index.md) | Full index of all docs, status, and maintenance checklist |
+| [Mozilla proposal (EN)](docs/project-en.md) | Grant proposal — problem statement, architecture vision, budget |
+| [Mozilla proposal (ES)](docs/project-es.md) | Same in Spanish |
 
 ---
 

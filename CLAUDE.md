@@ -80,7 +80,7 @@ See `.env.example` for full list with instructions.
 - `docs/setup.md` - Full setup guide, env vars, troubleshooting
 - `docs/roadmap.md` - Feature roadmap (working / next / later)
 - `docs/METODOLOGIA.md` - Editorial methodology and AI prompting guidelines
-- `docs/documentation_index.md` - Documentation index and maintenance checklist
+- `README.md` has the full documentation index
 
 ## Important Notes
 

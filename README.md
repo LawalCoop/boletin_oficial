@@ -8,7 +8,7 @@ entrelín[IA]s uses AI to turn that wall of legalese into a news feed anyone can
 </p>
 
 <p align="center">
-  <a href="https://lawal.coop"><img src="public/images/lawal-logo.png" alt="Cooperativa Lawal" height="40"></a>
+  <a href="https://lawal.coop"><img src="./public/images/lawal-logo.png" alt="Cooperativa Lawal" height="40"></a>
 </p>
 
 <p align="center">

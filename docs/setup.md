@@ -38,7 +38,7 @@ Edit `.env`:
 | ADMIN_PASSWORD | Admin panel password | Set your own |
 | ADMIN_SESSION_SECRET | Admin session encryption | `openssl rand -base64 32` |
 | NEXTAUTH_URL | App base URL | `http://localhost:3000` |
-| NEXTAUTH_SECRET | JWT encryption | `openssl rand -base64 32` |
+| AUTH_SECRET | JWT encryption (Auth.js v5) | `openssl rand -base64 32` |
 | GOOGLE_GENERATIVE_AI_API_KEY | Gemini — pipeline processing | Required for scraper |
 | GROQ_API_KEY | Llama 3.3 70B — article chat | Required for chat |
 | GOOGLE_CLIENT_ID | Google OAuth (optional) | For user login |
@@ -68,5 +68,5 @@ The portal works for browsing articles without Postgres. You will see `PrismaCli
 ## Troubleshooting
 
 - `Can't reach database server at ...:5432` — Docker container not running. Check `docker ps` and start with `docker start boletin-db`.
-- `NEXTAUTH_SECRET missing` — Copy `.env.example` to `.env` and fill in secrets.
+- `MissingSecret` — Copy `.env.example` to `.env` and set `AUTH_SECRET`.
 - Pipeline rate-limited — Gemini free tier allows ~5 docs per run. The admin panel respects this limit.

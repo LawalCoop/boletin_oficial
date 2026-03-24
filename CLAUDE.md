@@ -68,7 +68,7 @@ prisma/schema.prisma    # Database schema (User, Vote, Subscription, SavedArticl
 |----------|--------------|
 | `POSTGRES_PRISMA_URL` | Database (user features, votes) |
 | `ADMIN_USERNAME/PASSWORD/SESSION_SECRET` | Admin panel access |
-| `NEXTAUTH_SECRET` | User authentication |
+| `AUTH_SECRET` | User authentication (Auth.js v5) |
 | `GOOGLE_GENERATIVE_AI_API_KEY` | Pipeline AI processing |
 | `GROQ_API_KEY` | Article chat |
 

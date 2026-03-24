@@ -77,9 +77,10 @@ See `.env.example` for full list with instructions.
 ## Documentation
 
 - `README.md` - Project overview and quick start
+- `docs/setup.md` - Full setup guide, env vars, troubleshooting
+- `docs/roadmap.md` - Feature roadmap (working / next / later)
 - `docs/METODOLOGIA.md` - Editorial methodology and AI prompting guidelines
-- `docs/setup.md` - Detailed setup guide (TODO)
-- `docs/architecture.md` - System architecture (TODO)
+- `docs/documentation_index.md` - Documentation index and maintenance checklist
 
 ## Important Notes
 

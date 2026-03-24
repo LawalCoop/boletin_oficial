@@ -658,6 +658,17 @@ Verificar:
 
 ---
 
+## Operaciones Diarias
+
+### Actualizaciones
+
+1. 08:00: Scraping del nuevo Boletín
+2. 08:30: Procesamiento con IA
+3. 09:00: Revisión manual (opcional)
+4. 09:30: Publicación
+
+---
+
 ## Ejemplos de Transformación
 
 ### Ejemplo 1: Resolución de Energía
@@ -723,13 +734,6 @@ El sistema de votación (positivo/neutral/negativo) permite:
 ---
 
 ## Mantenimiento
-
-### Actualizaciones Diarias
-
-1. **08:00**: Scraping del nuevo Boletín
-2. **08:30**: Procesamiento con IA
-3. **09:00**: Revisión manual (opcional)
-4. **09:30**: Publicación
 
 ### Correcciones
 

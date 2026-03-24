@@ -1,0 +1,72 @@
+# Setup
+
+## Requirements
+
+- Node.js 18+
+- Docker (for PostgreSQL)
+- Google Generative AI API key — https://aistudio.google.com/apikey (free)
+- Groq API key — https://console.groq.com/keys (free)
+
+## 1. Install
+
+```bash
+git clone https://github.com/LawalCoop/boletin_oficial.git
+cd boletin_oficial
+npm install
+```
+
+## 2. Database
+
+```bash
+docker run --name boletin-db -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres:15
+docker exec boletin-db psql -U postgres -c "CREATE DATABASE boletin;"
+```
+
+## 3. Environment
+
+```bash
+cp .env.example .env
+```
+
+Edit `.env`:
+
+| Variable | Purpose | Default / Notes |
+|----------|---------|-----------------|
+| POSTGRES_PRISMA_URL | Database connection (pooled) | `postgresql://postgres:postgres@localhost:5432/boletin` |
+| POSTGRES_URL_NON_POOLING | Database connection (direct) | Same as above for local |
+| ADMIN_USERNAME | Admin panel login | `admin` |
+| ADMIN_PASSWORD | Admin panel password | Set your own |
+| ADMIN_SESSION_SECRET | Admin session encryption | `openssl rand -base64 32` |
+| NEXTAUTH_URL | App base URL | `http://localhost:3000` |
+| NEXTAUTH_SECRET | JWT encryption | `openssl rand -base64 32` |
+| GOOGLE_GENERATIVE_AI_API_KEY | Gemini — pipeline processing | Required for scraper |
+| GROQ_API_KEY | Llama 3.3 70B — article chat | Required for chat |
+| GOOGLE_CLIENT_ID | Google OAuth (optional) | For user login |
+| GOOGLE_CLIENT_SECRET | Google OAuth (optional) | For user login |
+
+## 4. Initialize database
+
+```bash
+npx prisma db push
+```
+
+## 5. Run
+
+```bash
+npm run dev
+```
+
+- Portal: http://localhost:3000
+- Admin: http://localhost:3000/admin
+
+The repo includes 50+ pre-processed articles — no API keys needed to browse.
+
+## Without database
+
+The portal works for browsing articles without Postgres. You will see `PrismaClientInitializationError` in logs for vote/user features — these are non-blocking.
+
+## Troubleshooting
+
+- `Can't reach database server at ...:5432` — Docker container not running. Check `docker ps` and start with `docker start boletin-db`.
+- `NEXTAUTH_SECRET missing` — Copy `.env.example` to `.env` and fill in secrets.
+- Pipeline rate-limited — Gemini free tier allows ~5 docs per run. The admin panel respects this limit.

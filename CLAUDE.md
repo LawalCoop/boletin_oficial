@@ -86,5 +86,5 @@ See `.env.example` for full list with instructions.
 
 - Articles are stored as JSON files in `/data/`, not in the database
 - Database is only used for: users, votes, subscriptions, saved articles
-- Admin panel has auth issues in dev branch - needs layout + API auth check
 - Pipeline is rate-limited to 5 docs per run (Gemini free tier)
+- Google OAuth credentials are in Bitwarden (Lawal org) → "entrelinias auth cli"

@@ -41,8 +41,21 @@ Edit `.env`:
 | AUTH_SECRET | JWT encryption (Auth.js v5) | `openssl rand -base64 32` |
 | GOOGLE_GENERATIVE_AI_API_KEY | Gemini — pipeline processing | Required for scraper |
 | GROQ_API_KEY | Llama 3.3 70B — article chat | Required for chat |
-| GOOGLE_CLIENT_ID | Google OAuth (optional) | For user login |
-| GOOGLE_CLIENT_SECRET | Google OAuth (optional) | For user login |
+| GOOGLE_CLIENT_ID | Google OAuth | For user login |
+| GOOGLE_CLIENT_SECRET | Google OAuth | For user login |
+
+### Google OAuth Credentials
+
+Google OAuth is configured for the `lawal.com.ar` organization. All Lawal partners can log in with their Google accounts.
+
+**Lawal team:**
+1. Open Bitwarden vault (Lawal organization)
+2. Find the note: `entrelinias auth cli`
+3. Copy `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` to your `.env`
+
+**External contributors:**
+1. Create your own OAuth credentials at https://console.cloud.google.com/apis/credentials
+2. Add redirect URI: `http://localhost:3000/api/auth/callback/google`
 
 ## 4. Initialize database
 

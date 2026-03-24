@@ -113,24 +113,84 @@ This is a **working MVP** — a functional prototype demonstrating the full conc
 ### Requirements
 
 - Node.js 18+
+- Docker (for PostgreSQL database)
 - A Google Generative AI API key ([get one free](https://aistudio.google.com/apikey))
+- A Groq API key for article chat ([get one free](https://console.groq.com/keys))
 
 ### Setup
+
+#### 1. Clone and install dependencies
 
 ```bash
 git clone https://github.com/LawalCoop/boletin_oficial.git
 cd boletin_oficial
 npm install
+```
 
-cp .env.example .env.local
-# Add your key: GOOGLE_GENERATIVE_AI_API_KEY=your-key-here
+#### 2. Start PostgreSQL with Docker
 
+```bash
+docker run --name boletin-db -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres:15
+```
+
+#### 3. Create the database
+
+```bash
+docker exec boletin-db psql -U postgres -c "CREATE DATABASE boletin;"
+```
+
+#### 4. Configure environment variables
+
+```bash
+cp .env.example .env
+```
+
+Edit `.env` with your values:
+
+```bash
+# Database (local Docker)
+POSTGRES_PRISMA_URL="postgresql://postgres:postgres@localhost:5432/boletin"
+POSTGRES_URL_NON_POOLING="postgresql://postgres:postgres@localhost:5432/boletin"
+
+# Admin Panel
+ADMIN_USERNAME="admin"
+ADMIN_PASSWORD="your-secure-password"
+ADMIN_SESSION_SECRET="generate-a-random-string-here"
+
+# NextAuth (required)
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_SECRET="generate-a-random-string-here"
+
+# AI APIs
+GOOGLE_GENERATIVE_AI_API_KEY="your-gemini-key"  # Required for pipeline
+GROQ_API_KEY="your-groq-key"                     # Required for article chat
+
+# Google OAuth (optional - for user login)
+GOOGLE_CLIENT_ID=""
+GOOGLE_CLIENT_SECRET=""
+```
+
+> **Tip:** Generate random secrets with `openssl rand -base64 32`
+
+#### 5. Initialize the database
+
+```bash
+npx prisma db push
+```
+
+#### 6. Start the development server
+
+```bash
 npm run dev
 ```
 
 Open http://localhost:3000
 
-> The repo includes 36 real articles already processed — you can explore the full portal without running the scraper.
+### Access the admin panel
+
+Go to http://localhost:3000/admin and log in with the `ADMIN_USERNAME` and `ADMIN_PASSWORD` you configured.
+
+> The repo includes 50+ real articles already processed — you can explore the full portal without running the scraper.
 
 ---
 

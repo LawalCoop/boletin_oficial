@@ -1,10 +1,8 @@
 'use client';
 
 import { useState, useRef } from 'react';
-import { Play, RefreshCw, CheckCircle, AlertCircle, ArrowLeft, FileText } from 'lucide-react';
-import Link from 'next/link';
+import { Play, RefreshCw, CheckCircle, AlertCircle, FileText } from 'lucide-react';
 import { useRouter } from 'next/navigation';
-import { AdminLogoutButton } from '@/components/admin/AdminLogoutButton';
 import { SeccionBoletin, PipelineEvent } from '@/lib/types';
 import { SECCIONES_BOLETIN } from '@/lib/constants';
 
@@ -144,23 +142,7 @@ export default function AdminPage() {
     : 0;
 
   return (
-    <div className="min-h-screen bg-bg-surface">
-      {/* Header */}
-      <header className="bg-bg border-b border-border sticky top-0 z-10">
-        <div className="flex items-center justify-between h-14 px-6">
-          <div className="flex items-center gap-4">
-            <Link href="/" className="flex items-center gap-2 text-text-muted hover:text-text-primary">
-              <ArrowLeft className="w-5 h-5" />
-            </Link>
-            <h1 className="font-[family-name:var(--font-lora)] text-xl font-medium text-text-primary">
-              Panel de Administración
-            </h1>
-          </div>
-          <AdminLogoutButton />
-        </div>
-      </header>
-
-      <main className="max-w-2xl mx-auto p-6">
+      <main className="max-w-2xl p-6">
         {/* Trigger Section */}
         <section className="bg-bg rounded-lg border border-border p-6 mb-6">
           <h2 className="font-[family-name:var(--font-lora)] text-lg font-medium text-text-primary mb-4">
@@ -280,6 +262,5 @@ export default function AdminPage() {
           </section>
         )}
       </main>
-    </div>
   );
 }

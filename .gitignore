@@ -35,6 +35,9 @@ yarn-error.log*
 .env
 .env.local
 
+# build-generated
+lib/version.json
+
 # vercel
 .vercel
 

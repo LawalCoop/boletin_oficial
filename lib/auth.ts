@@ -10,6 +10,7 @@ export function isAdminEmail(email?: string | null): boolean {
 }
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
+  trustHost: true,
   adapter: PrismaAdapter(prisma),
   providers: [
     Google({

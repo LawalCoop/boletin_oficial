@@ -1,8 +1,10 @@
-import versionData from '@/lib/version.json';
 import { GitCommit } from 'lucide-react';
 
 export default function VersionPage() {
-  const { commits, generatedAt } = versionData;
+  const sha = process.env.VERCEL_GIT_COMMIT_SHA || '';
+  const shortSha = sha.slice(0, 7);
+  const message = process.env.VERCEL_GIT_COMMIT_MESSAGE || 'local';
+  const author = process.env.VERCEL_GIT_COMMIT_AUTHOR_LOGIN || 'dev';
 
   return (
     <main className="p-6 max-w-2xl">
@@ -12,57 +14,35 @@ export default function VersionPage() {
 
       <section className="bg-bg rounded-lg border border-border p-6">
         <h2 className="text-sm font-medium text-text-secondary mb-4">
-          Últimos commits
+          Último deploy
         </h2>
 
-        {commits.length === 0 ? (
-          <p className="text-sm text-text-muted">
-            No hay información de commits disponible.
-          </p>
-        ) : (
-          <div className="space-y-4">
-            {commits.map((commit, i) => (
-              <div key={commit.hash} className="flex gap-3">
-                <div className="flex flex-col items-center">
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${
-                    i === 0 ? 'bg-accent/10 text-accent' : 'bg-bg-surface text-text-muted'
-                  }`}>
-                    <GitCommit className="w-4 h-4" />
-                  </div>
-                  {i < commits.length - 1 && (
-                    <div className="w-px flex-1 bg-border mt-1" />
-                  )}
-                </div>
-                <div className="pb-4">
-                  <p className="text-sm font-medium text-text-primary">
-                    {commit.message}
-                  </p>
-                  <div className="flex items-center gap-2 mt-1 text-xs text-text-muted">
-                    <code className="bg-bg-surface px-1.5 py-0.5 rounded">
-                      {commit.shortHash}
-                    </code>
-                    <span>{commit.author}</span>
-                    <span>&middot;</span>
-                    <span>{new Date(commit.date).toLocaleDateString('es-AR', {
-                      day: 'numeric',
-                      month: 'short',
-                      year: 'numeric',
-                      hour: '2-digit',
-                      minute: '2-digit',
-                    })}</span>
-                  </div>
-                </div>
+        {shortSha ? (
+          <div className="flex gap-3">
+            <div className="w-8 h-8 rounded-full flex items-center justify-center shrink-0 bg-accent/10 text-accent">
+              <GitCommit className="w-4 h-4" />
+            </div>
+            <div>
+              <p className="text-sm font-medium text-text-primary">
+                {message}
+              </p>
+              <div className="flex items-center gap-2 mt-1 text-xs text-text-muted">
+                <code className="bg-bg-surface px-1.5 py-0.5 rounded">
+                  {shortSha}
+                </code>
+                <span>{author}</span>
               </div>
-            ))}
+            </div>
           </div>
+        ) : (
+          <p className="text-sm text-text-muted">
+            Información de versión no disponible (entorno local).
+          </p>
         )}
 
-        {generatedAt && (
-          <p className="text-xs text-text-muted mt-6 pt-4 border-t border-border">
-            La información de commits se genera durante el proceso de build.
-            Último build: {new Date(generatedAt).toLocaleString('es-AR')}.
-          </p>
-        )}
+        <p className="text-xs text-text-muted mt-6 pt-4 border-t border-border">
+          La información de versión se obtiene del deploy en Vercel.
+        </p>
       </section>
     </main>
   );

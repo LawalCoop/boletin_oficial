@@ -23,6 +23,7 @@ Member of <a href="https://facttic.org.ar/">FACTTIC</a>.
 | Document | Description |
 |----------|-------------|
 | [Setup guide](docs/setup.md) | Requirements, database, environment variables, troubleshooting |
+| [Deployment](docs/deployment.md) | Vercel CLI setup, environment variables, deploying to production |
 | [Roadmap](docs/roadmap.md) | What works today, what's next, long-term vision |
 | [Editorial methodology](docs/METODOLOGIA.md) | How we transform legal documents into accessible content (ES) |
 | [Mozilla proposal (EN)](docs/project-en.md) | Grant proposal — problem statement, architecture vision, budget |
